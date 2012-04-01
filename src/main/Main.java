@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
+import corpus.Corpus;
+
 import question.Question;
 
 public class Main 
@@ -29,13 +31,11 @@ public class Main
 	
 	public static void main(String[] args)
 	{	
-		/*
 		try {
 			Corpus corpus = new Corpus(readTextFile("corpus.txt"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		*/
 		
 		Scanner scanner = new Scanner(System.in);
 		
