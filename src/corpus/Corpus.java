@@ -16,6 +16,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Date;
+import utilities.Place;
 
 public class Corpus 
 {
@@ -114,11 +115,11 @@ public class Corpus
 			
 			if(countrySplit != null)
 			{
-				newArticle = new Article(source, articleDate, citySplit[0].trim(), countrySplit[0].trim(), articleText);
+				newArticle = new Article(source, articleDate, new Place(countrySplit[0].trim(), citySplit[0].trim()), articleText);
 			}
 			else
 			{
-				newArticle = new Article(source, articleDate, citySplit[0].trim(), "Japan", articleText);
+				newArticle = new Article(source, articleDate, new Place(null, citySplit[0].trim()), articleText);
 			}
 			
 			int id;

@@ -14,6 +14,7 @@
 package corpus;
 
 import java.util.Date;
+import utilities.Place;
 
 public class Article 
 {	
@@ -21,18 +22,15 @@ public class Article
 	
 	private Date dateWritten;
 	
-	private String city;
-	
-	private String country;
+	private Place locationWritten;
 	
 	private String articleText;
 	
-	public Article (String source, Date dateWritten, String city, String country, String articleText)
+	public Article (String source, Date dateWritten, Place location, String articleText)
 	{
 		this.source = source;
 		this.dateWritten = dateWritten;
-		this.city = city;
-		this.country = country;
+		this.locationWritten = location;
 		this.articleText = articleText;
 	}
 	
@@ -56,24 +54,14 @@ public class Article
 		dateWritten = newDateWritten;
 	}
 	
-	public String getCity()
+	public Place getLocationWritten()
 	{
-		return city;
+		return locationWritten;
 	}
 	
-	public void setCity(String newCity)
+	public void setLocationWritten(Place newLocation)
 	{
-		city = newCity;
-	}
-	
-	public String getCountry()
-	{
-		return country;
-	}
-	
-	public void setCountry(String newCountry)
-	{
-		country = newCountry;
+		locationWritten = newLocation;
 	}
 	
 	public String getArticleText()
