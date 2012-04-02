@@ -20,8 +20,7 @@ public class Main
 		BufferedReader reader = new BufferedReader(new FileReader(fullPathFilename));
 				
 		char[] chars = new char[1024];
-		int numRead = 0;
-		while( (numRead = reader.read(chars)) > -1)
+		while (reader.read(chars) > -1)
 		{
 			sb.append(String.valueOf(chars));	
 		}
