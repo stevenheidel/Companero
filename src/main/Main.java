@@ -14,6 +14,8 @@ public class Main
 {
 	public static String readTextFile(String fullPathFilename) throws IOException 
 	{
+		String toReturn;
+		
 		StringBuffer sb = new StringBuffer(1024);
 		BufferedReader reader = new BufferedReader(new FileReader(fullPathFilename));
 				
@@ -25,14 +27,20 @@ public class Main
 		}
 
 		reader.close();
+		
+		toReturn = sb.toString();
+		
+		//System.out.print(toReturn);
 
-		return sb.toString();
+		return toReturn;
 	}
 	
 	public static void main(String[] args)
 	{	
-		try {
-			Corpus corpus = new Corpus(readTextFile("corpus.txt"));
+		Corpus corpus;
+		try 
+		{
+			corpus = new Corpus(readTextFile("corpus.txt"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

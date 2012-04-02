@@ -16,6 +16,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Date;
+import utilities.Place;
 
 public class Corpus 
 {
@@ -31,92 +32,106 @@ public class Corpus
 		// Create the articleMap
 		articleMap = new HashMap<Integer, Article>();
 		
+		// Get rid of newlines in the corpus text
+		corpusText = corpusText.replace("\n", " ");
+		
 		// Split the text into articles
 		String[] articles = corpusText.split("DEV-MUC3-");
 		
 		// Create a new Article object for each article and add it to the HashMap
 		for (String article : articles)
 		{
+			if(article.equals(""))
+			{
+				continue;
+			}
+			
 			// Split out the article id
-			String[] idSplit = article.split("(NOSC)", 2);
+			String[] idSplit = article.split("\\(NOSC\\)", 2);
 			
 			// Split out the city
 			String[] citySplit = idSplit[1].split(",", 2);
 			
 			// Find out if the country is given in the article
 			String[] countrySplit = null;
-			if(citySplit[0].split("(").length > 1)
+			if(citySplit[0].split("\\(").length > 1)
 			{
-				citySplit = idSplit[1].split("(", 2);
-				countrySplit = citySplit[1].split(")", 2);
+				citySplit = idSplit[1].split("\\(", 2);
+				countrySplit = citySplit[1].split("\\)", 2);
 			}
 			
 			// Split out the date written (source given)
 			String[] dateWrittenSplit;
 			if(countrySplit == null)
 			{
-				dateWrittenSplit = citySplit[1].split("(", 2);
+				dateWrittenSplit = citySplit[1].split("--", 2);
 			}
 			else
 			{
-				dateWrittenSplit = countrySplit[1].split("),", 2);
+				String[] tempSplit = countrySplit[1].split(",", 2);
+				dateWrittenSplit = tempSplit[1].split("--", 2);
 			}
 			
-			// Try to parse this date, and if it doesn't parse, split on --
+			// Parse out the date and determine if the source exists
 			Date articleDate;
-			Boolean sourceExists;
+			Boolean sourceExists = false;
 			String dateFormatString = "dd MMM yy";
 			SimpleDateFormat df = new SimpleDateFormat(dateFormatString);
 			try
 			{
 				articleDate = df.parse(dateWrittenSplit[0]);
-				sourceExists = true;
+				if (dateWrittenSplit[0].split("\\(").length > 1)
+				{
+					sourceExists = true;
+				}
 			}
 			catch(ParseException e)
 			{
-				sourceExists = false;
-				dateWrittenSplit = citySplit[1].split("--", 2);
-				try
-				{
-					articleDate = df.parse(dateWrittenSplit[0]);
-				}
-				catch(ParseException e2)
-				{
-					throw new IllegalArgumentException("Article was not in correct format.");
-				}
+				throw new IllegalArgumentException("Article was not in correct format.");
 			}
 			
 			// Split out the source if it exists
 			String[] sourceSplit = null;
 			if(sourceExists)
 			{
-				sourceSplit = dateWrittenSplit[1].split(") --", 2);
+				String[] tempSplit = dateWrittenSplit[0].split("\\(");
+				sourceSplit = tempSplit[1].split("\\)", 2);
 			}
 			
 			// Create the Article and add it to the HashMap
+			Article newArticle;
+			
+			String source, articleText;
 			if(sourceExists)
 			{
-				Article newArticle;
-				if(countrySplit != null)
-				{
-					newArticle = new Article(sourceSplit[0], articleDate, citySplit[0], countrySplit[0], sourceSplit[1]);
-				}
-				else
-				{
-					newArticle = new Article(sourceSplit[0], articleDate, citySplit[0], "Japan", sourceSplit[1]);
-				}
-				
-				int id;
-				try
-				{
-					id = Integer.parseInt(idSplit[0]);
-				}
-				catch(NumberFormatException e)
-				{
-					throw new IllegalArgumentException("Article was not in correct format.");
-				}
-				articleMap.put(id, newArticle);
+				source = sourceSplit[0].trim();
+				articleText = dateWrittenSplit[1].trim();
 			}
+			else
+			{
+				source = "";
+				articleText = dateWrittenSplit[1].trim();
+			}
+			
+			if(countrySplit != null)
+			{
+				newArticle = new Article(source, articleDate, new Place(countrySplit[0].trim(), citySplit[0].trim()), articleText);
+			}
+			else
+			{
+				newArticle = new Article(source, articleDate, new Place(null, citySplit[0].trim()), articleText);
+			}
+			
+			int id;
+			try
+			{
+				id = Integer.parseInt(idSplit[0].trim());
+			}
+			catch(NumberFormatException e)
+			{
+				throw new IllegalArgumentException("Article was not in correct format.");
+			}
+			articleMap.put(id, newArticle);
 		}
 	}
 }
