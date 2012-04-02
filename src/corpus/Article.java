@@ -73,4 +73,21 @@ public class Article
 	{
 		articleText = newArticleText;
 	}
+	
+	/**
+	 * A method to determine whether this article contains a certain string of text.
+	 * @param text - The text we're hoping to find in the article.
+	 * @return True if the text is contained in the article, false otherwise.
+	 */
+	public boolean containsText(String text)
+	{
+		if(articleText.contains(text))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }

@@ -16,6 +16,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Date;
+import java.util.LinkedList;
+
 import utilities.Place;
 
 public class Corpus 
@@ -133,5 +135,26 @@ public class Corpus
 			}
 			articleMap.put(id, newArticle);
 		}
+	}
+	
+	/**
+	 * A method to return all of the articles contained in the corpus that contain the given text.
+	 * @param text - The text to search the articles for.
+	 * @return All of the articles containing the given text.
+	 */
+	public LinkedList<Article> getArticlesWithText (String text)
+	{
+		LinkedList<Article> articleList = new LinkedList<Article>();
+		
+		// Iterate through all of the articles in the HashMap and check if they contain the given text
+		for(Article a : articleMap.values())
+		{
+			if(a.containsText(text))
+			{
+				articleList.add(a);
+			}
+		}
+		
+		return articleList;
 	}
 }
