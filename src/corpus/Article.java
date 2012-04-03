@@ -13,7 +13,14 @@
 
 package corpus;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.LinkedList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import main.Main;
+
 import utilities.Place;
 
 public class Article 
@@ -82,5 +89,93 @@ public class Article
 	public boolean containsText(String text)
 	{
 		return articleText.contains(text);
+	}
+	
+	/**
+	 * A method to extract all dates from the article text.
+	 * @return A list of the dates in the article in String format.
+	 */
+	public LinkedList<String> getDatesFromText()
+	{
+		LinkedList<String> dateList = new LinkedList<String>();
+		
+		String pattern = "(\\b[0-9]|[1-2][0-9]|3[0-1])?" +
+				"[ ]+(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)" +
+				"[ ]+([1-2]?[0-9]?[0-9][0-9])?";
+		Matcher m = Pattern.compile(pattern).matcher(articleText);
+		
+		while(m.find())
+		{
+			String date = m.group(0);
+			String[] dateSplit = date.split(" ");
+			boolean hasYear = true;
+			
+			try
+			{
+				Integer.parseInt(dateSplit[dateSplit.length-1]);
+			}
+			catch (NumberFormatException e)
+			{
+				hasYear = false;
+			}
+			
+			// If there was no year in the article, add one based on which month was written about
+			if(!hasYear)
+			{
+				String dateFormatString = "MMM";
+				SimpleDateFormat df = new SimpleDateFormat(dateFormatString);
+				Date findYear = null;
+				try
+				{
+					findYear = df.parse(dateSplit[1]);
+					if(findYear.getMonth() > dateWritten.getMonth())
+					{
+						date += (dateWritten.getYear() - 1) + "(yearadded)";
+					}
+					else
+					{
+						date += dateWritten.getYear() + "(yearadded)";
+					}
+				}
+				catch(ParseException e)
+				{
+					System.out.println("Error parsing the date.");
+				}				
+			}
+			
+			dateList.add(date);
+		}
+		
+		return dateList;
+	}
+	
+	/**
+	 * Test method
+	 */
+	public static void main(String[] argv)
+	{
+		String corpus = "";
+		try
+		{
+			corpus = Main.readTextFile("corpus.txt");
+		}
+		catch (Exception e)
+		{
+			System.out.println("Error reading from the file");
+		}
+		
+		Corpus corp = new Corpus(corpus);
+		
+		LinkedList<Article> articles = corp.getArticlesWithText("THE");
+		
+		for (Article art : articles)
+		{
+			LinkedList<String> dates = art.getDatesFromText();
+			
+			for (String s : dates)
+			{
+				System.out.println(s);
+			}
+		}
 	}
 }
