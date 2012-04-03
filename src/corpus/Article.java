@@ -81,13 +81,6 @@ public class Article
 	 */
 	public boolean containsText(String text)
 	{
-		if(articleText.contains(text))
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return articleText.contains(text);
 	}
 }
