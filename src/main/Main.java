@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
+import corpus.Article;
 import corpus.Corpus;
 
 import question.Question;
@@ -43,14 +44,17 @@ public class Main
 	
 	public static void main(String[] args)
 	{	
-		Corpus corpus;
+		Corpus corpus = null;
 		try 
 		{
 			corpus = new Corpus(readTextFile("corpus.txt"));
-		} catch (IOException e) {
+		} 
+		catch (IOException e) 
+		{
 			e.printStackTrace();
 		}
 		
+		/*
 		Scanner scanner = new Scanner(System.in);
 		
 		while (scanner.hasNextLine())
@@ -58,6 +62,14 @@ public class Main
 			Question question = new Question(scanner.nextLine());
 			
 			// solve(corpus, question)
+		}
+		*/
+		
+		Question question = new Question("Who was [the army judge advocate general] of [Chile] in [1990]?");
+		
+		for (Article a : corpus.getArticlesWithText(question.getText()))
+		{
+			System.out.println(a.getArticleText());
 		}
 	}
 }
