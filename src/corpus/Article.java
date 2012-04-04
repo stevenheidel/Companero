@@ -101,7 +101,7 @@ public class Article
 		
 		String pattern = "(\\b[0-9]|[1-2][0-9]|3[0-1])?" +
 				"[ ]+(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)" +
-				"[ ]+([1-2]?[0-9]?[0-9][0-9])?";
+				"[ ]+([1-2]?[0-9]?[8-9][0-9])?(.{9})";
 		Matcher m = Pattern.compile(pattern).matcher(articleText);
 		
 		while(m.find())
@@ -109,14 +109,38 @@ public class Article
 			String date = m.group(0);
 			String[] dateSplit = date.split(" ");
 			boolean hasYear = true;
+			boolean hasDay = true;
+			
+			// Check that we didn't parse 5 NOVEMBER DAM or 19 APRIL MOVEMENT
+			if(date.contains("MOVEMENT") || date.contains("DAM"))
+			{
+				continue;
+			}
 			
 			try
 			{
-				Integer.parseInt(dateSplit[dateSplit.length-1]);
+				Integer.parseInt(dateSplit[0]);
+			}
+			catch (NumberFormatException e)
+			{
+				hasDay = false;
+			}
+			
+			try
+			{
+				Integer.parseInt(dateSplit[2]);
+				date = dateSplit[0] + " " + dateSplit[1] + " " + dateSplit[2];
 			}
 			catch (NumberFormatException e)
 			{
 				hasYear = false;
+				date = dateSplit[0] + " " + dateSplit[1] + " ";
+			}
+			
+			// Ensure that the day or the year are present
+			if(!(hasYear || hasDay))
+			{
+				continue;
 			}
 			
 			// If there was no year in the article, add one based on which month was written about
@@ -128,7 +152,7 @@ public class Article
 				try
 				{
 					findYear = df.parse(dateSplit[1]);
-					if(findYear.getMonth() > dateWritten.getMonth())
+					if(findYear.getMonth() > dateWritten.getMonth() + 2)
 					{
 						date += (dateWritten.getYear() - 1) + "(yearadded)";
 					}
