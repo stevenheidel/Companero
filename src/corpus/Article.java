@@ -174,6 +174,64 @@ public class Article
 	}
 	
 	/**
+	 * A method to find how close a given date is to a given string in the article text.
+	 * @param	date - string containing the date how it was in the article
+	 * 			text - text contained in the article that we want to find the closeness to the date
+	 * @return 	The number of character positions the date and text are apart. -1 is returned if the date
+	 * 			or the text aren't in the article.
+	 */
+	public int closenessOfDateToText (String date, String text)
+	{
+		LinkedList<Integer> datePositions = new LinkedList<Integer>();
+		
+		// Find out if we added the year to the date or if it was given
+		String[] dateSplit = date.split(" ");
+		try
+		{
+			if(dateSplit[2].contains("(yearadded)"))
+			{
+				date = dateSplit[0] + " " + dateSplit[1];
+			}
+		}
+		catch (Exception e)
+		{
+			System.out.println("Date given in unexpected format.");
+			return -1;
+		}
+		
+		// Start looking through the article for the text and date
+		int textLocation = articleText.indexOf(text);
+		if(textLocation == -1)
+		{
+			return -1;
+		}
+		
+		int dateLocation = articleText.indexOf(date);
+		if(dateLocation == -1)
+		{
+			return -1;
+		}
+		
+		while(dateLocation != -1)
+		{
+			datePositions.add(dateLocation);
+			dateLocation = articleText.indexOf(date, dateLocation+1);
+		}
+		
+		// Loop through the locations of dates and find the minimum distance between the dates and the text
+		int minDistance = Integer.MAX_VALUE;
+		for(Integer i : datePositions)
+		{
+			if (Math.abs(i-textLocation) < minDistance)
+			{
+				minDistance = Math.abs(i-textLocation);
+			}
+		}
+		
+		return minDistance;
+	}
+	
+	/**
 	 * Test method
 	 */
 	public static void main(String[] argv)
@@ -199,6 +257,7 @@ public class Article
 			for (String s : dates)
 			{
 				System.out.println(s);
+				System.out.println("Minimum distance between date and text: " + art.closenessOfDateToText(s, "THE"));
 			}
 		}
 	}
