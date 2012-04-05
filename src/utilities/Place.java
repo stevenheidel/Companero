@@ -78,6 +78,24 @@ public class Place
 		}
 	}
 	
+	public static HashMap<String,String> getCities()
+	{
+		if(cities == null)
+		{
+			Place place = new Place("Saskatoon");
+		}
+		return cities;
+	}
+	
+	public static HashSet<String> getCountries()
+	{
+		if(countries == null)
+		{
+			Place place = new Place("Saskatoon");
+		}
+		return countries;
+	}
+	
 	public boolean hasCity()
 	{
 		return (city != null);

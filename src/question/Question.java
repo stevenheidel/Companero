@@ -72,6 +72,43 @@ public class Question
 		return time;
 	}
 	
+	public Place getPlaceForText(Article art)
+	{
+		String[] places;
+		String closestPlace = "";
+		if(art.getCities().equals("") && art.getCountries().equals(""))
+		{
+			return art.getLocationWritten();
+		}
+		else
+		{
+			if(art.getCities() != null)
+			{
+				places = art.getCities().split("\\|");
+			}
+			else
+			{
+				places = art.getCountries().split("\\|");
+			}
+			
+			int minDistance = Integer.MAX_VALUE;
+			for(String s : places)
+			{
+				if(!s.equals(""))
+				{
+					int tempDistance = art.closenessOfPlaceToText(s, text);
+					if (tempDistance < minDistance)
+					{
+						minDistance = tempDistance;
+						closestPlace = s; 
+					}
+				}
+			}
+		}
+		
+		return new Place(closestPlace);
+	}
+	
 	public String whenAnswer(Corpus corpus)
 	{
 		// Get the list of articles with the text required
@@ -82,8 +119,7 @@ public class Question
 		Place questionPlace = new Place(place);
 		for(Article a : articles)
 		{
-			// FIX THIS!!!!!!!
-			Place articlePlace  = a.getLocationWritten();
+			Place articlePlace  = getPlaceForText(a);
 			if(articlePlace.getCountry().equals(questionPlace.getCountry()))
 			{
 				if(questionPlace.hasCity()
@@ -129,8 +165,8 @@ public class Question
 		Place questionPlace = new Place(place);
 		for(Article a : articles)
 		{
-			// FIX THIS!!!!!!!
-			Place articlePlace  = a.getLocationWritten();
+			Place articlePlace = getPlaceForText(a);			
+			
 			if(articlePlace.getCountry().equals(questionPlace.getCountry()))
 			{
 				if(questionPlace.hasCity()

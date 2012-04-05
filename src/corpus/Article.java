@@ -16,6 +16,8 @@ package corpus;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -33,12 +35,44 @@ public class Article
 	
 	private String articleText;
 	
+	private String cities = "";
+	
+	private String countries = "";
+	
 	public Article (String source, Date dateWritten, Place location, String articleText)
 	{
 		this.source = source;
 		this.dateWritten = dateWritten;
 		this.locationWritten = location;
 		this.articleText = articleText;
+		
+		HashMap<String, String> allCities = Place.getCities();
+		HashSet<String> allCountries = Place.getCountries();
+		
+		if(allCities == null || allCountries == null)
+		{
+			System.out.println("Places should have been initialized already.");
+			System.exit(-1);
+		}
+		
+		// Look for cities and countries in the text, ignoring any blank ones
+		for(String s : allCities.keySet())
+		{
+			String temp = " " + s + " ";
+			if(this.articleText.contains(temp) && !s.equals(""))
+			{
+				cities += s + "|";
+			}
+		}
+		
+		for(String s : allCountries)
+		{
+			String temp = " " + s + " ";
+			if(this.articleText.contains(temp) && !s.equals(""))
+			{
+				countries += s + "|";
+			}
+		}
 	}
 	
 	public String getSource()
@@ -79,6 +113,16 @@ public class Article
 	public void setArticleText(String newArticleText)
 	{
 		articleText = newArticleText;
+	}
+	
+	public String getCities()
+	{
+		return cities;
+	}
+	
+	public String getCountries()
+	{
+		return countries;
 	}
 	
 	/**
@@ -221,6 +265,49 @@ public class Article
 		// Loop through the locations of dates and find the minimum distance between the dates and the text
 		int minDistance = Integer.MAX_VALUE;
 		for(Integer i : datePositions)
+		{
+			if (Math.abs(i-textLocation) < minDistance)
+			{
+				minDistance = Math.abs(i-textLocation);
+			}
+		}
+		
+		return minDistance;
+	}
+	
+	/**
+	 * A method to find how close a given city or country is to a given string in the article text.
+	 * @param	place - string containing the city or country to find
+	 * 			text - text contained in the article that we want to find the closeness to the city or country
+	 * @return 	The number of character positions the date and text are apart. -1 is returned if the
+	 * 			city, country, or the text aren't in the article.
+	 */
+	public int closenessOfPlaceToText (String place, String text)
+	{
+		LinkedList<Integer> placePositions = new LinkedList<Integer>();
+				
+		// Start looking through the article for the text and place
+		int textLocation = articleText.indexOf(text);
+		if(textLocation == -1)
+		{
+			return -1;
+		}
+		
+		int placeLocation = articleText.indexOf(place);
+		if(placeLocation == -1)
+		{
+			return -1;
+		}
+		
+		while(placeLocation != -1)
+		{
+			placePositions.add(placeLocation);
+			placeLocation = articleText.indexOf(place, placeLocation+1);
+		}
+		
+		// Loop through the locations of dates and find the minimum distance between the dates and the text
+		int minDistance = Integer.MAX_VALUE;
+		for(Integer i : placePositions)
 		{
 			if (Math.abs(i-textLocation) < minDistance)
 			{

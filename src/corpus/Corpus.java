@@ -117,14 +117,16 @@ public class Corpus
 				source = "";
 				articleText = dateWrittenSplit[1].trim();
 			}
-			
+			Place place;
 			if(countrySplit != null)
 			{
-				newArticle = new Article(source, articleDate, new Place(countrySplit[0].trim(), citySplit[0].trim()), articleText);
+				place = new Place(citySplit[0].trim(), countrySplit[0].trim());
+				newArticle = new Article(source, articleDate, place, articleText);
 			}
 			else
 			{
-				newArticle = new Article(source, articleDate, new Place(null, citySplit[0].trim()), articleText);
+				place = new Place(citySplit[0].trim(), null);
+				newArticle = new Article(source, articleDate, place, articleText);
 			}
 			
 			int id;
