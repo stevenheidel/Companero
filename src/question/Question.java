@@ -199,6 +199,30 @@ public class Question
 		return answer;		
 	}
 	
+	public String whereAnswer(Corpus corpus)
+	{
+		String answer = "Text not found";
+		
+		// Get the list of articles with the text required
+		LinkedList<Article> articles = corpus.getArticlesWithText(text);
+		
+		for(Article a : articles)
+		{
+			Place articlePlace = getPlaceForText(a);
+			
+			if (articlePlace.hasCity())
+			{
+				answer = articlePlace.getCity() + ", " + articlePlace.getCountry();
+			}
+			else
+			{
+				answer = articlePlace.getCountry();
+			}
+		}
+		
+		return answer;
+	}
+	
 	public String answer(Corpus corpus)
 	{
 		if(type.equals("WHEN"))
@@ -208,6 +232,10 @@ public class Question
 		else if(type.equals("WHAT"))
 		{
 			return whatAnswer(corpus);
+		}
+		else if(type.equals("WHERE"))
+		{
+			return whereAnswer(corpus);
 		}
 		return "";
 	}
