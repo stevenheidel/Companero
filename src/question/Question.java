@@ -109,11 +109,8 @@ public class Question
 		return new Place(closestPlace);
 	}
 	
-	public String whenAnswer(Corpus corpus)
-	{
-		// Get the list of articles with the text required
-		LinkedList<Article> articles = corpus.getArticlesWithText(text);
-		
+	public String whenAnswer(LinkedList<Article> articles)
+	{		
 		String returnDate = "No date found";
 		
 		Place questionPlace = new Place(place);
@@ -157,12 +154,9 @@ public class Question
 		return returnDate;
 	}
 	
-	public String whatAnswer(Corpus corpus)
+	public String whatAnswer(LinkedList<Article> articles)
 	{
 		String answer = "Text not found";
-		
-		// Get the list of articles with the text required
-		LinkedList<Article> articles = corpus.getArticlesWithText(text);
 		
 		Place questionPlace = new Place(place);
 		for(Article a : articles)
@@ -202,12 +196,9 @@ public class Question
 		return answer;		
 	}
 	
-	public String whereAnswer(Corpus corpus)
+	public String whereAnswer(LinkedList<Article> articles)
 	{
 		String answer = "Text not found";
-		
-		// Get the list of articles with the text required
-		LinkedList<Article> articles = corpus.getArticlesWithText(text);
 		
 		for(Article a : articles)
 		{
@@ -228,19 +219,21 @@ public class Question
 	
 	public String answer(Corpus corpus)
 	{
+		LinkedList<Article> articles = corpus.getArticlesWithText(text);
+		
 		if(type.equals("WHEN"))
 		{
-			return whenAnswer(corpus);
+			return whenAnswer(articles);
 		}
 		else if(type.equals("WHAT"))
 		{
-			return whatAnswer(corpus);
+			return whatAnswer(articles);
 		}
 		else if(type.equals("WHERE"))
 		{
-			return whereAnswer(corpus);
+			return whereAnswer(articles);
 		}
-		return "";
+		return "Question type not handled";
 	}
 	
 	public static void main(String[] args)

@@ -143,7 +143,9 @@ public class Article
 	{
 		LinkedList<String> dateList = new LinkedList<String>();
 		
-		String pattern = "(\\b[0-9]|[1-2][0-9]|3[0-1])?" +
+		// Regular expression to match dates in the article formatted like the below examples:
+		// 5 JANUARY 89 or 5 JANUARY or JANUARY 89. Could also give 4 digit years 
+		String pattern = "(\\b[0-9]|[1-2][0-9]|3[0-1])?(-[0-9]|[1-2][0-9]|3[0-1])?" +
 				"[ ]+(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)" +
 				"[ ]+([1-2]?[0-9]?[8-9][0-9])?(.{9})";
 		Matcher m = Pattern.compile(pattern).matcher(articleText);
