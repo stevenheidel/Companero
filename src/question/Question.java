@@ -1,5 +1,7 @@
 package question;
 
+import java.text.FieldPosition;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
@@ -144,7 +146,10 @@ public class Question
 				// If we didn't find a date in the text, give the date the article was written
 				if(returnDate.equals("No date found"))
 				{
-					returnDate = a.getDateWritten().toString();
+					StringBuffer sb = new StringBuffer();
+					SimpleDateFormat df = new SimpleDateFormat("dd MMM, yyyy");
+					df.format(a.getDateWritten(), sb, new FieldPosition(0));
+					returnDate = sb.toString();
 				}
 				
 				break;
@@ -259,18 +264,21 @@ public class Question
 		System.out.println(who.getPlace());
 		System.out.println(who.getTime());
 		System.out.println(who.answer(corpus));
+		System.out.println("");
 		
 		System.out.println(what.getType());
 		System.out.println(what.getText());
 		System.out.println(what.getPlace());
 		System.out.println(what.getTime());
 		System.out.println(what.answer(corpus));
+		System.out.println("");
 		
 		System.out.println(where.getType());
 		System.out.println(where.getText());
 		System.out.println(where.getPlace());
 		System.out.println(where.getTime());
 		System.out.println(where.answer(corpus));
+		System.out.println("");
 		
 		System.out.println(when.getType());
 		System.out.println(when.getText());
