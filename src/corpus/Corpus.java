@@ -37,7 +37,7 @@ public class Corpus
 		// Get rid of newlines in the corpus text
 		corpusText = corpusText.replace("\n", " ");
 		
-		// Quintuple spaces however mean a new paragraph
+		// Five spaces however mean a new paragraph
 		corpusText = corpusText.replace("     ", "\n");
 		
 		// Split the text into articles
