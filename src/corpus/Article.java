@@ -46,7 +46,7 @@ public class Article
 		this.locationWritten = location;
 		this.articleText = articleText;
 		
-		HashMap<String, String> allCities = Place.getCities();
+		HashMap<String, LinkedList<String>> allCities = Place.getCities();
 		HashSet<String> allCountries = Place.getCountries();
 		
 		if(allCities == null || allCountries == null)

@@ -120,7 +120,9 @@ public class Question
 		for(Article a : articles)
 		{
 			Place articlePlace  = getPlaceForText(a);
-			if(articlePlace.getCountry().equals(questionPlace.getCountry()))
+			
+			// We only need to get the first country from questionPlace, as only one country will be entered per question
+			if(articlePlace.getCountry().contains(questionPlace.getCountry().getFirst()))
 			{
 				if(questionPlace.hasCity()
 						&& !questionPlace.getCity().equals(articlePlace.getCity()))
@@ -167,7 +169,8 @@ public class Question
 		{
 			Place articlePlace = getPlaceForText(a);			
 			
-			if(articlePlace.getCountry().equals(questionPlace.getCountry()))
+			// We only need to get the first country from questionPlace, as only one country will be entered per question
+			if(articlePlace.getCountry().contains(questionPlace.getCountry().getFirst()))
 			{
 				if(questionPlace.hasCity()
 						&& !questionPlace.getCity().equals(articlePlace.getCity()))
@@ -212,11 +215,11 @@ public class Question
 			
 			if (articlePlace.hasCity())
 			{
-				answer = articlePlace.getCity() + ", " + articlePlace.getCountry();
+				answer = articlePlace.toString();
 			}
 			else
 			{
-				answer = articlePlace.getCountry();
+				answer = articlePlace.toString();
 			}
 		}
 		

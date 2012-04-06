@@ -4,15 +4,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Place
 {
 	private String city;
 	
-	private String country;
+	private LinkedList<String> country;
 	
-	private static HashMap<String, String> cities = null;
+	private static HashMap<String, LinkedList<String>> cities = null;
 	
 	private static HashSet<String> countries = null;
 	
@@ -43,10 +44,13 @@ public class Place
 		if (theCountry == null)
 			country = findCountry(city);
 		else
-			country = theCountry.toUpperCase();
+		{
+			country = new LinkedList<String>();
+			country.add(theCountry.toUpperCase());
+		}
 	}
 	
-	private String findCountry(String theCity)
+	private LinkedList<String> findCountry(String theCity)
 	{
 		buildStructures();
 		
@@ -58,7 +62,7 @@ public class Place
 		if (cities != null && countries != null)
 			return;
 		
-		cities = new HashMap<String, String>();
+		cities = new HashMap<String, LinkedList<String>>();
 		countries = new HashSet<String>();
 		
 		Scanner scanner = null;
@@ -73,12 +77,24 @@ public class Place
 		{
 			String[] line = scanner.nextLine().split("\\|");
 			
-			cities.put(line[0].toUpperCase(), line[1].toUpperCase());
+			if(cities.containsKey(line[0].toUpperCase()))
+			{
+				LinkedList<String> temp = cities.get(line[0].toUpperCase());
+				temp.add(line[1].toUpperCase());
+				cities.put(line[0].toUpperCase(), temp);
+			}
+			else
+			{
+				LinkedList<String> temp = new LinkedList<String>();
+				temp.add(line[1].toUpperCase());
+				cities.put(line[0].toUpperCase(), temp);
+			}
+			
 			countries.add(line[1].toUpperCase());
 		}
 	}
 	
-	public static HashMap<String,String> getCities()
+	public static HashMap<String,LinkedList<String>> getCities()
 	{
 		if(cities == null)
 		{
@@ -106,17 +122,24 @@ public class Place
 		return city;
 	}
 	
-	public String getCountry()
+	public LinkedList<String> getCountry()
 	{
 		return country;
 	}
 	
 	public String toString()
 	{
-		if (hasCity())
-			return city + ", " + country;
-		else
-			return country;
+		String toReturn = "";
+		
+		for (String s : country)
+		{
+			if (hasCity())
+				toReturn += city + ", " + s + "|";
+			else
+				toReturn += s;
+		}
+		
+		return toReturn;
 	}
 	
 	public static void main(String[] args)
