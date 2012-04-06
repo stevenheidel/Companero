@@ -136,6 +136,66 @@ public class Article
 	}
 	
 	/**
+	 * A method to determine whether this article contains a certain date.
+	 * @param date - The date that we want to find.
+	 * @return	True if the article contains the date, false otherwise.
+	 */
+	public boolean containsDate(String date) throws IllegalArgumentException
+	{
+		SimpleDateFormat df = new SimpleDateFormat("dd MMM yy");
+		SimpleDateFormat noDay = new SimpleDateFormat("MMM yy");
+		Date givenDate = null;
+		
+		try
+		{
+			givenDate = df.parse(date);
+		}
+		catch (Exception e)
+		{
+			try
+			{
+				givenDate = noDay.parse(date);
+			}
+			catch (Exception e1)
+			{
+				throw new IllegalArgumentException("Given date was not in the correct format");
+			}
+		}
+		
+		if(dateWritten.equals(givenDate))
+		{
+			return true;
+		}
+		
+		LinkedList<String> dates = getDatesFromText();
+		for(String s : dates)
+		{
+			Date dateFromText = null;
+			try
+			{
+				dateFromText = df.parse(date);
+			}
+			catch (Exception e)
+			{
+				try
+				{
+					dateFromText = noDay.parse(date);
+				}
+				catch (Exception e1)
+				{
+					throw new IllegalArgumentException("Date from text was not in correct format");
+				}
+			}
+			if(dateFromText.equals(givenDate))
+			{
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	/**
 	 * A method to extract all dates from the article text.
 	 * @return A list of the dates in the article in String format.
 	 */

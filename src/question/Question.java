@@ -207,14 +207,10 @@ public class Question
 		
 		for(Article a : articles)
 		{
-			Place articlePlace = getPlaceForText(a);
-			
-			if (articlePlace.hasCity())
+			if(a.containsDate(time))
 			{
-				answer = articlePlace.toString();
-			}
-			else
-			{
+				Place articlePlace = getPlaceForText(a);
+				
 				answer = articlePlace.toString();
 			}
 		}

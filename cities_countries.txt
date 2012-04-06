@@ -2335,106 +2335,106 @@ Zhangzhou|China
 Xiamen|China
 Bengbu|China
 Shihezi|China
-Bogota|Colombi
-Cali|Colombi
-Medellin|Colombi
-Barranquilla|Colombi
-Cartagena|Colombi
-Cucuta|Colombi
-Bucaramanga|Colombi
-Pereira|Colombi
-Santa Marta|Colombi
-Ibague|Colombi
-Bello|Colombi
-Pasto|Colombi
-Manizales|Colombi
-Neiva|Colombi
-Soledad|Colombi
-Villavicencio|Colombi
-Armenia|Colombi
-Soacha|Colombi
-Valledupar|Colombi
-Itagui|Colombi
-Monteria|Colombi
-Sincelejo|Colombi
-Floridablanca|Colombi
-Palmira|Colombi
-Buenaventura|Colombi
-Barrancabermeja|Colombi
-Dos Quebradas|Colombi
-Tulua|Colombi
-Envigado|Colombi
-Cartago|Colombi
-Maicao|Colombi
-Florencia|Colombi
-Girardot|Colombi
-Sogamoso|Colombi
-Buga|Colombi
-Tunja|Colombi
-Giron|Colombi
-Malambo|Colombi
-Magangue|Colombi
-Facatativa|Colombi
-Riohacha|Colombi
-Duitama|Colombi
-Zipaquira|Colombi
-Fusagasuga|Colombi
-Cienaga|Colombi
-Tumaco|Colombi
-Apartado|Colombi
-Piedecuesta|Colombi
-Ocana|Colombi
-La Dorada|Colombi
-Ipiales|Colombi
-Quibdo|Colombi
-Aguachica|Colombi
-Yumbo|Colombi
-Arauca|Colombi
-Sabanalarga|Colombi
-Chinchina|Colombi
-Caldas|Colombi
-Villa del Rosario|Colombi
-Chia|Colombi
-Rionegro|Colombi
-Calarca|Colombi
-Yopal|Colombi
-Sahagun|Colombi
-Fundacion|Colombi
-Los Patios|Colombi
-San Andres|Colombi
-Caucasia|Colombi
-Santa Rosa de Cabal|Colombi
-Espinal|Colombi
-Turbaco|Colombi
-Cerete|Colombi
-El Banco|Colombi
-Funza|Colombi
-Pitalito|Colombi
-Puerto Tejada|Colombi
-Pamplona|Colombi
-Agustin Codazzi|Colombi
-Turbo|Colombi
-Madrid|Colombi
-Arjona|Colombi
-La Estrella|Colombi
-Copacabana|Colombi
-Plato|Colombi
-Chigorodo|Colombi
-El Carmen de Bolivar|Colombi
-Florida|Colombi
-Chiquinquira|Colombi
-Jamundi|Colombi
-Pradera|Colombi
-Baranoa|Colombi
-Sevilla|Colombi
-Santander de Quilichao|Colombi
-El Bagre|Colombi
-Acacias|Colombi
-Lorica|Colombi
-Segovia|Colombi
-Corozal|Colombi
-El Cerrito|Colombi
-Planeta Rica|Colombi
+Bogota|Colombia
+Cali|Colombia
+Medellin|Colombia
+Barranquilla|Colombia
+Cartagena|Colombia
+Cucuta|Colombia
+Bucaramanga|Colombia
+Pereira|Colombia
+Santa Marta|Colombia
+Ibague|Colombia
+Bello|Colombia
+Pasto|Colombia
+Manizales|Colombia
+Neiva|Colombia
+Soledad|Colombia
+Villavicencio|Colombia
+Armenia|Colombia
+Soacha|Colombia
+Valledupar|Colombia
+Itagui|Colombia
+Monteria|Colombia
+Sincelejo|Colombia
+Floridablanca|Colombia
+Palmira|Colombia
+Buenaventura|Colombia
+Barrancabermeja|Colombia
+Dos Quebradas|Colombia
+Tulua|Colombia
+Envigado|Colombia
+Cartago|Colombia
+Maicao|Colombia
+Florencia|Colombia
+Girardot|Colombia
+Sogamoso|Colombia
+Buga|Colombia
+Tunja|Colombia
+Giron|Colombia
+Malambo|Colombia
+Magangue|Colombia
+Facatativa|Colombia
+Riohacha|Colombia
+Duitama|Colombia
+Zipaquira|Colombia
+Fusagasuga|Colombia
+Cienaga|Colombia
+Tumaco|Colombia
+Apartado|Colombia
+Piedecuesta|Colombia
+Ocana|Colombia
+La Dorada|Colombia
+Ipiales|Colombia
+Quibdo|Colombia
+Aguachica|Colombia
+Yumbo|Colombia
+Arauca|Colombia
+Sabanalarga|Colombia
+Chinchina|Colombia
+Caldas|Colombia
+Villa del Rosario|Colombia
+Chia|Colombia
+Rionegro|Colombia
+Calarca|Colombia
+Yopal|Colombia
+Sahagun|Colombia
+Fundacion|Colombia
+Los Patios|Colombia
+San Andres|Colombia
+Caucasia|Colombia
+Santa Rosa de Cabal|Colombia
+Espinal|Colombia
+Turbaco|Colombia
+Cerete|Colombia
+El Banco|Colombia
+Funza|Colombia
+Pitalito|Colombia
+Puerto Tejada|Colombia
+Pamplona|Colombia
+Agustin Codazzi|Colombia
+Turbo|Colombia
+Madrid|Colombia
+Arjona|Colombia
+La Estrella|Colombia
+Copacabana|Colombia
+Plato|Colombia
+Chigorodo|Colombia
+El Carmen de Bolivar|Colombia
+Florida|Colombia
+Chiquinquira|Colombia
+Jamundi|Colombia
+Pradera|Colombia
+Baranoa|Colombia
+Sevilla|Colombia
+Santander de Quilichao|Colombia
+El Bagre|Colombia
+Acacias|Colombia
+Lorica|Colombia
+Segovia|Colombia
+Corozal|Colombia
+El Cerrito|Colombia
+Planeta Rica|Colombia
 Moroni|Comoros
 Moutsamoudou|Comoros
 Fomboni|Comoros
