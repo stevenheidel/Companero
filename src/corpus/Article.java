@@ -35,6 +35,8 @@ public class Article
 	
 	private String articleText;
 	
+	private String articleTextNoPunct;
+	
 	private String cities = "";
 	
 	private String countries = "";
@@ -45,6 +47,7 @@ public class Article
 		this.dateWritten = dateWritten;
 		this.locationWritten = location;
 		this.articleText = articleText;
+		this.articleTextNoPunct = this.articleText.replaceAll("[^A-Z0-9]", " ");
 		
 		HashMap<String, LinkedList<String>> allCities = Place.getCities();
 		HashSet<String> allCountries = Place.getCountries();
@@ -59,7 +62,7 @@ public class Article
 		for(String s : allCities.keySet())
 		{
 			String temp = " " + s + " ";
-			if(this.articleText.contains(temp) && !s.equals(""))
+			if(this.articleTextNoPunct.contains(temp) && !s.equals(""))
 			{
 				cities += s + "|";
 			}
@@ -68,7 +71,7 @@ public class Article
 		for(String s : allCountries)
 		{
 			String temp = " " + s + " ";
-			if(this.articleText.contains(temp) && !s.equals(""))
+			if(this.articleTextNoPunct.contains(temp) && !s.equals(""))
 			{
 				countries += s + "|";
 			}
@@ -207,7 +210,7 @@ public class Article
 		// 5 JANUARY 89 or 5 JANUARY or JANUARY 89. Could also give 4 digit years 
 		String pattern = "(\\b[0-9]|[1-2][0-9]|3[0-1])?(-[0-9]|[1-2][0-9]|3[0-1])?" +
 				"[ ]+(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)" +
-				"[ ]+([1-2]?[0-9]?[8-9][0-9])?(.{9})";
+				"[ ]?+([1-2]?[0-9]?[8-9][0-9])?(.{9})";
 		Matcher m = Pattern.compile(pattern).matcher(articleText);
 		
 		while(m.find())
@@ -311,6 +314,7 @@ public class Article
 		{
 			return -1;
 		}
+		int textFinalLocation = textLocation + text.length();
 		
 		int dateLocation = articleText.indexOf(date);
 		if(dateLocation == -1)
@@ -325,12 +329,25 @@ public class Article
 		}
 		
 		// Loop through the locations of dates and find the minimum distance between the dates and the text
+		// For every paragraph away from the current one, add 1000 to the distance. This way we favour dates in the
+		// same paragraph as the text
 		int minDistance = Integer.MAX_VALUE;
 		for(Integer i : datePositions)
 		{
-			if (Math.abs(i-textLocation) < minDistance)
+			String substring = "";
+			if(i < textLocation)
 			{
-				minDistance = Math.abs(i-textLocation);
+				substring = articleText.substring(i, textLocation);
+			}
+			else if(i > textFinalLocation)
+			{
+				substring = articleText.substring(textFinalLocation, i);
+			}
+			i += 1000 * (substring.split("\n").length - 1);
+			
+			if (Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation)) < minDistance)
+			{
+				minDistance = Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation));
 			}
 		}
 		
@@ -346,6 +363,17 @@ public class Article
 	 */
 	public int closenessOfPlaceToText (String place, String text)
 	{
+		// Answers often given Salvador, Brazil when we want San Salvador, El Salvador
+		// so here is a quick fix
+		if(place.equals("SALVADOR") && articleTextNoPunct.contains("SAN SALVADOR"))
+		{
+			return Integer.MAX_VALUE;
+		}
+		
+		// Make sure the place is a complete match by adding a space. We don't want
+		// Colombian in the text to match Colombia as a place, for example.
+		place += " ";
+		
 		LinkedList<Integer> placePositions = new LinkedList<Integer>();
 				
 		// Start looking through the article for the text and place
@@ -354,8 +382,9 @@ public class Article
 		{
 			return -1;
 		}
+		int textFinalLocation = textLocation + text.length();
 		
-		int placeLocation = articleText.indexOf(place);
+		int placeLocation = articleTextNoPunct.indexOf(place);
 		if(placeLocation == -1)
 		{
 			return -1;
@@ -364,16 +393,40 @@ public class Article
 		while(placeLocation != -1)
 		{
 			placePositions.add(placeLocation);
-			placeLocation = articleText.indexOf(place, placeLocation+1);
+			placeLocation = articleTextNoPunct.indexOf(place, placeLocation+1);
 		}
 		
 		// Loop through the locations of dates and find the minimum distance between the dates and the text
+		// For every paragraph away from the current one, add 1000 to the distance. This way we favour places in the
+		// same paragraph as the text
 		int minDistance = Integer.MAX_VALUE;
 		for(Integer i : placePositions)
 		{
-			if (Math.abs(i-textLocation) < minDistance)
+			String substring = "";
+			if(i < textLocation)
 			{
-				minDistance = Math.abs(i-textLocation);
+				substring = articleText.substring(i, textLocation);
+				int tempMin = (textLocation - i) + 1000 * (substring.split("\n").length-1);
+				if(tempMin < minDistance)
+				{
+					minDistance = tempMin;
+				}
+			}
+			else if(i > textFinalLocation)
+			{
+				substring = articleText.substring(textFinalLocation, i);
+				int tempMin = (i - textFinalLocation) + 1000 * (substring.split("\n").length-1);
+				if(tempMin < minDistance)
+				{
+					minDistance = tempMin;
+				}
+			}
+			else
+			{
+				if (Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation)) < minDistance)
+				{
+					minDistance = Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation));
+				}
 			}
 		}
 		

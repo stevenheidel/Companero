@@ -2344,6 +2344,7 @@ Cucuta|Colombia
 Bucaramanga|Colombia
 Pereira|Colombia
 Santa Marta|Colombia
+Purificacion|Colombia
 Ibague|Colombia
 Bello|Colombia
 Pasto|Colombia
@@ -2814,7 +2815,6 @@ Minas|Cuba
 Esmeralda|Cuba
 Nueva Gerona|Cuba
 Jaruco|Cuba
-Colombia|Cuba
 Varadero|Cuba
 Fomento|Cuba
 Bahia Honda|Cuba
@@ -2947,7 +2947,6 @@ Pardubice|Czech Republic
 Havirov|Czech Republic
 Zlin|Czech Republic
 Kladno|Czech Republic
-(not)Most|Czech Republic
 Karvina|Czech Republic
 Frydek-Mistek|Czech Republic
 Opava|Czech Republic
@@ -4242,6 +4241,7 @@ Victoria|Grenada
 Sauteurs|Grenada
 Hillsborough|Grenada
 Guatemala City|Guatemala
+Jalpatagua|Guatemala
 Mixco|Guatemala
 Villa Nueva|Guatemala
 Petapa|Guatemala
@@ -10182,7 +10182,6 @@ Delta del Tigre|Uruguay
 Carmelo|Uruguay
 Santa Lucia|Uruguay
 Progreso|Uruguay
-Young|Uruguay
 Dolores|Uruguay
 Paso de Carrasco|Uruguay
 Rio Branco|Uruguay

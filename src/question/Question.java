@@ -76,7 +76,8 @@ public class Question
 	
 	public Place getPlaceForText(Article art)
 	{
-		String[] places;
+		String[] cities = null;
+		String[] countries = null;
 		String closestPlace = "";
 		if(art.getCities().equals("") && art.getCountries().equals(""))
 		{
@@ -86,23 +87,41 @@ public class Question
 		{
 			if(art.getCities() != null)
 			{
-				places = art.getCities().split("\\|");
+				cities = art.getCities().split("\\|");
 			}
-			else
+			if(art.getCountries() != null)
 			{
-				places = art.getCountries().split("\\|");
+				countries = art.getCountries().split("\\|");
 			}
 			
 			int minDistance = Integer.MAX_VALUE;
-			for(String s : places)
+			if(cities != null)
 			{
-				if(!s.equals(""))
+				for(String s : cities)
 				{
-					int tempDistance = art.closenessOfPlaceToText(s, text);
-					if (tempDistance < minDistance)
+					if(!s.equals(""))
 					{
-						minDistance = tempDistance;
-						closestPlace = s; 
+						int tempDistance = art.closenessOfPlaceToText(s, text);
+						if (tempDistance < minDistance && tempDistance != -1)
+						{
+							minDistance = tempDistance;
+							closestPlace = s; 
+						}
+					}
+				}
+			}
+			if(countries != null)
+			{
+				for(String s : countries)
+				{
+					if(!s.equals(""))
+					{
+						int tempDistance = art.closenessOfPlaceToText(s, text);
+						if (tempDistance < minDistance)
+						{
+							minDistance = tempDistance;
+							closestPlace = s; 
+						}
 					}
 				}
 			}

@@ -24,7 +24,8 @@ public class Place
 	
 	public Place(String unknown)
 	{
-		buildStructures();
+		buildCountries();
+		buildCities();
 		
 		unknown = unknown.toUpperCase();
 		
@@ -52,18 +53,21 @@ public class Place
 	
 	private LinkedList<String> findCountry(String theCity)
 	{
-		buildStructures();
+		buildCountries();
+		buildCities();
+		
 		
 		return cities.get(theCity);
 	}
 	
-	private void buildStructures()
+	private void buildCities()
 	{
-		if (cities != null && countries != null)
+		if(countries == null)
+			buildCountries();
+		if (cities != null)
 			return;
 		
 		cities = new HashMap<String, LinkedList<String>>();
-		countries = new HashSet<String>();
 		
 		Scanner scanner = null;
 		
@@ -77,20 +81,48 @@ public class Place
 		{
 			String[] line = scanner.nextLine().split("\\|");
 			
-			if(cities.containsKey(line[0].toUpperCase()))
-			{
-				LinkedList<String> temp = cities.get(line[0].toUpperCase());
-				temp.add(line[1].toUpperCase());
-				cities.put(line[0].toUpperCase(), temp);
-			}
-			else
-			{
-				LinkedList<String> temp = new LinkedList<String>();
-				temp.add(line[1].toUpperCase());
-				cities.put(line[0].toUpperCase(), temp);
-			}
+			if(line[0].equals("")) continue;
 			
-			countries.add(line[1].toUpperCase());
+			if(countries.contains(line[1].toUpperCase()))
+			{
+				if(cities.containsKey(line[0].toUpperCase()))
+				{
+					LinkedList<String> temp = cities.get(line[0].toUpperCase());
+					temp.add(line[1].toUpperCase());
+					cities.put(line[0].toUpperCase(), temp);
+				}
+				else
+				{
+					LinkedList<String> temp = new LinkedList<String>();
+					temp.add(line[1].toUpperCase());
+					cities.put(line[0].toUpperCase(), temp);
+				}
+			}
+		}
+	}
+	
+	private void buildCountries()
+	{
+		if (countries != null)
+			return;
+		
+		countries = new HashSet<String>();
+		
+		Scanner scanner = null;
+		
+		try {
+			scanner = new Scanner(new File("latin_american_countries.txt"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		while (scanner.hasNextLine())
+		{
+			String line = scanner.nextLine();
+			
+			if(line.equals("")) continue;
+			
+			countries.add(line.toUpperCase());
 		}
 	}
 	

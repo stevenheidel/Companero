@@ -54,22 +54,23 @@ public class Main
 			e.printStackTrace();
 		}
 		
-		/*
 		Scanner scanner = new Scanner(System.in);
 		
 		while (scanner.hasNextLine())
 		{
 			Question question = new Question(scanner.nextLine());
 			
+			System.out.println("\t" + question.answer(corpus));
 			// solve(corpus, question)
 		}
-		*/
 		
+		/*
 		Question question = new Question("Who was [the army judge advocate general] of [Chile] in [1990]?");
 		
 		for (Article a : corpus.getArticlesWithText(question.getText()))
 		{
 			System.out.println(a.getArticleText());
 		}
+		*/
 	}
 }
