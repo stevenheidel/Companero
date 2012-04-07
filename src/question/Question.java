@@ -176,18 +176,9 @@ public class Question
 		
 		Place questionPlace = new Place(place);
 		for(Article a : articles)
-		{
-			Place articlePlace = getPlaceForText(a);			
-			
-			// We only need to get the first country from questionPlace, as only one country will be entered per question
-			if(articlePlace.getCountry().contains(questionPlace.getCountry().getFirst()))
-			{
-				if(questionPlace.hasCity()
-						&& !questionPlace.getCity().equals(articlePlace.getCity()))
-				{
-					continue;
-				}
-				
+		{	
+			if(a.containsPlace(questionPlace))
+			{				
 				// Get the rest of the sentence after the text
 				int index = a.getArticleText().indexOf(text) + text.length();
 				
@@ -198,6 +189,10 @@ public class Question
 				{
 					String[] answerSplit = answer.split("\"");
 					answer = answerSplit[0] + "\"" + answerSplit[1] + "\"";
+					if(a.getArticleText().indexOf(answerSplit[1]) + answerSplit[1].length() < index + tempAnswer.length())
+					{
+						answer = a.getArticleText().substring(index).split("\\.")[0];
+					}
 				}
 				else
 				{

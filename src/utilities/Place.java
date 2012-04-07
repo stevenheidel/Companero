@@ -176,13 +176,17 @@ public class Place
 	{
 		String toReturn = "";
 		
-		for (String s : country)
+		if(country != null)
 		{
-			if (hasCity())
-				toReturn += city + ", " + s + "|";
-			else
-				toReturn += s;
+			for (String s : country)
+			{
+				if (hasCity())
+					toReturn += city + ", " + s + "|";
+				else
+					toReturn += s;
+			}
 		}
+		else if(hasCity()) toReturn = city;
 		
 		return toReturn;
 	}

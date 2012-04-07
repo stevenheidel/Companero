@@ -215,6 +215,10 @@ public class Article
 			{
 				containsCity = true;
 			}
+			if(locationWritten.hasCity() && toFind.getCity().equals(locationWritten.getCity()))
+			{
+				containsCity = true;
+			}
 		}
 		else
 		{
@@ -225,11 +229,27 @@ public class Article
 		if(toFind.hasCountry())
 		{
 			LinkedList<String> country = toFind.getCountry();
+			LinkedList<String> writtenCountry = null;
+			if(locationWritten.hasCountry())
+			{
+				writtenCountry = locationWritten.getCountry();
+			}
+			
 			for(String s : country)
 			{
 				if(countries.contains(s))
 				{
 					containsCountry = true;
+				}
+				if(writtenCountry != null)
+				{
+					for(String r : writtenCountry)
+					{
+						if(r.equals(s))
+						{
+							containsCountry = true;
+						}
+					}
 				}
 			}
 		}
@@ -407,7 +427,9 @@ public class Article
 		if(place.equals("SALVADOR") && articleTextNoPunct.contains("SAN SALVADOR"))
 		{
 			return Integer.MAX_VALUE;
-		}
+		}		
+
+		int minDistance = Integer.MAX_VALUE;
 		
 		// Make sure the place is a complete match by adding a space. We don't want
 		// Colombian in the text to match Colombia as a place, for example.
@@ -438,7 +460,6 @@ public class Article
 		// Loop through the locations of dates and find the minimum distance between the dates and the text
 		// For every paragraph away from the current one, add 1000 to the distance. This way we favour places in the
 		// same paragraph as the text
-		int minDistance = Integer.MAX_VALUE;
 		for(Integer i : placePositions)
 		{
 			String substring = "";
