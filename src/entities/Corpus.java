@@ -18,6 +18,7 @@ import java.util.HashMap;
 import java.util.Date;
 import java.util.LinkedList;
 
+import utilities.FileReader;
 import utilities.Place;
 
 public class Corpus 
@@ -161,5 +162,26 @@ public class Corpus
 		}
 		
 		return articleList;
+	}
+	
+	public static void main(String[] args)
+	{
+		String corpusText = "";
+		
+		try
+		{
+			corpusText = FileReader.convertToString("corpus.txt");
+		}
+		catch (Exception e)
+		{
+			System.out.println("Error reading from the file");
+		}
+		
+		Corpus corpus = new Corpus(corpusText);
+		
+		for (Article a : corpus.getArticlesWithText("ACCORDING TO RETIRED GENERAL FERNANDO TORRES SILVA"))
+		{
+			System.out.println(a);
+		}
 	}
 }

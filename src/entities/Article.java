@@ -21,8 +21,6 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import main.Main;
-
 import utilities.FileReader;
 import utilities.Place;
 
@@ -498,33 +496,39 @@ public class Article
 		return minDistance;
 	}
 	
+	public String toString()
+	{
+		return articleText;
+	}
+	
 	/**
 	 * Test method
 	 */
 	public static void main(String[] argv)
 	{
-		String corpus = "";
+		String corpusText = "";
+		
 		try
 		{
-			corpus = FileReader.convertToString("corpus.txt");
+			corpusText = FileReader.convertToString("corpus.txt");
 		}
 		catch (Exception e)
 		{
 			System.out.println("Error reading from the file");
 		}
 		
-		Corpus corp = new Corpus(corpus);
+		Corpus corpus = new Corpus(corpusText);
 		
-		LinkedList<Article> articles = corp.getArticlesWithText("THE");
+		LinkedList<Article> articles = corpus.getArticlesWithText("THE");
 		
-		for (Article art : articles)
+		for (Article a : articles)
 		{
-			LinkedList<String> dates = art.getDatesFromText();
+			LinkedList<String> dates = a.getDatesFromText();
 			
 			for (String s : dates)
 			{
 				System.out.println(s);
-				System.out.println("Minimum distance between date and text: " + art.closenessOfDateToText(s, "THE"));
+				System.out.println("Minimum distance between date and text: " + a.closenessOfDateToText(s, "THE"));
 			}
 		}
 	}

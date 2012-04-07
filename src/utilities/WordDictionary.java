@@ -12,57 +12,42 @@
 
 package utilities;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
 import java.util.HashSet;
 
 public class WordDictionary 
 {
-	private HashSet<String> dictionary = null;
+	private static HashSet<String> dictionary = null;
 	
-	private void initialize()
+	private static void initialize()
 	{
 		// If the dictionary is already initialized for some reason, return
-		if(dictionary != null)
-		{
+		if (dictionary != null)
 			return;
-		}
 		
-		FileInputStream fis;
-		BufferedReader br;
-		
+		dictionary = new HashSet<String>();
+				
 		// Read all of the words from the file, ignoring words starting with capital letters
-		try
+		for (String line : FileReader.convertToStringArrayOfLines("words"))
 		{
-			fis = new FileInputStream("words");
-			br = new BufferedReader(new InputStreamReader(fis));
-			
-			String nextLine = br.readLine();
-			int i = 0;
-			while (nextLine != null)
+			if (!line.equals("") && !Character.isUpperCase(line.charAt(0)))
 			{
-				if(!nextLine.equals("") && !Character.isUpperCase(nextLine.charAt(0)))
-				{
-					// Add the word in all upper case, as that is how the corpus is represented
-					dictionary.add(nextLine.toUpperCase());
-				}
-				nextLine = br.readLine();
+				// Add the word in all upper case, as that is how the corpus is represented
+				dictionary.add(line.toUpperCase());
 			}
-		}
-		catch (Exception e)
-		{
-			System.out.println(e.getStackTrace());
 		}
 	}
 	
-	public boolean contains(String givenWord)
+	public static boolean contains(String word)
 	{
-		if(dictionary == null)
-		{
+		if (dictionary == null)
 			initialize();
-		}
 		
-		return dictionary.contains(givenWord);
+		return dictionary.contains(word.toUpperCase());
+	}
+	
+	public static void main(String[] args)
+	{
+		System.out.println(WordDictionary.contains("Test"));
+		System.out.println(WordDictionary.contains("Steven"));
 	}
 }

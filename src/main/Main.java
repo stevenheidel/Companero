@@ -1,6 +1,7 @@
 package main;
 
-import java.io.IOException;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import entities.Corpus;
@@ -11,25 +12,40 @@ import utilities.FileReader;
 
 public class Main 
 {
+	private static final boolean TESTING = false;
+	
 	public static void main(String[] args)
-	{	
-		Corpus corpus = null;
-		try 
-		{
-			corpus = new Corpus(FileReader.convertToString("corpus.txt"));
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
+	{
+		System.out.println("Processing the corpus...");
 		
-		Scanner scanner = new Scanner(System.in);
+		Corpus corpus = new Corpus(FileReader.convertToString("corpus.txt"));
+		
+		System.out.println("\t\t\t...ready for question answering!\n");
+		
+		Scanner scanner = null;
+		if (TESTING)
+		{
+			try 
+			{
+				scanner = new Scanner(new File("TestingQuestions"));
+			} catch (FileNotFoundException e) 
+			{
+				e.printStackTrace();
+			}
+		}
+		else
+			scanner = new Scanner(System.in);
 		
 		while (scanner.hasNextLine())
 		{
-			Question question = new Question(scanner.nextLine());
-			
-			System.out.println("\t" + Solver.solve(question, corpus));
+			String line = scanner.nextLine();
+			if (! line.equals(""))
+			{
+				Question question = new Question(line);
+				
+				System.out.println("[QUESTION] " + line);
+				System.out.println(Solver.solve(question, corpus));
+			}
 		}
 	}
 }

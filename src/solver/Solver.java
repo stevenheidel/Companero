@@ -39,6 +39,8 @@ public class Solver {
 	
 	private static Answer whoAnswer(LinkedList<Article> articles, String text, String place, String time)
 	{
+		
+		
 		return new Answer();
 	}
 	
@@ -79,7 +81,7 @@ public class Solver {
 		Answer answer = new Answer();
 		
 		if (toReturn != null)
-			answer.add(toReturn);
+			answer.add(toReturn, 1);
 		
 		return answer;
 	}
@@ -150,7 +152,7 @@ public class Solver {
 			{
 				Place articlePlace = getPlaceForText(a, text);
 				
-				answer.add(articlePlace.toString());
+				answer.add(articlePlace.toString(), 1);
 			}
 		}
 		
@@ -197,7 +199,7 @@ public class Solver {
 		Answer answer = new Answer();
 		
 		if (returnDate != null)
-			answer.add(returnDate);
+			answer.add(returnDate, 1);
 		
 		return answer;
 	}

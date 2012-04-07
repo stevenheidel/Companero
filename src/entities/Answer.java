@@ -1,12 +1,12 @@
 package entities;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
-import java.util.TreeSet;
 
 public class Answer 
 {
@@ -22,70 +22,72 @@ public class Answer
 		answers = new HashMap<String, Double>();
 	}
 	
-	public void add(String answer)
-	{
-		answers.put(answer, 0.0);
-	}
-	
-	public void setWeight(String answer, double weight)
+	public void add(String answer, double weight)
 	{
 		answers.put(answer, weight);
 	}
-	
+		
 	public double getWeight(String answer)
 	{
 		return answers.get(answer);
 	}
+		
+	public LinkedHashMap<String, Double> sortHashMapByValues(HashMap<String, Double> original) {
+	 	List<String> mapKeys = new ArrayList<String>(original.keySet());
+		List<Double> mapValues = new ArrayList<Double>(original.values());
+		Collections.sort(mapValues);	
+		Collections.sort(mapKeys);	
 	
-	private HashMap<String, Double> sortHashMap(HashMap<String, Double> input)
-	{
-	    Map<String, Double> tempMap = new HashMap<String, Double>();
-	    
-	    for (String wsState : input.keySet())
-	    {
-	        tempMap.put(wsState,input.get(wsState));
-	    }
-
-	    List<String> mapKeys = new ArrayList<String>(tempMap.keySet());
-	    List<Double> mapValues = new ArrayList<Double>(tempMap.values());
-	    HashMap<String, Double> sortedMap = new LinkedHashMap<String, Double>();
-	    TreeSet<Double> sortedSet = new TreeSet<Double>(mapValues);
-	    Object[] sortedArray = sortedSet.toArray();
-	    
-	    int size = sortedArray.length;
-	    
-	    for (int i = size - 1; i >= 0; i--)
-	    {
-	        sortedMap.put(mapKeys.get(mapValues.indexOf(sortedArray[i])), 
-	                      (Double) sortedArray[i]);
-	    }
-	    
-	    return sortedMap;
+		Collections.reverse(mapValues);
+	
+		LinkedHashMap<String, Double> sorted = new LinkedHashMap<String, Double>();
+		Iterator<Double> valueIt = mapValues.iterator();
+		
+		while (valueIt.hasNext()) 
+		{
+			Double val = valueIt.next();
+			Iterator<String> keyIt = mapKeys.iterator();
+			while (keyIt.hasNext()) 
+			{
+				String key = keyIt.next();
+				if (original.get(key).toString().equals(val.toString())) 
+				{
+					original.remove(key);
+					mapKeys.remove(key);
+					sorted.put(key, val);
+					break;
+				}
+			}
+		}
+		return sorted;
 	}
 	
 	public String toString()
 	{
 		if (answers.size() == 0)
-			return "No Answers Found";
+			return "No Answers Found\n";
+		
+		if (answers.size() == 1)
+			return answers.keySet().toArray(new String[1])[0] + "\n";
 		
 		String toReturn = "";
 		
-		for (Entry<String, Double> answer : sortHashMap(answers).entrySet())
+		for (Entry<String, Double> answer : sortHashMapByValues(answers).entrySet())
 		{
-			System.out.format("%" + ANSWER_LENGTH + "s", answer.getKey());
+			toReturn += String.format("%" + ANSWER_LENGTH + "s", answer.getKey());
 			
 			if (answer.getKey().length() > ANSWER_LENGTH)
 			{
-				System.out.print("\n");
-				System.out.format("%" + ANSWER_LENGTH + "s", " ");
+				toReturn += "\n";
+				toReturn += String.format("%" + ANSWER_LENGTH + "s", " ");
 			}
 			
-			System.out.print(" |");
+			toReturn += " |";
 			
 			for (int i = 0; i < (TERMINAL_WIDTH - ANSWER_LENGTH) * answer.getValue() - 2; i++)
-				System.out.print("=");
+				toReturn += "=";
 			
-			System.out.print("\n");
+			toReturn += "\n";
 		}
 		
 		return toReturn;
@@ -96,17 +98,14 @@ public class Answer
 		Answer blank = new Answer();
 		System.out.println(blank);
 		
+		Answer single = new Answer();
+		single.add("SINGLE ANSWER", 1);
+		System.out.println(single);
+		
 		Answer answer = new Answer();
-		
-		answer.add("TEST 1");
-		answer.setWeight("TEST 1", 0.27);
-		
-		answer.add("TEST WHERE THE LENGTH OF THE STRING IS MUCH LONGER THAN 30 CHARACTERS");
-		answer.setWeight("TEST WHERE THE LENGTH OF THE STRING IS MUCH LONGER THAN 30 CHARACTERS", 1);
-		
-		answer.add("TEST 2");
-		answer.setWeight("TEST 2", 0.78);
-		
+		answer.add("TEST 1", 0.27);
+		answer.add("TEST WHERE THE LENGTH OF THE STRING IS MUCH LONGER THAN 30 CHARACTERS", 1);
+		answer.add("TEST 2", 0.78);
 		System.out.println(answer);
 	}
 }

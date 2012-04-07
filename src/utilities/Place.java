@@ -1,11 +1,8 @@
 package utilities;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.Scanner;
 
 public class Place
 {
@@ -70,18 +67,10 @@ public class Place
 			return;
 		
 		cities = new HashMap<String, LinkedList<String>>();
-		
-		Scanner scanner = null;
-		
-		try {
-			scanner = new Scanner(new File("cities_countries.txt"));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		
-		while (scanner.hasNextLine())
+						
+		for (String rawLine : FileReader.convertToStringArrayOfLines("cities_countries.txt"))
 		{
-			String[] line = scanner.nextLine().split("\\|");
+			String[] line = rawLine.split("\\|");
 			
 			if(line[0].equals("")) continue;
 			
@@ -114,20 +103,10 @@ public class Place
 		
 		countries = new HashSet<String>();
 		allCountries = new HashSet<String>();
-		
-		Scanner scanner = null;
-		
-		try {
-			scanner = new Scanner(new File("latin_american_countries.txt"));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		
-		while (scanner.hasNextLine())
+				
+		for (String line : FileReader.convertToStringArrayOfLines("latin_american_countries.txt"))
 		{
-			String line = scanner.nextLine();
-			
-			if(line.equals("")) continue;
+			if (line.equals("")) continue;
 			
 			countries.add(line.toUpperCase());
 			allCountries.add(line.toUpperCase());
@@ -196,8 +175,8 @@ public class Place
 		Place both = new Place("San Salvador", "El Salvador");
 		Place city = new Place("San Salvador", null);
 		Place country = new Place(null, "El Salvador");
-		Place unknown1 = new Place("San Salvador");
-		Place unknown2 = new Place("El Salvador");
+		Place unknown1 = new Place("Santiago");
+		Place unknown2 = new Place("Chile");
 		Place fake = new Place("Fake");
 		
 		System.out.println(both);
