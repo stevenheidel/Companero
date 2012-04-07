@@ -180,10 +180,18 @@ public class Place
 		{
 			for (String s : country)
 			{
-				if (hasCity())
-					toReturn += city + ", " + s + "|";
+				if (hasCity() && toReturn.equals(""))
+				{
+					toReturn += city + ", " + s;
+				}
+				else if(hasCity())
+				{
+					toReturn += " | " + city + ", " + s;
+				}
 				else
+				{
 					toReturn += s;
+				}
 			}
 		}
 		else if(hasCity()) toReturn = city;
