@@ -11,7 +11,7 @@
  * and country.
  */
 
-package corpus;
+package entities;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

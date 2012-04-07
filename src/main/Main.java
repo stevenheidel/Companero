@@ -7,10 +7,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-import corpus.Article;
-import corpus.Corpus;
+import entities.Article;
+import entities.Corpus;
+import entities.Question;
 
-import question.Question;
+import solver.Solver;
 import utilities.Place;
 
 public class Main 
@@ -61,17 +62,7 @@ public class Main
 		{
 			Question question = new Question(scanner.nextLine());
 			
-			System.out.println("\t" + question.answer(corpus));
-			// solve(corpus, question)
+			System.out.println("\t" + Solver.solve(question, corpus));
 		}
-		
-		/*
-		Question question = new Question("Who was [the army judge advocate general] of [Chile] in [1990]?");
-		
-		for (Article a : corpus.getArticlesWithText(question.getText()))
-		{
-			System.out.println(a.getArticleText());
-		}
-		*/
 	}
 }

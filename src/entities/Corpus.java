@@ -10,7 +10,7 @@
  * The class which will hold all of the articles given in the corpus.
  */
 
-package corpus;
+package entities;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -46,7 +46,7 @@ public class Corpus
 		// Create a new Article object for each article and add it to the HashMap
 		for (String article : articles)
 		{
-			if(article.equals(""))
+			if (article.equals(""))
 			{
 				continue;
 			}
@@ -59,7 +59,7 @@ public class Corpus
 			
 			// Find out if the country is given in the article
 			String[] countrySplit = null;
-			if(citySplit[0].split("\\(").length > 1)
+			if (citySplit[0].split("\\(").length > 1)
 			{
 				citySplit = idSplit[1].split("\\(", 2);
 				countrySplit = citySplit[1].split("\\)", 2);
@@ -67,7 +67,7 @@ public class Corpus
 			
 			// Split out the date written (source given)
 			String[] dateWrittenSplit;
-			if(countrySplit == null)
+			if (countrySplit == null)
 			{
 				dateWrittenSplit = citySplit[1].split("--", 2);
 			}
@@ -90,7 +90,7 @@ public class Corpus
 					sourceExists = true;
 				}
 			}
-			catch(ParseException e)
+			catch (ParseException e)
 			{
 				throw new IllegalArgumentException("Article was not in correct format.");
 			}
@@ -107,7 +107,7 @@ public class Corpus
 			Article newArticle;
 			
 			String source, articleText;
-			if(sourceExists)
+			if (sourceExists)
 			{
 				source = sourceSplit[0].trim();
 				articleText = dateWrittenSplit[1].trim();
@@ -118,7 +118,7 @@ public class Corpus
 				articleText = dateWrittenSplit[1].trim();
 			}
 			Place place;
-			if(countrySplit != null)
+			if (countrySplit != null)
 			{
 				place = new Place(citySplit[0].trim(), countrySplit[0].trim());
 				newArticle = new Article(source, articleDate, place, articleText);
@@ -134,7 +134,7 @@ public class Corpus
 			{
 				id = Integer.parseInt(idSplit[0].trim());
 			}
-			catch(NumberFormatException e)
+			catch (NumberFormatException e)
 			{
 				throw new IllegalArgumentException("Article was not in correct format.");
 			}
@@ -147,14 +147,14 @@ public class Corpus
 	 * @param text - The text to search the articles for.
 	 * @return All of the articles containing the given text.
 	 */
-	public LinkedList<Article> getArticlesWithText (String text)
+	public LinkedList<Article> getArticlesWithText(String text)
 	{
 		LinkedList<Article> articleList = new LinkedList<Article>();
 		
 		// Iterate through all of the articles in the HashMap and check if they contain the given text
-		for(Article a : articleMap.values())
+		for (Article a : articleMap.values())
 		{
-			if(a.containsText(text))
+			if (a.containsText(text))
 			{
 				articleList.add(a);
 			}
