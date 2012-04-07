@@ -136,19 +136,11 @@ public class Place
 	
 	public static HashMap<String,LinkedList<String>> getCities()
 	{
-		if(cities == null)
-		{
-			Place place = new Place("Saskatoon");
-		}
 		return cities;
 	}
 	
 	public static HashSet<String> getCountries()
 	{
-		if(countries == null)
-		{
-			Place place = new Place("Saskatoon");
-		}
 		return countries;
 	}
 	

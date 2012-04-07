@@ -29,7 +29,7 @@ public class Corpus
 	 * @param corpusText - The text with the articles
 	 * @throws IllegalArgumentException if the text is formatted incorrectly.
 	 */
-	public Corpus (String corpusText) throws IllegalArgumentException
+	public Corpus(String corpusText) throws IllegalArgumentException
 	{
 		// Create the articleMap
 		articleMap = new HashMap<Integer, Article>();

@@ -23,6 +23,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import main.Main;
 
+import utilities.FileReader;
 import utilities.Place;
 
 public class Article 
@@ -505,7 +506,7 @@ public class Article
 		String corpus = "";
 		try
 		{
-			corpus = Main.readTextFile("corpus.txt");
+			corpus = FileReader.convertToString("corpus.txt");
 		}
 		catch (Exception e)
 		{
