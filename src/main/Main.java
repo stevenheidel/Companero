@@ -11,6 +11,7 @@ import corpus.Article;
 import corpus.Corpus;
 
 import question.Question;
+import utilities.Place;
 
 public class Main 
 {

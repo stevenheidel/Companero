@@ -65,14 +65,18 @@ public class Article
 			if(this.articleTextNoPunct.contains(temp) && !s.equals(""))
 			{
 				cities += s + "|";
-				countries += allCities.get(s) + "|";
+				LinkedList<String> tempCountries = allCities.get(s);
+				for(String r : tempCountries)
+				{
+					countries += r + "|";
+				}
 			}
 		}
 		
 		for(String s : allCountries)
 		{
 			String temp = " " + s + " ";
-			if(this.articleTextNoPunct.contains(temp) && !s.equals(""))
+			if(this.articleTextNoPunct.contains(temp) && !s.equals("") && !countries.contains(s))
 			{
 				countries += s + "|";
 			}
@@ -441,14 +445,14 @@ public class Article
 		int textLocation = articleText.indexOf(text);
 		if(textLocation == -1)
 		{
-			return -1;
+			return Integer.MAX_VALUE;
 		}
 		int textFinalLocation = textLocation + text.length();
 		
 		int placeLocation = articleTextNoPunct.indexOf(place);
 		if(placeLocation == -1)
 		{
-			return -1;
+			return Integer.MAX_VALUE;
 		}
 		
 		while(placeLocation != -1)
