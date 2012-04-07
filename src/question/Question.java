@@ -136,18 +136,10 @@ public class Question
 		
 		Place questionPlace = new Place(place);
 		for(Article a : articles)
-		{
-			Place articlePlace  = getPlaceForText(a);
-			
+		{			
 			// We only need to get the first country from questionPlace, as only one country will be entered per question
-			if(articlePlace.getCountry().contains(questionPlace.getCountry().getFirst()))
-			{
-				if(questionPlace.hasCity()
-						&& !questionPlace.getCity().equals(articlePlace.getCity()))
-				{
-					continue;
-				}
-				
+			if(a.containsPlace(questionPlace))
+			{				
 				LinkedList<String> dates = a.getDatesFromText();
 				
 				int minDistance = Integer.MAX_VALUE;

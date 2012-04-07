@@ -17,6 +17,8 @@ public class Place
 	
 	private static HashSet<String> countries = null;
 	
+	private static HashSet<String> allCountries = null;
+	
 	public Place(String theCity, String theCountry)
 	{
 		initialize(theCity, theCountry);
@@ -29,7 +31,7 @@ public class Place
 		
 		unknown = unknown.toUpperCase();
 		
-		if (countries.contains(unknown))
+		if (allCountries.contains(unknown))
 			initialize(null, unknown);
 		else
 			initialize(unknown, null);
@@ -98,6 +100,10 @@ public class Place
 					cities.put(line[0].toUpperCase(), temp);
 				}
 			}
+			else
+			{
+				allCountries.add(line[1].toUpperCase());
+			}
 		}
 	}
 	
@@ -107,6 +113,7 @@ public class Place
 			return;
 		
 		countries = new HashSet<String>();
+		allCountries = new HashSet<String>();
 		
 		Scanner scanner = null;
 		
@@ -123,6 +130,7 @@ public class Place
 			if(line.equals("")) continue;
 			
 			countries.add(line.toUpperCase());
+			allCountries.add(line.toUpperCase());
 		}
 	}
 	
@@ -154,6 +162,11 @@ public class Place
 		return city;
 	}
 	
+	public boolean hasCountry()
+	{
+		return (country != null);
+	}
+	
 	public LinkedList<String> getCountry()
 	{
 		return country;
@@ -176,11 +189,11 @@ public class Place
 	
 	public static void main(String[] args)
 	{
-		Place both = new Place("Saskatoon", "Canada");
-		Place city = new Place("Saskatoon", null);
-		Place country = new Place(null, "Canada");
-		Place unknown1 = new Place("Saskatoon");
-		Place unknown2 = new Place("Canada");
+		Place both = new Place("San Salvador", "El Salvador");
+		Place city = new Place("San Salvador", null);
+		Place country = new Place(null, "El Salvador");
+		Place unknown1 = new Place("San Salvador");
+		Place unknown2 = new Place("El Salvador");
 		Place fake = new Place("Fake");
 		
 		System.out.println(both);

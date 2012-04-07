@@ -65,6 +65,7 @@ public class Article
 			if(this.articleTextNoPunct.contains(temp) && !s.equals(""))
 			{
 				cities += s + "|";
+				countries += allCities.get(s) + "|";
 			}
 		}
 		
@@ -196,6 +197,44 @@ public class Article
 		}
 		
 		return false;
+	}
+	
+	/**
+	 * A method to determine whether this article contains a certain place.
+	 * @param toFind - The place that we want to find.
+	 * @return	True if the article contains the place, false otherwise.
+	 */
+	public boolean containsPlace(Place toFind)
+	{
+		boolean containsCity = false;
+		boolean containsCountry = false;
+		
+		if(toFind.hasCity())
+		{
+			if(cities.contains(toFind.getCity()))
+			{
+				containsCity = true;
+			}
+		}
+		else
+		{
+			// If no city was mentioned, then we just say that the article contains the required city
+			containsCity = true;
+		}
+		
+		if(toFind.hasCountry())
+		{
+			LinkedList<String> country = toFind.getCountry();
+			for(String s : country)
+			{
+				if(countries.contains(s))
+				{
+					containsCountry = true;
+				}
+			}
+		}
+		
+		return containsCity && containsCountry;
 	}
 	
 	/**
