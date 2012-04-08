@@ -22,16 +22,17 @@ import utilities.FileReader;
 
 /**
  * Main driver class. Can be enabled for testing.
+ * 
  * @author Steven Heidel
  *
  */
 public class Main 
 {
 	/**
-	 * If true, will read from file "TestingQuestions".
+	 * If true, will read from file of test questions
 	 * If false, will read line separated questions from stdin
 	 */
-	private static final boolean TESTING = true;
+	private static final boolean TESTING = false;
 	
 	/**
 	 * The driver itself.
@@ -50,7 +51,7 @@ public class Main
 		{
 			try 
 			{
-				scanner = new Scanner(new File("test/TestingQuestions"));
+				scanner = new Scanner(new File("test/questions.txt"));
 			} catch (FileNotFoundException e) 
 			{
 				e.printStackTrace();

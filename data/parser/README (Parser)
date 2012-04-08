@@ -1,0 +1,11 @@
+PARSER
+======
+
+*NOTE*
+This is a _work in progress_!
+
+This will eventually be used to help identify noun phrases and prepositions to
+further refine the answers. Right now, it has parsed all the articles using
+two versions of the Stanford NLP, factored English and PCFG English. Factored
+is more accurate but requires much more time, so only a sample of 10 was taken
+until I can run it overnight.

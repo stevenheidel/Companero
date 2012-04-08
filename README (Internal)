@@ -1,0 +1,23 @@
+INTERNAL DOCUMENTATION
+======================
+
+Implementation
+--------------
+
+Information on implementation can be found in the source code itself.
+
+*NOTE*
+This will be expanded upon when a revised version is handed in on Monday.
+For a preview, see data/parser/README (Parser)
+
+Knowledge Structures
+--------------------
+
+Description of knowledge structures can be found in the README in data:
+data/README (Knowledge Structures)
+
+Testing and Challenge Questions
+-------------------------------
+
+The challenge questions and how to run them can be found in the README in test:
+data/README (Testing)

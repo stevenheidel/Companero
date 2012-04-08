@@ -1,0 +1,34 @@
+KNOWLEDGE STRUCTURES
+====================
+
+corpus.txt
+----------
+
+The corpus of news articles itself.
+
+*NOTE*
+One modification was made to the corpus. Article 75 was missing a year, and it
+was added in based on the assumption that the articles were in chronological
+order. The year added was "89".
+
+cities_countries.txt
+--------------------
+
+A list of all the cities of the world and what country they are in. This is 
+especially useful because all the news articles specify the city in which they
+took place. It's also useful for helping identify locations within the article
+itself and using that to distinguish from English words.
+
+latin_american_countries.txt
+----------------------------
+
+A list of Latin American countries. City names are not entirely unique, so when
+a conflict happens the cities located in Latin America (as that is the location
+for most of the articles) are prioritized.
+
+english_words.txt
+-----------------
+
+A list of English words, obtained from /usr/local/dict/words on Ubuntu 11.04. 
+This helps to identify potential words which may be places or proper names 
+since the entire corpus is completely capitalized.

@@ -1,0 +1,31 @@
+TESTING
+=======
+
+Questions
+---------
+
+The questions can be found in test/questions.txt
+
+These questions were chosen because they are representative of a wide variety
+of possible scenarios. Also, they were chosen arbitrarily by the partner who
+wasn't working on that question type. That way, when a wrong answer was 
+returned, the system could be debugged and improved instead of just picking
+more questions that we know the system already works on.
+
+Answers
+-------
+
+The answers can be found in test/answers.txt
+
+These are in the same order as the questions file so it should be easy to check
+whether or not the system is returning the correct values.
+
+Running the Tests
+-----------------
+
+Most classes have a main method which is used for testing. Import the project
+into Eclipse and then run the classes individually to test the specific parts.
+
+To run the questions through the overall system, change the TESTING flag in 
+main/Main.java to be true, and then re-run the system. This will ignore 
+standard in and instead use the questions in the test folder.
