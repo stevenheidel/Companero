@@ -1,0 +1,104 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+        (NP (NNP MILITARY) (NNP SOURCES) (NNP FROM) (NNP AYACUCHO) (NNP HAVE)))
+      (VP (VBN REPORTED)
+        (PP (TO TO)
+          (NP
+            (NP
+              (NP (NNP EFE) (NNP THAT) (NNP THREE) (NNPS OFFICERS))
+              (CC AND)
+              (NP
+                (NP (NNP SEVEN) (NNPS SOLDIERS))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP PERUVIAN) (NNP ARMY)))))
+            (, ,)
+            (CC AND)
+            (NP
+              (NP (CD 15) (NNS MEMBERS))
+              (PP (IN OF)
+                (NP (DT THE) (NNP MAOIST) (NNP GUERRILLA) (NNP SHINING) (NNP PATH) (NNP MOVEMENT) (NNP TODAY))))))))
+    (VP (VBD DIED)
+      (PP (IN IN)
+        (NP (NNP COMBAT)))
+      (, ,)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NNP DEPARTMENT))
+          (PP (IN OF)
+            (NP (NNP HUANCAVELICA))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP CONFRONTATION) (NNP BETWEEN) (NNP THE) (NNP ARMY))
+      (CC AND)
+      (NP (DT THE) (`` ``) (NNP SHINING) (NNP PATH) ('' '')))
+    (VP (VBZ MEMBERS)
+      (NP
+        (NP (NNP TOOK) (NNP PLACE) (NNP NEAR) (NNP A) (NNP MINE))
+        (PP (IN IN)
+          (NP (DT THE) (NNP ANDEAN) (NNPS MOUNTAINS) (NNP LOCATED) (NNP AT))))
+      (SBAR
+        (S
+          (NP
+            (NP (DT AN) (NNP ALTITUDE))
+            (PP (IN OF)
+              (NP (CD 4,000) (NNS METERS))))
+          (, ,)
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NN DISTRICT))
+              (PP (IN OF)
+                (NP (NNP HUACHOCOLPA)))))
+          (, ,)
+          (VP (VBP SOME)
+            (NP
+              (NP (CD 30) (NNP KM) (NNP SOUTH))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP HUANCAVELICA) (, ,) (NNP CAPITAL))
+                  (PP (IN OF)
+                    (NP
+                      (NP (DT THE) (NNP DEPARTMENT))
+                      (PP (IN OF)
+                        (NP (DT THE) (NNP SAME) (NNP NAME))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP AYACUCHO))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT THE) (NN BASE))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NNP MILITARY) (NNP COMMAND) (NNP THAT) (NNP CONTROLS) (NNP HUANCAVELICA))
+            (CC AND)
+            (NP
+              (NP (NNP APURIMAC) (NNP DEPARTMENTS))
+              (, ,)
+              (NP (NNP DUE))))))
+      (PP (TO TO)
+        (NP (DT THE) (`` ``) (NNP SHINING) (NNP PATH) ('' '') (NNS ACTIVITIES))))
+    (. .)))
+
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0xb6ef775a, pid=27831, tid=788126576
+#
+# JRE version: 6.0_26-b03
+# Java VM: Java HotSpot(TM) Server VM (20.1-b02 mixed mode linux-x86 )
+# Problematic frame:
+# V  [libjvm.so+0x57975a]  MarkSweep::follow_stack()+0x3a
+#
+# An error report file with more information is saved as:
+# /home/steven/workspace/Companero/hs_err_pid27831.log
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#

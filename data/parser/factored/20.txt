@@ -1,0 +1,540 @@
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (-LRB- -LRB-) (NNP COMMUNIQUE) (-RRB- -RRB-))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP GENERAL) (NNP COMMAND))
+              (PP (IN OF)
+                (NP
+                  (NP (DT THE) (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP FMLN))
+                    (-RRB- -RRB-)))))
+            (-RRB- -RRB-)))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-)))
+      (VP (VBG REGARDING)
+        (NP
+          (NP (DT THE) (NNS JESUITS) (POS '))
+          (NN CASE))))
+    (, ,)
+    (NP (DT THE) (NNP FMLN) (NNS STATES))
+    (VP (VBP THAT) (: :)
+      (NP (CD 1)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FMLN)
+        (CC AND)
+        (NNP SEVERAL) (NNP SECTORS))
+      (, ,)
+      (NP
+        (NP (NNP INCLUDING) (NNP YOUNG) (NNP ARMED) (NNP FORCES) (NNP OFFICERS))
+        (, ,)
+        (NP (NNP WERE))))
+    (VP (VBD RIGHT)
+      (PP (IN IN)
+        (S
+          (VP (VBG POINTING)
+            (PP (TO TO)
+              (NP (DT THE) (NNP ARMY) (NNP AS)))
+            (S
+              (VP (VBG BEING)
+                (NP
+                  (NP (NNP RESPONSIBLE))
+                  (PP (IN FOR)
+                    (NP (NNP THIS) (NNP HORRIBLE) (NN CRIME))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP RESPONSIBILITY))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NNP ARMED) (NNP INSTITUTION))
+          (PP (IN FOR)
+            (NP (NNPS THIS)
+              (NX
+                (NX (NN CASE))
+                (CC AND)
+                (NX
+                  (NX (DT THE) (NNP CASES) (NNP INVOLVING) (NNP FENASTRAS))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NNP SALVADORAN) (NNPS WORKERS))
+                      (NP (NNP NATIONAL) (NN UNION) (NNP FEDERATION)))
+                    (-RRB- -RRB-))
+                  (, ,)
+                  (NP
+                    (NP (NNP MONSIGNOR) (NNP ROMERO))
+                    (, ,)
+                    (NP (DT THE) (NNS NUNS))
+                    (, ,)
+                    (CC AND)
+                    (NP (DT THE) (NNP U.S.) (NNP AGRARIAN) (NNP EXPERTS))))))))))
+    (, ,)
+    (PP (IN AS)
+      (NP (NNP WELL) (NNP AS)))
+    (PP (IN FOR)
+      (NP (DT THE) (NNS BOMBINGS)))
+    (PP (IN IN)
+      (NP (DT THE) (NNPS CITIES)
+        (CC AND)
+        (NNPS MASSACRES)))
+    (PP (IN IN)
+      (NP (DT THE) (NNP RURAL) (NNP SECTOR)))
+    (, ,)
+    (NP (NNP SHOW) (NNP THAT) (NNP WE) (NNP WERE))
+    (VP (VBP RIGHT)
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (NP (NNP WE))
+          (VP (VBD MENTIONED)
+            (SBAR
+              (S
+                (PP (IN IN)
+                  (NP (NNP OUR) (NNP LAST) (NNP PEACE) (NN PROPOSAL)))
+                (NP (DT THE))
+                (VP (VBD NEED)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB CLEAN)
+                        (PRT (RP UP))
+                        (NP
+                          (NP (DT THE) (NNP ARMY)
+                            (CC AND)
+                            (NNP REFORM))
+                          (NP (DT THE) (NNP JUDICIAL) (NNP SYSTEM)))))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO TO)
+        (VP (VB ADVANCE)
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NNP COUNTRY) (POS 'S))
+              (NNP DEMOCRATIZATION))))))
+    (, ,)
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (S
+        (NP (NNP NOT) (NNP ENOUGH))
+        (VP (TO TO)
+          (VP (VB SOLVE)
+            (NP (NNP THIS) (NN CASE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (JJ OTHER) (NNS CASES))
+      (VP (VBN NEED)
+        (S
+          (VP (TO TO)
+            (VP (VB BE)
+              (NP
+                (NP (NNP SOLVED))
+                (CC AND)
+                (NP
+                  (NP (DT THOSE) (NN GUILTY))
+                  (PP (IN FOR)
+                    (NP (NNP THEM))))))))))
+    (VP (MD SHOULD)
+      (VP (VB BE)
+        (VP (VBN PUNISHED))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN ESTABLISHMENT))
+      (PP (IN OF)
+        (NP (NNP RESPONSIBILITIES) (NNP CAN) (NNP NOT) (NNP REMAIN) (NNP AT)
+          (NAC
+            (NP
+              (NP (DT THE) (NNP LEVEL))
+              (PP (IN OF)
+                (NP (NNPS OFFICERS)
+                  (CC AND)
+                  (NNPS TROOPS))))
+            (NP (WP WHO)))
+          (NNP ONLY))))
+    (VP (VBD CARRIED)
+      (NP (NNP OUT) (NNP ORDERS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJS MOST) (NN IMPORTANT))
+    (VP (VBZ IS)
+      (S
+        (VP (TO TO)
+          (VP (VB ESTABLISH)
+            (S
+              (NP (NNP RESPONSIBILITY))
+              (PP (IN AMONG)
+                (NP (NNP HIGHER-RANKING) (NNP OFFICERS) (NNP BECAUSE))))
+            (SBAR
+              (S
+                (NP
+                  (NP (DT A) (NN DECISION))
+                  (PP (IN OF)
+                    (NP (NNP THIS) (NNP SORT) (NNP COULD) (NNP NOT))))
+                (VP (VB BE)
+                  (VP (VBN BEYOND)
+                    (NP
+                      (NP (DT THE) (NN RESPONSIBILITY))
+                      (PP (IN OF)
+                        (NP (DT THE) (NNP TOP) (NNP COMMAND))))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 3))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP ALSO) (NNP NECESSARY))
+        (PP (TO TO)
+          (NP (NNP COMPLY))))
+      (PP (IN WITH)
+        (NP (DT THE) (NNP ESQUIPULAS) (NNP II) (NNP AGREEMENTS) (NNP CONCERNING) (NNP DEMOCRATIZATION)))
+      (: ;)
+      (S
+        (S
+          (VP (VBG REFORMING)
+            (NP
+              (NP (DT THE) (NNP JUDICIAL) (NNP SYSTEM))
+              (: ;)
+              (S
+                (S
+                  (VP (VBG LIFTING)
+                    (NP
+                      (NP (DT THE) (NNP STATE))
+                      (PP (IN OF)
+                        (NP (NNP EMERGENCY))))))
+                (: ;)
+                (S
+                  (VP (VBG REESTABLISHING)
+                    (NP
+                      (NP (NNP FREEDOM))
+                      (PP (IN OF)
+                        (NP (NNP EXPRESSION) (, ,) (NNP MOBILIZATION) (, ,)
+                          (CC AND)
+                          (NNP ORGANIZATION))))))
+                (: ;)
+                (S
+                  (VP (VBG RELEASING)
+                    (NP (DT THE) (JJR MORE))
+                    (PP (IN THAN)
+                      (NP (CD 3,000) (JJ POLITICAL) (NNS PRISONERS)))))))))
+        (: ;)
+        (CC AND)
+        (S
+          (VP (VBG STOPPING)
+            (NP (DT THE) (NNP REPRESSION) (NNP AGAINST))
+            (NP (DT THE) (NNP CHURCH)
+              (CC AND)
+              (NNP OTHER) (NNS SECTORS))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 4))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ANNOUNCEMENT) (NNP BY) (NNP CRISTIANI))
+    (VP (VBZ IS)
+      (NP (DT AN) (NN EFFORT)
+        (S
+          (VP
+            (VP (TO TO)
+              (VP (VB RESOLVE)
+                (NP
+                  (NP (JJ COMPLICATED) (NNS DISCUSSIONS))
+                  (PP (IN ON)
+                    (NP
+                      (NP (NNP U.S.) (NNP AID))
+                      (PP (IN FOR)
+                        (NP (NNP EL) (NNP SALVADOR))))))))
+            (CC AND)
+            (VP (TO TO)
+              (VP (VB CONTINUE)
+                (S
+                  (VP (TO TO)
+                    (VP (VB BENEFIT)
+                      (S
+                        (NP (NNP FROM) (NNP THIS) (NNP AID))
+                        (VP (TO TO)
+                          (VP (VB MAINTAIN)
+                            (NP (DT THE) (NNP WAR))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD WOULD)
+      (VP (VB BE)
+        (NP (DT A) (NN MISTAKE)
+          (S
+            (VP (TO TO)
+              (VP (VB INCREASE)
+                (NP (NNP AID))
+                (PP (TO TO)
+                  (NP
+                    (NP
+                      (NP (DT THE) (NNP SALVADORAN) (NNP ARMY) (NNP BECAUSE))
+                      (PP (IN OF)
+                        (NP (NNP THIS) (NNP ANNOUNCEMENT) (NNP OR) (NNP BECAUSE))))
+                    (NP (DT THE) (NN CASE))))
+                (SBAR
+                  (S
+                    (NP (NNP MAY))
+                    (VP (VB BE)
+                      (VP (VBN RESOLVED)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SUCH) (NNP AID))
+    (VP (VBD WOULD)
+      (NP (NNP LEAVE) (NNP OPEN))
+      (NP
+        (NP (DT THE) (NN POSSIBILITY))
+        (PP (IN OF)
+          (S
+            (VP (VBG SEEING)
+              (NP
+                (NP
+                  (NP (DT A) (NN CASE))
+                  (NP (NNP LIKE) (NNP THAT)))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP JESUIT) (NNP PRIESTS) (NNP HAPPENING) (NNP AGAIN)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BEST) (NN WAY)
+      (S
+        (VP (TO TO)
+          (VP (VB CONTRIBUTE)
+            (PP (TO TO)
+              (NP (DT A) (NNP NEGOTIATED) (NNP SOLUTION)))))))
+    (VP (VBZ IS)
+      (PP (TO TO)
+        (NP (NNP CEASE) (NNP AID))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP WE) (NNP APPEAL))
+      (PP (TO TO)
+        (NP (DT THE) (NNP U.S.))))
+    (VP (VBZ CONGRESS)
+      (S
+        (VP (TO TO)
+          (VP (VB MAKE)
+            (NP (NNP THIS) (NNP DECISION))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN IF)
+      (S
+        (NP (NNP THIS))
+        (VP (VBZ IS)
+          (NP (NNP DONE)))))
+    (, ,)
+    (NP (DT THE) (NNP FMLN))
+    (VP (VBD WOULD)
+      (NP (NNP COMMIT) (NNP ITSELF))
+      (PP (TO TO)
+        (NP (NNP MAKING) (NNP EFFORTS)))
+      (S
+        (VP (TO TO)
+          (VP (VB REACH)
+            (NP (DT AN) (NNP IMMEDIATE) (NNP CEASEFIRE))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 5))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP FAVORABLE) (NNP CONDITIONS))
+      (PP (IN FOR)
+        (NP (NNP NEGOTIATIONS))))
+    (VP (VBD DEPEND)
+      (PRT (RP ON))
+      (NP (JJ JUSTICE-MAKING) (NNS PROGRESS)))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN IF)
+      (S
+        (NP (DT THE) (NNP ARMY))
+        (VP (VBZ IS)
+          (NP
+            (NP (NNP THOROUGHLY) (NNP PURGED) (NNP BECAUSE))
+            (PP (IN OF)
+              (NP (NNP THIS) (NN CASE)))))))
+    (, ,)
+    (NP (NNP PEACE))
+    (VP (VBD COULD)
+      (VP (VB BE)
+        (NP (NNP REACHED) (NNP EARLIER))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 6))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (TO TO)
+        (VP (VB CONTRIBUTE)
+          (VP (VBN TOWARD)
+            (NP (DT A) (NNP PROMPT) (NNP PEACE))))))
+    (, ,)
+    (NP (NNP WE))
+    (VP (MD WILL)
+      (VP (VB ASK)
+        (NP
+          (NP (DT THE) (NN OFFICE))
+          (PP (IN OF)
+            (NP (DT THE) (NNP UN) (NNP SECRETARY) (NNP GENERAL))))
+        (PP (TO TO)
+          (NP (NNP MEDIATE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP WE))
+      (VP (VBP URGE)
+        (NP
+          (NP (DT THE) (NN GOVERNMENT))
+          (PP (TO TO)
+            (NP (NNP JOINTLY) (NNP MEET))))
+        (PP
+          (PP (IN WITH)
+            (NP (NNP US)))
+          (CC AND)
+          (PP (IN WITH)
+            (NP (NNP MR) (NNP JAVIER) (NNP PEREZ) (NNP DE) (NNP CUELLAR) (NNP WITHIN))))))
+    (NP (DT THE) (NNP NEXT) (CD 30))
+    (VP (VBZ DAYS)
+      (S
+        (VP (TO TO)
+          (VP (VB RENEW)
+            (NP (DT THE) (NNP DIALOGUE-NEGOTIATION) (NNPS PROCESS))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 7))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FMLN))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (S
+          (NP (NNP WATCHING) (NNP HOW))
+          (NP (DT THE) (NNP SITUATION) (NNP DEVELOPS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ URGES)
+      (S
+        (NP (NNP NATIONAL)
+          (CC AND)
+          (NNP INTERNATIONAL) (NNP FORCES))
+        (VP (TO TO)
+          (VP (VB EXERT)
+            (NP
+              (NP (NNP PRESSURE) (NNP SO) (NNP THAT))
+              (NP (DT THE) (NNP INVESTIGATION) (NNP PROCESS) (NNP DOES) (NNP NOT) (NNP END)))
+            (PP (IN WITH)
+              (NP
+                (NP (DT A) (NN DECLARATION))
+                (PP (IN OF)
+                  (NP (NNP INTENTION) (NNP OR)))))
+            (PP (IN WITH)
+              (NP (NNP STATEMENTS) (NNP BLAMING) (NNP LOW-RANKING) (NNP SOLDIERS)))
+            (S
+              (VP (TO TO)
+                (VP (VB PROTECT)
+                  (NP
+                    (NP (DT THOSE))
+                    (SBAR
+                      (WHNP (WP WHO))
+                      (S
+                        (VP (VBP ARE)
+                          (S
+                            (NP (JJS MOST))
+                            (ADJP (JJ RESPONSIBLE))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP WOULD) (NNP PUSH))
+    (VP (VBD AWAY)
+      (NP
+        (NP (DT THE) (NN POSSIBILTIY))
+        (PP (IN OF)
+          (NP (DT A) (JJ POLITICAL) (NN SOLUTION))))
+      (PP (TO TO)
+        (NP (DT THE) (NNP SALVADORAN) (NNP CONFLICT))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (-LRB- -LRB-) (NNP SIGNED) (-RRB- -RRB-))
+      (NP (NNP FMLN) (NNP GENERAL) (NNP COMMAND)))
+    (: :)
+    (NP
+      (NP (NNP COMMANDERS) (NNP SALVADOR) (NNP SANCHEZ))
+      (, ,)
+      (NP (NNP SHAFICK) (NNP JORGE) (NNP HANDAL))
+      (, ,)
+      (NP (NNP EDUARDO) (NNP SANCHO))
+      (, ,)
+      (NP (NNP JOAQUIN) (NNP VILLALOBOS))
+      (, ,)
+      (CC AND)
+      (NP (NNP FRANCISCO) (NNP JOVEL)))
+    (. .)))
+

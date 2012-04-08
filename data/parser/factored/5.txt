@@ -1,4 +1,69 @@
-Sentence skipped:  no PCFG fallback.
-SENTENCE_SKIPPED_OR_UNPARSABLE
-Sentence skipped:  no PCFG fallback.
-SENTENCE_SKIPPED_OR_UNPARSABLE
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (DT A) (NNP WAR) (NNP BULLETIN) (NNP INDICATES))
+        (VP (VBP THAT)
+          (PRT (RP ON))
+          (NP (CD 6))
+          (NP
+            (NP (NNP JANUARY) (NNP AT))
+            (NP (CD 1625))))))
+    (, ,)
+    (NP (NNP FMLN) (-LRB- -LRB-)
+      (NP (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+      (-RRB- -RRB-))
+    (VP (VBZ TROOPS)
+      (VP (VBN CLASHED)
+        (PP (IN WITH)
+          (NP
+            (NP (DT THE) (NNP CAVALRY) (NNP COMPANY))
+            (PP (IN IN)
+              (NP
+                (NP (NNP FINCA) (NNP SANTA) (NNP ELENA))
+                (, ,)
+                (NP (NNP SANTA) (NNP TECLA))
+                (, ,)
+                (NP (NNP NEAR) (NNP SAN) (NNP SALVADOR))
+                (, ,)
+                (NP (NNP KILLING) (NNP THREE))
+                (CC AND)
+                (NP (NNP WOUNDING) (NNP FOUR) (NNP ENEMY) (NNP TROOPS))))))
+        (, ,)
+        (S
+          (VP (VBG INCLUDING)
+            (NP
+              (NP (DT THE) (NNP PATROL) (NNP LEADER))
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBD WAS)
+                    (S
+                      (PP (IN AMONG)
+                        (NP (DT THOSE) (NNP KILLED))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OUR) (NNP TROOPS))
+    (VP (VBD SEIZED)
+      (NP (DT AN) (NNP M-14) (NNP RIFLE) (NNP FROM))
+      (NP
+        (NP (DT THE) (NNP ENEMY))
+        (, ,)
+        (NP
+          (NP (CD 3,000) (NNS CARTRIDGES))
+          (PP (IN FOR)
+            (NP (DT A) (CD 7.62-MM) (NN RIFLE))))
+        (, ,)
+        (NP (CD FIVE) (NNS KNAPSACKS))
+        (, ,)
+        (NP (NNP SIX) (NNP GRENADES))
+        (, ,)
+        (CC AND)
+        (NP (NNP FIELD) (NNP EQUIPMENT))))
+    (. .)))
+

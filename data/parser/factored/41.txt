@@ -1,0 +1,128 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (PRN
+      (S
+        (NP (DT THE) (NNP PERUVIAN) (NNP POLICE) (NNP HAVE) (NNP REPORTED))
+        (VP (VBD THAT)
+          (NP (DT AN) (NN ATTACK))
+          (PP (IN WITH)
+            (NP (NNP EXPLOSIVES))))))
+    (PP (IN IN)
+      (NP
+        (NP (NN FRONT))
+        (PP (IN OF)
+          (NP (DT A) (NNP BUILDING) (NNP WHERE) (NNP U.S.) (NNP DIPLOMATS) (NNP RESIDE)))))
+    (PP (IN IN)
+      (NP (DT THE) (NNP MIRAFLORES) (NNP NEIGHBORHOOD)))
+    (PP (IN IN)
+      (NP (NNP LIMA)))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP LEFT) (CD ONE))
+        (NP (NNP PERSON) (NNP INJURED))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP TERRORIST) (NNP ATTACK))
+    (VP (VBD WAS)
+      (NP
+        (NP
+          (NP (NNP LAUNCHED) (NNP FROM) (NNP A) (NNP MOVING) (NNP VEHICLE))
+          (, ,)
+          (NP (NNP FROM)))
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP (NNP UNIDENTIFIED) (NNP INDIVIDUALS) (NNP THREW) (NNP THREE) (NNP DYNAMITE) (NNP CHARGES) (NNP THAT))
+            (VP
+              (VP (VBD INJURED)
+                (NP (DT A) (NN PASSERBY)))
+              (CC AND)
+              (VP (VBD DAMAGED)
+                (NP
+                  (NP (DT THE) (NN FRONT))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP BUILDING)))))))))
+      (, ,)
+      (PP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP (DT THE) (NNP POLICE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICE) (NNP SOURCE) (NNP INDICATED))
+    (VP (VBD THAT)
+      (NP
+        (NP (DT THOSE) (NN RESPONSIBLE))
+        (PP (IN FOR)
+          (NP (DT THE) (NN CRIME) (NNP HAVE) (NNP NOT) (NNP YET) (NNP BEEN) (NNP IDENTIFIED)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (NP (DT THE) (NNP SOURCE) (NNP NOTED) (NNP THAT))
+      (IN IN)
+      (NP (CD 1984)))
+    (, ,)
+    (NP
+      (NP (DT THE) (NNP FIRST) (NNP ATTACK))
+      (PP (IN ON)
+        (NP (NNP U.S.) (NNP INTERESTS))))
+    (VP (VBD WAS)
+      (NP
+        (NP
+          (NP (NNP CARRIED) (NNP OUT) (NNP BY))
+          (NP (DT THE) (NNP GUEVARIST) (NNP TUPAC) (NNP AMARU) (NNP REVOLUTIONARY) (NNP MOVEMENT)))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP (NNP ACTIVISTS) (NNP FROM) (NNP THAT) (NNP GROUP))
+            (VP (VBD FIRED)
+              (NP
+                (NP (NNP AT) (DT THE) (NNP FRONT))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT THE) (NNP U.S.) (NNP EMBASSY))
+                    (PP (IN IN)
+                      (NP (NNP DOWNTOWN) (NNP LIMA)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP CAR) (NNP BOMB))
+    (VP (VBD EXPLODED)
+      (PP (IN IN)
+        (NP
+          (NP (NN FRONT))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE)
+                (NX (NNP U.S.) (NNP EMBASSY)
+                  (NAC (NNP RESIDENCE)
+                    (PP (IN IN)
+                      (NP (DT THE) (NNP PERUVIAN) (NNP CAPITAL)))
+                    (NP (CD 3) (NNS YEARS)))
+                  (NNP LATER)))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP (NNP AFTER) (NNP THAT))
+                (, ,)
+                (NP (NNP EXPLOSIVES) (NNP WERE) (NNP HURLED) (NNP AT)))))))
+      (NP
+        (NP (DT THE) (NN DOOR))
+        (PP (IN OF)
+          (NP
+            (NP (DT A) (NNP HOUSE))
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NNP SAN) (NNP BORJA) (NNP NEIGHBORHOOD))
+                (, ,)
+                (NP (NNP WHERE) (NNP U.S.) (NNP MARINES) (NNP RESIDED))))))))
+    (. .)))
+

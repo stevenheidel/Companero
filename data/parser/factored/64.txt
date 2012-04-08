@@ -1,0 +1,143 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP (DT THE) (NNP PRESIDENT) (POS 'S))
+          (NNP OFFICE))
+        (VP (VBZ HAS)
+          (NP
+            (NP
+              (NP (NNP REPORTED) (NNP THAT))
+              (NP (DT THE) (NNS CHIEFS)))
+            (PP (IN OF)
+              (NP
+                (NP (NNP STATE))
+                (PP (IN OF)
+                  (NP
+                    (NP (CD 21) (NNS COUNTRIES))
+                    (PP (NNP FROM)
+                      (NP (DT THE) (NNP AMERICAS)
+                        (CC AND)
+                        (NNP EUROPE)))))))))))
+    (, ,)
+    (PP (IN AMONG)
+      (NP
+        (NP (NNP THEM) (DT THE) (NNP MEMBERS))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NNP GROUP))
+            (PP (IN OF)
+              (NP (NNP EIGHT)))))))
+    (, ,)
+    (VP (VBP HAVE)
+      (S
+        (NP
+          (NP (NNP EXPRESSED) (NNP SUPPORT))
+          (PP (IN FOR)
+            (NP (NNP PRESIDENT) (NNP RAUL) (NNP ALFONSIN))))
+        (`` ``)
+        (PP (IN IN)
+          (NP
+            (NP (NNP VIEW))
+            (PP (IN OF)
+              (NP
+                (NP
+                  (NP (DT THE) (NNP THREATS) (NNP AGAINST) (NNP ARGENTINE) (NNP DEMOCRACY) ('' '') (NNP RESULTING) (NNP FROM))
+                  (NP (DT AN) (NNP ATTACK) (NNP PERPETRATED) (NNP BY)))
+                (NP (DT A) (NNP SUBVERSIVE) (NNP GROUP))))))))
+    (. .)))
+
+Sentence skipped: no PCFG fallback.
+SENTENCE_SKIPPED_OR_UNPARSABLE
+(ROOT
+  (S
+    (NP (NNP THEY) (NNP ALSO))
+    (VP (VBZ EXPRESS)
+      (NP (NNP THEIR) (NNP APPRECIATION)
+        (CC AND)
+        (NNP SOLIDARITY))
+      (PP (IN WITH)
+        (NP (NNP THIS) (NNP UNDERTAKING))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (NNP THEY) (NNP STATE) (NNP THAT) (NNP ANY) (NNP ATTEMPT) (NNP AGAINST) (NNP ANY) (NNP CONSTITUTIONAL) (NNP CONTINUITY))
+    (VP (MD WILL)
+      (VP (VB REPRESENT)
+        (NP (DT A) (NNP SERIOUS) (NNP OFFENSE))
+        (PP (TO TO)
+          (NP
+            (NP (DT THE)
+              (NX (NNP DEMOCRATIC) (NNPS GOVERNMENTS)
+                (CC AND)
+                (NNPS PEOPLES)))
+            (PP (IN OF)
+              (NP (DT THE) (NNS AMERICAS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ADD) (NNP THAT) (NNP THEY))
+    (VP (MD WILL)
+      (VP (VB NOT)
+        (NP (NNP REMAIN) (NNP INDIFFERENT))
+        (PP (TO TO)
+          (NP
+            (NP (DT AN) (NN ATTEMPT))
+            (PP (IN OF)
+              (NP (NNP THIS) (NNP KIND)))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (NP (NNP THEY) (NNP REASSERT) (NNP THEIR))
+    (VP (VBD PROFOUND)
+      (NP (NN CONVICTION))
+      (X
+        (X
+          (X (NNP THAT) (NNP DEMOCRATIC) (NNP SOCIETIES) (NNP MAY) (NNP EFFECTIVELY) (NNP DEFEND) (NNPS THEMSELVES) (NNP FROM))
+          (NP
+            (NP (DT THE) (NNP SCOURGE))
+            (PP (IN OF)
+              (NP (NNP TERRORISM) (NNP WITHIN)))))
+        (NP
+          (NP (DT THE) (NN FRAMEWORK))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NN LAW))
+              (CC AND)
+              (NP
+                (NP (DT THE) (NN EXERCISE))
+                (PP (IN OF)
+                  (NP (JJ POLITICAL) (NNP PLURALISM)))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP COMMUNIQUE) (NNP ENDS) (NNP BY) (NNP STATING))
+    (: :)
+    (S (`` ``)
+      (NP (PRP IT))
+      (VP (VBZ IS)
+        (NP (NNP WITHIN) (NNP THAT) (NNP FRAMEWORK) (NNP THAT))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP ARGENTINE) (NNP GOVERNMENT))
+            (VP (VBZ IS)
+              (NP
+                (NP (NNP CONFRONTING) (NNP EXTREMIST) (NNP ACTIONS))
+                (, ,)
+                (CC AND)
+                (NP (NNP WE) (NNP THEREFORE) (NNP WISH)))
+              (PP (TO TO)
+                (NP (NNP EXPRESS) (NNP OUR) (NNP RECOGNITION))))))))
+    (. .) ('' '')))
+

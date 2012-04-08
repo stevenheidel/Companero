@@ -1,0 +1,133 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (NNP ORLANDO) (NNP QUITENO))
+      (, ,)
+      (NP
+        (NP (NNP SPOKESMAN))
+        (PP (IN FOR)
+          (NP (DT THE) (NNP LEMPA) (NNP RIVER) (NNP HYDROELECTRIC) (NNP EXECUTIVE) (NNP COMMISSION))))
+      (, ,))
+    (VP (VBZ HAS)
+      (NP
+        (NP
+          (NP
+            (NP
+              (NP (NNP REPORTED) (NNP THAT))
+              (PP (IN IN)
+                (NP (DT THE) (NNP PAST) (NNP FEW) (NNP HOURS))))
+            (NP (DT THE) (NNP SALVADORAN) (NNP GUERRILLAS) (NNP HAVE) (NNP DESTROYED) (NNP AT) (NNP LEAST)))
+          (NP (CD 10) (NNP POWER) (NNP TRANSMISSION) (NNP TOWERS)))
+        (, ,)
+        (NP
+          (NP (NNP DAMAGING) (NNP SEVEN) (NNP HIGH) (NNP VOLTAGE) (NNP LINES))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NNP NORTHERN)
+                (CC AND)
+                (NNP CENTRAL) (NNS PARTS))
+              (PP (IN OF)
+                (NP (DT THE) (NNP COUNTRY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP QUITENO))
+    (VP (VBD SAID)
+      (S
+        (NP (NNP THAT))
+        (NP (DT THE) (NNP NEW) (NNP SABOTAGE) (NNP CAUSED))
+        (S
+          (NP
+            (NP (DT A) (NNP 25-PERCENT) (NNP ENERGY) (NNP LOSS))
+            (PP (IN IN)
+              (NP (NNP SAN) (NNP SALVADOR)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN DAMAGE))
+      (PP (TO TO)
+        (NP (DT THE) (NNP ENERGY) (NNP SYSTEM))))
+    (VP (VBD CAUSED)
+      (NP
+        (NP (NNP TRAFFIC) (NNP JAMS))
+        (PP (IN IN)
+          (NP
+            (NP (NNP SAN) (NNP SALVADOR))
+            (CC AND)
+            (NP
+              (NP (DT A) (NNP VIRTUAL) (NNP PARALYSIS))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP ACTIVITIES) (NNP BECAUSE))
+                  (PP (IN OF)
+                    (NP (NNP ENERGY) (NNP RATIONING))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN RESUMPTION))
+      (PP (IN OF)
+        (NP (DT THE) (NNP SABOTAGE) (NNP AGAINST) (NNP THE) (NNP ENERGY) (NNP SYSTEM))))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP ACCOMPANIED) (NNP BY) (NNP THE) (NNP RESUMPTION))
+        (PP (IN OF)
+          (NP
+            (NP (NNP REBEL) (NNP ATTACKS) (NNP AGAINST) (NNP BROTHELS))
+            (, ,)
+            (NP
+              (NP (CD TWO))
+              (PP (IN OF)
+                (SBAR
+                  (WHNP (WDT WHICH))
+                  (S
+                    (NP (NNP WERE))
+                    (VP (VBD DESTROYED)
+                      (PP (IN IN)
+                        (NP (DT THE) (JJ LAST) (CD 24) (NNS HOURS))))))))
+            (, ,)))
+        (PP (NNP ALTHOUGH)
+          (NP (DT NO) (NNP CASUALTIES) (NNP HAVE) (NNP BEEN) (NNP REPORTED)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BROTHELS) (NNP REPORTEDLY) (NNP HAVE) (NNP BEEN) (NNP ATTACKED) (NNP BECAUSE))
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (SBAR
+        (S
+          (NP (NNP BELIEVED) (NNP THAT) (NNP WOMEN))
+          (VP (VBP ARE)
+            (NP (NNP EXPLOITED) (NNP THERE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (NNP URBAN))
+    (VP (VBZ GUERRILLAS)
+      (VP (VBG BLEW)
+        (PRT (RP UP))
+        (NP
+          (NP (DT A) (NNP PUBLIC) (NNP BUS))
+          (PP (IN IN)
+            (NP
+              (NP
+                (NP (DT A) (NNP NEIGHBORHOOD) (NNP LOCATED) (NNP NORTH))
+                (PP (IN OF)
+                  (NP (NNP SAN) (NNP SALVADOR))))
+              (: ;)
+              (NP (DT NO) (NNP CASUALTIES) (NNP HAVE) (NNP BEEN) (NNP REPORTED)))))))
+    (. .)))
+

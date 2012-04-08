@@ -1,0 +1,97 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP MAOIST) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS) (NNP HAVE))
+        (VP (VBD KILLED)
+          (NP
+            (NP (DT THE) (NN MAYOR))
+            (PP (IN OF)
+              (NP (DT THE) (NNP SMALL) (NNP TOWN)))
+            (PP (IN OF)
+              (NP (NNP HOSTIGAL)))))))
+    (, ,)
+    (PP (IN AS)
+      (NP (NNP WELL)))
+    (PP (IN AS)
+      (NP (CD TWO) (NNS PEASANTS)))
+    (, ,)
+    (NP (DT THE) (NNP LOCAL) (NNP PRESS))
+    (VP (VBD REPORTED)
+      (NP (NNP TODAY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HOSPITAL))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP (NNP LOCATED) (NNP SOME) (CD 20))
+          (NP (NNP KM) (NNP FROM) (NNP YAUYOS) (NNP PROVINCE)))
+        (, ,)
+        (NP (NNP LIMA) (NNP DEPARTMENT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS))
+    (VP (VBD ARRIVED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP HOSTIGAL) (NNP LAST) (NNP MONDAY) (NNP MORNING))
+          (CC AND)
+          (NP (NNP FORCED) (NNP PARISH) (NNP PRIEST) (NNP LUIS) (NNP FUENTES))))
+      (PP (TO TO)
+        (NP
+          (NP (NNP SOUND) (DT THE) (NNP ALARM))
+          (PP (IN IN)
+            (NP (NNP ORDER)))))
+      (PP (TO TO)
+        (NP (NNP GATHER) (DT THE) (NNP PEOPLE))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP MAYOR) (NNP ARMANSIO) (NNP QUISPE))
+        (CC AND)
+        (NP (DT THE) (CD TWO) (NNS PEASANTS)))
+      (NP (NNP WERE) (NNP BROUGHT) (NNP BEFORE)))
+    (NP (DT A) (`` ``) (NNP KANGAROO) (NN COURT) ('' ''))
+    (VP (VBD BY)
+      (NP
+        (NP
+          (NP (DT THE) (NNP SHINING) (NNP PATH))
+          (, ,)
+          (CC AND)
+          (NP (NNP THEN) (NNP KILLED) (NNP BY)))
+        (NP (DT A) (NNP FIRING) (NNP SQUAD))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (DT THE) (NNP LATEST) (NNP CALCULATIONS) (NNP MADE) (NNP BY))))
+    (NP
+      (NP (DT THE) (NNP PERUVIAN) (NNP CONGRESS) (NNP PACIFICATION) (NNP COMMITTEE))
+      (, ,)
+      (NP
+        (NP (NNP ABOUT) (CD 13,000))
+        (NP (NNP PEOPLE) (NNP HAVE) (NNP BEEN))))
+    (VP (VBD KILLED)
+      (PP (IN IN)
+        (NP (NNP PERU) (NNP SINCE) (CD 1980)))
+      (S
+        (PP (IN AS)
+          (NP
+            (NP (DT A) (NN RESULT))
+            (PP (IN OF)
+              (NP (JJ POLITICAL) (NN VIOLENCE)))))))
+    (. .)))
+

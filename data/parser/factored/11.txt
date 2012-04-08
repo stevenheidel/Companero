@@ -1,0 +1,94 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+        (NP (NNP AUTHORITIES) (NNP HAVE) (NNP REPORTED) (NNP THAT)))
+      (NP (JJ FORMER) (NNP PERUVIAN) (NNP DEFENSE) (NNP MINISTER) (NNP GENERAL) (NNP ENRIQUE) (NNP LOPEZ) (NNP ALBUJAR)))
+    (VP (VBD DIED)
+      (S
+        (NP
+          (NP (NNP TODAY))
+          (PP (IN IN)
+            (NP (NNP LIMA) (NNP AS))))
+        (NP
+          (NP (DT A) (NN CONSEQUENCE))
+          (PP (IN OF)
+            (NP (DT A) (NNP TERRORIST) (NNP ATTACK))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP LOPEZ) (NNP ALBUJAR))
+      (, ,)
+      (NP
+        (NP (JJ FORMER) (NNP ARMY) (NNP COMMANDER) (NNP GENERAL)
+          (CC AND)
+          (NNP DEFENSE) (NNP MINISTER) (NNP UNTIL) (NNP MAY))
+        (NP (CD 1989)))
+      (, ,))
+    (VP (VBD WAS)
+      (VP (VBN RIDDLED)
+        (PP (IN WITH)
+          (NP (NNP BULLETS) (NNP BY) (NNP THREE) (NNP YOUNG) (NNP INDIVIDUALS) (NNP AS)))
+        (SBAR
+          (S
+            (NP (PRP HE))
+            (VP (VBD WAS)
+              (NP
+                (NP (NNP GETTING) (NNP OUT))
+                (PP (IN OF)
+                  (NP
+                    (NP (PRP$ HIS) (NN CAR))
+                    (PP (IN IN)
+                      (NP
+                        (NP (DT AN) (NNP OPEN) (NNP PARKING) (NNP LOT))
+                        (PP (IN IN)
+                          (NP
+                            (NP (DT A) (JJ COMMERCIAL) (NN CENTER))
+                            (PP (IN IN)
+                              (NP (DT THE) (NNP RESIDENTIAL) (NNP NEIGHBORHOOD)))
+                            (PP (IN OF)
+                              (NP (NNP SAN) (NNP ISIDRO)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP LOPEZ) (NNP ALBUJAR))
+      (, ,)
+      (NP (CD 63))
+      (, ,))
+    (VP (VBD WAS)
+      (VP (VBG DRIVING)
+        (NP (PRP$ HIS) (NNP OWN) (NNP CAR) (NNP WITHOUT))
+        (NP (DT AN) (NN ESCORT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP SHOT) (NNP EIGHT) (NNP TIMES))
+        (PP (IN IN)
+          (NP (DT THE) (NNP CHEST)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (JJ FORMER) (NN MINISTER))
+      (VP (VBD WAS)
+        (VP (VBN RUSHED)
+          (PP (TO TO)
+            (NP (DT THE) (NNP AIR))))))
+    (PRN
+      (SINV
+        (VP (VBP FORCE))
+        (NP (NNP HOSPITAL) (NNP WHERE))))
+    (NP (PRP HE))
+    (VP (VBD DIED))
+    (. .)))
+

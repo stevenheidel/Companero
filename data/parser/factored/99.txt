@@ -1,0 +1,94 @@
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+        (NP (NNP JUSTICE) (NNP MINISTER) (NNP CESAR) (NNP DELGADO) (NNP BARRETO)))
+      (VP (VBD SAID)
+        (NP (NNP TODAY) (NNP THAT))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP TRAGIC) (NNP INCIDENT) (NNP AT) (NNP UCHIZA) (NNP DEMONSTRATES) (NNP THAT) (NNP THERE))
+            (VP (VBZ IS)
+              (NP
+                (NP (DT AN) (NNP ALLIANCE) (NNP BETWEEN) (NNP DRUG) (NNP TRAFFICKERS))
+                (CC AND)
+                (NP (NNP TERRORISTS))))))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP THAT) (DT THE) (NNP COUNTRY))
+      (VP (MD SHOULD)
+        (VP (VB MAKE)
+          (NP
+            (NP (DT A) (JJR MORE) (NN INTENSE))
+            (NP (NNP EFFORT) (NNP AGAINST) (NNP THEM))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (DT THE) (NNP ATTACK))
+          (VP (VBZ IS)
+            (NP
+              (NP (DT A) (NNP DIRECT) (NNP CONSEQUENCE))
+              (PP (IN OF)
+                (NP (DT THE) (NNP BLOWS) (NNP THAT) (NNP POLICE) (NNP HAVE) (NNP DEALT))))
+            (PP (TO TO)
+              (NP (NN DRUG) (NNS TRAFFICKERS)))
+            (, ,)
+            (S
+              (VP (VBG INCLUDING)
+                (NP
+                  (NP (DT THE) (NN ARREST))
+                  (PP (IN OF)
+                    (NP (NNP SEVERAL) (NNP DRUG))))
+                (S
+                  (VP (VBG GANG)
+                    (NP
+                      (NP (NNS LEADERS))
+                      (PP (IN IN)
+                        (NP
+                          (NP
+                            (NP (NNP UCHIZA))
+                            (, ,)
+                            (NP (DT A) (NNP FEW) (NNP DAYS) (NNP BEFORE)))
+                          (NP (DT THE) (NN ATTACK)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD ADDED)
+      (NP
+        (NP
+          (NP (NNP THAT))
+          (PP (IN IN)
+            (NP
+              (ADJP (JJ ORDER)
+                (PP (TO TO)
+                  (NP
+                    (NP (NNP STRUGGLE) (NNP SUCCESSFULLY) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING))
+                    (, ,)
+                    (NP
+                      (NP
+                        (NP (NNP PERU) (NNP NEEDS))
+                        (NP (JJR MORE)))
+                      (NP (NNP TECHNOLOGICAL)))
+                    (CC AND)
+                    (NP
+                      (NP
+                        (NP (NNP FINANCIAL) (NNP AID))
+                        (, ,)
+                        (NP (NNP ESPECIALLY) (NNP FROM)))
+                      (NP (DT THE) (NNP UNITED))))))
+              (NNS STATES))))
+        (, ,)
+        (NP
+          (NP (DT THE) (NN WORLD) (POS 'S))
+          (NNP LARGEST) (NNP DRUG) (NN CONSUMER))))
+    (. .)))
+

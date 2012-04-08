@@ -1,0 +1,188 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (PP (IN IN)
+        (NP (DT AN) (NNP ACTION) (NNP THAT))))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP (NNP UNPRECEDENTED))
+          (PP (IN IN)
+            (NP
+              (NP
+                (NP (NNP COLOMBIA) (POS 'S))
+                (NN HISTORY))
+              (PP (IN OF)
+                (NP (NNP VIOLENCE))))))
+        (, ,)
+        (NP
+          (NP (NNP UNIDENTIFIED) (NNP PERSONS) (NNP KIDNAPPED) (CD 31) (NNP PEOPLE))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NNP STRIFE-TORN) (NNP BANANA-GROWING) (NNP REGION))
+              (PP (IN OF)
+                (NP (NNP URABA))))))
+        (, ,)
+        (NP
+          (NP (DT THE) (NNP ANTIOUQIA) (NNP GOVERNOR) (POS 'S))
+          (NNP OFFICE) (NNP REPORTED) (NNP TODAY))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP INCIDENT) (NNP TOOK) (NNP PLACE))
+    (PP (IN IN)
+      (NP
+        (NP (NNP PUERTO) (NNP BELLO))
+        (, ,)
+        (NP (DT A) (NN VILLAGE))))
+    (PP (IN IN)
+      (NP
+        (NP (NNP TURBO) (NNP MUNICIPALITY))
+        (, ,)
+        (NP
+          (NP (NNP 460) (NNP KM) (NNP NORTHWEST))
+          (PP (IN OF)
+            (NP (NNP BOGOTA))))))
+    (, ,)
+    (NP
+      (NP (NNP WHERE) (DT A) (NNP GROUP))
+      (PP (IN OF)
+        (NP (NNP HEAVILY) (NNP ARMED) (NNP MEN))))
+    (VP (VBD FORCED)
+      (NP (DT THE) (NNP KIDNAPPED) (NNP VILLAGERS))
+      (PP (TO TO)
+        (NP
+          (NP (NNP CLIMB) (NNP INTO) (NNPS TRUCKS))
+          (CC AND)
+          (NP
+            (NP (NNP THEN) (NNP TOOK) (NNP OFF))
+            (PP (IN FOR)
+              (NP (DT AN) (NNP UNKNOWN) (NNP DESTINATION)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP NOTHING))
+    (VP (VBZ IS)
+      (SBAR
+        (S
+          (NP (NNP KNOWN))
+          (VP (VBZ THUS) (RB FAR)
+            (VP (VB ABOUT)
+              (S
+                (NP (DT THE) (NNP MOTIVE) (NNP BEHIND))
+                (NP (DT THE) (NNP KIDNAPPING) (NNP OR))
+                (S
+                  (NP
+                    (NP (DT THE) (NNS WHEREABOUTS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNS VICTIMS)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ REGIONAL) (NNS AUTHORITIES))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD ESCAPED)
+            (VP (VBG BEING)
+              (NP (NNP KIDNAPPED) (NNP TOOK))
+              (NP
+                (NP (DT A) (NNS CENSUS))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP POPULATION)
+                    (CC AND)
+                    (NNP DETERMINED)))))))))
+    (VP (VBP THAT)
+      (NP
+        (NP (DT A) (NN TOTAL))
+        (PP (IN OF)
+          (NP (CD 31) (NNP PEOPLE) (NNP WERE) (NNP KIDNAPPED)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP BEFORE) (NNP FLEEING))
+      (, ,)
+      (NP (DT THE) (NNP COMMANDO) (NNP GROUP) (NNP SET)))
+    (VP (VBP FIRE)
+      (PP (TO TO)
+        (NP
+          (NP (DT A) (NNP GROCERY) (NNP STORE))
+          (CC AND)
+          (NP
+            (NP (NNP CAUSED) (NNP SOME) (NNP DAMAGE))
+            (PP (IN IN)
+              (NP (DT THE) (NNP SMALL) (NNP TOWN)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP URABA))
+      (, ,)
+      (NP
+        (NP (DT A) (NNP PROSPEROUS) (NNP AGRO-INDUSTRIAL) (NNP REGION))
+        (PP (IN IN)
+          (NP (NNP COLOMBIA))))
+      (, ,))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP RACKED))
+        (PP (IN FOR)
+          (NP
+            (NP (NNS YEARS))
+            (PP (NNP BY)
+              (NP (DT A) (JJ BLOODY) (JJ POLITICAL) (NNP STRUGGLE) (NNP BETWEEN) (NNP GUERRILLA) (NNPS GROUPS)
+                (CC AND)
+                (NNP ULTRARIGHTIST) (NNP PARAMILITARY) (NNS BANDS)))
+            (, ,)
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (VP (VBP HAVE)
+                  (NP
+                    (NP (NNP BEEN) (NNP BLAMED))
+                    (PP (IN FOR)
+                      (NP
+                        (NP (NNP VARIOUS) (NNP MASSACRES))
+                        (PP (IN OF)
+                          (NP
+                            (NP (NNP PEASANTS) (NNP WHOM) (NNP THEY) (NNP ACCUSED))
+                            (PP (IN OF)
+                              (NP (VBG BEING) (NNP GUERRILLA) (NNPS SYMPATHIZERS)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VB BEFORE)
+        (NP
+          (NP (DT THE) (NN NEWS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP MASS) (NNP KIDNAPPING) (NNP BECAME) (NNP KNOWN))))))
+    (, ,)
+    (NP (DT THE) (NNP TOTAL) (NNP PERSONS))
+    (VP (VBD KIDNAPPED)
+      (SBAR
+        (S
+          (PP (IN IN)
+            (NP (NNP COLOMBIA) (NNP OVER)))
+          (NP (DT THE) (JJ LAST) (CD 6) (NNS WEEKS))
+          (VP (VBD WAS)
+            (NP (CD 85))
+            (, ,)
+            (S
+              (VP (VBG ACCORDING)
+                (PP (TO TO)
+                  (NP
+                    (NP (NNS STATISTICS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP COLOMBIAN) (NNP SECRET) (NNP POLICE)))))))))))
+    (. .)))
+

@@ -1,0 +1,356 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP SALVADORAN) (NNP GUERRILLAS) (NNP TODAY)))
+    (VP (VBD THREATENED)
+      (PP (TO TO)
+        (NP
+          (NP (NN MURDER) (NNP INDIVIDUALS) (NNP INVOLVED))
+          (PP (IN IN)
+            (NP (DT THE) (CD 19) (NNP MARCH) (NNP PRESIDENTIAL) (NNP ELECTIONS))))))
+    (SBAR (IN IF)
+      (S
+        (NP (NNP THEY) (NNP DO) (NNP NOT) (NNP RESIGN) (NNP FROM) (NNP THEIR))
+        (VP (VBZ POSTS))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP ALL) (NNP INDIVIDUALS)
+        (CC AND)
+        (NNP INSTITUTIONS))
+      (VP (VBD INVOLVED)
+        (SBAR
+          (S
+            (PP (IN IN)
+              (NP (DT THE) (CD 19) (NNS MARCH)))
+            (NP (NNP ELECTORAL) (NNP FARCE))
+            (VP (MD WILL)
+              (VP (VB BE)
+                (NP (NNP MERCILESSLY) (NNP PUNISHED) (NNP BY))
+                (NP
+                  (NP
+                    (NP (DT THE) (NNP PEOPLE) (POS 'S))
+                    (NN JUSTICE))
+                  (PP (IN FOR)
+                    (NP (NNP CONTRIBUTING))))
+                (PP (TO TO)
+                  (NP
+                    (NP (DT THE) (NN CONTINUATION))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP WAR)))))))))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNS GUERRILLAS))
+    (VP (VBD WARNED)
+      (NP
+        (NP (NNP TODAY))
+        (PP (IN IN)
+          (NP
+            (NP (DT A) (NNP MESSAGE) (NNP BROADCAST) (NNP BY) (NNP RADIO) (NNP VENCEREMOS))
+            (, ,)
+            (NP (NNP THEIR) (NNP OFFICIAL) (NNP RADIO) (NNP STATION))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP FMLN))
+        (-RRB- -RRB-)))
+    (VP
+      (VP (VBZ IS)
+        (VP (VBN OPPOSED)
+          (PP (TO TO)
+            (NP (DT THE) (NNP PRESIDENTIAL) (NNPS ELECTIONS)))))
+      (CC AND)
+      (VP (VBZ HAS)
+        (VP (VBN ASKED)
+          (S
+            (NP (DT THE) (NNP PEOPLE) (NNP NOT))
+            (VP (TO TO)
+              (VP (VB VOTE)
+                (NP (NNP OR))
+                (PP (TO TO)
+                  (NP (NNP DESTROY) (NNP THEIR) (NNS BALLOTS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP GUERRILLA) (NN THREAT))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP (NNP AIMED) (NNP AT) (NNPS MEMBERS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP DEPARTMENTAL)
+              (CC AND)
+              (NNP MUNICIPAL) (NNP BALLOT-RECEIVING) (NNP BOARDS))))
+        (, ,)
+        (NP
+          (NAC (NNP MAYORS) (, ,) (NNP JUDGES) (, ,))
+          (NNP PARTY) (NNP DIRECTORATES))
+        (, ,)
+        (CC AND)
+        (NP (NNP ELECTORAL) (NNP COLLEGE) (NNS OFFICIALS))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP WARNING) (NNP ALSO))
+      (VP (VBZ APPLIES)
+        (PP (TO TO)
+          (NP
+            (NP (DT THE) (NNS OWNERS))
+            (PP (IN OF)
+              (NP
+                (NP (NNP VEHICLES) (NNP THAT) (NNP OPERATE) (NNP DURING))
+                (NP (DT AN) (NNP IDEFINITE) (NNP TRANSPORTATION) (NNP STRIKE))))))))
+    (NP (DT THE) (NNP FMLN))
+    (VP (VBZ IS)
+      (VP (VBN SCHEDULED)
+        (S
+          (VP (TO TO)
+            (VP (VB INITIATE)
+              (PRT (RP ON))
+              (NP (CD 16) (NNP MARCH) (NNP AT) (NNS 0000)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SWEARING))
+    (PP (IN IN)
+      (NP
+        (NAC (NNP APPROXIMATELY) (CD 20))
+        (NNP BALLOT-RECEIVING) (NNP BOARDS)))
+    (PP (IN IN)
+      (NP (NNP SAN) (NNP SALVADOR)))
+    (, ,)
+    (NP
+      (NP (NNP RICARDO) (NNP PERDOMO))
+      (, ,)
+      (NP
+        (NP (NNP PRESIDENT))
+        (PP (IN OF)
+          (NP (DT THE) (NNP CENTRAL) (NNP ELECTORAL) (NNP COUNCIL))))
+      (, ,))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP
+            (NP (DT THE) (NNP ARMED) (NNPS FORCES))
+            (CC AND)
+            (NP (DT THE) (NNP COUNCIL)))
+          (VP (VBP ARE)
+            (VP (VBN PREPARED)
+              (PP (TO TO)
+                (NP (NNP GUARANTEE) (NNP NORMAL) (NNP ELECTIONS))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (NP (NNP WE) (NNP WERE) (NNP EXPECTING))
+    (VP (VBZ THIS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP KNOW) (NNP THE) (NNP GUERRILLAS))
+    (VP (MD WILL)
+      (VP (VB IMPLEMENT)
+        (NP
+          (NP (NNP ALL) (NNPS TYPES))
+          (PP (IN OF)
+            (NP (NNP BOYCOTTS))))
+        (PP (TO TO)
+          (NP (NNP HINDER) (DT THE) (NNP ELECTIONS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP NEVERTHELESS) (, ,) (NNP WE))
+    (VP (VBP ARE)
+      (S
+        (PP (IN IN)
+          (NP (DT A) (NN POSITION)))
+        (VP (TO TO)
+          (VP (VB GUARANTEE)
+            (NP (DT THE)
+              (NP (NNP ELECTIONS))
+              (, ,) ('' '')
+              (NP (NNP PERDOMO) (NNP REITERATED)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MILITARY))
+    (VP (VBZ UNITS)
+      (NP
+        (NP (NNP HAVE) (NNP BEEN) (NNP DEPLOYED) (NNP SINCE) (NNP YESTERDAY))
+        (PP (IN IN)
+          (NP
+            (NP
+              (NP (NNP CITIES))
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (NNP EASTERN) (NNPS DEPARTMENTS))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNP MORAZAN))
+                      (, ,)
+                      (NP (NNP SAN) (NNP MIGUEL))
+                      (, ,)
+                      (NP (NNP USULUTAN))
+                      (, ,)
+                      (CC AND)
+                      (NP (NNP LA) (NN UNION))))))
+              (, ,)
+              (PP (NNP WHERE)
+                (NP (DT THE) (NNP REBELS) (NNP PERSISTENTLY) (NNP SABOTAGE))))
+            (NP (DT THE) (NNP ELECTRICAL) (NNP SYSTEM))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FMLN))
+    (VP (VBZ HAS)
+      (VP (VBN ANNOUNCED)
+        (SBAR
+          (S
+            (NP (PRP IT))
+            (VP (MD WILL) (RB INTENSIFY)
+              (VP (VB ITS)
+                (S (`` ``)
+                  (NP (NNP INSURRECTIONAL) (NNS ACTIONS))
+                  ('' '')
+                  (PP (IN THROUGHOUT)
+                    (NP
+                      (NP (DT THE) (NN COUNTRY))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WDT WHICH))
+                        (S
+                          (NP (NNP COULD))
+                          (VP (VBD AFFECT)
+                            (NP
+                              (NP
+                                (NP (DT THE) (NNP NATION) (POS 'S))
+                                (NNP ELECTRICAL))
+                              (CC AND)
+                              (NP
+                                (NP (NNP TELEPHONE) (NNP SYSTEMS))
+                                (PP (IN ON)
+                                  (NP (NNP ELECTION)))))
+                            (NP (NNP DAY))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS GUERRILLAS))
+      (SBAR
+        (S
+          (VP (VBP ARE)
+            (VP (VBN OPPOSED)
+              (PP (TO TO)
+                (NP (DT THE) (NNP ELECTIONS) (NNP BECAUSE) (NNP THEY) (NNP FEEL) (NNP THEY))))))))
+    (VP (VBP ARE)
+      (NP
+        (NP (`` ``) (NN PART))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (JJ COUNTERINSURGENCY) (NN PLAN))
+            (CC AND)
+            (NP
+              (NP (DT A) (NNS MEANS))
+              (PP (IN OF)
+                (S
+                  (VP (VBG LEGITIMIZING)
+                    (NP
+                      (NP (DT THE) (NN CONTINUATION))
+                      (PP (IN OF)
+                        (NP
+                          (NP (NNP WAR))
+                          (, ,)
+                          (NP (NNP HUNGER))
+                          (, ,)
+                          (CC AND)
+                          (NP (NNP POVERTY)))))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (S
+        (NP
+          (NP (DT THOSE))
+          (SBAR
+            (WHNP (WP WHO))
+            (S
+              (VP (VBP COOPERATE)
+                (PP (IN WITH)
+                  (NP (DT THE) (NNP ELECTORAL) (NNP FARCE)))))))
+        (VP (MD WILL)
+          (VP (VB BE)
+            (NP
+              (NP (NNP THROWN) (NNP OUT))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP THEIR) (NNP HOMES))
+                  (, ,)
+                  (NP (NNP EXECUTED))
+                  (, ,)))))))
+      (CC AND)
+      (S
+        (NP (NNP THEIR) (NNPS PROPERTIES))
+        (VP (MD WILL)
+          (VP (VB BE)
+            (NP
+              (NP (NNP SABOTAGED) (NNP BEFORE))
+              (, ,)
+              (NP (NNP DURING))
+              (, ,)
+              (CC AND)
+              (NP (NNP AFTER) (DT THE) (NNP ELECTIONS)))))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNS REBELS))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP GUERRILLAS) (NNP SENT) (NNP MESSAGES))
+      (PP (IN ON)
+        (NP
+          (NP (NNP SATURDAY) (NNP NIGHT))
+          (PP (TO TO)
+            (NP (DT THE) (NNPS MAYORS)
+              (CC AND)
+              (NNP MUNICIPAL) (NNP COUNCILS)))
+          (PP (IN OF)
+            (NP
+              (NP (NNP EIGHT) (NNP TOWNS))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP LA) (NN UNION) (NNP DEPARTMENT))
+                  (, ,)
+                  (NP
+                    (NP (NNP DEMANDING) (NNP THAT) (NNP THEY) (NNP RESIGN) (NNP OR))
+                    (NP (DT THE) (NNP FMLN))))))))))
+    (VP (MD WILL)
+      (S
+        (VP (`` ``) (VBG BRING)
+          (PP (TO TO)
+            (NP
+              (NP (NNP BEAR) ('' '') (NNP AGAINST) (NNP THEM))
+              (`` ``)
+              (NP
+                (NP (DT THE) (NNP ENTIRE) (NNP WEIGHT))
+                (PP (IN OF)
+                  (NP (NNP POPULAR) (NNP JUSTICE)))))))))
+    (. .) ('' '')))
+

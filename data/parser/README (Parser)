@@ -9,3 +9,10 @@ further refine the answers. Right now, it has parsed all the articles using
 two versions of the Stanford NLP, factored English and PCFG English. Factored
 is more accurate but requires much more time, so only a sample of 10 was taken
 until I can run it overnight.
+
+TIME ELAPSED TO PARSE CORPUS:
+Milliseconds:	19607553
+Seconds:	19607.553
+Minutes:	326.79254
+Hours:		5.4465423
+Days:		0.22693926

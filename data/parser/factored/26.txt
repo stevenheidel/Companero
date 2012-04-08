@@ -1,0 +1,136 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP SALVADORAN) (NNP GOVERNMENT) (NNP TODAY)))
+    (VP (VBD DEPLORED)
+      (NP
+        (NP (DT THE) (NN DISAPPEARANCE))
+        (PP (IN OF)
+          (NP
+            (NP (NNP SOCIAL) (NNP DEMOCRATIC) (NNP LEADER) (NNP HECTOR) (NNP OQUELI) (NNP COLINDRES) (NNP THIS) (NNP MORNING))
+            (PP (IN IN)
+              (NP (NNP GUATEMALA)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP NATIONAL) (NNP INFORMATION) (NNP SECRETARY) (NNP MAURICIO) (NNP SANDOVAL) (NNP TOLD) (NNP ACAN-EFE) (NNP THAT))
+      (`` ``)
+      (NP (PRP IT))
+      (VP (VBZ IS)
+        (NP (NNP REGRETTABLE)))
+      (, ,) ('' ''))
+    (NP (NNP ADDING) (NNP THAT) (NNP THE) (NNP SALVADORAN) (NNP GOVERNMENT))
+    (VP (MD WILL)
+      (VP (VB MAKE)
+        (S
+          (NP (DT THE) (NNP NECESSARY) (NNP EFFORTS) (NNP THROUGH) (NNP DIPLOMATIC) (NNP CHANNELS))
+          (VP (TO TO)
+            (VP (VB OBTAIN)
+              (NP
+                (NP (JJR MORE) (NNS INFORMATION))
+                (PP (IN ON)
+                  (NP (DT THE) (NN CASE)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP
+          (NP
+            (NP (NNP SOURCES) (NNP FROM))
+            (NP (PRP$ HIS) (NN PARTY)))
+          (, ,)
+          (NP (NNP HECTOR) (NNP OQUELI) (NNP COLINDRES)))))
+    (, ,)
+    (NP
+      (NP
+        (NP (NNP ASSISTANT) (NNP SECRETARY))
+        (PP (IN OF)
+          (NP (DT THE) (NNP NATIONAL) (NNP REVOLUTIONARY) (NNP MOVEMENT))))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP MNR))
+        (-RRB- -RRB-)))
+    (VP (VBD DISAPPEARED)
+      (NP
+        (NP (NNP TODAY))
+        (PP (IN IN)
+          (NP (NNP GUATEMALA)))
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP
+              (NP (DT THE) (NNP VEHICLE))
+              (PP (IN IN)
+                (SBAR
+                  (WHNP (WDT WHICH))
+                  (S
+                    (NP (PRP HE))
+                    (VP (VBD WAS)
+                      (NP (NNP TRAVELING)))))))
+            (VP (VBD WAS)
+              (NP (NNP INTERCEPTED) (NNP BY) (NNP HEAVILY) (NNP ARMED) (NNP MEN) (NNP WEARING) (NNP CIVILIAN) (NNP CLOTHING)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT AN) (NNP MNR) (NNP SPOLESMAN) (NNP REPORTED) (NNP THAT) (NNP OQUELI) (NNP COLINDRES))
+    (VP (VBD WAS)
+      (S (`` ``)
+        (NP (NNP KIDNAPPED))
+        ('' '')
+        (PP (IN AS)
+          (S
+            (NP (PRP HE))
+            (VP (VBD WAS)
+              (VP (VBG HEADING)
+                (PP (TO TO)
+                  (NP
+                    (NP (DT THE) (NN AIRPORT))
+                    (PP (IN IN)
+                      (NP (NNP GUATEMALA) (NNP CITY)))))
+                (S
+                  (VP (TO TO)
+                    (VP (VB TAKE)
+                      (NP (DT A) (NN FLIGHT))
+                      (PP (TO TO)
+                        (NP (NNP NICARAGUA) (, ,) (NNP WHERE)))
+                      (SBAR
+                        (S
+                          (NP (PRP HE))
+                          (VP (VBD WOULD)
+                            (VP (VB JOIN)
+                              (SBAR
+                                (S
+                                  (NP (DT A) (NNP SOCIALIST) (NNP INTERNATIONAL) (NNP DELEGATION) (NNP THAT))
+                                  (VP (VBZ IS)
+                                    (S
+                                      (NP (NNP CURRENTLY) (IN IN) (NNP THAT) (NNP COUNTRY))
+                                      (VP (TO TO)
+                                        (VP (VB OBSERVE)
+                                          (NP (DT THE) (NNP ELECTORAL) (NNP CAMPAIGN)))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MNR) (NNP SPOKESMEN))
+    (VP (VBD SAID)
+      (PP (NNP THAT)
+        (NP (DT THE) (NNP GUATEMALAN) (NNP POLICE) (NNP FOUND) (DT THE) (NNP VEHICLE)))
+      (PP (IN IN)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP (NNP OQUELI))
+            (VP (VBD WAS)
+              (VP (VBG TRAVELING)
+                (PP (IN WITH)
+                  (NP
+                    (NP (DT A) (NN MEMBER))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP GUATEMALAN) (NNP SOCIAL) (NNP DEMOCRATIC) (NNP PARTY) (NNP WITHOUT) (NNP ITS) (NNP OCCUPANTS)))))))))))
+    (. .)))
+

@@ -1,0 +1,131 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP SUMMARY))
+          (-RRB- -RRB-))
+        (NNP SIX) (NNP GUERRILLAS))
+      (CC AND)
+      (NP
+        (NP
+          (NP (CD ONE) (NNP SOLDIER) (NNP WERE) (NNP KILLED))
+          (CC AND)
+          (NP (CD TWO) (NNS SOLDIERS)))
+        (NP (NNP WERE))))
+    (VP (VBD WOUNDED)
+      (PP (IN IN)
+        (NP
+          (NP (JJ RECENT) (NNP FIGHTING) (NNP BETWEEN) (NNP APOPA) (NNP BATTALION) (NNP TROOPS))
+          (CC AND)
+          (NP
+            (NP (DT THE) (NNP SO-CALLED) (NNP ARMY))
+            (PP (IN OF)
+              (NP (NNP NATIONAL) (NNP LIBERATION)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FIGHTING))
+    (VP (VBD OCCURRED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP CANO) (NNP DE) (NNP PADILLA))
+          (, ,)
+          (NP
+            (NP (NNP SERRANIA) (NNP DE) (NNP PERIJA))
+            (, ,)
+            (NP (NNP CESAR) (NNP DEPARTMENT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB MEANWHILE))
+    (, ,)
+    (NP (DT THE) (NNP POLICE) (NNP ANNOUNCED) (NNP THEY))
+    (VP (MD WILL)
+      (VP (VB CONTINUE)
+        (NP
+          (NP (`` ``) (NNP OPERATION) (NNP SPRING) ('' ''))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBZ HAS)
+                (SBAR
+                  (S
+                    (NP (NNP SO))
+                    (ADVP (RB FAR))
+                    (VP (VBD RESULTED)
+                      (PP (IN IN)
+                        (NP
+                          (NP (DT THE) (NN ARREST))
+                          (PP (IN OF)
+                            (NP
+                              (NP (CD 8) (NNS PERSONS))
+                              (CC AND)
+                              (NP
+                                (NP (DT THE) (NN DISCOVERY))
+                                (PP (IN OF)
+                                  (NP
+                                    (NP (CD 14) (NNP COCAINE) (NNP LABORATORIES))
+                                    (, ,)
+                                    (SBAR
+                                      (WHNP (WDT WHICH))
+                                      (S
+                                        (NP (NNP WERE))
+                                        (VP (VBD DESTROYED))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP ANTIDRUG) (NNP OPERATION))
+    (VP (VBZ IS)
+      (VP (VBG BEING)
+        (NP (NNP CONDUCTED) (NNP ALONG)
+          (NX
+            (NX (DT THE) (NNP BORDER) (NNP BETWEEN) (NNP ANTIOQUIA))
+            (CC AND)
+            (NX (NNP CORDOBA) (NNP DEPARTMENTS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SEIZED) (NNP SO))
+      (VP
+        (ADVP (RB FAR))
+        (VBG DURING)
+        (NP
+          (NP
+            (NP (NNP OPERATION) (NNP SPRING) (NNP WERE) (CD 1050) (NNP KG))
+            (PP (IN OF)
+              (NP (NNP COCAINE))))
+          (CC AND)
+          (NP
+            (NP (CD 130) (NNP KG))
+            (PP (IN OF)
+              (NP (NNP COCAINE) (NNP BASE)))))))
+    (, ,)
+    (PP (IN AS)
+      (NP
+        (NP (NNP WELL) (NNP AS) (NNP LARGE) (NNP QUANTITIES))
+        (PP (IN OF)
+          (NP
+            (NP
+              (NAC (NNP ETHER) (, ,) (NNP ACETONE) (, ,))
+              (NNP POTASSIUM) (NNP PERMANGANATE))
+            (, ,)
+            (CC AND)
+            (NP (NNP HYDROCHLORIC) (NNP ACID))))))
+    (, ,)
+    (NP
+      (NP (NNP ALL))
+      (PP (IN OF)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (VP (VBP WERE))))))
+    (VP (VBD DESTROYED))
+    (. .)))
+

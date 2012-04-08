@@ -1,0 +1,267 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT A) (NNP BOMB) (NN BLAST)))
+    (VP (VBD DAMAGED)
+      (NP
+        (NP (DT A) (NNP TELEPHONE) (NNP OFFICE) (NNP TODAY))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP NORTHERN) (NNP CITY))
+            (PP (IN OF)
+              (NP (NNP SAN) (NNP PEDRO) (NNP SULA)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NNP LEFTIST) (NNP GROUP))
+      (, ,)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (VP (VBD CLAIMED)
+            (NP
+              (NP (NNP RESPONSIBILITY))
+              (PP (IN FOR)
+                (NP
+                  (NP (DT AN) (NN ATTACK))
+                  (PP (IN ON)
+                    (NP (DT A) (NNP U.S.) (NNP MILITARY) (NNP CONVOY) (NNP LAST))))))))))
+    (VP (VBD WEEK)
+      (NP
+        (NP (NNP CLAIMED) (NNP RESPONSIBILITY))
+        (PP (IN FOR)
+          (NP (NNP THIS) (NNP ATTACK)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP BOMB))
+      (, ,)
+      (NP
+        (NP (NN MADE) (RP UP))
+        (PP (IN OF)
+          (NP
+            (NP (NNP DYNAMITE))
+            (CC AND)
+            (NP (DT A) (NN FUSE)))))
+      (, ,))
+    (VP (VBD EXPLODED) (RB JUST)
+      (VP (VB BEFORE)
+        (NP
+          (NP (NNP DAWN))
+          (PP (IN IN)
+            (NP (DT THE) (NNP HONDUTEL)
+              (PRN (-LRB- -LRB-)
+                (NP (NNP HONDURAN) (NNP TELECOMMUNICATIONS) (NNP ENTERPRISE))
+                (-RRB- -RRB-))
+              (NNP OFFICE))))
+        (PP (IN IN)
+          (NP
+            (NP (NNP SAN) (NNP PEDRO) (NNP SULA))
+            (, ,)
+            (NP
+              (NP (CD 190) (NNP KM) (NNP NORTH))
+              (PP (IN OF)
+                (NP (NNP THIS) (NNP CAPITAL))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP EXPLOSION) (NNP DAMAGED) (NNP FURNITURE))
+      (, ,)
+      (NP (NNP FOUR) (NNP TELEPHONES))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (NNP SHATTERED) (NNP WINDOWS))
+        (, ,)
+        (NP (NNP BUT) (NNP NOBODY))))
+    (VP (VBD WAS)
+      (VP (VBN INJURED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP LEAFLETS) (NNP FOUND))
+    (PP (IN IN)
+      (NP (DT THE) (NNP RUBBLE) (NNP STATED) (NNP THAT)))
+    (NP (DT A) (NNP LEFTIST) (NNP GROUP))
+    (VP (VBD WAS)
+      (S
+        (VP (VB RESPONSIBLE)
+          (NP
+            (NP (DT BOTH))
+            (PP (IN FOR)
+              (NP (DT THE) (NNP BOMB) (NNP AS) (NNP WELL) (NNP AS)))))
+        (NP
+          (NP (DT THE) (NN ATTACK))
+          (PP (IN ON)
+            (NP
+              (NP (DT A) (NNP U.S.) (NNP MILITARY) (NNP CONVOY) (NNP LAST) (NNP WEEK))
+              (PP (IN IN)
+                (NP (DT THE) (NNP HONDURAN) (NNP NORTHERN) (NNP MOUNTAIN) (NNP REGION))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (NNP ALTHOUGH)
+      (NP
+        (NP (DT NO) (NNP CASUALTIES) (NNP WERE) (NNP REPORTED))
+        (, ,)
+        (NP
+          (NP (CD ONE))
+          (PP (IN OF)
+            (NP (DT THE) (NNS VEHICLES))))))
+    (PP (IN IN)
+      (NP (DT THE) (NNP U.S.)))
+    (NP (NNP CONVOY))
+    (VP (VBD WAS)
+      (NP (NNP HIT) (NNP BY) (CD TWO) (NNS BULLETS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP UNTIL) (NNP TODAY) (NNP NOBODY) (NNP HAD))
+    (VP (VBD CLAIMED)
+      (NP
+        (NP (NN CREDIT))
+        (PP (IN FOR)
+          (NP (NNP THAT) (NNP ATTACK)))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP
+        (NP
+          (NP (DT THE) (NNP JACOBO) (NNP CARCOMO) (NNP COMMAND))
+          (PP (IN OF)
+            (NP (DT THE) (NNP MORAZANIST) (NNP PATRIOTIC) (NNP FRONT))))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP FPM))
+          (-RRB- -RRB-)))
+      (VP (VBD ATTACKED)
+        (NP (DT A) (NNP U.S.) (NNP CONVOY))
+        (PP (IN WITH)
+          (NP (JJ M-16) (NN RIFLE-FIRE)))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNS LEAFLETS))
+    (VP (VBD READ))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CARCOMO))
+    (VP (VBD WAS)
+      (NP (DT A) (NNP HONDURAN) (NNP LEFT-WING) (NNP AUTHOR) (NNP AT))
+      (NP
+        (NP (DT THE) (NN BEGINNING))
+        (PP (IN OF)
+          (NP (DT THE) (CD 20TH) (NN CENTURY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FPM))
+      (, ,)
+      (NP
+        (NP (NNP NAMED) (NNP AFTER) (NNP A) (NNP CENTRAL) (NNP AMERICAN) (NNP LEADER))
+        (PP (IN OF)
+          (NP (DT THE) (NNP LAST) (NNP CENTURY))))
+      (, ,))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP CLAIMED) (NNP CREDIT))
+        (PP (IN FOR)
+          (NP
+            (NP (NNP SEVERAL) (NNP GUERRILLA) (NNP ATTACKS))
+            (PP (IN IN)
+              (NP (DT THE) (NNP PAST)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HONDURAS))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP GRIPPED) (NNP BY) (NNP A) (NNP WAVE))
+        (PP (IN OF)
+          (NP (NNP VIOLENCE) (NNP THIS) (NNP YEAR))))
+      (, ,)
+      (S
+        (VP (VBG INCLUDING)
+          (NP
+            (NP (DT THE) (NNS ASSASSINATIONS))
+            (PP (IN OF)
+              (NP
+                (NP
+                  (NP (DT A) (JJ FORMER) (NNP ARMED) (NNP FORCES) (NNP COMMANDER))
+                  (, ,)
+                  (NP
+                    (NP (DT A) (NN COMMANDER))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP ANTI-SANDINIST) (NNPS REBELS))))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NNP SUPPORTED) (NNP BY))
+                      (NP (DT THE) (NNP UNITED) (NNS STATES)))
+                    (-RRB- -RRB-)))
+                (, ,)
+                (CC AND)
+                (NP
+                  (NP (DT A) (NN LAWYER))
+                  (PP (IN OF)
+                    (NP (DT AN) (NNP ALLEGED) (NNP DRUG) (NNP TRAFFICKING) (NNP TSAR))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PRESIDENT) (NNP JOSE) (NNP AZCONA))
+    (VP (VBZ HAS)
+      (VP (VBN CALLED)
+        (PP (IN FOR)
+          (NP (NNP NATIONAL) (NNP DIALOGUE) (NNP STARTING) (NNP THIS) (NNP WEEK)))
+        (PP (IN WITH)
+          (NP
+            (NP (DT THE) (NNP GOVERNMENT))
+            (, ,)
+            (NP (DT THE) (NNP OPPOSITION) (NNP PARTIES))
+            (, ,)
+            (NP (NN LABOR) (NNS UNIONS))
+            (, ,)
+            (NP (NNP BUSINESSMEN))
+            (, ,)
+            (CC AND)
+            (NP (NNP OTHER) (NNP GROUPS))))
+        (S
+          (VP (TO TO)
+            (VP (VB TRY)
+              (S
+                (VP (TO TO)
+                  (VP (VB CURB)
+                    (NP
+                      (NP (DT THE) (NNP SUDDEN) (NNP SURGE))
+                      (PP (IN OF)
+                        (NP (NNP VIOLENCE))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP HONDURAS))
+      (, ,)
+      (NP (DT A) (NNP CLOSE) (NNP U.S.) (NNP ALLY))
+      (, ,))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP TRADITIONALLY) (NNP BEEN) (NNP A) (NNP PEACEFUL) (NNP COUNTRY))
+        (PP (IN IN)
+          (NP (DT A) (NNP REGION) (NNP STRICKEN) (NNP BY) (NNP INTERNAL) (NNP CONFLICTS)))))
+    (. .)))
+

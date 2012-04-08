@@ -82,29 +82,29 @@
 
 (ROOT
   (S
+    (NP (NNP THIRD))
+    (, ,)
+    (PP (NNP THAT)
+      (NP (DT THE) (NNP UNITED) (NNS STATES)
+        (NX (NNP MUST) (NNP SOMEHOW) (NNP JUSTIFY))))
     (NP
-      (NP (NNP THIRD) (, ,) (NNP THAT))
-      (SBAR
-        (S
-          (NP (DT THE) (NNP UNITED) (NNS STATES))
-          (VP (VBP MUST)
-            (NP
-              (NP (NNP SOMEHOW) (NNP JUSTIFY) (NNP THE) (NNP INVASION))
-              (PP (IN OF)
-                (NP
-                  (NP (NNP PANAMA))
-                  (CC AND)
-                  (NP (DT THE) (NNP NEED)))))
-            (PP (TO TO)
-              (NP (NNP RECOVER) (NNP ITS) (NNP INTERNATIONAL) (NNP IMAGE)))))))
+      (NP (DT THE) (NN INVASION))
+      (PP (IN OF)
+        (NP
+          (NP (NNP PANAMA))
+          (CC AND)
+          (NP (DT THE) (NNP NEED))))
+      (PP (TO TO)
+        (NP (NNP RECOVER) (NNP ITS) (NNP INTERNATIONAL) (NNP IMAGE))))
     (VP (VBZ HAS)
       (VP (VBN PROVIDED)
-        (NP (DT A) (NNP REAL) (NNP OPPORTUNITY))
-        (PP (TO TO)
-          (NP
-            (NP (NNP PUT) (DT AN) (NNP END))
-            (PP (TO TO)
-              (NP (NNP DRUG) (NNP TRAFFICKING)))))))
+        (S
+          (NP (DT A) (NNP REAL) (NNP OPPORTUNITY))
+          (VP (TO TO)
+            (VP (VB PUT)
+              (NP (DT AN) (NN END))
+              (PP (TO TO)
+                (NP (NNP DRUG) (NNP TRAFFICKING))))))))
     (. .)))
 
 (ROOT
@@ -420,41 +420,47 @@
     (. .)))
 
 (ROOT
-  (S
-    (NP
-      (NP (NNS PERHAPS))
+  (SBARQ
+    (WHNP
+      (WHNP (NNS PERHAPS))
       (PP (IN ON)
         (NP (NNP THAT) (NNP OCCASION) (NNP THEY))))
-    (VP (MD WILL)
-      (VP
-        (NP (NNP TALK) (NNP ABOUT))
-        (NP
+    (SQ (MD WILL)
+      (NP (NNP TALK))
+      (VP (VB ABOUT)
+        (S
           (NP
             (NP (DT THE) (NNP OTHER) (NNPS ASPECTS))
             (PP (IN OF)
-              (NP (NNP THIS) (NNP WAR))))
-          (: :)
-          (NP
-            (NP (DT THE) (NNP REORGANIZATION))
-            (PP (IN OF)
-              (NP (DT THE) (NNP LOCAL) (NNPS ECONOMIES)))))
-        (PP (TO TO)
-          (NP
-            (NP
-              (NP (NNP END) (DT THE) (NNP DEPENDENCY))
-              (PP (IN ON)
-                (NP (NNP COCA) (NNPS PLANTATIONS))))
-            (, ,)
-            (NP
-              (NP (DT THE) (NNP RECOVERY))
-              (PP (IN OF)
-                (NP (NNP DRUG) (NNPS ADDICTS))))
-            (, ,)
-            (CC AND)
-            (NP
-              (NP (DT THE) (NNP CONSOLIDATION))
-              (PP (IN OF)
-                (NP (NNP GOVERNMENTS) (, ,) (NNP ETC.))))))))
+              (NP
+                (NP (NNP THIS) (NNP WAR))
+                (: :)
+                (NP
+                  (NP (DT THE) (NN REORGANIZATION))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP LOCAL) (NNPS ECONOMIES)))))))
+          (VP (TO TO)
+            (VP (VB END)
+              (NP
+                (NP (DT THE) (NN DEPENDENCY))
+                (PP (IN ON)
+                  (NP
+                    (NP
+                      (NP (NNP COCA) (NNP PLANTATIONS))
+                      (, ,)
+                      (NP
+                        (NP (DT THE) (NN RECOVERY))
+                        (PP (IN OF)
+                          (NP (NN DRUG) (NNS ADDICTS)))))
+                    (, ,)
+                    (CC AND)
+                    (NP
+                      (NP (DT THE) (NN CONSOLIDATION))
+                      (PP (IN OF)
+                        (NP
+                          (NP (NNP GOVERNMENTS))
+                          (, ,)
+                          (NP (NNP ETC.)))))))))))))
     (. .)))
 
 (ROOT

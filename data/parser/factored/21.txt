@@ -1,0 +1,284 @@
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+        (VP (VBG ACCORDING)
+          (PP (TO TO)
+            (NP
+              (NP
+                (NP (DT THE) (NNP MILITARY) (NNP INTELLIGENCE) (NNP SERVICES))
+                (, ,)
+                (NP (DT THE) (NNP FARC)))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NNP REVOLUTIONARY) (NNP ARMED) (NNP FORCES))
+                  (PP (IN OF)
+                    (NP (NNP COLOMBIA))))
+                (-RRB- -RRB-))))))
+      (VP (VBD LAUNCHED)
+        (NP (DT A) (JJ NEW) (NN OFFENSIVE))
+        (PP (TO TO)
+          (NP (NNP RECOVER)))))
+    (NP
+      (NP (DT THE) (NN REGION))
+      (PP (IN OF)
+        (NP (NNP MIDDLE) (NNP MAGDALENA) (NNP THAT))))
+    (VP (VBD WAS)
+      (NP (NNP LOST))
+      (PP (TO TO)
+        (NP
+          (NP (NNP GONZALO) (NNP RODRIGUEZ) (NNP GACHA))
+          (CC AND)
+          (NP (PRP$ HIS) (NNP MEN) (CD 5) (NNS YEARS) (NN AGO)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT THE) (NN REASON))
+        (PP (IN FOR)
+          (NP
+            (NP
+              (NP (NNP FIERCE) (NNP FIGHTING) (NNP THERE) (NNP BETWEEN) (NNP THE) (NNP ARMY))
+              (CC AND)
+              (NP (NNP SEVERAL) (NNP FARC) (NNP FRONTS) (NNP DURING)))
+            (NP (DT THE) (NNP FIRST) (NNP FEW) (NNP DAYS))))
+        (PP (IN OF)
+          (NP (NNP THIS) (NNP YEAR)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP HEAVILY) (NNP ARMED))
+      (CC AND)
+      (NP (NNP STRENGTHENED) (NNP THESE) (NNP FRONTS)))
+    (VP (VBP ARE)
+      (VP (VBG TRYING)
+        (PP (TO TO)
+          (NP
+            (NP
+              (NP (NNP MILITARILY) (NNP TAKE) (NNP OVER) (NNP AREAS) (NNP THAT) (NNP RODRIGUEZ) (NNP GACHA) (POS 'S))
+              (NNP DEPUTIES) (NNP HAVE) (NNP BEEN) (NNP VACATING) (NNP BECAUSE))
+            (PP (IN OF)
+              (NP
+                (NP
+                  (NP (DT THE) (NNP CRISIS) (NNP CREATED))
+                  (PP (IN IN)
+                    (NP (NNP THEIR) (NNP ORGANIZATION) (NNP BY) (DT THE) (NNP DEATH)))
+                  (PP (IN OF)
+                    (NP (NNP EL) (NNP MEJICANO))))
+                (-LRB- -LRB-)
+                (NP
+                  (NP (NNP GONZALO) (NNP RODRIGUEZ) (POS '))
+                  (NNS ALIAS))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP AUTHORITIES) (NNP BELIEVE))
+    (VP (VBP THAT)
+      (S
+        (NP
+          (NP (DT THE) (NNP RETURN))
+          (PP (TO TO)
+            (NP
+              (NP (DT THE) (NNP STRATEGY))
+              (PP (IN OF)
+                (NP (NNP USING) (NNPS KIDNAPPINGS))))))
+        (PP (IN AS)
+          (NP (DT A) (NNS MEANS)
+            (S
+              (VP (TO TO)
+                (VP (VB FINANCE)
+                  (SBAR
+                    (S
+                      (NP (NNP ITSELF))
+                      (VP (VBZ IS)
+                        (NP
+                          (NP (NNP ALSO) (NNP PART))
+                          (PP (IN OF)
+                            (NP (NNP THIS) (NNP NEW) (NNP OFFENSIVE) (NNP THAT) (NNP SEEMS)))
+                          (S
+                            (VP (TO TO)
+                              (VP (VB BE)
+                                (S
+                                  (VP (VBG ENJOYING)
+                                    (NP
+                                      (NP (DT THE) (NN SUPPORT))
+                                      (PP (IN OF)
+                                        (NP (NNP OTHER) (NNP GUERRILLA) (NNPS GROUPS) (NNP SUCH))))))))))))))))))
+        (PP (IN AS)
+          (NP
+            (NP (DT THE) (NNP EPL))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP POPULAR) (NNP LIBERATION) (NNP ARMY))
+              (-RRB- -RRB-))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MEANWHILE))
+    (, ,)
+    (PP (IN IN)
+      (NP (NNP LA) (NNP URIBE)))
+    (NP (DT THE) (NNP FARC) (NNP GENERAL) (NNP SECRETARIAT))
+    (VP (VBZ HAS)
+      (S
+        (NP (NNP SUBMITTED) (NNP ANOTHER) (NNP PEACE))
+        (VP (NN PROPOSAL)
+          (PP (TO TO)
+            (NP (NNP PRESIDENT) (NNP BARCO))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP GUERRILLA) (NNP GROUP) (NNS STATES))
+    (VP (VBP THAT)
+      (SBAR
+        (S
+          (NP (PRP IT))
+          (VP (VBZ IS)
+            (VP (VBG WILLING)
+              (S
+                (VP (TO TO)
+                  (VP (VB ESTABLISH)
+                    (NP
+                      (NP (DT A) (JJ NEW) (JJ POLITICAL) (NN PARTY))
+                      (PP (VBN CALLED)
+                        (NP
+                          (NP (NNP BOLIVARIAN) (NNP REUNION))
+                          (PP (IN OF)
+                            (NP (DT THE) (NNP PEOPLE) (-LRB- -LRB-) (NNP REUNION) (NNP BOLIVARIANA) (NNP DEL) (NNP PUEBLO)))
+                          (-RRB- -RRB-))))))))))))
+    (SBAR (IN IF)
+      (S
+        (NP (DT THE) (NNP GOVERNMENT) (NNPS CALLS))
+        (DT A)
+        (VP (VBP PLESBICITE)
+          (S
+            (VP (TO TO)
+              (VP (VB ESTABLISH)
+                (NP (DT A) (NNP NATIONAL) (NNP CONSTITUENT) (NNP ASSEMBLY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NN PROPOSAL))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP RECEIVED))
+        (PP (IN ON)
+          (NP (CD 9) (NNP JANUARY) (NNP DIRECTLY) (NNP FROM))))
+      (SBAR
+        (S
+          (NP
+            (NP (DT THE) (NNS HANDS))
+            (PP (IN OF)
+              (NP (NNP FARC) (NNS LEADERS))))
+          (VP (VBP BY)
+            (NP
+              (NP (NNS MEMBERS))
+              (PP (IN OF)
+                (NP
+                  (NP (DT THE) (NNP PRESIDENTIAL) (NNP ADVISORY) (NNP BOARD))
+                  (PP (IN FOR)
+                    (NP (JJ PEACE) (NNS ISSUES))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (PRN (-LRB- -LRB-)
+        (NP (NNP BEGIN) (NNP RECORDING))
+        (-RRB- -RRB-)))
+    (PRN (-LRB- -LRB-)
+      (NP
+        (NP (NNP RAFAEL) (NNP PARDO))
+        (, ,)
+        (NP
+          (NP (NNP PRESIDENTIAL) (NNP ADVISOR))
+          (PP (IN FOR)
+            (NP (NNP PEACE)
+              (CC AND)
+              (NNP REHABILITATION)))))
+      (-RRB- -RRB-))
+    (NP (DT THE) (NNP GOVERNMENT) (NNP MUST) (NNP ASSESS))
+    (ADVP (DT THE) (NN PROPOSAL)
+      (SBAR
+        (S
+          (NP (PRP IT))
+          (VP (VBZ HAS)
+            (S
+              (NP
+                (NP (NNP RECEIVED))
+                (, ,)
+                (NP
+                  (NP (NNP AS) (NNP WELL) (NNP AS) (NNP FARC) (POS 'S))
+                  (NNP SUBVERSIVE) (NNP ACTIVITIES))
+                (, ,))
+              (VP (TO TO)
+                (VP (VB DETERMINE)
+                  (NP (NN WHETHER))
+                  (SBAR
+                    (S
+                      (NP (PRP IT))
+                      (VP (MD SHOULD)
+                        (VP (VB RESUME))))))))))))
+    (VP (VBZ TALKS)
+      (PP (IN WITH)
+        (NP (NNP THIS) (NNP ORGANIZATION))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (PRN (-LRB- -LRB-)
+        (NP (NNP END) (NNP RECORDING))
+        (-RRB- -RRB-))
+      (PP (IN FOR)
+        (S
+          (NP (DT THE) (NNP TIME))
+          (VP (VBG BEING))))
+      (, ,)
+      (NP
+        (NP (NNS MEMBERS))
+        (PP (IN OF)
+          (NP (DT THE) (NNP ADVISORY) (NNP BOARD))))
+      (VP (MD WILL)
+        (VP (NN TRAVEL)
+          (PP (TO TO)
+            (NP
+              (NP (NNP SANTO) (NNP DOMINGO) (NNPS THIS) (NNP WEEKEND))
+              (PP (TO TO)
+                (NP (NNP CONTINUE) (NNP STUDYING)))))
+          (PP (IN WITH)
+            (NP
+              (NP (DT THE) (NN M-19))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (CD 19))
+                  (NP (NNP APRIL) (NNP MOVEMENT)))
+                (-RRB- -RRB-)))))))
+    (NP
+      (NP (DT THE) (NNS POSSIBILITIES))
+      (PP (IN OF)
+        (S
+          (VP (VBG INCORPORATING)
+            (S
+              (NP (NNP IT) (NNP INTO))
+              (ADJP (JJ POLITICAL)))))))
+    (VP (VBP LIFE)
+      (VP (VBG FOLLOWING)
+        (NP
+          (NP (DT THE) (NNP COLLAPSE))
+          (PP (IN OF)
+            (NP (DT THE) (NNP SPECIAL) (NNP PEACE) (NNP DISTRICT) (NNP ISSUE)))
+          (PP (IN IN)
+            (NP (NNS CONGRESS))))))
+    (. .)))
+

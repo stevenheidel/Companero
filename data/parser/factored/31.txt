@@ -1,0 +1,100 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+          (NP (NNP MARIO) (NNP SOLORZANO) (NNP MARTINEZ)))
+        (, ,)
+        (NP
+          (NP (NN LEADER))
+          (PP (IN OF)
+            (NP
+              (NP (NNP GUATEMALA) (POS 'S))
+              (NNP DEMOCRATIC) (NNP SOCIALIST) (NNP PARTY))))
+        (, ,)
+        (NP
+          (NP
+            (NP (NNP REPORTED) (NNP TODAY) (NNP THAT))
+            (NP (DT THE) (NNP SALVADORAN) (JJ POLITICAL) (NN LEADER)))
+          (NP (NNP HECTOR) (NNP OQUELI))))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD WAS)
+            (VP (VBN KIDNAPPED)
+              (PP (IN IN)
+                (NP (NNP GUATEMALA)))))))
+      (, ,))
+    (VP (VBD WAS)
+      (NP (NNP FOUND) (NNP DEAD)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP OQUELI) (POS 'S))
+      (NNP BODY))
+    (VP (VBD WAS)
+      (NP (NNP FOUND) (NNP NEXT))
+      (PP (TO TO)
+        (NP (DT THE)
+          (ADJP (JJ BODY)
+            (PP (IN OF)
+              (NP
+                (NP (NNP GUATEMALAN) (NNP POLITICIAN) (NNP GILDA) (NNP FLORES))
+                (, ,)
+                (SBAR
+                  (WHNP (WP WHO))
+                  (S
+                    (VP (VBD WAS)
+                      (NP (NNP TAKING) (NNP HIM))
+                      (PP (TO TO)
+                        (NP
+                          (NP (NNP THIS) (NNP CITY) (POS 'S))
+                          (NNP AIRPORT) (NNP SO) (NNP THAT) (NNP OQUELI) (NNP COULD)))))))))
+          (NN TRAVEL)))
+      (PP (TO TO)
+        (NP (NNP NICARAGUA))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP SOLORZANO) (NNP MARTINEZ) (NNP TOLD) (NNP NOTIMEX) (NNP THAT))
+        (, ,)
+        (NP
+          (NP (NNP BECAUSE))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (JJ SHORT) (NN PERIOD))
+              (PP (IN OF)
+                (NP (NNP TIME) (NNP OQUELI)))))))
+      (VP (VBD WAS)
+        (PP (IN IN)
+          (NP
+            (NP (NNP GUATEMALA))
+            (: --)
+            (NP (NNP LESS))))
+        (PP (IN THAN)
+          (NP (CD 24) (NNS HOURS)))))
+    (: --)
+    (S
+      (NP (DT THE) (NNP ONLY) (NNP EXPLANATION))
+      (VP (VBZ IS)
+        (SBAR
+          (S
+            (NP (NNP THAT) (NNP THERE))
+            (VP (VBP ARE)
+              (NP
+                (NP (NNS GROUPS))
+                (VP (VBN LINKED)
+                  (PP (TO TO)
+                    (NP
+                      (NP (DT THE) (NNP SALVADORAN) (NNP PARAMILITARY) (NNP SQUADRONS))
+                      (PP (IN IN)
+                        (NP (DT THE) (NNP COUNTRY))))))))))))
+    (. .)))
+

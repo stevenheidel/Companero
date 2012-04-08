@@ -1,43 +1,42 @@
 (ROOT
   (S
-    (S
-      (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
-      (NP (DT THE) (NNP NATIONAL) (NNP ARMY))
-      (VP (VBD WAS)
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP NATIONAL) (NNP ARMY)))
+    (VP (VBD WAS)
+      (NP
         (NP
           (NP (NNP INVOLVED))
           (PP (IN IN)
+            (NP (NNP NEW) (NNP CLASHES) (NNP WITHIN))))
+        (NP (DT THE) (NNP PAST) (NNP FEW) (NNP HOURS)))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP FARC))
+          (PRN (-LRB- -LRB-)
             (NP
-              (NP (NNP NEW) (NNPS CLASHES) (NNP WITHIN))
-              (NP (DT THE) (NNP PAST) (NNP FEW) (NNP HOURS)))))
-        (PP (IN WITH)
-          (NP
-            (NP (NNP FARC))
-            (PRN (-LRB- -LRB-)
-              (NP
-                (NP (NNP REVOLUTIONARY) (NNP ARMED) (NNPS FORCES))
-                (PP (IN OF)
-                  (NP (NNP COLOMBIA))))
-              (-RRB- -RRB-))))))
-    (CC AND)
-    (S
-      (NP
-        (NP (DT THE) (NNP ELN))
-        (PRN (-LRB- -LRB-)
-          (NP
-            (NP (NNP ARMY))
-            (PP (IN OF)
-              (NP (NNP NATIONAL) (NNP LIBERATION))))
-          (-RRB- -RRB-)))
+              (NP (NNP REVOLUTIONARY) (NNP ARMED) (NNP FORCES))
+              (PP (IN OF)
+                (NP (NNP COLOMBIA))))
+            (-RRB- -RRB-))
+          (CC AND)
+          (NP (DT THE) (NNP ELN))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP ARMY))
+              (PP (IN OF)
+                (NP (NNP NATIONAL) (NNP LIBERATION))))
+            (-RRB- -RRB-))))
       (PP (IN IN)
         (NP
-          (NP (DT THE) (NNP RURAL) (NN AREA))
+          (NP (DT THE) (JJ RURAL) (NN AREA))
           (PP (IN OF)
-            (NP (NNP YONDO))))))
-    (PP (IN IN)
-      (NP
-        (NP (NNP ANTIOQUIA) (POS 'S))
-        (NNP MIDDLE) (NNP MAGDALENA) (NNP REGION)))
+            (NP
+              (NP (NNP YONDO))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP ANTIOQUIA) (POS 'S))
+                  (NNP MIDDLE) (NNP MAGDALENA) (NNP REGION))))))))
     (. .)))
 
 (ROOT

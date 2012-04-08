@@ -1,0 +1,262 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP SALVADORAN) (NNP PRESIDENT) (NNP ALFREDO) (NNP CRISTIANI) (NNP TODAY)))
+    (VP (VBD POSTPONED)
+      (NP (PRP$ HIS) (NN TRIP))
+      (PP (TO TO)
+        (NP
+          (NP (DT THE) (NNP UNITED) (NNS STATES))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBD WAS)
+                (NP
+                  (NP (NNP SCHEDULED))
+                  (PP (IN FOR)
+                    (NP
+                      (NP (NNP 16-23) (NNP JANUARY))
+                      (, ,)
+                      (NP (NNP UNTIL) (NNP LATER) (NNP THIS) (NNP MONTH))
+                      (, ,)))))))))
+      (PP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP (DT AN) (NNP ANNOUNCEMENT) (NNP TODAY) (NNP BY) (NNP INFORMATION) (NNP SECRETARY) (NNP MAURICIO) (NNP SANDOVAL)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PRESIDENTIAL) (NNP SPOKESMAN) (NNP EXPLAINED) (NNP THAT))
+    (NP
+      (NP (DT THE) (NN POSTPONEMENT))
+      (PP (IN OF)
+        (NP
+          (NP (NNP CRISTIANI) (POS 'S))
+          (NNP TRIP))))
+    (VP (VBZ IS)
+      (NP (NNP DUE))
+      (PP (TO TO)
+        (NP
+          (NP
+            (NP (DT THE) (NNP PRESIDENT) (POS 'S))
+            (NN INTEREST))
+          (PP (IN IN)
+            (S
+              (VP (VBG MEETING)
+                (PP (IN WITH)
+                  (NP (NNP UN) (NNP SECRETARY) (NNP GENERAL) (NNP JAVIER) (NNP PEREZ) (NNP DE) (NNP CUELLAR)))
+                (S
+                  (VP (TO TO)
+                    (VP (VB REQUEST)
+                      (S
+                        (NP (NNP THAT) (NNP PEREZ) (NNP DE) (NNP CUELLAR) (NNP ACT) (NNP AS) (NNP MEDIATOR))
+                        (VP (TO TO)
+                          (VP (VB ACHIEVE)
+                            (NP
+                              (NP (DT THE) (NN RESUMPTION))
+                              (PP (IN OF)
+                                (NP (NNP DIALOGUE))))
+                            (PP (IN WITH)
+                              (NP (DT THE) (NNP SALVADORAN) (NNPS GUERRILLAS)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP
+        (NP
+          (NP
+            (NP (NNP WE) (NNP HAVE) (NNP RECEIVED) (NNP INFORMATION) (NNP FROM) (NNP NEW) (NNP YORK))
+            (PP (TO TO)
+              (NP
+                (NP (DT THE) (NN EFFECT))
+                (SBAR
+                  (S
+                    (NP (NNP THAT) (NNP PEREZ) (NNP DE) (NNP CUELLAR))
+                    (VP (MD WILL) (RB NOT)
+                      (VP (VB BE)
+                        (NP
+                          (NP (NNP AVAILABLE))
+                          (PP (IN ON)
+                            (NP
+                              (NP (DT THE) (NNP DATES) (NNP INITIALLY) (NNP SET))
+                              (PP (IN FOR)
+                                (NP (DT THE)
+                                  (NAC (NNP TRIP) (, ,) (NNP THUS) (, ,))
+                                  (NNP CRISTIANI)))))))))))))
+          (POS 'S))
+        (NN VISIT))
+      (VP (VBZ HAS)
+        (NP (NNP BEEN) (NNP POSTPONED))))
+    (, ,)
+    (NP (NNP SANDOVAL))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (NNP SANDOVAL))))
+    (, ,)
+    (NP (NNP CRISTIANI))
+    (VP (MD WILL)
+      (VP (VB MEET)
+        (PP (IN WITH)
+          (NP
+            (NP (NNP PEREZ) (NNP DE) (NNP CUELLAR))
+            (PP (IN ON)
+              (NP
+                (NP (CD 31) (NN JANUARY))
+                (, ,)
+                (NP (NNP AFTER))))
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (NP (PRP HE))
+                (VP (MD WILL)
+                  (VP (VB GO)
+                    (PP (TO TO)
+                      (NP
+                        (NP (NNP WASHINGTON))
+                        (PP (IN IN)
+                          (NP (NNP EARLY) (NNP FEBRUARY)))))
+                    (PP (TO TO)
+                      (NP (NNP MEET)))
+                    (PP (IN WITH)
+                      (NP (NNP U.S.) (NNP PRESIDENT) (NNP GEORGE) (NNP BUSH)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SANDOVAL) (NNP DENIED) (NNP THAT) (NNP THE) (NNP POSTPONEMENT))
+      (PP (IN OF)
+        (NP
+          (NP (NNP CRISTIANI) (POS 'S))
+          (NNP TRIP))))
+    (VP (VBZ IS)
+      (VP (VBN RELATED)
+        (S
+          (VP (TO TO)
+            (VP (VB POSSIBLE)
+              (NP (NNP REACTION))
+              (PP (TO TO)
+                (NP
+                  (NP (DT THE) (NN ARREST))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNP EIGHT) (NNPS MEMBERS))
+                      (PP (IN OF)
+                        (NP
+                          (NP (DT THE) (NNP ARMY))
+                          (, ,)
+                          (NP (NNP INCLUDING) (NNP FOUR) (NNP OFFICERS))
+                          (, ,)))))
+                  (PP (IN ON)
+                    (NP
+                      (NP (NNS CHARGES))
+                      (PP (IN OF)
+                        (S
+                          (VP (VBG BEING)
+                            (NP
+                              (NP (NNP IMPLICATED))
+                              (PP (IN IN)
+                                (NP
+                                  (NP (DT THE) (NN MURDER))
+                                  (PP (IN OF)
+                                    (NP
+                                      (NP (NNP SIX) (NNP JESUIT) (NNPS PRIESTS))
+                                      (CC AND)
+                                      (NP (CD TWO) (NNS EMPLOYEES)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP THERE))
+      (VP (VBZ IS)
+        (NP
+          (NP (DT NO) (NNP RELATION))
+          (, ,)
+          (NP (NNP BECAUSE)))
+        (SBAR
+          (S
+            (NP
+              (NP (DT THE) (NN CASE))
+              (PP (IN OF)
+                (NP (DT THE) (NNS JESUITS))))
+            (VP (VBZ IS)
+              (VP (VBG BEING)
+                (NP (NNP RESOLVED))))))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNP SPOKESMAN))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SANDOVAL) (NNP ALSO) (NNP DENIED) (NNP THAT) (NNP POSTPONEMENT))
+      (PP (IN OF)
+        (NP (DT THE) (NNP TRIP))))
+    (VP (VBZ IS)
+      (VP (VBN LINKED)
+        (PP (TO TO)
+          (NP
+            (NP (DT THE) (NN ASSASSINATION))
+            (PP (IN OF)
+              (NP
+                (NP (NNP HECTOR) (NNP OQUELI))
+                (, ,)
+                (NP
+                  (NP (DT A) (NNP SALVADORAN) (NN LEADER))
+                  (PP (IN OF)
+                    (NP
+                      (NP (DT THE) (NNP SOCIALIST) (NNP INTERNATIONAL))
+                      (, ,)
+                      (NP
+                        (NP (CD 3) (NNP DAYS) (NNP AGO))
+                        (PP (IN IN)
+                          (NP (NNP GUATEMALA)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP AFTER) (NNP LEARNING))
+      (PP (IN OF)
+        (NP
+          (NP
+            (NP (NNP OQUELI) (POS 'S))
+            (NNP ASSASSINATION))
+          (, ,)
+          (NP (DT THE) (NNP GUERRILLAS) (NNP ANNOUNCED) (NNP THAT) (NNP THEY)))))
+    (VP (MD WILL)
+      (VP (`` ``) (VB REVISE) ('' '')
+        (S
+          (NP (NNP THEIR) (NNP OFFER))
+          (VP (TO TO)
+            (VP (VB RESUME)
+              (NP (DT THE) (NN DIALOGUE))
+              (PP (IN WITH)
+                (NP (DT THE) (NN GOVERNMENT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP HOWEVER))
+      (, ,)
+      (NP
+        (NP (DT THE) (NNP PRESIDENTIAL) (NNP SPOKESMAN) (NNP INDICATED) (NNP THAT))
+        (NP (DT THE) (NNP GUERRILLAS) (NNP HAVE))))
+    (VP (VBD SENT)
+      (NP (DT NO) (JJ OFFICIAL) (NN NOTE))
+      (S
+        (VP (VBG EXPLAINING)
+          (NP (DT THE) (NN REVISION)))))
+    (. .)))
+

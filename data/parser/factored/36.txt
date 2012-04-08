@@ -1,0 +1,246 @@
+(ROOT
+  (NP
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP GUATEMALAN) (NNP FOREIGN) (NNP MINISTRY) (NNP CONDEMNED) (NNP TODAY)))
+    (NP
+      (NP (DT THE) (NN ASSASSINATION))
+      (PP (IN OF)
+        (NP
+          (NP (NNP LEFTIST) (NNP SALVADORAN) (NNP LEADER) (NNP HECTOR) (NNP OQUELI))
+          (CC AND)
+          (NP (NNP GUATEMALAN) (JJ POLITICAL) (NN LEADER) (NNP GILDA) (NNP FLORES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT BOTH) (NNP BODIES) (NNP WERE) (NNP FOUND) (NNP TODAY))
+    (PP (IN IN)
+      (NP
+        (NP (DT AN) (NN AREA) (NNP NEAR) (NNP GUATEMALA))
+        (CC AND)
+        (NP (NNP EL) (NNP SALVADOR) (NNP BORDER) (NNP AFTER))))
+    (NP (DT THE) (NNS VICTIMS))
+    (VP (VBP WERE)
+      (VP (VBN KIDNAPPED)
+        (PP (IN IN)
+          (NP (NNP GUATEMALA) (NNP CITY) (NNP YESTERDAY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ FOREIGN) (NNP MINISTRY) (NNP COMMUNIQUE))
+      (`` ``)
+      (NP (NNPS REGRETS)
+        (CC AND)
+        (NNPS CONDEMNS))
+      ('' '')
+      (NP
+        (NP (DT THE) (NNP ASSASSINATION))
+        (PP (IN OF)
+          (NP (NNP OQUELI))))
+      (, ,))
+    (VP (VBP ASSISTANT)
+      (S
+        (NP
+          (NP (NNP SECRETARY))
+          (PP (IN OF)
+            (NP
+              (NP
+                (NP (DT THE) (NNP SOCIALIST) (NNP INTERNATIONAL))
+                (PP (IN FOR)
+                  (NP
+                    (NP (NNP LATIN) (NNP AMERICA))
+                    (CC AND)
+                    (NP (DT THE) (NNP CARIBBEAN)))))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP
+                  (NP (NNP DEPUTY) (NNP SECRETARY) (NNP GENERAL))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP NATIONAL) (NNP REVOLUTIONARY) (NNP MOVEMENT))))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP MNR))
+                  (-RRB- -RRB-)))
+              (, ,))))
+        (NP (DT A) (NNP LEFTIST) (NNP MOVEMENT))
+        (PP (IN IN)
+          (NP (NNP EL) (NNP SALVADOR)))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP WE) (NNP DEEPLY))
+      (VP (VBP REGRET)
+        (NP
+          (NP
+            (NP (DT THE) (NNS DEATHS))
+            (PP (IN OF)
+              (NP (CD TWO) (JJ VALUABLE) (NNS PERSONS))))
+          (, ,)
+          (CC AND)
+          (NP
+            (NP (NNP WE) (NNP CONDEMN) (NNP THIS) (NNP ACT))
+            (PP (IN OF)
+              (NP (NNP VIOLENCE)))))))
+    (, ,) ('' '')
+    (NP (DT THE) (NN NOTE))
+    (VP (VBZ ADDS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DOCUMENT))
+    (VP (VBZ IS)
+      (NP (DT THE) (NNP FIRST) (NNP OFFICIAL) (NNP REACTION))
+      (PP (TO TO)
+        (NP
+          (NP (DT THE) (NNP KIDNAPPING)
+            (CC AND)
+            (NNP ASSASSINATION))
+          (PP (IN OF)
+            (NP (DT BOTH) (NNS LEADERS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GILDA) (NNP FLORES))
+    (VP (VBD WAS)
+      (NP
+        (NP
+          (NP (DT AN) (JJ ACTIVE) (NN MEMBER))
+          (PP (IN OF)
+            (NP (DT THE) (NNP DEMOCRATIC) (NNP SOCIALIST) (NNP PARTY))))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP PSD))
+          (-RRB- -RRB-))
+        (PP (IN OF)
+          (NP
+            (NP (NNP GUATEMALA))
+            (, ,)
+            (NP (NNP WHOSE) (NNP SECRETARY) (NNP GENERAL) (NNP MARIO) (NNP SOLORZANO) (NNP REPORTED) (NNP THAT)))))
+      (SBAR
+        (S (`` ``)
+          (NP (NNP SALVADORAN) (NNP PARAMILITARY) (NNP GROUPS))
+          ('' '')
+          (VP (VBP ARE)
+            (VP (VBG CARRYING)
+              (NP
+                (NP (NNP OUT) (NNP ACTIONS))
+                (PP (IN IN)
+                  (NP (NNP THIS) (NNP COUNTRY)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (NNP SOLORZANO))))
+    (, ,)
+    (S
+      (NP (DT THE) (NNP INCIDENT))
+      (`` ``)
+      (NP (NNP SHOWS) (NNP THERE))
+      (VP (VBZ IS)
+        (NP (NN COOPERATION))
+        (NP
+          (NP (NNP BETWEEN) (NNP PARAMILITARY) (NNPS GROUPS))
+          (PP (IN OF)
+            (NP (DT BOTH) (NNS COUNTRIES)))))
+      (, ,) ('' ''))
+    (PRN
+      (S
+        (VP (VB BECAUSE)
+          (NP
+            (NP (DT THE) (NNP PERPETRATORS) (NNP KNEW))
+            (PP (IN OF)
+              (NP
+                (NP (NNP OQUELI) (POS 'S))
+                (NNP ARRIVAL)))))))
+    (`` ``)
+    (CC AND)
+    (S
+      (NP (NNP THEY))
+      (VP (VBD STAGED)
+        (NP (DT AN) (NNP ENTIRE) (NNP OPERATION))
+        (PP (TO TO)
+          (NP (NNP KIDNAP) (NNP HIM)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS BODIES))
+      (PP (IN OF)
+        (NP (DT THE) (JJ POLITICAL) (NNS LEADERS))))
+    (VP (VBP WERE)
+      (NP (NNP FOUND) (NNP EARLY) (NNP THIS) (NNP MORNING))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP SHOTS) (NNP THROUGH) (NNP THE) (NNP TEMPLE))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NNP GUATEMALAN) (NNP TOWN))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP JALPATAGUA))
+                  (, ,)
+                  (NP (NNP NEAR) (DT THE) (NNP BORDER))))))))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP EL) (NNP SALVADOR))
+          (, ,)
+          (NP
+            (NP
+              (NP (NNP OQUELI) (POS 'S))
+              (NNP RELATIVES) (NNP TOLD) (NNP EFE))
+            (PP (IN IN)
+              (NP (NNP EL) (NNP SALVADOR)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OQUELI))
+    (VP (VBD ARRIVED)
+      (PP (IN IN)
+        (NP (NNP GUATEMALA) (NNP LAST) (NNP THURSDAY))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (ADVP (RP ON))
+          (NP (NNP FRIDAY) (NNP MORNING))
+          (, ,)
+          (NP (NNP WHILE)))
+        (PP (IN ON)
+          (NP
+            (NP (PRP$ HIS) (NN WAY))
+            (PP (TO TO)
+              (NP (NNP LA) (NNP AURORA))))))
+      (VP (VBP AIRPORT)
+        (S
+          (VP (TO TO)
+            (VP (VB CATCH)
+              (NP (DT A) (NN PLANE))
+              (PP (TO TO)
+                (NP (NNP NICARAGUA))))))))
+    (, ,)
+    (NP (PRP HE))
+    (VP (VBD WAS)
+      (S
+        (NP (NNP KIDNAPPED) (NNP BY))
+        (`` ``)
+        (ADJP (NNP HEAVILY) (NNP ARMED) (NNP MEN)))
+      (, ,) ('' '')
+      (S
+        (VP (VBG ACCORDING)
+          (PP (TO TO)
+            (NP (DT THE) (NNP MNR))))))
+    (. .)))
+

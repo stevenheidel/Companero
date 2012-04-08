@@ -1,0 +1,193 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP PRESIDENT) (NNP VIRGILIO) (NNP BARCO)))
+    (VP (VBD RESHUFFLED)
+      (NP (PRP$ HIS) (JJ CABINET) (NN TODAY))
+      (, ,)
+      (PP (VBG APPOINTING)
+        (NP
+          (NP (CD FIVE) (JJ NEW) (NNS MINISTERS))
+          (CC AND)
+          (NP
+            (NP (NNP RECONFIRMING) (NNP EIGHT))
+            (PP (IN FOR)
+              (NP
+                (NP (DT THE) (NNP FINAL) (NNP PHASE))
+                (PP (IN OF)
+                  (NP (PRP$ HIS) (NN TERM))))))))
+      (, ,)
+      (PP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP (DT AN) (NNP OFFICIAL) (NNP DECREE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP REORGANIZATION) (NNP OCCURRED) (NNP AFTER) (NNP THE) (NNP MINISTERS))
+      (VP (VBD PRESENTED)
+        (S
+          (NP (DT A) (NNP PROTOCOL) (NNP RESIGNATION))
+          (VP (TO TO)
+            (VP (VB ALLOW)
+              (S
+                (NP (DT THE) (NNP PRESIDENT))
+                (VP (TO TO)
+                  (VP (VB APPOINT)
+                    (NP (JJ NEW) (NNS MINISTERS))))))))))
+    (: ;)
+    (S
+      (NP
+        (NP (NNP SOME))
+        (PP (IN OF)
+          (NP (NNP THEM) (NNP DID) (NNP NOT) (NNP WANT))))
+      (VP (TO TO)
+        (VP (VB BE)
+          (NP
+            (NP (NNP POLITICALLY) (NNP DISQUALIFIED) (NNP FROM) (NNP RUNNING))
+            (PP (IN FOR)
+              (NP
+                (NP (DT A) (NN SEAT))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP CONGRESS))
+                    (PP (IN IN)
+                      (NP (DT THE) (CD 1990) (NNS ELECTIONS)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS))
+    (VP (VBZ HAS)
+      (VP (NNP BEEN)
+        (NP
+          (NP (DT THE) (NNP THIRD) (NNP IMPORTANT) (NNP CABINET) (NNP RESHUFFLE) (NNP SINCE) (NNP BARCO) (NNP TOOK) (NNP OFFICE))
+          (PP (IN IN)
+            (NP (NNP AUGUST) (CD 1986))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (CD FIVE) (JJ NEW) (NN CABINET) (NNS MINISTERS))
+    (VP (VBP INCLUDE)
+      (NP
+        (NP (CD TWO) (NNS WOMEN))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (MD WILL)
+              (VP (VB HOLD)
+                (NP
+                  (NP (DT THE) (NNS POSTS))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNP PUBLIC) (NNPS WORKS))
+                      (CC AND)
+                      (NP (NN LABOR) (NNS MINISTERS)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS OTHERS))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (MD WILL)
+            (VP (VB JOIN)
+              (NP (DT THE) (NNP CABINET) (NNP WERE)))))))
+    (VP (VBD APPOINTED)
+      (PP (TO TO)
+        (NP
+          (NP (DT THE) (NNP GOVERNMENT))
+          (, ,)
+          (NP (NNPS COMMUNICATIONS))
+          (, ,)
+          (CC AND)
+          (NP (NNP HEALTH) (NNPS MINISTRIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP OUTGOING) (NNP MINISTERS) (NNP STATED))
+    (PP (IN IN)
+      (NP
+        (NP (NNP THEIR) (NNP PROTOCOL) (NNP LETTER))
+        (PP (IN OF)
+          (NP (NNP RESIGNATION) (NNP THAT)))))
+    (NP (DT A) (NNP CABINET) (NNP RESHUFFLE))
+    (VP (VBZ IS)
+      (S
+        (NP (NNP FUNDAMENTAL))
+        (VP (TO TO)
+          (VP (VB ALLOW)
+            (NP (DT THE) (NN GOVERNMENT))
+            (PP (TO TO)
+              (NP
+                (NP (NNP ACHIEVE) (NNP ITS) (NNP GOALS))
+                (PP (IN IN)
+                  (NP
+                    (NP (DT THE) (NNP FINAL) (NNP STAGE))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP PRESIDENT) (NNP BARCO) (POS 'S))
+                        (NNP ADMINISTRATION)))))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP WE) (NNP HAVE))
+      (VP (VBD SERVED)
+        (PP (IN IN)
+          (NP (DT A)
+            (NP (DT A) (NNP PARTICULARLY) (NNP DIFFICULT) (NN PERIOD))
+            (PP (IN OF)
+              (NP (NNP NATIONAL) (NNP LIFE)))
+            (, ,)
+            (NP
+              (NP (NNP CHARACTERIZED) (NNP BY) (NNPS SITUATIONS))
+              (PP (IN OF)
+                (NP (NNP CRIMINALITY)
+                  (CC AND)
+                  (NNP TERRORISM))))))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNP RESIGNATION) (NNP LETTER))
+    (VP (VBD STATED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP LETTER) (NNP ADDED))
+    (VP (VBD THAT)
+      (S
+        (NP
+          (NP (DT THE) (NNP RESIGNATION) (NNP RESULTED) (NNP FROM) (NNP SOME))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNS MINISTERS) (POS '))
+              (NNP NOT) (NNP WANTING))))
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP
+              (NP (NNP POLITICALLY) (NNP DISQUALIFIED) (NNP FROM) (NNP RUNNING))
+              (PP (IN FOR)
+                (NP (NNP PUBLIC) (NNP POSTS))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP COLOMBIAN) (NN LAW) (NNS DEMANDS))
+    (VP (VBP THAT)
+      (NP
+        (NP (DT THOSE)
+          (ADJP (VBG ASPIRING)
+            (PP (TO TO)
+              (NP (NNP PUBLIC) (NNP POSTS) (NNP MUST) (NNP NOT) (NNP HAVE) (NNP SERVED) (NNP AS) (NNP GOVERNMENT))))
+          (NNS OFFICIALS))
+        (PP (NNP WITHIN)
+          (NP (DT THE) (JJ LAST) (CD 12) (NNS MONTHS)))))
+    (. .)))
+

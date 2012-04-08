@@ -1,0 +1,74 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP REPORT) (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP MARCO) (NNP ANTONIO) (NNP GUEVARA))
+          (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-)))
+      (PP (IN ON)
+        (NP
+          (NP (DT A) (NNP NATIONAL) (NNP RADIO))
+          (CC AND)
+          (NP (NNP TELEVISION) (NNP NETWORK) (NNP LAST) (NNP NIGHT)))))
+    (PRN (, ,)
+      (S
+        (NP (DT THE) (NNP GOVERNMENT))
+        (VP (VBD REVEALED)
+          (SBAR
+            (S
+              (NP
+                (NP (DT THE) (NNS RESULTS))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT A) (NN NUMBER))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNS INVESTIGATIONS))
+                        (PP (IN ON)
+                          (NP
+                            (NP (DT THE) (NN MURDER))
+                            (PP (IN OF)
+                              (NP
+                                (NP
+                                  (NP (NNP MSGR) (NNP ARNULFO) (NNP ROMERO))
+                                  (PRN (: ;)
+                                    (S
+                                      (NP (NNP HOWEVER))
+                                      (, ,)
+                                      (NP (DT THE) (NNP ATTORNEY) (NNP GENERAL))
+                                      (VP (VBD SAID)
+                                        (NP
+                                          (NP
+                                            (NP (NNP AT) (NNP NOON) (NNP TODAY) (NNP ONLY))
+                                            (NP (DT THE) (NNP FOURTH) (JJ CRIMINAL) (NN COURT) (NN JUDGE)))
+                                          (NP (NNP CAN) (NNP DETERMINE) (NNP WHETHER)))
+                                        (SBAR
+                                          (S
+                                            (NP (DT THE) (NNP EVIDENCE) (NNP AGAINST) (NNP ANY) (NNP PERSON))
+                                            (VP (VBZ IS)
+                                              (NP (NNP LEGAL)))))))
+                                    (: :))
+                                  (PRN (-LRB- -LRB-)
+                                    (NP (NNP BEGIN) (NNP RECORDING))
+                                    (-RRB- -RRB-)))
+                                (PRN (-LRB- -LRB-)
+                                  (NP (NNP ATTORNEY) (NNP GENERAL) (NNP ROBERTO) (NNP GARCIAL) (NNP ALVARADO))
+                                  (-RRB- -RRB-)))))))))))
+              (VP (VBP SINCE)
+                (S
+                  (NP (PRP I))
+                  (NP (NNP DO) (NNP NOT) (NNP KNOW) (NNP THEIR) (NNP CONTENT))))))))
+      (, ,))
+    (NP (PRP I))
+    (NP (NNP CAN) (NNP NOT))
+    (VP (VBP GIVE)
+      (NP
+        (NP (DT AN) (NNP OPINION))
+        (PP (IN ON)
+          (NP (DT THE) (NN MATTER)))))
+    (. .)))
+

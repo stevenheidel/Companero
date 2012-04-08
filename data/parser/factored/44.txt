@@ -1,0 +1,160 @@
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (PRN (-LRB- -LRB-)
+            (NP (NNP TEXT))
+            (-RRB- -RRB-))
+          (NNP EXPLOSIVES) (NNP LOADED))
+        (PP (IN IN)
+          (NP
+            (NP (DT A) (NNP SMALL) (NNP TRUCK))
+            (, ,)
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (VP (VBP WERE)
+                  (VP (VBG GOING))))))))
+      (VP (TO TO)
+        (VP (VB BE)
+          (NP
+            (NP
+              (NP (NNP FIRED) (NNP AT))
+              (NP (DT THE) (NNP SALVADORAN) (NNP PRESIDENTIAL) (NNP HOUSE)))
+            (, ,)
+            (NP (NNP WERE) (NNP DEACTIVATED) (NNP AT) (NNP NOON) (NNP TODAY))))))
+    (, ,)
+    (NP (DT A) (NNP MILITARY) (NNP SOURCE))
+    (VP (VBZ HAS)
+      (VP (VBN REPORTED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP THREE) (NNP HANDMADE) (NNP CATAPULTS))
+      (, ,)
+      (NP (NNP EACH)))
+    (VP (VBD LOADED)
+      (PP (IN WITH)
+        (NP
+          (NP
+            (NP (NNP APPROXIMATELY) (CD 7))
+            (NP (NNP KG)))
+          (PP (IN OF)
+            (NP
+              (NP (NNP DYNAMITE))
+              (, ,)
+              (NP (NNP WERE) (NNP DEFUSED) (NNP AT) (NNP 1145))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP 1745) (NNP GMT))
+                (-RRB- -RRB-))
+              (NP (NNP BY) (NNP NATIONAL) (NNP POLICEMEN)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP CATAPULTS) (NNP WERE))
+    (VP (VBD LOCATED)
+      (NP
+        (NP (CD 200) (NNS METERS))
+        (PP (NNP FROM)
+          (NP (DT THE) (NNP PRESIDENCY)
+            (CC AND)
+            (NNP WERE))))
+      (S
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP
+              (NP (NNP FIRED) (CD 10) (NNP MINUTES) (NNP LATER))
+              (, ,)
+              (NP (NNP COPREFA) (NNP REPORTED)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (DT THE) (NNS GUERRILLAS))))
+    (, ,)
+    (NP (DT THE) (`` ``)
+      (NX (NNP MOBILE)))
+    (VP (VBD ARMED)
+      (NP
+        (NP (NNP PLATFORMS))
+        (, ,) ('' '')
+        (NP
+          (NP (NNP SORT))
+          (PP (IN OF)
+            (NP
+              (NP (NNP LIKE) (NNP MEDIEVAL) (NNP CATAPULTS))
+              (, ,)
+              (NP
+                (NP (NNP CONSIST))
+                (PP (IN OF)
+                  (NP (CD TWO) (NNS PARTS)))))))
+        (: :)
+        (NP
+          (NP (DT A) (NNP FUSE))
+          (CC AND)
+          (NP (DT A) (NNP MAIN) (NNP CHARGE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PRESIDENTIAL) (NNP HOUSE))
+    (VP (VBZ IS)
+      (VP (VBN LOCATED)
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP SOUTHERN) (NNP PART))
+            (PP (IN OF)
+              (NP (NNP SAL) (NNP SALVADOR) (NNP ADJACENT)))))
+        (PP (TO TO)
+          (NP
+            (NP (CD ONE))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP PRINCIPAL) (NNPS GARRISONS))
+                (PP (IN OF)
+                  (NP
+                    (NP (NNP EL) (NNP SALVADOR))
+                    (, ,)
+                    (NP (DT THE) (NNP ARMED) (NNP FORCES) (NNP TRANSMISSION) (NNP CENTER))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (DT THE) (NNP PAST) (NNP FEW) (NNP MONTHS)))
+    (, ,)
+    (NP (DT THE) (NNP FMLN))
+    (VP (VBZ HAS)
+      (VP (VBN USED)
+        (VP (VBN SO-CALLED)
+          (SBAR
+            (S (`` ``)
+              (NP (NNP MOBILE) (NNP ARMED) (NNP PLATFORMS))
+              ('' '')
+              (VP (VBD AGAINST)
+                (NP
+                  (NP (DT THE) (NNP PRINCIPAL) (NNP ARMY) (NNP GARRISONS))
+                  (PP (IN IN)
+                    (NP (NNP SAN) (NNP SALVADOR))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ARMY))
+    (VP (VBD DESCRIBED)
+      (S
+        (NP (NNP THESE) (NNP DEVICES))
+        (PP (IN AS)
+          (NP (`` ``)
+            (NP (NNP TERRORIST) (NNP WEAPONS))
+            ('' '')
+            (CC AND)
+            (NP (NNP LABELED) (NNP THEM) (`` ``) (NNP CAR) (NNP BOMBS))))))
+    (. .) ('' '')))
+

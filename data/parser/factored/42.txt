@@ -1,0 +1,116 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP TEN) (NNP TERRORISTS)))
+    (VP (VBD HURLED)
+      (NP
+        (NP (NNP DYNAMITE) (NNP STICKS) (NNP AT) (NNP U.S.) (NNP EMBASSY) (NNP FACILITIES))
+        (PP (IN IN)
+          (NP
+            (NP
+              (NP (DT THE) (NNP MIRAFLORES) (NNP DISTRICT))
+              (, ,)
+              (NP (NNP CAUSING) (NNP SERIOUS) (NNP DAMAGE) (NNP BUT) (NNP FORTUNATELY)))
+            (NP (DT NO) (NNP CASUALTIES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ATTACK))
+    (VP (VBD TOOK)
+      (NP
+        (NP
+          (NP (NNP PLACE) (NNP AT) (CD 2100))
+          (PP (IN ON)
+            (NP (CD 15) (NN JANUARY))))
+        (PRN (-LRB- -LRB-)
+          (NP
+            (NP
+              (NP (NNP 0100) (NNP GMT))
+              (PP (IN ON)
+                (NP (CD 16))))
+            (NP (NNP JAN)))
+          (-RRB- -RRB-))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP INSIDE) (DT THE) (NNP FACILITY))
+      (, ,)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (VP (VBD WAS)
+            (NP
+              (NP
+                (NP (NNP GUARDED) (NNP BY) (CD 3))
+                (NP (NNP SECURITY) (NNP OFFICERS)))
+              (, ,)
+              (NP (DT A)
+                (NAC (NNP GROUP)
+                  (PP (IN OF)
+                    (NP (JJ EMBASSY) (NNS OFFICIALS))))
+                (NNP WERE) (NNP HOLDING)))))))
+    (DT A)
+    (VP (VBP WORK)
+      (VP (VBG MEETING)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (DT THE)
+          (ADJP (RB FIRST) (JJ POLICE))
+          (NNS REPORTS))))
+    (, ,)
+    (NP (DT THE) (NNP ATTACK))
+    (VP (VBD WAS)
+      (SBAR
+        (S
+          (VP (VBD STAGED)
+            (NP
+              (NP (NNP BY) (CD 10) (NNS TERRORISTS))
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBD USED)
+                    (NP
+                      (NP (CD 2) (NNP TOYOTA) (NNS CARS))
+                      (SBAR
+                        (WHNP (WDT WHICH))
+                        (S
+                          (NP (NNP WERE) (NNP LATER))
+                          (VP (VBD ABANDONED)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (CD ONE))
+        (PP (IN OF)
+          (NP (DT THE) (NNS VEHICLES))))
+      (VP (VBD WAS)
+        (NP
+          (NP (NN LEFT))
+          (PP (IN ON)
+            (NP (DT THE) (NNP THIRD) (NNP BLOCK)))
+          (PP (IN OF)
+            (NP (NNP JOSE) (NNP PARDO) (NNP AVENUE))))))
+    (, ,)
+    (NP (NNP WHILE) (DT THE) (NNP OTHER))
+    (VP (VBD WAS)
+      (NP
+        (NP (NN LEFT))
+        (PP (IN ON)
+          (NP (DT THE) (NNP FIRST) (NNP BLOCK)))
+        (PP (IN OF)
+          (NP
+            (NP (NNP BELLA) (NNP VISTA) (NNP STREET))
+            (PP (IN IN)
+              (NP (NNP MIRAFLORES)))))))
+    (. .)))
+

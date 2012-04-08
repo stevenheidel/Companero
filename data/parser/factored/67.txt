@@ -1,0 +1,114 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP SUMMARY) (-RRB- -RRB-))
+      (NP (NNP NATIONAL) (NNP POLICE) (NNP DIRECTOR) (NNP MIGUEL) (NNP ANTONIO) (NNP GOMEZ) (NNP PADILLA)))
+    (VP (VBZ HAS)
+      (NP (NNP REPORTED) (NNP THAT) (NNP WITHIN))
+      (SBAR
+        (S
+          (NP
+            (NP (DT THE) (NN FRAMEWORK))
+            (PP (IN OF)
+              (NP (`` ``)
+                (NP (NNP OPERATION) (NNP SPRING))
+                (, ,) ('' '')
+                (NP (DT A)
+                  (ADJP (JJ NEW))
+                  (NN OFFENSIVE)))))
+          (VP (VBD WAS)
+            (NP
+              (NP (NNP RECENTLY) (NNP LAUNCHED) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKERS))
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (NNP MIDDLE) (NNP MAGDALENA) (NNP REGION))
+                  (, ,)
+                  (NP (NNP ANTIOQUIA) (NNP DEPARTMENT)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG DURING)
+        (NP (DT THE) (NN OPERATION))))
+    (, ,)
+    (NP (DT THE) (NNP NARCOTICS) (NNP POLICE))
+    (VP
+      (VP (VBD ARRESTED)
+        (NP (CD 8) (NN DRUG) (NNS TRAFFICKERS)))
+      (CC AND)
+      (VP (VBD DESTROYED)
+        (NP
+          (NP (CD 1,200) (NN KG))
+          (PP (IN OF)
+            (NP
+              (NP (NNP PURE) (NNP COCAINE))
+              (, ,)
+              (NP (CD 52) (JJ CLANDESTINE) (NNS AIRSTRIPS))
+              (, ,)
+              (NP (CD 8) (NNP LABORATORIES))
+              (, ,)
+              (NP
+                (NP (NNS THOUSANDS))
+                (PP (IN OF)
+                  (NP
+                    (NP (NNS GALLONS))
+                    (PP (IN OF)
+                      (NP (NNP CHEMICALS))))))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP (NNP OTHER) (NNP EQUIPMENT) (NNP USED))
+                (PP (IN IN)
+                  (NP (NNP PROCESSING) (NNP COCAINE)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (DT A) (JJ WAREHOUSE) (NN USED)
+      (S
+        (VP (TO TO)
+          (VP (VB STORE)
+            (NP
+              (NP (NNS DRUGS))
+              (PP (IN FOR)
+                (NP (NNP SHIPMENT))))
+            (PP (TO TO)
+              (NP (DT THE) (NNP UNITED) (NNS STATES)))))))
+    (VP (VBD WAS)
+      (VP (VBN DISCOVERED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP GENERAL) (NNP JAIME) (NNP RUIZ) (NNP BARRERA))
+      (, ,)
+      (NP (CD 4TH) (NNP BRIGADE) (NNP COMMANDER))
+      (, ,)
+      (NP (NNP STATED) (NNP THAT)
+        (NX
+          (NX (DT THE) (NNP WAR) (NNP BETWEEN) (NNP THE) (NNP MEDELLIN))
+          (CC AND)
+          (NX (NNP CALI) (NNP DRUG) (NNP CARTELS)))))
+    (VP
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP ALREADY) (NNP CLAIMED))
+          (ADJP (JJR MORE)
+            (PP (IN THAN)
+              (NP (CD 120) (NNS DEATHS))))))
+      (CC AND)
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP PROVOKED) (DT A) (NNP WAVE))
+          (PP (IN OF)
+            (NP
+              (NP (NNP BOMB) (NNP ATTACKS))
+              (PP (IN IN)
+                (NP (NNP MEDELLIN))))))))
+    (. .)))
+

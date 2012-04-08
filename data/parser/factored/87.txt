@@ -1,0 +1,265 @@
+(ROOT
+  (S
+    (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
+    (NP
+      (NP (NNP SALVADORAN) (NNP COLONEL) (NNP CIRO) (NNP LOPEZ))
+      (, ,)
+      (NP
+        (NP (NNP COMMANDER))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (`` ``) (NNP EL) (NNP PARAISO) ('' '') (NNP GARRISON))
+            (, ,)
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (VP (VBD WAS)
+                  (NP
+                    (NP
+                      (NP (NNP ATTACKED) (NNP BY))
+                      (NP (DT THE) (NNS GUERRILLAS)))
+                    (PP (IN ON)
+                      (NP (CD 13) (NN SEPTEMBER))))))))))
+      (, ,))
+    (VP (VBD DENIED)
+      (NP
+        (NP (NNP TODAY) (NNP THAT) (NNP THREE) (NNP U.S.) (NNP MILITARY) (NNP ADVISERS) (NNP HAD) (NNP PARTICIPATED))
+        (PP (IN IN)
+          (NP (DT THE) (NNP CLASH))))
+      (PP (IN WITH)
+        (NP
+          (NP (DT THE) (NNS REBELS))
+          (, ,)
+          (NP
+            (NP (NNP CONTRARY))
+            (SBAR
+              (WHPP (TO TO)
+                (WHNP (WDT WHAT)))
+              (S
+                (NP (DT THE) (NNP U.S.) (NNP MEDIA)
+                  (CC AND)
+                  (NNP PRESIDENT) (NNP HAVE))
+                (VP (VBD STATED))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP LOPEZ))
+    (VP (VBD SAID)
+      (NP
+        (NP (DT THE) (`` ``) (NNP THREE) (NNP ADVISERS) (NNP DID) (NNP NOT) (NNP SHOOT))
+        (, ,)
+        (NP (NNP BECAUSE) (NNP THEY) (NNP WERE) (NNP NOT) (NNP ARMED))
+        (CC AND)
+        (NP
+          (NP (NNP WERE))
+          (PP (IN IN)
+            (NP (DT A) (NN PILLBOX)))))
+      (PP (IN WITH)
+        (NP
+          (NP (DT A) (NN VIEW))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (JJ INSIDE) (NN PART))
+              (PP (IN OF)
+                (NP (DT THE) (NNP GARRISON)))))))
+      (PP (TO TO)
+        (NP
+          (NP (NNP PROTECT) (NNP THEMSELVES) (NNP FROM))
+          (NP (DT THE) (NNP MORTAR) (NNP FIRE)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD ADDED)
+      (PP (NNP THAT)
+        (NP (DT THE) (NNP THREE) (NNP ADVISERS) (`` ``) (NNP HAVE) (NNP NOT) (NNP PARTICIPATED)))
+      (PP (IN IN)
+        (NP (NNP ANY) (NNP FIGHTING) ('' '') (NNP BECAUSE)))
+      (, ,)
+      (S
+        (VP (VBG ACCORDING)
+          (PP (TO TO)
+            (NP (NNP HIM)))
+          (, ,) (`` ``)
+          (S
+            (NP
+              (NP (NNP THEY) (NNP WERE))
+              (PP (IN IN)
+                (NP (DT A) (JJ SECURITY) (NN AREA))))
+            (VP (VBG DURING)
+              (NP (DT THE) (NNP TERRORIST) (NNP ATTACK)))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP INFORMATION) (NNP THAT) (NNP THE) (NNP U.S.) (NNP MILITARY) (NNP ADVISERS) (NNP HAD) (NNP DIRECTLY) (NNP PARTICIPATED))
+    (PP (IN IN)
+      (NP (DT THE) (NNP SHOOTING) (NNP CAUSED) (NNP BY)))
+    (NP (DT THE) (NNP GUERRILLA) (NNP ATTACK))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP CARRIED) (NNP BY)
+          (NX
+            (NX (DT THE) (NNP WASHINGTON) (NNP POST))
+            (CC AND)
+            (NX (NNP CORROBORATED) (NNP BY) (NNP PRESIDENT) (NNP REAGAN))))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP (NNP AFFIRMED) (NNP THAT) (NNP THEY) (NNP HAD))
+            (`` ``)
+            (VP (VBD FIRED)
+              (PP (IN IN)
+                (NP (NN SELF-DEFENSE))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP
+          (NP (DT THE) (NNP REPORT) (NNP PUBLISHED) (NNP BY))
+          (NP (DT THE) (NNP WASHINGTON) (NNP POST)))))
+    (, ,)
+    (NP (NNP THREE) (NNP U.S.) (NNP MILITARY) (NNP ADVISERS))
+    (VP (VBD RESPONDED)
+      (PP (TO TO)
+        (NP (DT THE) (NNP REBEL) (NNP FIRE) (NNP AGAINST)))
+      (NP
+        (NP (DT THE) (NNP SALVADORAN) (NNP MILITARY) (NNP INSTALLATION))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP NORTHERN) (NNP PART))
+            (PP (IN OF)
+              (NP (DT THE) (NNP CENTRAL) (NNP AMERICAN) (NNP COUNTRY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP ARMY) (NNP SUSTAINED) (CD 9) (NNP DEAD))
+      (CC AND)
+      (NP (CD 12)))
+    (VP (VBD WOUNDED)
+      (SBAR
+        (S
+          (PP (IN AS)
+            (NP
+              (NP (DT A) (NN RESULT))
+              (PP (IN OF)
+                (NP (DT THE) (NNP FMLN)))))
+          (NP (NNP GUERRILLA))
+          (VP (VBD ATTACK)
+            (PRT (RP ON))
+            (NP (DT THE) (`` ``) (NNP EL) (NNP PARAISO) ('' '') (NN GARRISON))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT A) (NNP U.S.) (NNP DIPLOMATIC) (NNP SOURCE))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBP CHOSE)
+            (PP (TO TO)
+              (NP
+                (NP (NNP REMAIN) (NNPS ANONYMOUS) (NNP STATED))
+                (PP (IN IN)
+                  (NP (DT THE) (NNP SALVADORAN) (NNP CAPITAL) (NNP THAT)))))))))
+    (X (`` ``)
+      (NP
+        (NP (DT THE) (NNP ADVISERS) (NNP HAVE) (NNP A) (NNP RIGHT))
+        (PP (TO TO)
+          (NP (NNP DEFEND) (NNPS THEMSELVES))))
+      (, ,)
+      (NP
+        (NP (NNP ESPECIALLY) (NNP OUTSIDE))
+        (PP (IN OF)
+          (NP
+            (NP (NNP SAN) (NNP SALVADOR))
+            (, ,)
+            (NP
+              (NP (NNP BUT) (NNP NOT))
+              (PP (TO TO)
+                (NP
+                  (NP (NNP PARTICIPATE))
+                  (PP (IN IN)
+                    (NP (NNP COMBAT) (NNP OR) (NNP ATTACK) (NNPS MISSIONS)))))))))
+      (. .) ('' ''))))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (PRP$ HIS) (NNS STATEMENTS)))
+    (PRN (, ,)
+      (S
+        (NP (NNP RONALD) (NNP REAGAN))
+        (VP (VBD SUPPORTED)
+          (NP
+            (NP (DT THE) (NN ACTION))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP MILITARY) (NNPS ADVISERS))
+                (CC AND)
+                (NP (NNP ADDED) (NNP THAT))))))))
+    (`` ``)
+    (NP (PRP I))
+    (VP (VBP HAVE)
+      (S
+        (NP (NNP NEVER) (NNP SENT) (NNP MY) (NNP MEN))
+        (VP (TO TO)
+          (VP (VB FACE)
+            (NP (NNP ANY) (NNP DANGER) (NNP WITHOUT) (NNP GIVING) (NNP THEM))))))
+    (PRN
+      (S
+        (NP (DT THE))
+        (VP (VBP CHANCE)
+          (PP (TO TO)
+            (NP (NNP DEFEND) (NNP THEMSELVES))))))
+    (SBAR (IN IF)
+      (S
+        (NP (NNP THEY))
+        (VP (VBP ARE)
+          (VP (VBN ATTACKED)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP
+        (NP (NNP MARCH) (CD 1987))
+        (, ,)
+        (NP
+          (NP (NNP DURING) (NNP ANOTHER) (NNP ATTACK))
+          (PP (IN ON)
+            (NP (DT THE) (NNP GARRISON))))))
+    (, ,)
+    (NP
+      (NP (NNP U.S.) (NNP SERGEANT) (NNP GREGORY) (NNP FRONIUS))
+      (, ,)
+      (NP (DT A) (NNP MILITARY) (NNP ADVISER))
+      (, ,))
+    (VP (VBD WAS)
+      (VP (VBN KILLED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP CURRENTLY))
+      (, ,)
+      (NP
+        (NP (CD 55))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (CD 119) (NNP U.S.) (NNPS ADVISERS))
+            (PP (IN IN)
+              (NP (NNP EL) (NNP SALVADOR)))))))
+    (VP (VBP ARE)
+      (NP (JJ MILITARY) (NNS INSTRUCTORS)))
+    (. .)))
+

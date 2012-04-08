@@ -1,62 +1,63 @@
 (ROOT
   (S
-    (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
-    (NP (DT THE) (NNP SALVADORAN) (NNP ARMY) (NNP TODAY))
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP SALVADORAN) (NNP ARMY) (NNP TODAY)))
     (VP (VBD PREVENTED)
       (NP
-        (NP (DT THE) (NNP OCCUPATION))
+        (NP (DT THE) (NN OCCUPATION))
         (PP (IN OF)
           (NP
-            (NP (NNS CITIES))
+            (NP (NNP CITIES))
             (PP (IN IN)
-              (NP
-                (NP (DT THE) (NNP EASTERN) (NNP PART))
-                (PP (IN OF)
-                  (NP
-                    (NP (NNP EL) (NNP SALVADOR))
-                    (, ,)
-                    (NP (NNP WAGING) (NNP STRONG) (NNP CLASHES) (NNP BETWEEN) (NNP MIDNIGHT))
-                    (CC AND)
-                    (NP (NNP DAWN)))))))))
-      (, ,)
-      (S
-        (VP (VBG ACCORDING)
-          (PP (TO TO)
-            (NP
-              (NP (NNS REPORTS))
-              (NP (NNP BY) (NNP MILITARY) (NNPS SOURCES)))))))
+              (NP (DT THE) (NNP EASTERN) (NNP PART)))))
+        (PP (IN OF)
+          (NP
+            (NP (NNP EL) (NNP SALVADOR))
+            (, ,)
+            (NP (NNP WAGING) (NNP STRONG) (NNP CLASHES) (NNP BETWEEN) (NNP MIDNIGHT)
+              (CC AND)
+              (NNP DAWN))
+            (, ,))))
+      (PP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP
+            (NP (NNS REPORTS))
+            (NP (NNP BY) (NNP MILITARY) (NNP SOURCES))))))
     (. .)))
 
 (ROOT
   (S
-    (NP (DT THE) (NNPS ATTACKS))
-    (, ,)
-    (PP (VBG ACCORDING)
-      (PP (TO TO)
-        (NP (DT THE) (NNS REPORTS))))
-    (, ,)
-    (NP (NNP TOOK) (NNP PLACE))
-    (PP (IN IN)
+    (NP
+      (NP (DT THE) (NNS ATTACKS))
+      (, ,)
+      (VP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP (DT THE) (NNS REPORTS))))
+      (, ,))
+    (VP (VBD TOOK)
       (NP
-        (NP (NNP USULUTAN))
-        (, ,)
-        (NP (NNP USULUTAN) (NNP DEPARTMENT))
-        (, ,)
-        (NP
-          (NP (CD 110) (NNP KM) (NNS EAST))
-          (PP (IN OF)
-            (NP (DT THE) (NN CAPITAL))))
-        (, ,)
-        (CC AND)
+        (NP (NNP PLACE))
         (PP (IN IN)
-          (NP (NNP SANTA) (NNP ELENA) (NNP WHERE) (NNP AS)))
-        (PP (IN OF)
-          (NP (CD 0700)))))
-    (VP (VBZ CLASHES)
-      (S
-        (NP (NNP WERE) (NNP STILL))
-        (PP (IN UNDER)
-          (NP (NNP WAY)))))
+          (NP
+            (NP (NNP USULUTAN))
+            (, ,)
+            (NP (NNP USULUTAN) (NNP DEPARTMENT))
+            (, ,)
+            (NP
+              (NP (CD 110) (NNP KM) (NNS EAST))
+              (PP (IN OF)
+                (NP (DT THE) (NN CAPITAL))))
+            (, ,)
+            (CC AND)
+            (PP (IN IN)
+              (NP
+                (NP (NNP SANTA) (NNP ELENA) (NNP WHERE) (NNP AS))
+                (PP (IN OF)
+                  (NP (CD 0700) (NNS CLASHES)))))
+            (NP (NNP WERE) (NNP STILL))))))
+    (PP (IN UNDER)
+      (NP (NNP WAY)))
     (. .)))
 
 (ROOT
@@ -168,7 +169,7 @@
     (, ,)
     (PP (IN IN)
       (NP
-        (NP (DT THE) (NNP CENTRAL) (NNP PART))
+        (NP (DT THE) (JJ CENTRAL) (NN PART))
         (PP (IN OF)
           (NP (DT THE) (NNP COUNTRY)))))
     (, ,)
@@ -189,8 +190,7 @@
     (, ,)
     (NP (NNP WHERE) (DT THE) (NNP FMLN))
     (VP (VBZ HAS)
-      (VP (VBG STRONG)
-        (NP (NNS BASTIONS))))
+      (NP (NNP STRONG) (NNP BASTIONS)))
     (. .)))
 
 (ROOT

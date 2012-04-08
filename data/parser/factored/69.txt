@@ -1,0 +1,502 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP INTERIOR) (NNP MINISTER) (NNP JUAN) (NNP SORIA) (NNP DIAZ)))
+    (VP (VBZ HAS)
+      (NP
+        (NP
+          (NP (NNP DENIED) (NNP THAT) (CD TWO) (NNP DEA))
+          (-LRB- -LRB-)
+          (NP (NNP DRUG) (NNP ENFORCEMENT) (NNP AGENCY))
+          (-RRB- -RRB-))
+        (NP
+          (NP (NNP HELICOPTERS) (NNP HAVE) (NNP BEEN) (NNP DOWNED) (NNP BY) (NNP DRUG) (NNP TRAFFICKERS))
+          (PP (IN IN)
+            (NP (NNP TINGO) (NNP MARIA))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP INTERIOR) (NNP MINISTER) (NNP ALSO))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP SATISFACTORY) (NNP PROGRESS))
+          (VP (VBZ IS)
+            (VP (VBG BEING)
+              (NP
+                (NP (NNP MADE))
+                (PP (IN IN)
+                  (S
+                    (VP (VBG FORMING)
+                      (NP (DT A) (NNP CIVILIAN) (NN FRONT))
+                      (PP (TO TO)
+                        (NP (NNP FIGHT) (NNP SUBVERSION))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP SORIA))
+      (-RRB- -RRB-))
+    (NP (DT A) (NNP FAIRLY) (NNP LARGE) (NNP ACTIVITY))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP REPORTED))
+        (PP (IN IN)
+          (NP (DT THE) (NNP HUALLAGA) (NN AREA)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP DRUG) (NNP TRAFFICKING))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP REPRESSED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP HAVE)
+      (S
+        (NP (NNP BEEN) (NNP INFORMED) (NNP THAT) (NNP SOME) (NNP ARRESTS) (NNP HAVE) (NNP REPORTEDLY) (NNP BEEN) (NNP MADE))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ LARGE) (NN QUANTITY))
+      (PP (IN OF)
+        (NP (NNP DRUGS))))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP SEIZED))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP SOME) (NNP PEOPLE) (NNP HAVE) (NNP REPORTEDLY) (NNP BEEN) (NNP INJURED))
+          (PP (IN IN)
+            (NP (DT THE) (NN AREA))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP AM)
+      (VP (VBG AWAITING)
+        (NP (DT A) (JJ FINAL) (NN REPORT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP WORDS) (NNP INDISTINCT))
+        (-RRB- -RRB-)))
+    (NP (DT THE) (CD TWO) (NNS HELICOPTERS))
+    (VP (VBD THAT)
+      (NP
+        (NP (NNP HAVE) (NNP REPORTEDLY) (NNP BEEN) (NNP DOWNED) (NNP BY) (NNP TERRORISTS))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP ALTO) (NNP HUALLAGAS) (NN AREA))
+            (, ,)
+            (NP (NNP SIR))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+      (NP (NNP WELL)))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBD DO)
+      (NP (NNP NOT) (NNP KNOW) (NNP WHERE) (NNP THIS) (NNP REPORT) (NNP ORIGINATED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP CAN)
+      (ADJP (JJ ASSURE))
+      (SBAR
+        (S
+          (NP (PRP YOU))
+          (VP (VBP THAT)
+            (SBAR
+              (S
+                (NP (DT THE) (NNP DEA) (NNP HELICOPTERS) (NNP THAT))
+                (VP (VBP ARE)
+                  (VP (VBG COOPERATING)
+                    (PP (IN WITH)
+                      (NP (DT THE) (NNP POLICE) (NNP FORCES) (NNP HAVE) (NNP NOT) (NNP SUFFERED) (NNP ANY) (NNP DAMAGE)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+      (PP (NNP HAVE)
+        (NP (DT THE) (NNP HELICOPTERS) (NNP BEEN))))
+    (VP (VBD DOWNED))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+      (NP (NNP THEY) (NNP HAVE) (NNP NOT) (NNP BEEN)))
+    (VP (VBD DOWNED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT NO) (NN HELICOPTER))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP DOWNED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP HELICOPTERS) (NNP HAVE) (NNP NOT) (NNP BEEN))
+    (VP (VBD INVOLVED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP ANY) (NNP TYPE))
+          (PP (IN OF)
+            (NP (NNP INCIDENT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP DO)
+      (NP (NNP NOT) (NNP KNOW) (NNP WHERE))
+      (SBAR
+        (S
+          (NP (PRP YOU))
+          (VP (VBP GOT)
+            (NP (NNP THAT) (NNP REPORT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (VP (VBZ IS)
+      (NP (PRP IT))
+      (ADJP (JJ TRUE))
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP SOME) (NNP POLICEMEN))
+          (VP (VBP ARE)
+            (VP (VBG DESERTING)
+              (PP (IN IN)
+                (NP
+                  (NP (JJ SOME) (NNS AREAS))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNP CONFLICT))
+                      (PP (IN IN)
+                        (NP
+                          (NP (DT THE) (NNP COUNTRY))
+                          (, ,)
+                          (NP (NNP MINISTER)))))))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+      (NP (NNP NOT) (NNP THAT)))
+    (NP (PRP I))
+    (VP (VBD KNOW)
+      (PP (IN OF)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP DO)
+      (NP (NNP NOT) (NNP KNOW) (NNP WHERE))
+      (SBAR
+        (S
+          (NP (PRP YOU))
+          (VP (VBP GOT)
+            (NP (NNP THAT) (NNP REPORT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-) (NNP MINISTER))
+    (, ,)
+    (PP (IN IN)
+      (NP (DT THE) (NNP PAST) (NNP FEW) (NNP DAYS)))
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP ANNOUNCED) (NNP THAT))
+      (SBAR
+        (S
+          (NP
+            (NP (DT THE) (NNP MUNICIPAL) (NNP ELECTIONS))
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NN INTERIOR))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP COUNTRY) (NNP COULD))))))
+          (VP (VB BE)
+            (PP (IN IN)
+              (NP (NNP JEOPARDY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HAVE) (NNP ANY) (NNP PRECAUTIONARY))
+    (VP (VBZ MEASURES)
+      (NP (NNP BEEN) (NNP TAKEN)))
+    (. ?)))
+
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+    (NP (NNP PRECAUTIONARY) (NNP MEASURES) (NNP HAVE) (NNP BEEN) (NNP TAKEN))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ENTIRE) (NNP ELECTORAL) (NNP TIMETABLE))
+    (VP (VBZ IS)
+      (VP (VBG BEING)
+        (NP (NNP IMPLEMENTED) (NNP THROUGH))
+        (NP
+          (NP (DT THE) (NNS EFFORTS))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP ARMED) (NNPS FORCES))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (VP (VBP ARE)
+                    (NP
+                      (NP (NNP CONSTITUTIONALLY) (NNP RESPONSIBLE))
+                      (PP (IN FOR)
+                        (NP (DT THE) (NNS ELECTIONS))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (VP (VBD WOULD)
+      (NP
+        (NP (DT THE) (NN VIOLENCE))
+        (PP (IN IN)
+          (NP (DT THE) (NNP COUNTRY) (NNP PROMPT) (DT THE) (NNP STATE)))
+        (PP (IN OF)
+          (NP (NNP SIEGE) (NNP AT) (NNP A) (NNP NATIONAL) (NNP LEVEL)))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+    (VP (VBD NO.))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP BELIEVE)
+      (NP
+        (NP (NNP THAT) (DT THE) (NNP VIOLENCE))
+        (PP (IN IN)
+          (NP (DT THE) (NNP COUNTRY) (NNPS REMAINS)))))
+    (PP (IN UNDER)
+      (NP (NNP CONTROL) (NNP AT) (NNP A) (NNP NATIONAL) (NNP LEVEL)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (VP
+        (ADVP (RB NOT))
+        (VBN CHANGED)
+        (NP (NNP MUCH) (NNP SINCE) (NNP LAST) (NNP YEAR))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (VBP ARE)
+      (VP (VBG CONTINUING)
+        (PP (TO TO)
+          (NP (NNP IMPLEMENT) (NNP ALL)))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP APPROPRIATE) (NNP MEASURES))
+            (VP (TO TO)
+              (VP (VB GUARANTEE)
+                (NP (NNP PUBLIC) (NNP SECURITY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-) (NNP MINISTER))
+      (, ,)
+      (NP
+        (NP (DT THE) (NN FORMATION))
+        (PP (IN OF)
+          (NP (DT A) (NNP CIVILIAN) (NNP FRONT)))
+        (PP (TO TO)
+          (NP (NNP FIGHT) (NNP SUBVERSION)))))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP MENTIONED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (SBAR
+        (S
+          (NP (NNP BEEN))
+          (VP (VBD SAID)
+            (SBAR
+              (S
+                (NP (NNP THAT) (DT AN) (NNP ATTEMPT))
+                (VP (VBZ IS)
+                  (ADJP (JJ ALREADY))
+                  (S
+                    (VP (VBG BEING)
+                      (NP
+                        (NP (NNP MADE))
+                        (PP (IN IN)
+                          (NP (NNP THIS) (NNP REGARD)))))))))))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT WHAT) (NNS PROGRESS))
+    (SQ (VBZ HAS)
+      (NP (NNP BEEN) (NNP MADE)))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+        (NP (NNP WELL)))
+      (, ,)
+      (NP (DT THE) (JJ PRIME) (NN MINISTER)))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP MADE) (NNP SEVERAL) (NNPS CALLS))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NN NAME))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP GOVERNMENT))
+                (, ,)
+                (NP (NNP STATING) (NNP THAT) (NNP WE) (NNP MUST) (NNP UNITE)))))))
+      (PP (TO TO)
+        (NP (NNP FIGHT) (NNP SUBVERSION))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (UH NO))
+    (NP
+      (NP
+        (ADJP (CD ONE))
+        (NNP CAN) (NNP REMAIN) (NNP NEUTRAL) (NNP CONCERNING) (NNP SUBVERSION) (NNP BECAUSE) (NNP SOONER) (NNP OR) (NNP LATER) (NNP ALL))
+      (PP (IN OF)
+        (NP (NNP US))))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (VP (VBN AFFECTED))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PERUVIAN) (NNPS COMMUNITIES))
+    (VP (VBP ARE)
+      (VP (VBG BECOMING)
+        (NP
+          (NP (JJ INCREASINGLY) (NN AWARE))
+          (PP (IN OF)
+            (NP (NNP THIS) (NNP FACT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THEY))
+      (VP (VBP ARE)
+        (NP (NNP ALREADY) (NNP DEFENDING) (NNP THEMSELVES))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP WE))
+      (VP (VBP ARE)
+        (VP (VBG HELPING)
+          (NP (NNP THEM))
+          (PP (TO TO)
+            (NP (NNP DEFEND) (NNP THEMSELVES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (PRN (-LRB- -LRB-)
+        (NP (NNP REPORTER))
+        (, ,)
+        (NP (NNP INTERRUPTING))
+        (-RRB- -RRB-)))
+    (VP (VBZ IS)
+      (NP (NNP EVERY) (NNP MINISTRY) (NNP WORKING))
+      (PP (TO TO)
+        (NP (NNP THIS) (NNP EFFECT))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (-LRB- -LRB-) (NNP SORIA) (-RRB- -RRB-))
+        (NP (NNP EVERY) (NNP MINISTRY)))
+      (VP (VBZ IS)
+        (VP (VBG WORKING)
+          (PP (TO TO)
+            (NP (NNP THIS) (NNP EFFECT))))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP WE))
+      (VP (VBP ARE)
+        (VP (VBG SUPLYING)
+          (NP (NNP ALL))
+          (SBAR
+            (S
+              (NP (DT THE) (NNP COMMUNITIES) (NNP THAT) (NNP WANT))
+              (VP (TO TO)
+                (VP (VB COOPERATE)
+                  (PP (IN IN)
+                    (NP (NNP DEFENDING) (NNP THEMSELVES) (NNP FROM) (NNP SUBVERSION)))
+                  (PP (IN WITH)
+                    (NP (DT THE)
+                      (NX (NNP APPROPRIATE) (NNPS MEANS)
+                        (CC AND)
+                        (NNPS ORGANIZATIONS)))))))))))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING))
+    (-RRB- -RRB-)))
+

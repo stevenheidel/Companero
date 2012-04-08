@@ -1,0 +1,106 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (VP (VBN REPORTED)
+        (SBAR
+          (S
+            (PP (IN IN)
+              (NP (NNP BOGOTA) (NNP TODAY) (NNP THAT)))
+            (NP (DT THE) (NNP COLOMBIAN) (NNP ARMY) (NNP CAPTURED))
+            (VP (VBD SUSPECTED)
+              (NP
+                (NP (NNP PERUVIAN) (NNP DRUG) (NNP TRAFFICKER) (NNP JOSE) (NNP CARDENAS) (NNP GUERRA))
+                (PP (IN ON)
+                  (NP
+                    (NP (DT A) (NNP FARM))
+                    (PP (IN IN)
+                      (NP (NNP PURIFICACION)))))
+                (, ,)
+                (PP (IN IN)
+                  (NP (NNP CENTRAL) (NNP COLOMBIA)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CARDENAS) (NNP GUERRA))
+    (VP (VBZ IS)
+      (NP (NNP APPARENTLY) (NNP LINKED))
+      (PP (TO TO)
+        (NP (DT THE) (NNP MEDELLIN) (NNP DRUG) (NNP CARTEL))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNS SOLDIERS))
+    (VP (VBD FOUND)
+      (NP (NNP CARDENAS) (NNP GUERRA))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP SEVERAL) (NNPS WORKERS))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP FARM))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S (, ,)
+                  (PP (VBG ACCORDING)
+                    (PP (TO TO)
+                      (NP (DT THE) (NNS INVESTIGATIONS))))
+                  (, ,)
+                  (VP (VBD WAS)
+                    (NP
+                      (NP (NNP OWNED) (NNP BY) (NNP GONZALO) (NNP RODRIGUEZ) (NNP GACHA))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WP WHO))
+                        (S
+                          (VP (VBD WAS)
+                            (VP (VBN KILLED)
+                              (VP (VBG DURING)
+                                (NP
+                                  (NP (DT A) (JJ POLICE) (NN OPERATION))
+                                  (PP (IN ON)
+                                    (NP (CD 15) (NN DECEMBER))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OFFICIAL) (NNP SPOKESMEN))
+    (VP (VBD INDICATED)
+      (S
+        (NP (NNP THAT)
+          (NAC
+            (NP
+              (NP (DT THE) (NNP TROOPS) (NNP DID) (NNP NOT) (NNP MEET) (NNP ANY) (NNP RESISTANCE) (NNP FROM))
+              (NP (DT THE) (NNP SUSPECTED) (NNP MAFIA) (NNP MEMBERS)))
+            (NP (WP WHO)))
+          (NNP WERE) (NNP CARRYING) (NNP FIREARMS))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CARDENAS) (NNP GUERRA))
+    (VP (VBD WAS)
+      (NP (NNP TRANSFERRED) (NNP FROM) (NNP PURIFICACION))
+      (PP (TO TO)
+        (NP
+          (NP (DT THE) (NNP SECRET) (NNP POLICE) (NNP OFFICES))
+          (PP (IN IN)
+            (NP
+              (NP (NNP IBAGUE))
+              (, ,)
+              (NP
+                (NP (NN CAPITAL))
+                (PP (IN OF)
+                  (NP
+                    (NP (NNP TOLIMA) (NNP DEPARTMENT))
+                    (, ,)
+                    (NP
+                      (NP (CD 130) (NNP KM) (NNP SOUTHWEST))
+                      (PP (IN OF)
+                        (NP (NNP BOGOTA))))))))))))
+    (. .)))
+

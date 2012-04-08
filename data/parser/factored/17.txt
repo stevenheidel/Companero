@@ -1,0 +1,144 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-) (NNP POLICE))
+    (VP (VBP ARE)
+      (VP (VBG CARRYING)
+        (NP
+          (NP (NNP OUT) (JJ INTENSIVE) (NNS OPERATIONS))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NN TOWN))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP MOLINA))
+                  (PP (IN IN)
+                    (NP
+                      (NP (DT THE) (NNP SEVENTH) (NNP REGION))
+                      (PP (IN IN)
+                        (NP
+                          (NP (NNS SEARCH))
+                          (PP (IN OF)
+                            (NP
+                              (NP (DT A) (NN GANG))
+                              (PP (IN OF)
+                                (NP (NNP ALLEGED) (NNP EXTREMISTS)))))))
+                      (SBAR
+                        (WHNP (WP WHO))
+                        (S
+                          (VP (VBD COULD)
+                            (VP (VB BE)
+                              (VP (VBN LINKED)
+                                (PP (TO TO)
+                                  (NP (DT A) (NNP RECENTLY) (NNP DISCOVERED) (NNP ARSENAL)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP REPORTED) (NNP THAT) (NNP CARABINEROS))
+        (PP (IN IN)
+          (NP (NNP MOLINA) (NNP RAIDED) (DT THE) (NNP HOUSE)))
+        (PP (IN OF)
+          (NP
+            (NP
+              (NP
+                (NP (NNP 25-YEAR-OLD) (NNP WORKER) (NNP MARIO) (NNP MUNOZ) (NNP PARDO))
+                (, ,)
+                (NP (NNP WHERE) (NNP THEY) (NNP FOUND)))
+              (NP (DT A) (NNP FAL) (NNP RIFLE)))
+            (, ,)
+            (NP
+              (NP (NNP AMMUNITION) (NNP CLIPS))
+              (PP (IN FOR)
+                (NP
+                  (NP (NNP VARIOUS) (NNP WEAPONS))
+                  (, ,)
+                  (NP (NNP DETONATORS))
+                  (, ,))))
+            (CC AND)
+            (NP
+              (NP (NNP MATERIAL))
+              (PP (IN FOR)
+                (NP (NNP MAKING) (NNP EXPLOSIVES))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (MD SHOULD)
+      (VP (VB BE)
+        (NP
+          (NP (NNP RECALLED) (NNP THAT) (NNP A) (NNP GROUP))
+          (PP (IN OF)
+            (NP (NNP ARMED) (NNP INDIVIDUALS) (NNP WEARING) (NNP SKI) (NNP MASKS) (NNP ROBBED))))
+        (NP
+          (NP (DT A) (NN BUSINESSMAN))
+          (PP (IN ON)
+            (NP (DT A) (NNP RURAL) (NNP ROAD) (NNP NEAR) (NNP MOLINA)))
+          (PP (IN ON)
+            (NP (CD 7) (NN JANUARY))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP BUSINESSMAN))
+      (, ,)
+      (NP (NNP ENRIQUE) (NNP ORMAZABAL) (NNP ORMAZABAL))
+      (, ,))
+    (VP (VBD TRIED)
+      (PP (TO TO)
+        (NP
+          (NP (NNP RESIST))
+          (: ;)
+          (NP
+            (NP (DT THE) (NNP MEN) (NNP SHOT) (NNP HIM))
+            (CC AND)
+            (NP (NNP LEFT) (NNP HIM) (NNP SERIOUSLY) (NNP WOUNDED))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP LATER) (NNP HOSPITALIZED))
+        (PP (IN IN)
+          (NP (NNP CURICO)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CARABINEROS))
+    (VP (VBD CARRIED)
+      (NP (NNP OUT) (NNP SEVERAL) (NNP OPERATIONS))
+      (, ,)
+      (S
+        (VP (VBG INCLUDING)
+          (NP
+            (NP (DT THE) (NN RAID))
+            (PP (IN ON)
+              (NP
+                (NP (NNP MUNOZ) (POS '))
+                (NNP HOME)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICE))
+    (VP (VBP ARE)
+      (VP (VBG CONTINUING)
+        (S
+          (VP (TO TO)
+            (VP (VB PATROL)
+              (NP
+                (NP (DT THE) (NN AREA))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNS SEARCH))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP ALLEGED) (NNP TERRORIST) (NNP COMMAND)))))))))))
+    (. .)))
+

@@ -1,0 +1,9 @@
+CHANGES SINCE FIRST DRAFT
+=========================
+
+*NOTE*
+To see every single change to the code, check git.log
+
+- fixed problem with .jar file and relative paths
+- fully parsed all articles using the Factored parser
+- 

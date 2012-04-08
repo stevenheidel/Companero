@@ -1,0 +1,169 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP INTERIOR) (NNP MINISTRY)))
+    (PP (IN UNDER)
+      (NP (NNP SECRETARY) (NNP WALTER) (NNP COSTAS) (NNP BADANI)))
+    (VP (VBZ HAS)
+      (S
+        (NP (NNP STATED) (NNP THAT) (NNP BOLIVIAN) (NNP INTELLIGENCE)
+          (CC AND)
+          (NNP SECURITY) (NNP ORGANIZATIONS) (NNP HAVE) (NNP YET))
+        (VP (TO TO)
+          (VP (VB DETECT)
+            (NP
+              (NP (DT THE) (NN PRESENCE))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP SHINING) (NNP PATH) (NNP TERRORISTS))
+                  (PP (IN IN)
+                    (NP (NNP BOLIVIA))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP COSTAS) (NNP BADANI) (NNP TOLD) (NNP PANAMERICANA) (NNP THAT))
+        (NP (DT THE) (NNP PERUVIAN) (NNP PRESS)))
+      (PP (IN ON)
+        (NP (NNP VARIOUS) (NNP OCCASIONS))))
+    (VP (VBZ HAS)
+      (VP (VBN TRIED)
+        (S
+          (VP (TO TO)
+            (VP (VB IMPLICATE)
+              (NP
+                (NP (NNP BOLIVIAN) (NNP TIES))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP THIS) (NNP TERRORIST) (NNP ORGANIZATION) (POS 'S))
+                    (NNS ACTIVITIES)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP COSTAS) (NNP BADANI) (NNP POINTED) (NNP OUT) (NNP THAT))
+    (NP
+      (NP (DT THE) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS) (NNP HAVE) (NNP CONDUCTED) (NNP THEIR) (NNP TERRORIST) (NNP OPERATIONS) (NNP EXCLUSIVELY))
+      (PP (IN IN)
+        (NP
+          (NP (NNP PERUVIAN) (NNP TERRITORY))
+          (CC AND)
+          (NP (NNP THAT) (NNP BOLIVIA)))))
+    (VP (VBZ HAS)
+      (S
+        (INTJ (UH NO))
+        (VP (VB CONNECTION)
+          (NP (NN WHATSOEVER))
+          (PP (IN WITH)
+            (NP (NNP THIS) (NNP GUERRILLA) (NNP ORGANIZATION))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (PRN (-LRB- -LRB-)
+        (NP (NNP BEGIN) (NNP RECORDING))
+        (-RRB- -RRB-)))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP COSTAS) (NNP BADANI))
+      (-RRB- -RRB-))
+    (NP (DT THE) (NNS REPORTS))
+    (NP (NNP ABOUT) (NNP THESE) (NNP TIES))
+    (VP (VBP ARE)
+      (NP (NNP ALARMING)
+        (CC AND)
+        (NNP GROUNDLESS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (DT THE) (NNP INTERNATIONAL) (NNP PRESS))
+          (, ,)
+          (CC AND)
+          (NP (NNP ESPECIALLY)))
+        (NP (DT THE) (NNP PERUVIAN) (NNP MEDIA)))
+      (, ,)
+      (NP (NNP HAVE) (NNP OFTEN)))
+    (VP (VBD TRIED)
+      (S
+        (VP (TO TO)
+          (VP (VB INVOLVE)
+            (NP
+              (NP (NNP BOLIVIA))
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (NNP TERRORIST) (NNP PROBLEMS))
+                  (, ,)
+                  (SBAR
+                    (WHNP (WDT WHICH))
+                    (S
+                      (NP (PRP I))
+                      (VP (VBP DO)
+                        (NP
+                          (NP (NNP NOT) (NNP THINK) (NNP HAVE) (NNP GONE) (NNP BEYOND) (NNP PERU) (POS 'S))
+                          (NNS BORDERS))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP WE) (NNP HAVE))
+      (VP (VBG NOTHING)
+        (PP (TO TO)
+          (NP (NNP DO)))
+        (PP (IN WITH)
+          (NP
+            (NP (NNP THEM))
+            (, ,)
+            (CC AND)
+            (NP
+              (NP (NNP ANY) (NNP RUMOR))
+              (PP (IN IN)
+                (NP (NNP THIS) (NNP REGARD))))))))
+    (VP (VBZ IS)
+      (NP (NNP GROUNDLESS) (NNP SPECULATION)))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP END) (NNP RECORDING))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP COSTAS) (NNP BADANI) (NNP ALSO))
+        (VP (VBD SAID)
+          (NP (NNP THAT)))))
+    (, ,)
+    (SBAR (IN IF)
+      (FRAG
+        (ADJP (JJ NECESSARY))))
+    (, ,)
+    (NP (DT THE) (NNP APPROPRIATE) (NNP GOVERNMENT) (NNP SECURITY) (NNP ORGANIZATIONS))
+    (VP (MD WILL)
+      (VP (VB CARRY)
+        (NP
+          (NP (NNP OUT) (NNP THEIR) (NNP SPECIFIC) (NNP DUTIES))
+          (PP (IN IN)
+            (NP (DT A) (NNP COORDINATED) (NNP MANNER))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP MEANS) (NNP THAT) (NNP THEY))
+    (VP (MD WILL)
+      (ADVP (NN EXCHANGE))
+      (VP (VB INFORMATION)
+        (PP (IN WITH)
+          (NP
+            (NP (JJ SIMILAR) (NNS ORGANIZATIONS))
+            (PP (IN OF)
+              (NP (DT THE) (NNP ARMED) (NNPS FORCES)))))))
+    (. .)))
+

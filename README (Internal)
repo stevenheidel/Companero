@@ -1,20 +1,25 @@
 INTERNAL DOCUMENTATION
 ======================
 
+*NOTE*
+See the changes since the first draft that was handed in on Saturday in
+CHANGELOG (Since First Draft)
+
 Implementation
 --------------
 
 Information on implementation can be found in the source code itself.
+Look particularly at the Class descriptions of all the classes in the "solver"
+package for specifics on how each type of question was solved.
 
-*NOTE*
-This will be expanded upon when a revised version is handed in on Monday.
-For a preview, see data/parser/README (Parser)
+Also find more information about the Natural Language Parser in
+data/parser/README (Parser)
 
 Knowledge Structures
 --------------------
 
 Description of knowledge structures can be found in the README in data:
-data/README (Knowledge Structures)
+data/structures/README (Knowledge Structures)
 
 Testing and Challenge Questions
 -------------------------------

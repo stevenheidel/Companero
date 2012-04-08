@@ -1,0 +1,71 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP BUENOS) (NNP AIRES) (NNP POLICE) (JJ CHIEF) (NNP WALTER) (NNP JURADO)))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP CONFIRMED) (NNP THAT) (NNP MILITARY) (NNP PERSONNEL))
+        (PP (IN OF)
+          (NP (DT THE) (NNP VILLA) (NNP MARTELLI) (CD 601ST) (NNP REGIMENT) (NNP THIS) (NNP MORNING) (NNP HEARD) (NNP SOME) (NNP SHOTS) (NNP NEAR) (DT THE) (NNP REGIMENT)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP HE))
+      (VP (VBD DENIED)))
+    (, ,)
+    (NP
+      (NP (NNP HOWEVER))
+      (, ,)
+      (PP (NNP THAT)
+        (NP (DT THE) (NNP SHOOTING) (NNP OCCURRED) (NNP OUTSIDE)))
+      (NP (DT THE) (NNP LA) (NNP TABLADA) (NNP REGIMENT))
+      (, ,)
+      (NP (NNP AS)))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP REPORTED)))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (DT THE) (NNP ARMY) (NNP GENERAL) (NNP STAFF))
+      (VP (VBZ HAS)
+        (SBAR
+          (S
+            (NP (NNP DENIED) (NNS REPORTS))
+            (VP (VBP THAT)
+              (NP
+                (NP (DT A) (NNP MILITARY) (NNP UNIT))
+                (PP (IN IN)
+                  (NP (NNP LA) (NNP TABLADA) (NNP OR) (NNP VILLA) (NNP MARTELLI)))))))))
+    (VP (VBD WAS))
+    (NP (NNP ATTACKED) (NNPS THIS) (NNP MORNING))
+    (, ,)
+    (S
+      (VP (VB ALTHOUGH)
+        (S
+          (S
+            (NP (PRP HE))
+            (VP (VBD ADMITTED)
+              (NP
+                (NP (NNP THAT) (NNP TROOPS))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT THE) (CD 601ST) (NNP BATTALLION))
+                    (PP (IN IN)
+                      (NP (NNP VILLA) (NNP MARTELLI) (NNP HEARD) (CD TWO) (NNS SHOTS))))))))
+          (, ,)
+          (S
+            (NP (NNP BUT) (NNP THAT))
+            (INTJ (UH NO))
+            (VP (VB STRANGE)
+              (SBAR
+                (S
+                  (NP (NNP MOVEMENT))
+                  (VP (VBZ HAS)
+                    (NP (NNP BEEN) (NNP OBSERVED))))))))))
+    (. .)))
+

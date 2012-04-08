@@ -1,0 +1,89 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (ADVP (RB HERE))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT AN) (NNP OFFICIAL) (NNP DEFENSE) (NNP MINISTRY) (NNP COMMUNIQUE))
+        (: :)
+        (NP (CD 1))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP AT) (NNP 0945) (NNP THIS) (NNP MORNING))
+      (, ,)
+      (NP
+        (NP
+          (NP
+            (NP (DT A) (NNP GROUP))
+            (PP (IN OF)
+              (NP (NNP SUBVERSIVES) (NNP CONDUCTED))))
+          (NP (DT AN) (NNP ARMED) (NNP TERRORIST) (NNP ATTACK) (NNP AGAINST)))
+        (NP (JJ FORMER) (NNP DEFENSE) (NNP MINISTER) (NNP DIVISON) (NNP GENERAL) (NNP ENRIQUE) (NNP LOPEZ) (NNP ALBUJAR)))
+      (, ,))
+    (VP (VBD RETIRED))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP VICTIM))
+    (VP (VBD WAS)
+      (SBAR
+        (S
+          (NP
+            (NP (NNS TAKEN))
+            (PP (TO TO)
+              (NP (DT THE) (NNP AIR))))
+          (VP (VBP FORCE)
+            (S
+              (NP (NNP HOSPITAL) (NNP WHERE) (PRP HE))
+              (NP (NNP UNFORTUNATELY) (NNP PASSED) (NNP AWAY)))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 3))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNS AUTHORITIES))
+      (VP (VBP ARE)
+        (VP (VBG INVESTIGATING)
+          (NP (DT THE) (NN ATTACK)))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP THEY))
+      (VP (VBP ARE)
+        (VP (VBG CONDUCTING)
+          (S
+            (NP (DT THE) (NNP APPROPRIATE) (NNP OPERATIONS))
+            (VP (TO TO)
+              (VP (VB CAPTURE)
+                (NP (DT THE) (NNS CRIMINALS))))))))
+    (. .)))
+
+(ROOT
+  (NP (-LRB- -LRB-)
+    (NP (NNP DATED)
+      (CC AND)
+      (NNP SIGNED) (-RRB- -RRB-) (NNP LIMA))
+    (, ,)
+    (NP (CD 9) (NNP JANUARY) (CD 1990))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP DEFENSE) (NNP MINISTRY) (NNPS COMMUNICATIONS))
+    (VP (VBP OFFICE))
+    (. .)))
+

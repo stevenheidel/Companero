@@ -1,0 +1,80 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+          (NP
+            (NP
+              (NP (DT A) (NNP UCR))
+              (-LRB- -LRB-)
+              (NP (NNP RADICAL) (NNP CIVIC) (NN UNION))
+              (-RRB- -RRB-))
+            (NP (NNP BUENOS) (NNP AIRES) (NNP PROVINCE) (NNP COMMITTEE) (NNP SPOKESMAN) (NNP TODAY) (NNP REPORTED) (NNP THAT))))
+        (NP (DT A) (NNP UCR) (NNP DISTRICT) (NNP HEADQUARTERS)))
+      (PP (IN IN)
+        (NP (NNP BUENOS) (NNP AIRES) (NNP PROVINCE))))
+    (VP (VBD WAS)
+      (S (`` ``)
+        (NP (NNP COMPLETELY) (NNP DESTROYED) (NNP BY) (NNP A) (NNP BOMB) (NNP EXPLOSION))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DESTROYED) (NNP UCR) (NNP HEADQUARTERS))
+    (VP (VBZ IS)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NNP MORENO) (NN DISTRICT))
+          (PP (IN OF)
+            (NP (NNP BUENOS) (NNP AIRES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP SPOKESMAN) (NNP ADDED) (NNP THAT))
+      (ADJP
+        (QP (RB NO) (CD ONE))))
+    (VP (VBD WAS)
+      (SBAR
+        (S
+          (NP
+            (NP
+              (NP (NNP INJURED))
+              (CC AND)
+              (NP (NNP THAT) (NNP LEOPOLDO) (NNP MOREAU)))
+            (, ,)
+            (NP (DT THE) (NNP UCR) (NNP BUENOS) (NNP AIRES) (NNP PROVINCE) (NNP LEADER))
+            (, ,))
+          (VP (VBZ HAS)
+            (VP (VBN TRAVELLED)
+              (PP (TO TO)
+                (NP (NNP MORENO))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (SBAR
+        (S
+          (S
+            (NP (NNP EXPECTED) (NNP THAT) (NNP UCR) (NNP BUENOS) (NNP AIRES) (NNP PROVINCE) (NNP BOARD))
+            (VP (MD WILL)
+              (VP (VB MEET))))
+          (CC AND)
+          (S
+            (NP (NNP THAT) (NNP THEY))
+            (VP (MD WILL)
+              (VP (VB ASK)
+                (S
+                  (NP
+                    (NP (DT THE) (NNP PROVINCIAL) (NNP GOVERNMENT))
+                    (CC AND)
+                    (NP (DT THE) (NNP INTERIOR) (NNP MINISTRY)))
+                  (VP (TO TO)
+                    (VP (VB INVESTIGATE)
+                      (NP (DT THE) (NN INCIDENT)))))))))))
+    (. .)))
+

@@ -1,0 +1,176 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP PRO-MAOIST) (NNP SHINING) (NNP PATH) (NNP TERRORIST) (NNP ORGANIZATION))
+      (NP
+        (NP
+          (NP (NNP PERPETRATED) (CD ONE))
+          (PP (IN OF)
+            (NP (NNP ITS))))
+        (NP (JJS MOST) (NNP SERIOUS) (NNS ATTACKS))))
+    (PP (IN IN)
+      (NP (JJ RECENT) (NN MEMORY)))
+    (PP (IN IN)
+      (NP
+        (NP (DT THE) (NN TOWN))
+        (PP (IN OF)
+          (NP (NNP ANDAHUA)))))
+    (, ,)
+    (VP (VBD LOCATED)
+      (PP (IN IN)
+        (NP (DT THE) (NNP SOUTHERN) (NNP AREQUIPA) (NNP DEPARTMENT))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG DURING)
+        (NP (NNP THIS) (NNP ATTACK))))
+    (, ,)
+    (NP (DT THE) (NNS TERRORISTS))
+    (VP (VBP SET)
+      (NP
+        (NP (JJS MOST))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NNP CITY) (POS 'S))
+            (NNP PUBLIC) (NNP BUILDINGS)))
+        (PP (IN ON)
+          (NP (NNP FIRE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THEY))
+      (VP (VBD FAILED) (, ,)
+        (ADVP (JJ HOWEVER))
+        (, ,)
+        (PP (TO TO)
+          (NP
+            (NP (NNP BRING) (NNP LOCAL) (NNP GOVERNMENT) (NNS OFFICIALS)
+              (NX (NNP BEFORE) (NNP THEIR)
+                (NAC
+                  (NP
+                    (NP
+                      (NP (`` ``) (NNP KANGAROO) (NNP COURT) ('' ''))
+                      (NP (NNP BECAUSE)))
+                    (NP (DT THE) (NNS OFFICIALS)))
+                  (NP (NNP WERE)))
+                (NNP ALERTED)))
+            (CC AND)
+            (NP (NNP FLED) (NNP BEFORE))))))
+    (NP (DT THE) (NNS TERRORISTS))
+    (VP (VBD ARRIVED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP POLICE) (NNP AUTHORITIES))
+    (VP
+      (VP (VBD REPORTED)
+        (NP
+          (NP (NNP TODAY))
+          (PP (IN IN)
+            (NP (NNP LIMA) (NNP THAT) (NNP YESTERDAY) (NNP HEAVILY-ARMED) (NNP SHINING) (NNP PATH) (NNP TERRORISTS) (NNP OVERPOWERED) (NNP ANDAHUA) (NNP RESIDENTS)))))
+      (CC AND)
+      (VP (VBD BURNED)
+        (NP
+          (NP (DT THE) (NNS OFFICES))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP TELECOMMUNICATIONS) (NNP ENTERPRISE))
+              (, ,)
+              (NP (DT THE) (NNP AGRARIAN) (NNP BANK))
+              (, ,)
+              (NP (DT THE) (NNP NATIONAL) (NNP BANK))
+              (, ,)
+              (CC AND)
+              (NP (NNP HEALTH) (NNP MINISTRY) (NNP OFFICES)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (NNP ALTHOUGH)
+      (S
+        (NP (DT THE) (NNP BUILDINGS) (NNP WERE))
+        (VP (VBD BURNED)
+          (PP (TO TO)
+            (NP (DT THE) (NNP GROUND))))))
+    (, ,)
+    (NP (DT NO) (CD ONE))
+    (VP (VBD WAS)
+      (VP (VBN INJURED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNS TERRORISTS))
+    (VP (VBD ATTEMPTED)
+      (PP (TO TO)
+        (S
+          (VP (VBG BRING)
+            (S
+              (NP (DT THE) (NNP LOCAL) (NNP AUTHORITIES) (NNP BEFORE) (NNP A) (NNP KANGAROO) (NNP COURT))
+              (VP (TO TO)
+                (VP (VB IMPLEMENT)
+                  (SBAR
+                    (WHNP (WDT WHAT))
+                    (S
+                      (NP (NNP THEY))
+                      (VP (NNP CALL)
+                        (NP (`` ``)
+                          (NP
+                            (NP (NNP PEOPLE) (POS 'S))
+                            (NNP JUSTICE))
+                          (, ,) ('' '')
+                          (NP
+                            (NP (DT THE) (NNP PUBLIC) (NNP EXECUTION))
+                            (PP (IN OF)
+                              (NP
+                                (NP (NNP THESE) (NNP AUTHORITIES))
+                                (PP (IN IN)
+                                  (NP
+                                    (NP (DT THE) (NN PRESENCE))
+                                    (PP (IN OF)
+                                      (NP (DT THE) (NNP PEOPLE)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP LOCAL) (NNP AUTHORITIES))
+      (, ,)
+      (NP
+        (NP (NNP HOWEVER))
+        (, ,)
+        (NP (NNP HAD) (NNP ALREADY))))
+    (VP (VBD FLED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BEFORE))
+    (VP (VBD LEAVING)
+      (NP
+        (NP (DT THE) (NNP CITY))
+        (, ,)
+        (NP (DT THE) (NNP TERRORISTS) (NNP BLOCKED))
+        (CC AND)
+        (NP
+          (NP (NNP DESTROYED) (NNP SEVERAL) (NNPS SEGMENTS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP ROAD) (NNP LINKING) (NNP ANDAHUA)))))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP AREQUIPA))
+          (CC AND)
+          (NP
+            (NP (NNP OTHER) (NNP ADJACENT) (NNP TOWNS))
+            (PP (IN IN)
+              (NP (NNP ORDER))))))
+      (PP (TO TO)
+        (NP (NNP PREVENT) (NNP LOCAL) (NNP RESIDENTS) (NNP FROM) (NNP FOLLOWING) (NNP THEM))))
+    (. .)))
+

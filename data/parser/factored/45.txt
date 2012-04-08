@@ -1,0 +1,1190 @@
+(ROOT
+  (NP
+    (NP
+      (NP (-LRB- -LRB-) (NNP INTERVIEW) (IN WITH) (NNP PRESIDENT) (NNP JOSE))
+      (NP
+        (NP (NNP AZCONA) (NNP BY) (NNP JULIO) (NNP ARMANDO) (NNP VALDES) (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP EXCERPT))
+          (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP AZCONA))
+          (-RRB- -RRB-))))
+    (: ...)
+    (SBAR
+      (WHNP (WDT WHICH))
+      (S
+        (VP (VBZ HAS)
+          (NP (NNP DISMAYED) (NNP ALL) (NNP HONDURAN) (NNP PEOPLE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (DT THE) (NNP GOVERNMENT) (NNP STRONGLY) (NNP CONDEMNS) (NNP THIS) (NNP KIND))
+          (PP (IN OF)
+            (NP (NNP ACTION))))
+        (: --)
+        (NP
+          (NP (DT THE) (NN MURDER))
+          (PP (IN OF)
+            (NP
+              (NP (-LRB- -LRB-) (NNP RETIRED) (-RRB- -RRB-))
+              (NP (NNP GENERAL) (NNP GUSTAVO) (NNP ALVAREZ) (NNP MARTINEZ))))))
+      (: --)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (VP (VBD WAS)
+            (NP
+              (NP (NNP POLITICALLY) (NNP MOTIVATED))
+              (CC AND)
+              (NP (NNP PERPETRATED) (NNP BY) (NNP PROFESSIONALS))
+              (, ,)
+              (CC AND)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (, ,)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP BELIEVE))))))))
+      (, ,))
+    (VP (VBZ DESERVES)
+      (NP
+        (NP (DT THE) (NN DENUNCIATION))
+        (PP (IN OF)
+          (NP (NNP ALL) (NNP HONDURANS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP VALDES) (-RRB- -RRB-))
+        (NP (NNP MR) (NNP PRESIDENT)))
+      (, ,))
+    (VP (MD WILL)
+      (S
+        (NP
+          (NP (DT THE) (NNP THREE) (NNPS BRANCHES))
+          (PP (IN OF)
+            (NP
+              (NP (NNP GOVERNMENT))
+              (CC AND)
+              (NP (DT THE) (NNP ARMED) (NNP FORCES) (NNP ADOPT) (NNP ADDITIONAL) (NNP SECURITY) (NNP MEASURES)))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP AZCONA) (-RRB- -RRB-))
+        (NP (NNP YES)))
+      (, ,)
+      (NP (NNP WE)))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (NP (NNP DISCUSSING) (NNP THAT) (NNP SOON))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP HAVE)
+      (NP (DT A) (NNP MEETING) (NNP SCHEDULED))
+      (PP (IN WITH)
+        (NP
+          (NP (DT THE) (NNP NATIONAL) (NNP SECURITY) (NNP COUNCIL))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (MD WILL) (RB ALSO)
+                (VP (VB BE)
+                  (NP (NNP ATTENDED) (NNP BY))
+                  (NP
+                    (NP (DT THE) (NNP THREE) (NNPS PRESIDENTS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP STATE) (NNPS BRANCHES)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (ADVP (NNP MEAN))
+      (, ,)
+      (NP (DT THE) (-LRB- -LRB-) (NNP WORDS) (NNP INDISTINCT) (-RRB- -RRB-))
+      (VP (MD WILL)
+        (VP (VB CHAIR)
+          (NP (DT THE) (NN MEETING)))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP NATIONAL) (NNP CONGRESS) (NNP PRESIDENT) (NNP CARLOS) (NNP ARBIN) (NNP MONTOYA)
+        (CC AND)
+        (NNP SUPREME) (NNP COURT) (NNP PRESIDENT) (NNP SALOMON) (NNP JIMENEZ) (NNP CASTRO))
+      (VP (MD WILL)
+        (VP (VB ALSO)
+          (VP (VBN ATTEND)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP WE) (NNP HAVE) (NNP ALSO))
+      (VP (VBD INVITED)
+        (NP
+          (NP (DT THE) (NNS CANDIDATES))
+          (PP (IN OF)
+            (NP (DT THE)
+              (NX (CD TWO))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP NUMBER) (NNP AS) (NNP HEARD))
+                (-RRB- -RRB-))
+              (NX (NNP PARTIES)))))
+        (PP (TO TO)
+          (NP (NNP THIS) (NNP MEETING)))))
+    (NP
+      (NP (NNP SINCE) (CD ONE))
+      (PP (IN OF)
+        (NP (NNP THEM))))
+    (VP (VBZ IS)
+      (VP (VBG GOING)
+        (S
+          (VP (TO TO)
+            (VP (VB BE)
+              (NP (DT THE) (NNP NEXT) (NNP HONDURAN) (NNP PRESIDENT)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP WE) (NN PLAN))
+      (PP (TO TO)
+        (NP (NNP ESTABLISH) (NNP SOME) (NNP GUIDELINE))))
+    (PRN (: --)
+      (S
+        (NP (NNP SOME))
+        (VP (NNS RULES)
+          (S
+            (VP (TO TO)
+              (VP (VB BE)
+                (VP (VBN FOLLOWED)))))))
+      (: --))
+    (NP (NNP NOT))
+    (ADVP (RB JUST))
+    (PP (IN FOR)
+      (NP
+        (NP (DT THE) (NN REMAINDER))
+        (PP (IN OF)
+          (NP
+            (NP (NNP OUR) (NNP TERM) (NNP BUT))
+            (PP (IN IN)
+              (NP (DT THE) (NNP FUTURE) (NNP AS) (NNP WELL)))))))
+    (, ,)
+    (NP (NNP BECAUSE) (NNP WE))
+    (VP (MD SHOULD)
+      (VP (VB BE)
+        (S
+          (NP (NNP FARSIGHTED)
+            (CC AND)
+            (NNP NOT))
+          (ADVP (RB JUST))
+          (VP (VB CONCENTRATE)
+            (PRT (RP ON))
+            (NP
+              (NP (DT THE) (NNP SHORT) (NNP TERM))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (VP (VBZ HAS)
+                    (NP
+                      (NP (NNP BEEN) (NNP VERY) (NNP COMMON))
+                      (PP (IN IN)
+                        (NP
+                          (NP (NNS HONDURAS))
+                          (, ,)
+                          (NP (NNP WHERE) (NNP WE) (NNP LOOK))
+                          (CC AND)
+                          (NP (NNP FIND) (NNPS SOLUTIONS) (NNP ONLY))))
+                      (PP (IN FOR)
+                        (NP (DT THE) (NNP PRESENT))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (MD SHOULD)
+      (S
+        (NP
+          (NP
+            (NP (NNP FIND) (NNP SOLUTIONS) (NNP JOINTLY))
+            (-LRB- -LRB-)
+            (NP (NNP WORDS) (NNP INDISTINCT))
+            (-RRB- -RRB-))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NNP LONG) (NNP RUN))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (VP (VBZ INCLUDES)
+                    (NP
+                      (NP (DT THE) (NN ISSUE))
+                      (PP (IN OF)
+                        (NP (NNP VIOLENCE))))))))))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (NP
+      (NP (NNP WE) (NNP BELIEVE))
+      (PP (IN IN)
+        (NP (DT A) (NNP DEMOCRACY) (NNP LIKE) (NNP OURS))))
+    (, ,)
+    (WHNP (WDT WHICH))
+    (SQ (VBZ IS)
+      (NP (DT A) (NNP VERY) (NNP COMPLETE) (NNP DEMOCRACY)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP OTHER) (NNPS WORDS)))
+    (, ,)
+    (S
+      (NP (NNP THERE))
+      (VP (VBP ARE)
+        (NP
+          (NP (NNP INTERNAL) (NNP ELECTIONS))
+          (PP (IN FOR)
+            (NP (NNP SELECTING) (NNPS CANDIDATES))))))
+    (, ,)
+    (S
+      (NP (NNP WHERE) (NNS CITIZENS)
+        (NX
+          (NX (NNP ENJOY) (NNP FULL) (NNS RIGHTS))
+          (, ,)
+          (NX (NNP WHERE) (NNPS PARTIES))
+          (CC AND)
+          (NX (JJ PARTY) (NNS LEADERS))))
+      (VP (VBP CONSULT)
+        (PP (IN WITH)
+          (NP
+            (NP (DT THE) (NNP PEOPLE))
+            (, ,)
+            (NP (NNP WHERE) (NNP WE) (NNP HAVE) (JJ TRUE))
+            (, ,)
+            (NP (NNP CLEAN))
+            (, ,)
+            (CC AND)
+            (NP (NNP HONEST) (NNP ELECTIONS))))))
+    (, ,)
+    (S
+      (NP (NNP WHERE) (NNP WE))
+      (VP (VBP HAVE)
+        (SBAR
+          (S
+            (NP (DT A) (NNP NATIONAL) (NNP ELECTORAL) (NNP COMMISSION) (NNP THAT))
+            (VP (VBZ IS)
+              (NP
+                (NP (NNP NOT) (NNP INFLUENCED) (NNP BY) (NNP NOR) (NNP CAN))
+                (SBAR
+                  (S
+                    (NP (PRP IT))
+                    (VP (VB BE)
+                      (S
+                        (NP (NNP INFLUENCED) (NNP BY))
+                        (NP (DT THE) (NNP GOVERNMENT))))))))))))
+    (, ,)
+    (CC AND)
+    (ADVP (RB WHERE))
+    (S
+      (NP (DT THE) (NNP STATE) (NNPS BRANCHES))
+      (VP (VBP ARE)
+        (NP (NNP TOTALLY) (NNP INDEPENDENT))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP ALL))
+        (PP (IN OF)
+          (NP (NNP THESE) (NNPS CHARACTERISTICS))))
+      (VP (VB MAKE)
+        (NP (NNS HONDURAS))
+        (NP (DT A) (NNP DEMOCRACY))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP
+        (NP (NNP EVERY) (NNP SECTOR))
+        (PP (IN OF)
+          (NP (NNP HONDURAN) (NNP SOCIETY))))
+      (VP (MD SHOULD)
+        (VP
+          (VP (VB STRIVE)
+            (PP (TO TO)
+              (NP (NNP STRENGTHEN) (NNP THEM) (NNP BY) (NNP AVOIDING) (NNP VIOLENCE) (NNP AT) (NNP ALL) (NNPS COSTS)))
+            (, ,)
+            (S
+              (VP
+                (VP (VBG OBEYING)
+                  (NP (DT THE) (NN LAW)))
+                (, ,)
+                (CC AND)
+                (VP (VBG CONDEMNING)
+                  (CC AND)
+                  (VBG ATTACKING)
+                  (NP
+                    (NP (NNP EXTREME) (NNP TERRORIST) (NNPS GROUPS) (NNP REGARDLESS))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP THEIR) (NNP AFFILIATION))
+                        (, ,)
+                        (NP
+                          (NP (NNP THUS) (NNP ENABLING) (NNP US))
+                          (PP (TO TO)
+                            (NP (NNP CONSOLIDATE) (NNP OUR) (NNP DEMOCRACY)))))))))))
+          (CC AND)
+          (VP (VB REACH)
+            (NP
+              (NP (DT THE) (NNP LEVEL))
+              (PP (IN OF)
+                (NP (JJ POLITICAL) (NNP DEVELOPMENT) (NNP ATTAINED) (NNP BY) (NNP OTHER) (NNP DEMOCRATIC) (NNP COUNTRIES))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (S
+        (NP
+          (NP (NNP BEEN) (NNP DEMONSTRATED) (NNP WORLDWIDE) (NNP THAT) (NNP PROGRESS))
+          (CC AND)
+          (NP (NNP DEVELOPMENT) (NNP CAN) (NNP ONLY)))
+        (VP (VB BE)
+          (NP (NNP ACHIEVED) (NNP THROUGH) (NNP DEMOCRACY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (DT THE) (NNP FRG))
+          (, ,)
+          (NP (DT THE) (NNP MEDITERRANEAN) (NNP COUNTRIES)))
+        (: --)
+        (NP
+          (NP (NNP ITALY))
+          (, ,)
+          (NP (NNP FRANCE))
+          (, ,)
+          (CC AND)
+          (NP (NNP SPAIN)))
+        (: --))
+      (VP (VBP ARE)
+        (NP
+          (NP (NNS EXAMPLES))
+          (PP (IN OF)
+            (NP (NNP THIS))))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP THERE))
+      (VP (VBZ IS)
+        (NP
+          (NP (DT THE) (NN CASE))
+          (PP (IN OF)
+            (NP
+              (NP (NNP JAPAN))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (VP
+                    (VP (VBZ HAS)
+                      (NP (DT A) (NNP LIBERAL) (NNP DEMOCRATIC) (NNP SYSTEM)))
+                    (CC AND)
+                    (VP (VBZ HAS)
+                      (NP
+                        (NP (NNP ACHIEVED) (NNP EXTRAORDINARY) (NNPS LEVELS))
+                        (PP (IN OF)
+                          (NP (NNP DEVELOPMENT)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP TAIWAN))
+    (VP (VBZ IS)
+      (NP (NNP YET) (NNP ANOTHER) (NNP EXAMPLE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP AT))
+    (VP (VBZ THIS)
+      (NP (NNP STAGE))
+      (: ...)
+      (S
+        (NP
+          (PRN (-LRB- -LRB-)
+            (NP (NNP VALDES))
+            (, ,)
+            (NP (NNP INTERRUPTING))
+            (-RRB- -RRB-)))
+        (NP
+          (NAC (NNP YES) (, ,) (NNP BUT))
+          (NNP THIS) (NNP TAKES) (NNP TIME))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP AZCONA) (-RRB- -RRB-))
+    (VP (VBD YES))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP AT) (NNP THIS))
+      (VP (VBP STAGE)
+        (NP (PRP I))))
+    (NP (NNP BELIEVE) (NNP THERE))
+    (VP (VBZ IS)
+      (NP (NNP SUFFICIENT) (NNP PROOF) (NNP THAT))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP DEMOCRATIC) (NNP SYSTEM))
+          (VP (VBZ IS)
+            (NP
+              (NP (DT THE) (NNP BEST) (NNPS MEANS))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP ATTAINING) (NNP HIGHER) (NNPS LEVELS))
+                  (PP (IN OF)
+                    (NP (NNP DEVELOPMENT))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBZ IS)
+      (NP (DT NO) (NNP DOUBT))
+      (SBAR
+        (S
+          (PP (IN IN)
+            (NP
+              (NP
+                (NP (NNP ANYONE) (POS 'S))
+                (NNP MIND) (NNP ABOUT) (NNP THAT))
+              (, ,)
+              (NP (NNP BUT))))
+          (NP (DT THE) (NNP FACT) (NNP THAT) (NNP WE) (NNP HAVE) (NNP THIS) (NNP SYSTEM))
+          (VP (VBZ IS)
+            (NP (NNP NOT) (NNP ENOUGH))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP EACH) (CD ONE))
+      (PP (IN OF)
+        (NP
+          (NP (NNP US))
+          (, ,)
+          (NP
+            (NP
+              (NP (NNP EACH) (NNP SECTOR))
+              (, ,)
+              (NP (NNP MUST) (NNP DO)))
+            (NP (PRP$ HIS) (NN PART)
+              (S
+                (VP (TO TO)
+                  (VP (VB MAKE)
+                    (NP (PRP IT))))))))))
+    (VP (VBP WORK))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (NP (PRP I))
+          (VP (VB MENTION)
+            (NP (NNS SECTORS)))))
+      (, ,)
+      (NP (PRP I))
+      (VP (VBP AM)
+        (VP (VBG REFERRING)
+          (PP (TO TO)
+            (NP
+              (NP (NNP PRIVATE) (NNP ENTERPRISE))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (VP (VBP MUST)
+                    (VP (VB BE)
+                      (NP
+                        (NP (NNS GENEROUS))
+                        (, ,)
+                        (NP
+                          (NP (NNP EXHIBIT) (NNP CONFIDENCE))
+                          (PP (IN IN)
+                            (NP (DT THE) (NNP COUNTRY))))
+                        (, ,)
+                        (CC AND)
+                        (NP (NNP SHOW) (NNP MUCH) (NNP INITIATIVE)))
+                      (PRN (: ;)
+                        (PP (TO TO)
+                          (NP
+                            (NP (VBN ORGANIZED) (NN LABOR) (NNS GROUPS))
+                            (, ,)
+                            (SBAR
+                              (WHNP (WDT WHICH))
+                              (S
+                                (VP (VBP MUST)
+                                  (NP
+                                    (NP (NNP FIGHT))
+                                    (PP (IN FOR)
+                                      (NP (NNP THEIR) (NNS RIGHTS) (NNP WITHOUT) (NNP FOMENTING) (NNPS STRIKES)
+                                        (CC AND)
+                                        (NNP OTHER) (NNP DISORDERS)))))))))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT WHICH))
+                          (S
+                            (VP (VBP ARE)
+                              (NP
+                                (NP (NNP SOMETIMES) (NNP BROUGHT) (NNP ABOUT) (NNP ILLEGALLY) (NNP INSTEAD))
+                                (PP (IN OF)
+                                  (S
+                                    (VP (VBG FOLLOWING)
+                                      (NP (DT THE) (NNP NORMAL) (NNP LEGAL) (NNPS PROCEDURES)))))))))
+                        (: ;))
+                      (PP (TO TO)
+                        (NP
+                          (NP (NNP PROFESSIONAL) (NNP ASSOCIATIONS))
+                          (, ,)
+                          (SBAR
+                            (WHNP (WDT WHICH))
+                            (S
+                              (NP (NNP ALSO))
+                              (VP (VBP HAVE)
+                                (NP
+                                  (NP (DT AN) (NNP ENORMOUS) (NNP RESPONSIBILITY))
+                                  (, ,)
+                                  (NP (NNP BECAUSE) (NNP THEIR) (NNP MEMBERS) (NNP MUST) (NNP COMPLY))))))))))))))
+          (PP (IN WITH)
+            (NP (NNP THEIR) (NNPS DUTIES))))))
+    (: ;)
+    (CC AND)
+    (S
+      (NP (DT THE) (NNP SAME) (NNPS GOES))
+      (PP (IN FOR)
+        (NP (NNP GOVERNMENT) (NNS EMPLOYEES)
+          (CC AND)
+          (NNS OTHERS))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP OTHER) (NNP WORDS)))
+    (, ,)
+    (NP (NNP THIS))
+    (VP (MD WILL) (RB NOT)
+      (VP (VB BE)
+        (NP
+          (NP (NNP ACCOMPLISHED) (NNP BY) (NNP THIS) (NNP OR))
+          (NP (DT THE) (NNP NEXT) (NNP GOVERNMENT) (NNP ALONE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OUR) (NNS GOVERNMENTS))
+    (VP (VBP ARE)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP TRANSITORY))
+            (CC AND)
+            (NP (NNP THEIR) (NNP POWER)))
+          (VP (VBZ IS)
+            (NP (NNP RELATIVE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (NNP HAVE))
+    (VP (VBD SAID)
+      (NP (NNP THIS) (NNP MANY) (NNP TIMES)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THERE))
+      (VP (VBZ IS)
+        (NP
+          (NP (DT NO) (NNP POINT))
+          (PP (IN IN)
+            (NP (NNP LASHING) (NNP OUT) (NNP AT) (DT THE) (NNP PRESIDENT))))))
+    (, ,)
+    (NP
+      (NP (NNP BECAUSE) (NNP POWER))
+      (PP (IN IN)
+        (NP (NNP HONDURAS))))
+    (VP (VBZ IS)
+      (NP (NNP RELATIVE)
+        (CC AND)
+        (NNP CONDITIONAL)))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WDT WHAT))
+      (S
+        (VP (VBZ IS)
+          (NP (NNP ESSENTIAL)))))
+    (VP (VBZ IS)
+      (S
+        (VP (TO TO)
+          (VP (VB CONTRIBUTE)
+            (NP
+              (NP (NNP POSITIVELY) (NNP TOWARD) (NNP HONDURAS) (POS '))
+              (NNP DEVELOPMENT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THIS))
+      (VP (MD SHOULD)
+        (VP (VB BE)
+          (NP
+            (NP (DT A) (NNP RESPONSIBILITY) (NNP NOT) (NNP ONLY))
+            (PP (IN OF)
+              (NP
+                (NP (NNP PUBLIC) (NNPS EMPLOYEES))
+                (, ,)
+                (NP (NNP BUSINESSMEN))
+                (, ,)
+                (NP (NNPS WORKERS))
+                (, ,)
+                (CC AND)
+                (NP (VBN ORGANIZED) (NNS PEASANTS))))))))
+    (, ,)
+    (NP (NNP BUT) (NNP ALL) (NNP HONDURANS))
+    (VP (MD SHOULD)
+      (VP (VB CONTRIBUTE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THAT))
+    (VP (VBZ IS)
+      (SBAR
+        (WHNP (WDT WHAT))
+        (S
+          (VP (VBZ COUNTS)))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (FRAG
+      (NP
+        (NP (-LRB- -LRB-) (NNP VALDES) (-RRB- -RRB-))
+        (NP (NNP MR) (NNP PRESIDENT))))
+    (, ,)
+    (SBARQ
+      (WHADVP (WRB WHEN))
+      (SQ (MD WILL)
+        (NP (NNP THIS) (NNP MEETING))
+        (VP (VB BE)
+          (NP
+            (NP (NNP HELD))
+            (CC AND)
+            (SBAR
+              (WHNP (WDT WHAT))
+              (S
+                (NP (NNP IMMEDIATE) (NNP MEASURES))
+                (VP (MD WILL)
+                  (VP
+                    (ADVP (PRP YOU))
+                    (VB PROPOSE)))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP AZCONA) (-RRB- -RRB-))
+      (NP (DT THE) (NNP APPROPRIATE) (NNP AUTHORITIES)))
+    (VP (VBP ARE)
+      (VP (VBG DOING)
+        (S
+          (NP (NNP EVERYTHING) (NNP POSSIBLE))
+          (VP (TO TO)
+            (VP (VB INVESTIGATE)
+              (NP
+                (NP (DT THE) (JJ LATEST) (NN CRIME))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT WHICH))
+                  (S
+                    (VP (VBD WAS)
+                      (NP
+                        (NP
+                          (NP
+                            (NP (NNP NOT))
+                            (NP (DT AN) (NNP EVERYDAY) (NNP OCCURRENCE) (NNP LIKE)))
+                          (NP (DT A) (NNP ROBBERY) (NNP OR) (NNP SOMETHING)))
+                        (PP (IN OF)
+                          (NP (NNP THAT) (NNP NATURE)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NN CRIME))
+    (VP (VBD WAS)
+      (NP (NNP CAREFULLY) (NNP PLANNED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (NP (DT A) (NNP TERRORIST) (NNP ACT) (NNP PERPETRATED) (NNP BY) (NNP PROFESSIONALS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP VALDES))
+          (-RRB- -RRB-))
+        (NNP MR) (NNP PRESIDENT))
+      (, ,)
+      (NP (NNP SOME) (NNP PEOPLE) (NNP HAVE) (NNP BEEN) (NNP SAYING)))
+    (VP (VBD THAT)
+      (NP (DT THE) (NNP DEATH) (NN PENALTY) (NN MIGHT))
+      (S
+        (VP (VB BE)
+          (S
+            (NP (DT A) (NNP WAY))
+            (VP (TO TO)
+              (VP (VB COPE)
+                (PP (IN WITH)
+                  (NP (DT THE) (NNP SITUATION)))))))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT WHAT) (NN DO))
+    (SQ
+      (NP (PRP YOU))
+      (VP (VBD THINK)
+        (NP (NNP ABOUT) (NNP THIS))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (-LRB- -LRB-) (NNP AZCONA) (-RRB- -RRB-))
+      (NP (PRP I)))
+    (NP (NNP RECENTLY) (NNP READ) (NNP SOMETHING))
+    (VP (VBD ABOUT)
+      (NP
+        (NP (DT THE) (NNP DEATH) (NN PENALTY))
+        (PP (IN IN)
+          (NP (DT A) (NNP MEXICAN) (NNP MAGAZINE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DEATH) (NN PENALTY))
+    (VP
+      (VP (VBZ IS)
+        (NP (NNP OPPOSED) (NNP BY))
+        (NP
+          (NP (DT A) (NN MAJORITY))
+          (PP (IN OF)
+            (NP (DT THE) (NNP PEOPLE)))))
+      (CC AND)
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP BEEN) (NNP ABOLISHED))
+          (PP (IN IN)
+            (NP (NNP HONDURAS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (NP (NNP DO) (NNP NOT) (NNP THINK) (NNP THIS))
+    (VP (VBZ IS)
+      (NP (DT THE) (NNP SOLUTION))
+      (ADJP (RB HERE) (JJ BECAUSE))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP DEATH) (NN PENALTY))
+          (VP (VBZ HAS)
+            (S
+              (NP (NNP NOT) (NNP SOLVED))
+              (NP (DT THE) (NN CRIME))
+              (S
+                (NP
+                  (NP (NNP PROBLEM) (NNP ANYWHERE) (NNP ELSE))
+                  (PP (IN IN)
+                    (NP (DT THE) (NN WORLD))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN FOR)
+      (NP
+        (NP (NNP INSTANCE))
+        (, ,)
+        (NP (NNP THIS) (NN PENALTY) (NNS EXISTS))))
+    (PP (IN IN)
+      (NP (NNP MANY) (NNP U.S.) (NNS STATES)))
+    (, ,)
+    (NP (NNP BUT) (NNP THIS))
+    (VP (VBZ HAS)
+      (NP (NNP NOT) (NNP DETERRED) (NNP CRIMINALS) (NNP FROM) (NNP COMMITTING) (NNP TERRIBLE) (NNP CRIMES)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PEOPLE) (NNP HAVE))
+    (VP (VBD LOST)
+      (NP (NNP CONTROL)))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB WHEN))
+      (S
+        (NP (NNS CRIMINALS))
+        (VP (VBP HAVE)
+          (NP
+            (NP (DT NO) (NN RESPECT))
+            (PP (IN FOR)
+              (NP (NNP THEIR) (NNP FELLOW) (NNP MAN)))))))
+    (, ,)
+    (NP (NNP NOT))
+    (VP (VBD EVEN)
+      (NP (DT THE) (NNP DEATH) (NN PENALTY) (NNP CAN) (NNP STOP) (NNP THEM)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HOWEVER) (, ,) (NNP THERE))
+    (VP (VBP ARE)
+      (NP
+        (NP
+          (NP (NNP CRIMES))
+          (, ,)
+          (NP (NNP SUCH) (NNP AS) (NNP DRUG) (NNP TRAFFICKING))
+          (, ,))
+        (PP (IN FOR)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (NP (DT NO) (NNP BAIL))
+              (VP (MD SHOULD)
+                (VP (VB BE)
+                  (VP (VBN PERMITTED)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD THINK)
+      (SBAR
+        (S
+          (NP (DT A) (NNP BILL) (NNP THAT))
+          (VP (VBZ HAS)
+            (NP (NNP BEEN) (NNP PROPOSED) (NNP BY))
+            (SBAR
+              (S
+                (NP
+                  (NP (DT THE) (NNP SUPREME) (NN COURT))
+                  (PP (IN OF)
+                    (NP (NNP JUSTICE))))
+                (VP (MD SHOULD)
+                  (VP (VB BE)
+                    (NP (NNP PASSED) (NNP BY))
+                    (NP (DT THE) (NNS CONGRESS))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (FRAG
+      (PP (IN OF)
+        (NP (NNP COURSE))))
+    (, ,)
+    (NP (PRP IT))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (VP (VBD APPROVED)
+          (S
+            (NP (NNP BY))
+            (NP (DT THE) (NNP PRESIDENT) (NNP SO))
+            (S
+              (NP
+                (NP (DT THOSE) (NNP FOUND) (NNP GUILTY))
+                (PP (IN OF)
+                  (NP (NNP THIS) (NN CRIME) (NNP CAN) (NNP NOT)))))))))
+    (VP (VB BE)
+      (NP (NNP BAILED) (NNP OUT)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP NOT) (NNP RIGHT))
+            (PP (IN FOR)
+              (NP (DT THE) (NNS AUTHORITIES)
+                (S
+                  (VP (TO TO)
+                    (VP (VB ARREST)
+                      (S
+                        (NP (DT A) (NNP DRUG) (NNP TRAFFICKER) (NNP ONLY))
+                        (VP (TO TO)))))))))
+          (VP (VBP SEE)
+            (NP
+              (NP
+                (NP
+                  (NP (NNP HIM) (NNP RELEASED))
+                  (PP (IN ON)
+                    (NP (NNP BAIL) (NNP BY))))
+                (NP (DT A) (NN JUDGE))
+                (SBAR
+                  (WHNP (WP WHO))
+                  (S
+                    (VP (VBZ HAS)
+                      (NP
+                        (INTJ (UH NO))
+                        (NP (NNP OTHER) (NNP CHOICE)))
+                      (PP (IN THAN)
+                        (PP (TO TO)
+                          (NP (NNP ABIDE) (NNP BY))))))))
+              (NP (DT THE) (NN LAW)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP VALDES))
+          (-RRB- -RRB-))
+        (NNP MR) (NNP PRESIDENT))
+      (, ,)
+      (NP
+        (NP (DT THE)
+          (ADJP (RB FAR) (JJ RIGHTIST))
+          (NNP GROUP) (NNP AAA))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP ANTICOMMUNIST) (NNP ACTION) (NNP ALLIANCE))
+          (-RRB- -RRB-))
+        (, ,)
+        (PP (NNP THROUGH)
+          (NP (DT A) (NNP LOCAL) (NNP RADIO) (NNP STATION))))
+      (, ,))
+    (VP (VBD WARNED)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP THEY))
+          (VP (MD WILL)
+            (VP (VB TAKE)
+              (NP
+                (NP
+                  (NP (NNP REVENGE))
+                  (PP (IN ON)
+                    (NP (NNP MAJOR) (NNP COMMUNIST) (NNS LEADERS))))
+                (, ,)
+                (NP (NNP SUCH) (NNP AS) (NNP JORGE) (NNP ARTURO) (NNP REINA))
+                (, ,)
+                (NP (NNP RAMON) (NNP CUSTODIO))
+                (, ,)
+                (CC AND)
+                (NP (NNP OTHERS))))))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT WHAT))
+    (SQ (VBP DO)
+      (NP (PRP YOU))
+      (VP (VB HAVE)
+        (PP (TO TO)
+          (NP (NNP SAY) (NNP ABOUT) (NNP THIS)))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP AZCONA) (-RRB- -RRB-))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP AM)
+            (ADJP (JJ ADAMANTLY))))))
+    (VP (VBD OPPOSED)
+      (PP (TO TO)
+        (NP
+          (NP (NNP THIS) (NNP TYPE))
+          (PP (IN OF)
+            (NP (NNP REVENGE) (NNP BECAUSE) (NNP IT) (NNP WOULD) (NNP ONLY) (NNP LEAD)))))
+      (PP (TO TO)
+        (NP (NNP ESCALATED) (NNP CONFRONTATIONS) (NNP BETWEEN) (NNP GROUPS))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD CONDEMN)
+      (NP
+        (NP (NNP THIS) (NNP ATTITUDE))
+        (PP (IN IN)
+          (NP
+            (NP (NNP VIEW))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (JJ REGRETTABLE) (NN MURDER))
+                (PP (IN OF)
+                  (NP (NNP GENERAL) (NNP GUSTAVO) (NNP ALVAREZ) (NNP MARTINEZ)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN AS)
+      (ADVP (RB FAR)))
+    (PP (IN AS)
+      (NP (DT THE) (NNP DEATH) (NN PENALTY) (NNS GOES)))
+    (, ,)
+    (NP (PRP IT))
+    (VP (MD WILL) (RB NOT)
+      (VP (VB BE)
+        (NP (DT A) (NN SOLUTION))
+        (PP (TO TO)
+          (NP (DT THE) (NN CRIME) (NN PROBLEM)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP VALDES))
+          (-RRB- -RRB-))
+        (NNP MR) (NNP PRESIDENT))
+      (, ,)
+      (NP (NNP CIVIC)))
+    (VP (VBZ COMMITTEES)
+      (S
+        (NP (NNP HAVE))
+        (VP (TO TO)
+          (VP (VB BE)
+            (VP (VBN ORGANIZED)
+              (PP (IN IN)
+                (NP (DT THE) (NNP COUNTRY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP AZCONA))
+        (-RRB- -RRB-))
+      (S
+        (NP (PRP I))
+        (VP (VBP AGREE))))
+    (, ,)
+    (NP (NNP BUT) (NNP THESE) (NNP COMMITTEES))
+    (VP (MD SHOULD)
+      (VP (VB BE)
+        (NP (NNP CONTROLLED) (NNP BY))
+        (NP (DT THE) (NNS AUTHORITIES))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NNP CIVIC) (NNP COMMITTEE))
+      (PP (TO TO)
+        (NP (NNP PROTECT) (NNPS COMMUNITIES))))
+    (VP (VBZ IS)
+      (NP (CD ONE))
+      (S
+        (VP (VBG THING)
+          (PRN (, ,)
+            (S
+              (NP (NNP BUT) (NNP IT))
+              (VP (VBZ IS)
+                (SBAR
+                  (S
+                    (NP
+                      (NP (NNP QUITE) (NNP ANOTHER) (NNP THING))
+                      (PP (TO TO)
+                        (NP
+                          (NP (NNP SUE) (NNP THESE) (NNPS COMMITTEES))
+                          (PP (TO TO)
+                            (NP (NNP PERFORM) (NNPS DUTIES) (NNP THAT))))))
+                    (VP (VBP ARE)
+                      (NP
+                        (NP (NNP ALREADY) (DT THE) (NNP RESPONSIBILITY))
+                        (PP (IN OF)
+                          (NP (NNP STATE) (NNPS AGENCIES)))))))))
+            (, ,))
+          (S
+            (NP (NNP SUCH))
+            (PP (IN AS)
+              (NP (DT THE) (NNP ARMED) (NNPS FORCES)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP VALDES) (-RRB- -RRB-))
+      (SBAR
+        (FRAG
+          (WHADVP (WRB WHEN)))))
+    (VP (MD WILL)
+      (S
+        (NP (DT THE) (NNP GOVERNMENT) (NNP BRANCHES) (NNP MEET))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP AZCONA) (-RRB- -RRB-) (NNP THEY))
+    (VP (MD WILL)
+      (VP (VB MEET)
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP (PRP I))
+            (VP (VBD RETURN)
+              (NP (NNP FROM) (NNP CARACAS)))))))
+    (. .)))
+

@@ -1,0 +1,523 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP DIEGO) (NNP MONTANA)))
+    (, ,)
+    (S
+      (VP (VBG ACTING)
+        (NP
+          (NP (NNP PRESIDENT))
+          (PP (IN OF)
+            (NP (DT THE) (NNP PATRIOTIC) (NN UNION))))
+        (-LRB- -LRB-)
+        (PP (RP UP))
+        (-RRB- -RRB-)))
+    (, ,)
+    (NP
+      (NP
+        (NP
+          (NP (NNP TOLD) (NNP EFE) (NNP TODAY) (NNP THAT) (NNP ONLY) (NNP THE) (NNP PARTICIPATION))
+          (PP (IN OF)
+            (NP (DT THE) (NNP SIMON) (NNP BOLIVAR) (NNP NATIONAL) (NNP GUERRILLA) (NNP COORDINATING) (NNP BOARD))))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP CNG))
+          (-RRB- -RRB-)))
+      (PP (IN IN)
+        (NP (DT THE) (NNP PEACE))))
+    (VP (VBZ TALKS)
+      (NP (NNP COULD) (NNP GUARANTEE))
+      (NP
+        (NP (DT A) (JJ POLITICAL) (NN SOLUTION))
+        (PP (IN IN)
+          (NP (NNP COLOMBIA)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP CNG))
+    (VP (VBZ GROUPS)
+      (NP
+        (NP (DT THE) (NNP SIX) (NNP MAIN) (NNP LEFTIST) (NNP GUERRILLA) (NNP ORGANIZATIONS) (NNP THAT) (NNP OPERATE))
+        (PP (IN IN)
+          (NP (NNP COLOMBIA)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBP ARE)
+      (S
+        (NP
+          (NP (CD 20,000) (NNS GUERRILLAS))
+          (PP (IN IN)
+            (NP (CD 100) (NNS FRONTS))))
+        (PP (IN THROUGHOUT)
+          (NP (NNP COLOMBIA)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS GROUPS))
+      (PP (VBG COMPRISING)
+        (NP (DT THE) (NNP CNG))))
+    (VP (VBP ARE)
+      (NP
+        (NP (DT THE) (NNP REVOLUTIONARY) (NNP ARMED) (NNP FORCES))
+        (PP (IN OF)
+          (NP
+            (NP
+              (NP (NNP COLOMBIA))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP FARC))
+                (, ,)
+                (NP (NNP COMMUNIST))
+                (-RRB- -RRB-)))
+            (: ;)
+            (NP
+              (NP (DT THE) (NNP POPULAR) (NNP LIBERATION) (NNP ARMY))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP EPL))
+                (, ,)
+                (NP (NNP MAOIST))
+                (-RRB- -RRB-)))
+            (: ;)
+            (NP
+              (NP (NNP CAMILISTA) (NNP UNION-ARMY))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP NATIONAL) (NNP LIBERATION))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP UC-ELN))
+                    (, ,)
+                    (NP (NNP PRO-CASTROITE))
+                    (-RRB- -RRB-)))))
+            (: ;)
+            (NP
+              (NP (DT THE) (CD 19) (NNP APRIL) (NNP MOVEMENT))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP M-19))
+                (, ,)
+                (NP (NNP NATIONALIST) (NNP LEFT))
+                (-RRB- -RRB-)))
+            (: ;)
+            (NP
+              (NP (NNP QUINTIN) (NNP LAME) (NNP MOVEMENT))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP INDIGENIST))
+                (-RRB- -RRB-)))
+            (: ;)
+            (CC AND)
+            (NP
+              (NP (DT THE) (NNP REVOLUTIONARY) (NNPS WORKERS) (NNP PARTY))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP PRT))
+                (, ,)
+                (NP (NNP TROTSKYIST))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (VP (VBZ TALKS))
+    (NP
+      (NP (NNP BETWEEN) (DT THE) (NNP GOVERNMENT))
+      (, ,)
+      (NP (DT THE) (NN M-19))
+      (, ,)
+      (CC AND)
+      (NP (DT THE) (NNP TRADITIONAL)))
+    (S
+      (NP (JJ POLITICAL) (NNS PARTIES))
+      (VP (MD WILL)
+        (VP (VB BEGIN)
+          (PP (IN IN)
+            (NP
+              (NP
+                (NAC (NNP BOGOTA)
+                  (PP (IN ON)
+                    (NP (CD 3))))
+                (NNP APRIL) (NNP AS) (NNP PART))
+              (PP (IN OF)
+                (NP (DT THE) (NNP DIALOGUE) (NNPS PROCESS)))
+              (, ,)
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (NP (DT THE) (NNP GOVERNMENT)
+                    (CC AND)
+                    (NNP GUERRILLA))
+                  (VP (VBZ MOVEMENTS)
+                    (NP (NNP BEGAN) (NNP LAST) (NNP JANUARY)))))))
+          (PP (TO TO)
+            (NP (NNP ACHIEVE) (NNP PEACE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE))
+      (VP
+        (ADVP (RP UP))
+        (VBD ANNOUNCED)
+        (SBAR
+          (S
+            (PP (IN IN)
+              (NP (NNP EARLY) (NNP MARCH) (NNP THAT)))
+            (NP (PRP IT))
+            (VP (VBD WOULD)
+              (NP
+                (NP (NNP NOT) (NNP PARTICIPATE))
+                (PP (IN IN)
+                  (NP (DT THE) (NNS ROUNDTABLES)))))))))
+    (, ,)
+    (S
+      (NP
+        (NP (DT THE) (NNP NAME) (NNP GIVEN))
+        (PP (TO TO)
+          (NP (DT THE))))
+      (VP (VBZ TALKS)
+        (SBAR
+          (S
+            (NP (NNP THAT))
+            (VP (MD WILL)
+              (VP (VB BEGIN)
+                (NP (NNP NEXT) (NNP MONDAY))))))))
+    (CC AND)
+    (S
+      (PP (IN IN)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP (DT THE) (NNPS PARTICIPANTS))
+            (VP (MD WILL)
+              (VP (VBZ DISCUSS)
+                (NP
+                  (NP (DT THE) (NNP LARGE) (NNP NUMBER))
+                  (PP (IN OF)
+                    (NP (JJ POLITICAL) (NNS CRIMES)))))))))
+      (NP (NNP THAT) (NNP HAVE) (NNP BEEN) (NNP PERPETRATED) (NNP BY) (NNP RIGHTIST) (NNP PARAMILITARY))
+      (VP (VBZ GROUPS)))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (VP (VB SINCE)
+        (ADVP (DT THE) (RP UP))))
+    (VP (VBD WAS))
+    (NP
+      (NP (NNP FOUNDED))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP NEARLY) (CD 1,000))
+          (PP (IN OF)
+            (NP
+              (NP (NNP ITS) (NNPS MEMBERS))
+              (CC AND)
+              (NP (NNS LEADERS)))))
+        (NP (NNP HAVE) (NNP BEEN) (NNP MURDERED))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (`` ``) (NNP DIRTY) (NNP WAR) ('' ''))
+      (VP (VBD AGAINST)
+        (NP
+          (NP (DT THE) (NNP LEFT))
+          (, ,)
+          (NP (NNP PROGRESSIVE) (NNP POLITICIANS))
+          (, ,)
+          (CC AND)
+          (NP (JJ HUMAN) (NNS RIGHTS)))))
+    (NP (NNP ACTIVISTS))
+    (VP (VBZ HAS)
+      (VP (VBN RESULTED)
+        (SBAR
+          (S
+            (PP (IN IN)
+              (NP (CD 700) (JJ POLITICAL) (NNS ASSASSINATIONS)))
+            (NP (NNP SO))
+            (ADVP (RB FAR))
+            (VP (VBZ THIS)
+              (ADJP (JJ YEAR)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBP WERE)
+      (NP
+        (NP
+          (NP (CD 2,978) (JJ POLITICAL) (NNS ASSASSINATIONS))
+          (PP (IN IN)
+            (NP (CD 1988))))
+        (: ;)
+        (NP
+          (NP (CD 1,200))
+          (PP (IN IN)
+            (NP (CD 1987))))
+        (: ;)
+        (CC AND)
+        (NP
+          (NP (CD 1,000))
+          (PP (IN IN)
+            (NP (CD 1986))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP
+      (NAC (NNP NEARLY) (CD 1,500))
+      (NNP PEOPLE) (NNP WERE))
+    (VP (VBD KILLED)
+      (PP (IN IN)
+        (NP (NNP CLASHES) (NNP BETWEEN)))
+      (NP
+        (NP (DT THE)
+          (NX (NNP ARMED) (NNPS FORCES)
+            (CC AND)
+            (NNPS GUERRILLAS)))
+        (PP (IN IN)
+          (NP (CD 1988)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SO))
+    (ADVP (RB FAR))
+    (VP (VBZ THIS)
+      (NP
+        (NP (NNP YEAR))
+        (, ,)
+        (NP
+          (NP (NNP ABOUT) (CD 100))
+          (NP
+            (NP (NNP PEOPLE) (NNP HAVE) (NNP BEEN) (NNP KILLED))
+            (PP (IN IN)
+              (NP (NNP CLASHES)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP DIEGO) (NNP MONTANA) (NNP TOLD) (NNP EFE) (NNP THAT))
+      (SBAR
+        (S
+          (NP (PRP HE))
+          (VP (VBD WAS)
+            (VP (VBN PLEASED)
+              (PP (TO TO)))))))
+    (VP (VBP SEE)
+      (ADJP (JJ THAT))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP M-19) (NNP HAD) (NNP INITIATED) (NNP PEACE))
+          (VP (VBZ TALKS)
+            (PP (IN WITH)
+              (NP
+                (NP (DT THE) (NNP GOVERNMENT))
+                (, ,)
+                (NP (NNP BUT))))
+            (SBAR
+              (S
+                (NP (PRP HE))
+                (VP (VBD NOTED)
+                  (NP
+                    (NP (NNP THAT) (DT THE) (NNP REST))
+                    (PP (IN OF)
+                      (NP
+                        (NP (DT THE) (NNP CNG) (NNP ACCOUNTS))
+                        (PP (IN FOR)
+                          (NP
+                            (NP (CD 84) (NN PERCENT))
+                            (PP (IN OF)
+                              (NP (DT THE) (NNS REBELS)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP I))
+      (VP (VBP AM)
+        (VP (VBN PLEASED)
+          (PP (TO TO)
+            (NP (VBP SEE) (NNP THAT)))
+          (SBAR
+            (S
+              (NP (DT THE) (NNP GOVERNMENT))
+              (VP (VBZ IS)
+                (SBAR
+                  (S
+                    (NP (NNP HOLDING))
+                    (VP (VBZ TALKS)
+                      (PP (IN WITH)
+                        (NP
+                          (NP (CD 16) (NN PERCENT))
+                          (PP (IN OF)
+                            (NP (DT THE) (NNS GUERRILLAS))))))))))))))
+    (, ,) ('' '')
+    (NP (NNP MONTANA))
+    (VP (VBD SAID)
+      (SBAR (, ,) (`` ``)
+        (S
+          (NP (NNP BUT) (NNP THE) (NNP PEACE) (NNP PROCESS))
+          (VP (MD WILL) (RB NOT)
+            (VP (VB BE)
+              (S
+                (ADJP (JJ SUCCESSFUL))
+                (SBAR (IN IF)
+                  (S
+                    (NP
+                      (NP (DT THE) (JJ OTHER) (CD 84) (NNS PERCENT))
+                      (PP (IN OF)
+                        (NP (DT THE) (NNP GUERRILLA) (NNPS GROUPS))))
+                    (VP (VBP KEEP)
+                      (ADVP (RP ON))
+                      (VP (VBG FIGHTING)))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNP MONTANA) (NNP ALSO))
+    (VP (VBD PRAISED)
+      (S
+        (NP (DT THE) (NNP LATEST) (NNP COMMUNIQUE) (NNP ISSUED) (NNP BY))
+        (NP
+          (NP (DT THE) (NNP CNG))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBD WAS)
+                (NP
+                  (NP
+                    (NP (NNP SIGNED) (NNP BY))
+                    (NP (DT THE) (NNP FARC)))
+                  (, ,)
+                  (NP (DT THE) (NNP EPL))
+                  (, ,)
+                  (CC AND)
+                  (NP
+                    (NP (DT THE) (NNP UC-ELN))
+                    (, ,)
+                    (SBAR
+                      (WHNP (WDT WHICH))
+                      (S
+                        (NP
+                          (NP (NNP ANNOUNCED) (NNP THEIR) (NNP DECISION))
+                          (PP (TO TO)
+                            (NP (NNP BEGIN))))
+                        (VP (VBZ TALKS)
+                          (PP (IN WITH)
+                            (NP (DT THE) (NNP GOVERNMENT)))))))))))
+          (, ,)))
+      (NP
+        (NP (NNP BUT))
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (VP (VBD LINKED)
+              (NP (NNP THEIR) (NNP PARTICIPATION))
+              (PP (TO TO)
+                (NP
+                  (NP (DT THE) (NNP DISMANTLING))
+                  (PP (IN OF)
+                    (NP (NNP RIGHTIST) (NNP PARAMILITARY) (NNPS GROUPS))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP MOREOVER) (, ,) (NNP JACOBO) (NNPS ARENAS))
+        (, ,)
+        (NP
+          (NP (NNP COMMANDER))
+          (PP (IN OF)
+            (NP (DT THE) (NNP FARC)
+              (CC AND)
+              (NNP MEMBER)))
+          (PP (IN OF)
+            (NP (DT THE) (NNP CNG) (NNP STAFF))))
+        (, ,))
+      (VP (VBD TOLD)
+        (NP (NNP BOGOTA) (NNPS EMISORAS) (NNP CARACOL) (NNP NETWORK) (NNP THAT) (`` ``) (NNP ANYTHING) (NNP LEADING))
+        (PP (TO TO)
+          (NP
+            (NP (DT THE) (NNP OPENING))
+            (PP (IN OF)
+              (NP
+                (NP (NNS ROADS))
+                (, ,)
+                (NP
+                  (NP (DT THE) (NNP BUILDING))
+                  (PP (IN OF)
+                    (NP (NNS BRIDGES))))))))))
+    (, ,)
+    (CC AND)
+    (S
+      (S
+        (NP
+          (NP (DT THE) (NNP OPENING))
+          (PP (IN OF)
+            (NP (NNS LOCKS))))
+        (VP (VBZ IS)
+          (NP (NNP BENEFICIAL))))
+      (, ,) ('' '')
+      (CC AND)
+      (S
+        (NP (PRP HE))
+        (VP (VBD PRAISED)
+          (SBAR
+            (S
+              (NP (DT THE))
+              (VP (VBZ TALKS)
+                (S
+                  (NP (NNP BETWEEN))
+                  (NP
+                    (NP (DT THE) (NN GOVERNMENT))
+                    (CC AND)
+                    (NP (DT THE) (NN M-19)))
+                  (PP (IN IN)
+                    (NP (NNP THAT) (NNP REGARD))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ARENAS))
+      (, ,)
+      (NP (NNP HOWEVER))
+      (, ,))
+    (VP (VBD SAID)
+      (NP
+        (NP (DT THE) (NNP M-19) (NNP HAD) (NNP PULLED) (NNP ITSELF) (NNP OUT))
+        (PP (IN OF)
+          (NP (DT THE) (NNP CNG) (NNP BY))))
+      (PP (VBG REACHING)
+        (NP
+          (NP (DT A) (JJ PEACE) (NN AGREEMENT))
+          (PP (IN ON)
+            (NP (NNP ITS) (NNP OWN)
+              (CC AND)
+              (NNP THAT)))))
+      (SBAR
+        (S
+          (PP (IN IN)
+            (NP (DT THE) (NNP NEXT) (NNP PLENARY) (NNP MEETING)))
+          (NP
+            (NP (DT THE) (NNP POSSIBLE) (NNP EXPULSION))
+            (PP (IN OF)
+              (NP (DT THE) (NNP M-19) (NNP FROM) (DT THE) (NNP CNG))))
+          (VP (VBD WOULD)
+            (VP (VB BE)
+              (VP (VBN STUDIED)))))))
+    (. .)))
+

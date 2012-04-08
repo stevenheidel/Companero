@@ -1,0 +1,152 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+        (NP (DT THE) (NNP BODY)))
+      (PP (IN OF)
+        (NP (NNP LIEUTENANT) (NNP JOSE) (NNP LUIS) (NNP CANALES))))
+    (VP (VBD WAS)
+      (NP (NNP REMOVED) (NNP SHORTLY) (NNP AFTER) (NNP 1400) (NNP THIS) (NNP AFTERNOON)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP MURDERED) (NNP BY) (NNP FOUR) (NNP UNIDENTIFIED) (NNP PEOPLE))
+        (PP (IN ON)
+          (NP
+            (NP (DT A) (NNP SOCCER) (NNP FIELD) (NNP AT) (NNP CARAMPANGUE))
+            (CC AND)
+            (NP (NNP ALBORADA) (NNP STREETS)))))
+      (, ,)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NNP SANTIAGO) (NNP NEIGHBORHOOD))
+          (PP (IN OF)
+            (NP (NNP QUILCURA))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNS MURDERERS))
+    (VP (VBP ARE)
+      (NP (NNP STILL) (NNP AT) (NNP LARGE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN PROSECUTOR))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (CD 5TH) (JJ MILITARY) (NN COURT))
+          (, ,)
+          (NP (NNP RODRIGO) (NNP SANDOVAL))
+          (, ,))))
+    (VP (VBD WAS)
+      (PP (NNP AT)
+        (NP (DT THE) (NNP SCENE))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (MD WILL)
+      (VP (VB INVESTIGATE)
+        (NP (NNP THIS) (NNP ATTACK))
+        (, ,)
+        (PP (IN IN)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (NP
+                (NP (DT A) (CD 2D) (NNS CORPORAL))
+                (PP (IN OF)
+                  (NP (DT THE) (NNS CARABINEROS))))
+              (VP (VBD WAS)
+                (NP (NNP ALSO) (NNP KILLED))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP CARABINEROS) (NNP HAVE) (NNP REPORTED) (NNP THAT))
+      (NP (DT THE) (NNP VEHICLE) (NNP USED) (NNP BY))
+      (NP
+        (NP (DT THE) (NNS MURDERERS))
+        (PP (TO TO)
+          (NP (NNP ESCAPE)))))
+    (VP (VBD WAS)
+      (NP
+        (NP
+          (NP (NNP FOUND) (NNP AT) (CD 82))
+          (NP (NNP OR) (CD 81) (NNP BARROS) (NNP LUCO) (NNP STREET)))
+        (, ,)
+        (PP (IN IN)
+          (NP (NNP LA) (NNP CISTERNA) (NNP NEIGHBORHOOD)))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (NP
+      (NP (NNP EYEWITNESSES) (NNP REPORTED) (NNP THAT) (NNP THREE) (NNP MEN))
+      (CC AND)
+      (NP (DT A) (NNP DARK-HAIRED) (NNP GIRL)))
+    (, ,)
+    (WHNP (WP WHO))
+    (SQ
+      (VP (VBD PARTICIPATED)
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP ATTACK) (NNP GOT) (NNP OUT))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP CAR))
+                (, ,)
+                (NP (DT A) (NNP WHITE) (NNP HONDA) (NNP ACCORD))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP UNIFORMED) (NNP POLICE) (NNP REPORTED) (NNP THAT) (NNP AFTER) (NNP FINDING))
+      (NP (DT THE) (NNP CAR)))
+    (, ,)
+    (NP (NNP THEY))
+    (VP (VBD RAIDED)
+      (S
+        (NP (DT A) (NNP HOUSE) (NNP THAT) (NNP TURNED) (NNP OUT))
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP
+              (NP (DT A) (NN HIDEOUT))
+              (PP (IN OF)
+                (NP (DT THE) (NNP MANUEL) (NNP RODRIGUEZ) (NNP PATRIOTIC) (NNP FRONT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP HOUSE))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP AT) (NNP 9224) (NNP BENAVENTE) (NNP STREET))
+        (, ,)
+        (PP (IN IN)
+          (NP (DT THE) (NNP LA) (NNP BANDERA) (NNP NEIGHBORHOOD)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (DT THE) (NNP POLICE))))
+    (, ,)
+    (NP (NNP MANY) (NNP SUBVERSIVE) (NNP DOCUMENTS) (NNP WERE))
+    (VP (VBD FOUND)
+      (PP (IN IN)
+        (NP (DT THE) (NNP HOUSE))))
+    (. .)))
+

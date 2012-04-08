@@ -1,0 +1,76 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+        (NP
+          (NP (DT A) (NNP BOMB) (NNP EXPLODED) (NNP TODAY))
+          (PP (IN IN)
+            (NP (DT A) (NNP LIMA) (NNP RESTAURANT)))))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (DT A) (NNP SECOND) (NNP DEVICE) (NNP THAT) (NNP HAD) (NNP BEEN) (NNP PLACED))
+        (PP (IN IN)
+          (NP (DT THE) (NNP SAME) (NNP ESTABLISHMENT)))))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP DEACTIVATED) (NNP BY))
+        (NP (DT THE) (NNP PERUVIAN) (NNP NATIONAL) (NNP POLICE))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP THERE) (NNP WERE))
+        (NP (DT NO) (NNS VICTIMS)))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (DT THE) (NNP EXPLOSION) (NNP CAUSED) (NNP VERY) (NNP LITTLE) (NNP DAMAGE))
+        (PP (TO TO)
+          (NP
+            (NP (DT THE) (NN RESTAURANT))
+            (, ,)
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (VP (VBZ IS)
+                  (NP
+                    (NP (NNP LOCATED))
+                    (PP (IN IN)
+                      (NP (DT THE) (NNP COMMERCIAL)))))))))))
+    (VP (VBP ARE)
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NNP RESIDENTIAL) (NNP DISTRICT))
+          (PP (IN OF)
+            (NP (NNP MIRAFLORES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS GUERRILLAS))
+      (PP (IN OF)
+        (NP (DT THE)
+          (NX (NNP TUPAC) (NNP AMARU) (NNP REVOLUTIONARY) (NNP MOVEMENT))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP MRTA))
+            (-RRB- -RRB-))
+          (NX (NNP HAVE) (NNP CLAIMED)
+            (NAC (NNP CREDIT)
+              (PP (IN FOR)
+                (NP (DT THE) (NNP TERRORIST) (NNP ACT) (NNP THROUGH) (NNP PAMPHLETS))))
+            (NNP THEY)))))
+    (VP (VBP LEFT)
+      (PRT (RP ON))
+      (NP (DT THE) (NNS PREMISES))
+      (, ,)
+      (S
+        (VP (VBG ACCORDING)
+          (PP (TO TO)
+            (NP (DT THE) (NNP POLICE))))))
+    (. .)))
+

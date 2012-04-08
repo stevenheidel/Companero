@@ -1,0 +1,208 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP CHILEAN) (NNP FOREIGN) (NNP MINISTRY)))
+    (VP (VBZ HAS)
+      (SBAR
+        (S
+          (NP (NNP CATEGORICALLY))
+          (VP (VBD REJECTED)
+            (S
+              (NP (DT THE) (NNP U.S.) (NNP DECISION))
+              (VP (TO TO)
+                (VP (VB CITE)
+                  (NP (DT A) (NNP TREATY) (NNP SIGNED))
+                  (PP (IN WITH)
+                    (NP
+                      (NP (NNP CHILE))
+                      (PP (IN IN)
+                        (NP (CD 1914))))))))
+            (, ,)
+            (S
+              (VP (TO TO)
+                (VP (VB TURN)
+                  (NP
+                    (NP (DT THE) (NN MURDER) (NN CASE))
+                    (PP (IN OF)
+                      (NP (JJ FORMER) (NNP CHILEAN) (NNP FOREIGN) (NNP MINISTER) (NNP ORLANDO) (NNP LETELIER) (NNP OVER))))
+                  (PP (TO TO)
+                    (NP
+                      (NP (DT AN) (NNP INTERNATIONAL) (NNP COMMITTEE))
+                      (PP (IN OF)
+                        (NP (NNP JURISTS))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP STATEMENT))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP MADE) (NNP BY) (NNP FOREIGN) (NNP MINISTER) (NNP HERNAN) (NNP FELIPE) (NNP ERRAZURIZ))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP (NNP ADDED))
+            (VP (VBD THAT)
+              (SBAR
+                (S
+                  (NP (DT THE) (NNP CHILEAN) (NNP GOVERNMENT))
+                  (VP (VBZ IS)
+                    (VP (VBG HANDLING)
+                      (NP
+                        (NP (DT THE) (NN SITUATION))
+                        (PP (IN IN)
+                          (NP (DT A) (NNP SERIOUS)
+                            (CC AND)
+                            (NNP PROFESSIONAL) (NNP MANNER)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+      (NP
+        (NP (-LRB- -LRB-) (NNP ERRAZURIZ) (-RRB- -RRB-) (NNP YES))
+        (, ,)
+        (PP (IN ON)
+          (NP (CD 12)))))
+    (NP (NNP JANUARY) (NNP WE))
+    (VP (VBD RECEIVED)
+      (NP
+        (NP (DT A) (NNP DIPLOMATIC) (NN NOTE))
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP (NNP WE))
+            (VP (VBP ARE) (RB NOW)
+              (VP (VBG STUDYING)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP WE) (NNP CATEGORICALLY) (NNP REJECT))
+        (NP (DT THE) (NNP IMPLICIT) (NNP PRESSURE)))
+      (PP (IN ON)
+        (NP (NNP SOMETHING) (NNP WE))))
+    (VP (VBP ARE)
+      (VP (VBG HANDLING)
+        (PP (IN IN)
+          (NP (DT A) (NNP SERIOUS)
+            (CC AND)
+            (NNP PROFESSIONAL) (NNP MANNER)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP HAVE))
+    (VP (VBD GRANTED)
+      (NP
+        (NP (NNP ALL) (NNP POSSIBLE) (NN COOPERATION))
+        (PP (IN IN)
+          (NP (NNP ACCORDANCE))))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP OUR) (NNS RIGHTS))
+          (CC AND)
+          (NP (NNP INTERNATIONAL) (NNP LAW)))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP END) (NNP RECORDING))
+        (-RRB- -RRB-))
+      (S
+        (PP (IN IN)
+          (NP
+            (NP (NNP VIEW))
+            (PP (IN OF)
+              (NP (NNP THIS) (NNP SITUATION)))))
+        (, ,)
+        (NP (DT THE) (JJ FOREIGN) (NN MINISTRY))
+        (VP (VBD ISSUED)
+          (NP (DT AN) (NNP OFFICIAL) (NNP STATEMENT))
+          (SBAR
+            (S
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (NP (NNS SAYS))
+                  (VP (VBP THAT)
+                    (NP (DT THE) (CD 1914) (NN TREATY)))))
+              (VP (VBZ IS)
+                (VP (VBG BEING)
+                  (S
+                    (NP (NNP STUDIED))
+                    (VP (TO TO))))))))))
+    (PRN
+      (SINV
+        (VP (VBP SEE))
+        (NP (NNP WHETHER) (NNP OR) (NNP NOT))))
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (NP (NNP APPLICABLE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP STATEMENT) (NNPS ADDS))
+    (VP (VBP THAT)
+      (S
+        (NP (DT THE) (NNP TERMS) (NNP USED) (NNP BY))
+        (PP
+          (NP (DT THE) (NNP U.S.) (NNP STATE) (NNP DEPARTMENT) (NNP SPOKESMAN) (NNP LAST) (NNP MONDAY))
+          (IN IN)
+          (S
+            (VP (VBG REFERRING)
+              (PP (TO TO)
+                (NP
+                  (NP (NNP THIS) (NNP MATTER) (NNP REPRESENT))
+                  (NP (DT A) (NNP DISTORTED)
+                    (CC AND)
+                    (NNP PARTIAL) (NNP VIEW))))))))
+      (, ,)
+      (S
+        (VP (VBG REFLECTING)
+          (S
+            (NP (DT THE) (NNP DESIRE))
+            (VP (TO TO)
+              (VP (VB IMPOSE)
+                (NP
+                  (NP
+                    (NP (DT A) (NNP POSITION) (NNP DISREGARDING) (NNP INTERNATIONAL) (NN LAW))
+                    (CC AND)
+                    (NP (DT THE) (NNP DOMESTIC) (NNPS LAWS)))
+                  (PP (IN OF)
+                    (NP (NNP OTHER) (NNPS COUNTRIES))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FOREIGN) (NNP MINISTRY) (NNP STATEMENT) (NNP CONCLUDES) (NNP BY) (NNP SAYING) (NNP THAT))
+    (NP (DT THE) (NNP CHILEAN) (NNS COURTS))
+    (VP (VBP ARE)
+      (VP (VBG PROCESSING)
+        (NP (DT A) (NNP ROGATORY) (NNP LETTER) (NNP SUBMITTED) (NNP THROUGH) (NNP NORMAL) (NNP DIPLOMATIC) (NNP CHANNELS))
+        (, ,)
+        (S
+          (VP (VBG HAVING)
+            (PP (TO TO)
+              (NP (NNP DO)))
+            (PP (IN WITH)
+              (NP
+                (NP (DT THE) (NNS PROCEEDINGS))
+                (VP (VBG BEING)
+                  (NP
+                    (NP (NNP CARRIED) (NNP OUT))
+                    (PP (IN IN)
+                      (NP
+                        (NP (DT THE) (NNP UNITED) (NNS STATES))
+                        (PP (IN ON)
+                          (NP (NNP THIS) (JJ CRIMINAL) (NN CASE)))))))))))))
+    (. .)))
+

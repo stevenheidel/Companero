@@ -1,0 +1,237 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-) (NNP ATTENTION))
+      (, ,)
+      (NP
+        (NP (NNP MUCH) (NNP ATTENTION))
+        (: :)
+        (NP (DT THE) (NNP FOLLOWING))))
+    (VP (VBZ IS)
+      (NP (DT A) (NN CALL))
+      (PP (TO TO)
+        (NP
+          (NP (DT THOSE))
+          (SBAR
+            (WHNP (WP WHO))
+            (S
+              (VP (VBP ARE)
+                (VP (VBG HELPING)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB ORGANIZE)
+                        (NP (DT THE) (NNS ELECTIONS))))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP MUCH) (NNP ATTENTION))
+    (: :)
+    (NP
+      (NP (NNP WE) (NNP CALL))
+      (PP (IN ON)
+        (NP (NNP ALL) (DT THOSE) (NNP PEOPLE)))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBP ARE)
+            (VP (VBG HELPING)
+              (S
+                (VP (TO TO)
+                  (VP (VB ORGANIZE)
+                    (NP (DT THE) (NNS ELECTIONS))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP DEMAND) (NNP THAT) (NNP THEY) (NNP PUBLICLY) (NNP RESIGN) (NNP FROM) (NNP THEIR))
+    (VP (VBZ POSTS))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP WE) (NNP REPEAT))
+    (: :)
+    (NP
+      (NP (NNP WE) (NNP CALL))
+      (PP (IN ON)
+        (NP (NNP ALL) (DT THOSE) (NNP PEOPLE)))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBP ARE)
+            (VP (VBG HELPING)
+              (S
+                (VP (TO TO)
+                  (VP (VB ORGANIZE)
+                    (NP
+                      (NP (DT THE) (CD 19) (NNP MARCH) (NNPS ELECTIONS))
+                      (CC AND)
+                      (NP (NNP DEMAND) (NNP THAT) (NNP THEY) (NNP PUBLICLY) (NNP RESIGN)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (CD 19) (NNP MARCH) (NNP ELECTION))
+      (VP (VBG BEING)
+        (VP (VBN ORGANIZED)
+          (NP
+            (NP (NNP BY) (DT THE) (NNP PDC))
+            (CC AND)
+            (NP
+              (NP (NNP ARENA))
+              (-LRB- -LRB-)
+              (NP (NNP NATIONALIST) (NNP REPUBLICAN) (NNP ALLIANCE))
+              (-RRB- -RRB-))))))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NAC (NNP PART)
+            (PP (IN OF)
+              (NP (DT THE) (NNP MILITARY) (NNP COUNTERINSURGENCY) (NN PLAN))))
+          (NNP AIMED) (NNP AT) (NNP LEGITIMIZING) (NNP REPRESSION))
+        (, ,)
+        (NP
+          (NP (DT THE) (NN BOMBING))
+          (PP (IN OF)
+            (NP (NNP CIVILIANS))))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (DT THE) (NNP HUNGER)
+            (CC AND)
+            (NNP POVERTY))
+          (PP (IN OF)
+            (NP (DT THE) (NNP SALVADORAN) (NNP PEOPLE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP
+        (NP (NN LIGHT))
+        (PP (IN OF)
+          (NP (DT THE) (NNP ABOVE)))))
+    (, ,)
+    (NP (NNP THESE) (NNP PEOPLE))
+    (VP (VBD MUST)
+      (NP (NNP IMMEDIATELY) (NNP RESIGN)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP AFTER) (NNP THEY) (NNP HAVE) (NNP DONE) (NNP THIS))
+        (, ,)
+        (NP (NNP THEY)))
+      (VP (MD WILL)
+        (S
+          (INTJ (UH NO))
+          (VP (NN LONGER)
+            (VP (VB BE)
+              (S
+                (NP (NNP CONSIDERED) (NNP BY) (NNP OUR) (NNP PEOPLE))
+                (PP (IN AS)
+                  (S
+                    (VP (VBG BEING)
+                      (NP
+                        (NP (NN PART))
+                        (PP (IN OF)
+                          (NP (DT THE) (NNP MILITARY) (NNP COUNTERINSURGENCY) (NN PLAN)))))))))))))
+    (CC AND)
+    (S
+      (NP (NNP THEY))
+      (VP (MD WILL)
+        (VP (VB BE)
+          (S
+            (NP (NNP ABLE))
+            (VP (TO TO)
+              (VP (VB LIVE)
+                (PP (IN IN)
+                  (NP (NNP THEIR) (NNP HOMES) (NNP WITHOUT) (NNP ANY) (NNP PROBLEMS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ARENA))
+      (CC AND)
+      (NP (DT THE) (NNP PDC)))
+    (VP (VBD REFUSED)
+      (S
+        (VP (TO TO)
+          (VP (VB ACCEPT)
+            (NP (NNP OUR) (JJ PEACE) (NN PROPOSAL)
+              (S
+                (VP (TO TO)
+                  (VP (VB MAKE)
+                    (NP
+                      (NP (DT THE) (NNP ELECTIONS) (NNP A) (NNP TOOL))
+                      (PP (IN FOR)
+                        (NP (DT A) (JJ POLITICAL) (NN SOLUTION))))
+                    (PP (TO TO)
+                      (NP (DT THE) (NNP WAR)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB THEREFORE))
+    (, ,)
+    (NP
+      (NP (DT THE) (VBG FEELING))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NN MAJORITY))
+          (PP (IN OF)
+            (NP (NNP OUR) (NNP PEOPLE))))))
+    (VP (VBZ IS)
+      (NP
+        (NP (CD ONE))
+        (PP (IN OF)
+          (NP
+            (NP (NNP REJECTION))
+            (PP (IN OF)
+              (NP (DT THE) (CD 19) (NNP MARCH) (NNPS ELECTIONS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS THIS))
+      (PP (VBG FEELING)
+        (NP (NNP REQUIRES) (NNP THAT) (NN EVERYONE))))
+    (VP (VBD INVOLVED)
+      (S
+        (S
+          (PP (IN IN)
+            (S
+              (VP (VBG ORGANIZING)
+                (S
+                  (NP (DT THE) (CD 19))
+                  (VP
+                    (VP (VB MARCH)
+                      (NP (NNP ELECTIONS) (NNP PUBLICLY) (NNP RESIGN)))
+                    (CC AND)
+                    (VP (VB JOIN)
+                      (NP
+                        (NP (DT THE) (NNP PEOPLE))
+                        (PP (IN IN)
+                          (NP (NNP THEIR) (NNP SEARCH))))))))))
+          (PP (IN FOR)
+            (NP
+              (NP (NNP PEACE) (NNP THROUGH) (NNP DIALOGUE))
+              (CC AND)
+              (NP (NNP NEGOTIATION)))))
+        (CC AND)
+        (S
+          (PP (IN IN)
+            (S
+              (VP (VBG DEFEATING)
+                (NP
+                  (NP (DT THE) (NNP ELECTORAL) (NNP FARCE) (NNP AIMED) (NNP AT))
+                  (PP (VBG PERPETUATING)
+                    (NP (DT THE) (NNP WAR))))))))))
+    (. .)))
+

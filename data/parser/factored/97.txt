@@ -1,0 +1,155 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (CD ONE) (NNS PERSON)))
+    (VP (VBD WAS)
+      (S
+        (NP (NNP KILLED)
+          (CC AND)
+          (NNP THREE) (NNP OTHERS) (NNP INJURED) (NNP TONIGHT))
+        (PP (IN AS)
+          (NP
+            (NP (DT THE) (NN RESULT))
+            (PP (IN OF)
+              (NP
+                (NP (DT A) (NNP BOMB) (NNP EXPLOSION))
+                (PP (IN IN)
+                  (NP (NNP DOWNTOWN) (NNP SAN) (NNP SALVADOR)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP EXPLOSION))
+    (VP (VBD TOOK)
+      (NP
+        (NP (NN PLACE))
+        (PP (IN ON)
+          (NP
+            (NP (NNP FIRST) (NNP AVENUE) (NNP WEST))
+            (, ,)
+            (NP (NNP BETWEEN)
+              (NX
+                (NX (DT THE) (NNP VICAS) (NNP STORE))
+                (CC AND)
+                (NX (NNP CENTRAL) (NNP RESERVE) (NNP BANK))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (ADJP
+            (ADJP (-LRB- -LRB-)
+              (NP
+                (NP (NNP 10-SECOND) (NNP BREAK))
+                (PP (IN IN)
+                  (NP (NNP RECEPTION))))
+              (-RRB- -RRB-))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP BEGIN) (NNP RECORDING))
+              (-RRB- -RRB-))))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP UNIDENTIFIED) (NNP SPEAKER))
+          (-RRB- -RRB-)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP WORDS) (NNP INDISTINCT))
+        (-RRB- -RRB-)))
+    (VP (VBP WERE)
+      (ADJP (JJ TAKEN)
+        (PP (TO TO)
+          (NP (DT THE) (NNP ROSALES) (NNP HOSPITAL)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD ONE))
+      (PP (IN OF)
+        (NP (NNP THEM))))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP (NNP MARILIN) (NNP RAMIREZ))
+          (, ,)
+          (SBAR
+            (WHNP (WP WHO))
+            (S
+              (NP
+                (NP (NNP LIVES))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP SACAMIL) (NNP NEIGHBORHOOD))
+                    (PP (IN OF)
+                      (NP (DT THE)
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP WORD) (NNP INDISTINCT))
+                          (-RRB- -RRB-)))))))
+              (VP (VBD NEIGHBORHOOD))))
+          (, ,))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP WORDS) (NNP INDISTINCT))
+          (-RRB- -RRB-))
+        (NP
+          (QP (RB NO) (CD 5)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP OTHER) (NNP PERSON))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP DORA) (NNP MILAGROS) (NNP ARGUETA) (NNP MAROQUIN))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP (NNP LIVES))
+            (PP (IN IN)
+              (PRN (-LRB- -LRB-)
+                (NP (NNP WORD) (NNP INDISTINCT))
+                (-RRB- -RRB-)))
+            (VP (VBD NEIGHBORHOOD)
+              (NP
+                (QP (RB NO) (CD 15-36))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP PERSON))
+    (VP (VBD WAS)
+      (NP (NNP TAKEN))
+      (PP (TO TO)
+        (NP (DT THE)
+          (NX (NNP HOSPITAL) (NNP BY)
+            (NAC (DT THE) (NNP GREEN))
+            (NNP CROSS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP OTHER) (NNP PERSON))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP SILVIA) (NNP AYALA))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBZ LIVES)
+              (PP (IN IN)
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP WORDS) (NNP INDISTINCT))
+                  (-RRB- -RRB-))
+                (NP
+                  (QP (RB NO) (CD 5)))))))
+        (, ,)
+        (NP (NNP TELEPHONE) (NNP NUMBER) (NNP 92760548))))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING))
+    (-RRB- -RRB-)))
+

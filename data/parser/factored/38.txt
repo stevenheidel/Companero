@@ -1,0 +1,276 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+          (NP (NNP ARMANDO) (NNP CALDERON) (NNP SOL)))
+        (, ,)
+        (NP
+          (NP
+            (NP (NNP PRESIDENT))
+            (PP (IN OF)
+              (NP (DT THE) (NNP NATIONALIST) (NNP REPUBLICAN) (NNP ALLIANCE))))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP ARENA))
+            (-RRB- -RRB-)))
+        (, ,)
+        (NP
+          (NP
+            (NP (DT THE) (NNP RULING) (NNP SALVADORAN) (NNP PARTY))
+            (, ,)
+            (NP (NNP TODAY)))
+          (VP (VBN CALLED)
+            (PP (IN FOR)
+              (NP (DT AN) (NNP INVESTIGATION) (NNP INTO) (NNP ANY) (NNP POSSIBLE) (NNP CONNECTION) (NNP BETWEEN))))))
+      (NP (DT THE) (NNP MILITARY) (NNP PERSONNEL)))
+    (VP (VBD IMPLICATED)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NN ASSASSINATION))
+          (PP (IN OF)
+            (NP
+              (NP (NNP JESUIT) (NNPS PRIESTS))
+              (CC AND)
+              (NP (DT THE) (NNP SALVADORAN) (NNPS GUERRILLAS)))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (PRP IT))
+      (VP (VBZ IS)
+        (SBAR
+          (S
+            (NP
+              (NP
+                (NP
+                  (NP
+                    (NP (NNP SOMETHING) (NNP SO) (NNP HORRENDOUS))
+                    (, ,)
+                    (NP (NNP SO) (NNP MONSTROUS))
+                    (, ,)
+                    (NP (NNP THAT) (NNP WE) (NNP MUST) (NNP INVESTIGATE)))
+                  (NP (DT THE) (NNP POSSIBILITY) (NNP THAT)))
+                (NP (DT THE) (NNP FMLN)))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+                (-RRB- -RRB-)))
+            (VP (VBD STAGED)
+              (S
+                (NP (NNP THIS) (NNP ASSASSINATION))
+                (VP (TO TO)
+                  (VP (VB DISCREDIT)
+                    (NP (DT THE) (NN GOVERNMENT))))))))))
+    (, ,) ('' '')
+    (NP (NNP CALDERON) (NNP SOL))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SALVADORAN) (NNP PRESIDENT) (NNP ALFREDO) (NNP CRISTIANI))
+    (VP (VBD IMPLICATED)
+      (NP
+        (NP (NNP FOUR) (NNP OFFICERS))
+        (, ,)
+        (NP
+          (NP (NNP INCLUDING) (CD ONE))
+          (NP (NNP COLONEL)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (CD FIVE) (NNS MEMBERS))
+          (PP (IN OF)
+            (NP
+              (NP
+                (NP
+                  (NP (DT THE) (NNP ARMED) (NNP FORCES))
+                  (PP (IN IN)
+                    (NP
+                      (NP (DT THE) (NN ASSASSINATION))
+                      (PP (IN OF)
+                        (NP
+                          (NP (NNP SIX) (NNP JESUIT) (NNPS PRIESTS))
+                          (CC AND)
+                          (NP
+                            (NP (CD TWO) (NNS WOMEN))
+                            (PP (IN ON)
+                              (NP (CD 16)))))))))
+                (NP (NNP NOVEMBER) (NNP AT)))
+              (NP (DT THE) (NNP CENTRAL) (NNP AMERICAN) (NNP UNIVERSITY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (NNP CALDERON) (NNP SOL))))
+    (, ,)
+    (NP (DT THE) (NNP SALVADORAN) (NNP GOVERNMENT))
+    (`` ``)
+    (VP (VBZ IS)
+      (VP (VBN DUTYBOUND)
+        (PP (TO TO)
+          (NP (NNP UNCOVER)))
+        (SBAR
+          (S
+            (NP
+              (NP (DT THE) (NNS MURDERERS))
+              (PP (IN OF)
+                (NP
+                  (NP (DT THE) (NNS JESUITS))
+                  (CC AND)
+                  (S
+                    (VP (TO TO))))))
+            (VP (VBP SEE)
+              (SBAR
+                (S
+                  (SBAR (IN IF)
+                    (S
+                      (NP (NNP THERE))
+                      (VP (VBZ IS)
+                        (NP (NNP ANY) (NNP LINK) (NNP BETWEEN)))))
+                  (NP (DT THE))
+                  (VP (VBZ SOLDIERS)
+                    (NP
+                      (NP (NNP INVOLVED))
+                      (CC AND)
+                      (NP (DT THE) (NNP FMLN)))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S (`` ``)
+    (NP (DT THOSE) (NNP RESPONSIBLE))
+    (VP (VBD ACTED)
+      (PRT (RP ON))
+      (NP (NNP THEIR) (NNP OWN))
+      (, ,)
+      (S
+        (VP (TO TO)
+          (VP (VB CAUSE)
+            (NP
+              (NP (NNS PROBLEMS))
+              (PP (IN FOR)
+                (NP (DT THE) (NNP CRISTIANI) (NNP GOVERNMENT)
+                  (CC AND)
+                  (NNP DISCREDIT) (NNP IT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD COULD)
+      (S
+        (NP (NNP NOT) (NNP POSSIBLY))
+        (VP (VB BE)
+          (NP (DT AN) (NNP ISOLATED) (NNP ACT)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNS INVESTIGATIONS))
+      (VP (VBP ARE)
+        (VP (VBG POINTING)
+          (S
+            (VP (TO TO)
+              (VP (VB SOME)
+                (NP
+                  (NP (NNP KIND))
+                  (PP (IN OF)
+                    (NP (NNP CONSPIRACY))))))))))
+    (, ,) ('' '')
+    (NP
+      (NP (DT THE) (NNP PRESIDENT))
+      (PP (IN OF)
+        (NP (DT THE) (NNP RIGHTIST) (NNP ARENA) (NNP PARTY))))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (NNP CALDERON) (NNP SOL))
+    (VP (VBD ASKED)
+      (NP
+        (NP (DT THE) (NNS GOVERNMENTS))
+        (PP (IN OF)
+          (NP (NNP EL) (NNP SALVADOR)
+            (CC AND)
+            (NNP GUATEMALA))))
+      (PP (TO TO)
+        (NP (NNP CARRY) (NNP OUT)))
+      (SBAR
+        (S
+          (NP (DT AN) (`` ``) (NNP EXHAUSTIVE) ('' '') (NNP INVESTIGATION))
+          (VP (TO TO)
+            (VP (VB ENSURE)
+              (NP
+                (NP (JJ THAT) (DT THE) (NN MURDER))
+                (PP (IN OF)
+                  (NP
+                    (NP (NNP SOCIAL) (NNP DEMOCRATIC) (NNP LEADER) (NNP HECTOR) (NNP OQUELI) (NNP COLINDRES))
+                    (`` ``)
+                    (NX (NNP DOES) (NNP NOT) (NNP GO) (NNP UNPUNISHED))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNP CALDERON) (NNP NOTED))
+    (VP (VBD THAT)
+      (SBAR (`` ``)
+        (S
+          (NP (NNP OQUELI) (NNP HAD) (NNP CLEARLY))
+          (VP (VBD RENOUNCED)
+            (NP
+              (NP (DT THE) (NN POSITION))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP ARMED) (NNP STRUGGLE))
+                  (PP (IN IN)
+                    (NP
+                      (NP (NN FAVOR))
+                      (PP (IN OF)
+                        (NP
+                          (NP (DT A) (NN PROGRAM))
+                          (PP (IN FOR)
+                            (NP (NNP DEMOCRATIC) (NNP PARTICIPATION))))))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP OQUELI) (NNP COLINDRES))
+      (, ,)
+      (NP
+        (NP (DT A) (NNP SALVADORAN) (NN LEADER))
+        (PP (IN OF)
+          (NP (DT THE) (NNP SOCIALIST) (NNP INTERNATIONAL))))
+      (, ,))
+    (VP (VBD WAS)
+      (NP (NNP FOUND) (NNP DEAD) (NNP ALONG))
+      (PP (IN WITH)
+        (NP
+          (NP
+            (NP
+              (NP (NNP GILDA) (NNP FLORES))
+              (, ,)
+              (NP
+                (NP (DT A) (NN MEMBER))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP GUATEMALAN) (NNP SOCIAL) (NNP DEMOCRATIC) (NNP PARTY))))
+              (, ,))
+            (PP (IN ON)
+              (NP
+                (NP (CD 13) (NN JANUARY))
+                (PP (IN IN)
+                  (NP
+                    (NP (DT A) (NN TOWN))
+                    (PP (IN IN)
+                      (NP (NNP SOUTHEASTERN) (NNP GUATEMALA) (NNP NEAR))))))))
+          (NP (DT THE) (NNP SALVADORAN) (NNP BORDER)))))
+    (. .)))
+

@@ -1,0 +1,347 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-) (NNP PATRIOTIC))
+    (VP (NN UNION)
+      (PRN (-LRB- -LRB-)
+        (ADVP (RP UP))
+        (-RRB- -RRB-))
+      (SBAR
+        (S
+          (NP (NNP PRESIDENT) (NNP BERNARDO) (NNP JARAMILLO) (NNP OSSA) (NNP TODAY) (NNP REVEALED))
+          (VP (VBP THAT)
+            (SBAR
+              (S
+                (NP (DT THE) (NNP GOVERNMENT))
+                (VP (VBD WARNED)
+                  (NP
+                    (NP (NNP HIM))
+                    (PP (IN OF)
+                      (NP (DT A) (NNP PLOT))))
+                  (PP (TO TO)
+                    (NP (NN MURDER)))
+                  (NP
+                    (NP (NNP HIM) (NNP AT) (NNP EL) (NNP DORADO) (NNP AIRPORT) (NNP UPON))
+                    (NP (PRP$ HIS) (NNP RETURN) (NNP FROM) (NNP CUBA))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP AFTER) (NNP RETURNING) (NNP HOME) (NNP FROM) (NNP THE) (NNP AIRPORT))
+      (PP (IN ON)
+        (NP
+          (NP (NNP SATURDAY) (NNP NIGHT))
+          (, ,)
+          (NP (NNP BERNARDO) (NNP JARAMILLO)))))
+    (VP (VBD RECEIVED)
+      (NP (NNP ANOTHER) (NNP DEATH) (NN THREAT) (NNP OVER) (NNP THE) (NNP TELEPHONE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP TODAY))
+    (, ,)
+    (S
+      (VP (VBG FOLLOWING)
+        (S
+          (NP (NNP ADDITIONAL) (NNP EVIDENCE))
+          (VP (TO TO)
+            (VP (VB SUBSTANTIATE)
+              (NP (DT THE) (NN THREAT)))))))
+    (, ,)
+    (NP (DT THE) (NNS AUTHORITIES))
+    (VP (VBD STEPPED)
+      (PRT (RP UP))
+      (NP
+        (NP (NNP SECURITY) (NNP MEASURES))
+        (PP (IN FOR)
+          (NP (NNP JARAMILLO)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT AN) (NNP ARMORED) (NNP VEHICLE))
+      (, ,)
+      (NP
+        (NP
+          (NP (CD 2) (NNP STATION) (NNP WAGONS))
+          (, ,)
+          (NP (CD 2) (NNS MOTORCYCLES))
+          (, ,)
+          (CC AND)
+          (NP (CD 15)))
+        (NP (NNP MEN)))
+      (, ,))
+    (VP (VBD ARMED)
+      (PP (TO TO)
+        (NP (DT THE)
+          (ADJP (NNP TEETH)
+            (CC AND)
+            (NNP NOT))
+          (ADJP (JJR MORE)
+            (PP (IN THAN)
+              (NP (CD 30) (NNS YEARS))))
+          (NNP OLD)))
+      (, ,)
+      (S
+        (NP (NNP HAVE))
+        (VP (VB BECOME)
+          (NP
+            (NP (NNP JARAMILLO) (POS 'S))
+            (JJ GUARDIAN) (NNS ANGELS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP GUTIERREZ))
+      (-RRB- -RRB-))
+    (VP (VBP ARE)
+      (SBAR
+        (S
+          (NP (PRP YOU))
+          (VP (VBD AFRAID)))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (-LRB- -LRB-) (NNP JARAMILLO) (-RRB- -RRB-))
+      (NP (PRP I)))
+    (NP (NNP HAVE) (NNP ALWAYS))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP ONLY) (NNP BAD) (NNP PEOPLE))
+          (VP (VBP ARE)
+            (VP (VBN AFRAID))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (NNP HOWEVER))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD WILL)
+      (VP (VB TELL)
+        (S
+          (NP (PRP YOU))
+          (VP (VB QUITE)
+            (NP (NNP HONESTLY) (NNP THAT))))))
+    (PRN
+      (S
+        (NP (PRP I))
+        (VP (VBD WOULD)
+          (VP (VB BE)
+            (NP (JJR MORE) (NN AFRAID))))))
+    (SBAR (IN IF)
+      (S
+        (NP (PRP I))
+        (VP (VBP HAD)
+          (VP (VBN DECIDED)
+            (S
+              (VP (TO TO)
+                (VP (VB LEAVE)
+                  (NP (DT THE) (NN COUNTRY)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP AM)
+      (VP (VBN DETERMINED)
+        (PP
+          (PP (TO TO)
+            (NP
+              (NP (NNP REMAIN))
+              (PP (IN IN)
+                (NP (NNP COLOMBIA)))))
+          (CC AND)
+          (PP (TO TO)
+            (NP
+              (NP (NNP CONTINUE) (NNP WORKING))
+              (PP (IN FOR)
+                (NP (NNP DEMOCRACY)
+                  (CC AND)
+                  (NNP PEACE))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP GUTIERREZ) (-RRB- -RRB-))
+        (NP (NNP DO) (PRP YOU) (NNP FEEL) (NNP THAT)))
+      (NP (DT THE) (NN GOVERNMENT)))
+    (VP (VBZ IS)
+      (VP (VBG GIVING)
+        (NP (PRP YOU))
+        (NP (NNP ENOUGH) (NNP PROTECTION))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (-LRB- -LRB-) (NNP JARAMILLO) (-RRB- -RRB-))
+        (NP (CD ONE) (NN THING)))
+      (VP (VBZ IS)
+        (NP
+          (NP
+            (NP (DT THE) (NNP DIRECT) (NNP PROTECTION) (NNP EFFICIENTLY) (NNP PROVIDED) (NNP BY))
+            (NP (DT THE) (NNP ADMINISTRATIVE) (NNP DEPARTMENT)))
+          (PP (IN OF)
+            (NP (NNP SECURITY))))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP ANOTHER) (NNP THING))
+      (VP (VBZ IS)
+        (NP
+          (NP
+            (NP (DT THE) (NNP GOVERNMENT) (POS 'S))
+            (NNP POLICY))
+          (PP (IN FOR)
+            (NP (NNP ELIMINATING) (NNP THESE) (NNP PROBLEMS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP DO)
+        (S
+          (NP (NNP NOT) (NNP BELIEVE))
+          (NP
+            (NP
+              (NP (DT THE) (NNP GOVERNMENT) (POS 'S))
+              (NNP POLICY))
+            (PP (IN FOR)
+              (NP (NNP DISMANTLING)))))))
+    (NP (DT THE) (NNP PARAMILITARY) (NNP GROUPS))
+    (VP (VBZ IS)
+      (NP (NNP APPROPRIATE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP GUTIERREZ) (-RRB- -RRB-))
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (NP (PRP YOU))
+          (VP (VBP LEAVE)
+            (S
+              (NP (JJ YOUR) (NNP HOME) (, ,) (NNP DO))
+              (NP (PRP YOU))
+              (SBAR (NNP FEEL)
+                (S
+                  (NP (PRP IT))
+                  (VP (VBZ IS)
+                    (ADJP (JJ YOUR))))))))))
+    (VP (VBD LAST)
+      (NP (NNP DAY)))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP JARAMILLO) (-RRB- -RRB-))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP HAVE)
+            (S
+              (NP (NNP ALWAYS) (NNP BEEN))
+              (DT AN)
+              (VP (NN OPTIMIST) (: ;)
+                (S
+                  (NP (PRP I))
+                  (ADJP (NNP ALSO) (NNP BELIEVE) (NNP THAT)))))
+            (SBAR
+              (S
+                (NP (PRP YOU))
+                (VP (MD WILL)
+                  (VP (VB DIE)
+                    (SBAR
+                      (WHADVP (WRB WHEN))
+                      (S
+                        (NP (PRP YOU))
+                        (VP (VBP LEAST))))))))))))
+    (VP (VBP EXPECT)
+      (NP (PRP IT)))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB WHEN))
+      (S
+        (NP (PRP I))
+        (VP (VBD WALK)
+          (NP
+            (NP (NNP OUT))
+            (PP (IN OF)
+              (NP (NNP MY) (NNP HOME)))))))
+    (, ,)
+    (NP (PRP I))
+    (VP (VBP TAKE)
+      (PP (NNP ALL)
+        (NP (DT THE) (NNP NECESSARY) (NNPS PRECAUTIONS))))
+    (. .)))
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING) (-RRB- -RRB-) (NNP JARAMILLO))
+    (VP (VBD SAID)
+      (NP
+        (NP (PRP$ HIS) (CD TWO) (NNS SONS))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP
+              (NP (NNP DO) (NNP NOT) (NNP LIVE))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP BOGOTA))
+                  (, ,)
+                  (VP (VBN CALLED)
+                    (PP (TO TO)
+                      (NP (NNP SAY) (NNP THEY) (NNP WANTED)))
+                    (PP (TO TO))))))
+            (VP (VBP SEE)
+              (NP (NNP HIM)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (FRAG
+      (NP (NNP JARAMILLO) (NNP TOLD) (NNP THEM))
+      (PP (TO TO)
+        (NP (NNP STAY) (NNP AWAY))))
+    (: ;)
+    (S
+      (NP (PRP HE))
+      (VP (VBZ FEARS)
+        (S
+          (NP
+            (NP
+              (NP (NNP THAT)
+                (NX
+                  (NX (DT A) (NNP SURPRISE) (NNP ATTACK) (NNP CAN) (NNP HAPPEN) (NNP AT) (NNP ANY) (NNP TIME))
+                  (CC AND)
+                  (NX (NNP THAT))))
+              (NP (PRP$ HIS) (NN FAMILY)))
+            (CC AND)
+            (NP (NNP FRIENDS) (NNP MAY)))
+          (VP (VB BECOME)
+            (NP
+              (NP (DT THE) (NNS VICTIMS))
+              (PP (IN OF)
+                (NP (NNP THIS) (NNP NEVER-ENDING) (NNP WAR))))))))
+    (. .)))
+

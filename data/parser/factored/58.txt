@@ -1,0 +1,445 @@
+(ROOT
+  (NP
+    (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
+    (NP (NNP THREE) (NNP WOMEN) (NNP SURVIVORS) (NNP HAVE) (NNP REPORTED))
+    (PP (TO TO)
+      (NP
+        (NP (DT THE) (NNS COURTS))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP PERUVIAN) (NNP CITY))
+            (PP (IN OF)
+              (NP (NNP AYACUCHO) (NNP REGARDING) (DT THE) (NNP MASSACRE)))))))
+    (PRN (: --)
+      (SBAR
+        (WHPP (IN FOR)
+          (WHNP (WDT WHICH)))
+        (S
+          (NP (NNP THEY))
+          (VP (VB HOLD)
+            (NP (DT THE) (NNP ARMY) (NNP RESPONSIBLE)))))
+      (: --))
+    (PP (IN OF)
+      (NP
+        (NP (NN NEARLY) (CD 80) (NNP PEOPLE))
+        (, ,)
+        (NP (NNP INCLUDING) (NNP MISSING) (NNP PEOPLE))
+        (, ,)))
+    (PP (IN IN)
+      (NP (DT THE) (NNP TOWN)))
+    (PP (IN OF)
+      (NP (NNP CAYARA)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (DT THE) (NN REPORT))))
+    (, ,)
+    (NP
+      (NAC (NNP SOLDIERS)
+        (PP (IN WITH)
+          (NP (NNP THEIR) (NNP FACES))))
+      (NNP PAINTED) (NNP BLACK))
+    (VP (VBD ARRIVED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP CAYARA) (NNP LAST) (NNP SATURDAY))
+          (CC AND)
+          (`` ``)
+          (NP (NNP BROKE) (NNP DOWN) (NNP DOORS))
+          (, ,)
+          (NP (NNP LOOTED) (NNP STORES))
+          (, ,)
+          (CC AND)
+          (NP (NNP BURNED) (NNP SEVERAL) (NNP HOUSES)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP MEN))
+      (PP (IN OF)
+        (NP (NNP CAYARA) (NNP WERE))))
+    (VP (VBD ROUNDED)
+      (PRT (RP UP))
+      (PP (NNP AT)
+        (NP (DT THE) (NNP TOWN) (NNP CHURCH))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP REPORT))
+    (VP (VBD ADDED) (: :) (`` ``)
+      (S
+        (NP (NNP THERE))
+        (VP (VBD WAS)
+          (NP (NNP NOTHING) (NNP WE) (NNP COULD) (NNP DO)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (VBD HEARD)
+      (NP
+        (NP (JJ HORRIBLE) (NNS GROANS))
+        (PP (IN OF)
+          (NP (NNP PAIN)
+            (CC AND)
+            (NNP DESPERATION)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS THUS))
+    (, ,)
+    (NP (PRP IT))
+    (VP (VBP CAN)
+      (VP (VB BE)
+        (S
+          (NP (NNP DEDUCED) (NNP THAT) (NNP THEY) (NNP WERE) (NNP KILLED) (NNP AFTER))
+          (VP (VBG BEING)
+            (NP (NNP MERCILESSLY) (NNP TORTURED))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNP LATER))
+    (PRN (, ,)
+      (S
+        (NP (DT THE) (NNPS SOLDIERS))
+        (VP (VBD ROUNDED)
+          (PRT (RP UP))
+          (NP
+            (NP
+              (NP (NNP PEASANTS) (NNP FROM))
+              (NP (DT THE) (NNP CAYARA) (NN AREA) (`` ``) (NNP AND) (, ,) (NNP AFTER)))
+            (PP (VBG FORCING)
+              (NP (DT THE) (NNP MEN)
+                (CC AND)
+                (NNP WOMEN))))
+          (PP (TO TO)
+            (NP
+              (NP (NNP LIE) (NNP PRONE))
+              (PP (IN IN)
+                (NP (NNP SEPARATE) (NNPS ROWS)))))))
+      (, ,))
+    (VP (VBD KILLED)
+      (NP (DT THE)
+        (ADJP (NNP MEN) (CD ONE))
+        (NNP BY) (CD ONE)))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNS SOLDIERS))
+    (VP (VBD USED)
+      (NP
+        (NP (NNP MACHETES))
+        (, ,)
+        (NP (NNP AXES))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP FIREARMS))
+          (PP (IN FOR)
+            (NP (DT THE) (NNS KILLINGS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP THREE) (NNP WOMEN))
+    (VP (VBD SUPPLIED)
+      (NP
+        (NP (DT A) (NN LIST))
+        (PP (IN OF)
+          (NP
+            (NP (CD 57) (NN PEOPLE))
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (NP (NNP WERE))
+                (VP (VBD KILLED)
+                  (PP (IN IN)
+                    (NP
+                      (NP
+                        (NP (DT THE) (NNP MASSACRE))
+                        (CC AND)
+                        (NP (CD 18)))
+                      (SBAR
+                        (WHNP (WP WHO))
+                        (S
+                          (VP (VBP ARE)
+                            (VP (VBG MISSING)))))))))))))
+      (, ,)
+      (S
+        (VP (VBG INCLUDING)
+          (NP (DT A) (JJ 20-YEAR-OLD) (NN NURSE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN PICTURE))
+      (PP (IN OF)
+        (NP
+          (NP (NNP THIS) (NNP NURSE))
+          (, ,)
+          (NP (NNP MARTHA) (NNP CRISOSTOMO) (NNP GARCIA))
+          (, ,))))
+    (VP (VBZ APPEARS)
+      (PRT (RP ON))
+      (NP
+        (NP (DT THE) (JJ FRONT) (NN PAGE))
+        (PP (IN OF)
+          (NP
+            (NP (NNP TODAY) (POS 'S))
+            (NNP LA) (NNP REPUBLICA))))
+      (, ,)
+      (PP (IN WITH)
+        (NP
+          (NP (DT A) (NN REQUEST))
+          (PP (IN FOR)
+            (NP
+              (NP (`` ``) (NN SOMEONE)
+                (PP (TO TO)
+                  (NP (NNP PROVIDE) (NNP INFORMATION))))
+              (PP (IN ON)
+                (NP (NNP HER))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNP CAYARA))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT A) (NN TOWN))
+        (PP (IN IN)
+          (NP (NNP AYACUCHO) (NNP DEPARTMENT)))
+        (, ,)
+        (PP (IN IN)
+          (NP (NNP SOUTHERN) (NNP PERU)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (NP
+        (NP (DT THE) (NN BIRTHPLACE))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NNP ARMED) (NNPS ACTIVITIES))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP MAOIST) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS))
+                (PP (IN IN)
+                  (NP (CD 1980)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CAYARA))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP
+            (NP
+              (NP (CD 80) (NNP KM) (NNP FROM) (NNP ACCOMARCA))
+              (, ,)
+              (NP (NNP WHERE)))
+            (NP (DT AN) (NNP ARMY) (NNP PATROL) (NNP REPORTEDLY) (NNP KILLED)))
+          (NP (CD 69) (NNS PEASANTS)))
+        (, ,)
+        (NP
+          (NP (NNP INCLUDING) (NNP MEN))
+          (, ,)
+          (NP (NNP WOMEN))
+          (, ,)
+          (CC AND)
+          (NP (NNS CHILDREN)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP BURNED) (NNP THEIR) (NNP HOMES))
+          (PP (IN IN)
+            (NP (CD 1985))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP LAST) (NNP FRIDAY))
+      (, ,)
+      (NP (DT THE) (NNP SHINING) (NNP PATH)))
+    (VP (VBD AMBUSHED)
+      (NP (DT AN) (NNP ARMY) (NNP PATROL))
+      (, ,)
+      (S
+        (VP
+          (VP (VBG KILLING)
+            (NP (CD 1) (JJ OFFICER)
+              (CC AND)
+              (CD 3) (NNP NONCOMMISSIONED) (NNS OFFICERS)))
+          (CC AND)
+          (VP (VBG INJURING)
+            (NP
+              (NP
+                (NP (CD 15) (NNS SOLDIERS))
+                (, ,)
+                (NP (CD 4)))
+              (PP (IN OF)
+                (NP (NNP THEM) (NNP SERIOUSLY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SIX) (NNP SHINING) (NNP PATH) (NNP TERRORISTS) (NNP WERE) (NNP ALSO))
+    (VP (VBD KILLED))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT AN) (NNP OFFICIAL) (NNP ARMY) (NNP COMMUNIQUE) (NNP REPORTED))
+      (VP (VBP THAT)
+        (NP
+          (NP (DT THE) (NNP SHINING) (NNP PATH) (NNPS TERRORISTS) (NNP ESCAPED) (NNP TOWARD) (NNP CAYARA))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (, ,)
+            (PP (VBG ACCORDING)
+              (PP (TO TO)
+                (NP
+                  (NP (NNP THIS) (NNP COMMUNIQUE))
+                  (, ,)
+                  (NP (NNP HAD) (NNP BEEN) (NNP ABANDONED))
+                  (, ,)
+                  (NP (NNP THAT) (NNP ONLY) (NNP SOME) (NNP OLD) (NNP PEOPLE))
+                  (CC AND)
+                  (NP (NNS CHILDREN)))))
+            (S
+              (VP (VBD LIVED)
+                (PP (IN IN)
+                  (NP (NNP CAYARA)))))))))
+    (, ,)
+    (CC AND)
+    (S
+      (NP (NNP THAT) (NNP FOUR) (NNP BODIES) (NNP WERE) (NNP FOUND))
+      (PP (IN IN)
+        (NP (DT THE) (NNP CHURCH))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP JAVIER) (NNP DIEZ) (NNP CANSECO))
+      (, ,)
+      (NP (DT A) (NNP LEFTIST) (NNP SENATOR))
+      (, ,))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP MASSACRE))
+          (VP (VBD WAS)
+            (PP (IN IN)
+              (NP
+                (NP (NNP REPRISAL))
+                (PP (IN FOR)
+                  (NP
+                    (NP (NNP LAST) (NNP FRIDAY) (POS 'S))
+                    (NNS AMBUSH)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP OPPOSITION))
+    (VP (VBZ HAS)
+      (NP (NNP ASKED) (NNP THAT))
+      (SBAR
+        (S
+          (NP (DT AN) (NNP INVESTIGATING) (NNP COMMISSION))
+          (VP (VB BE)
+            (VP (VBN FORMED))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP ALTHOUGH) (NNP THIS) (NNP ISSUE))
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP BEEN) (NNP DISCUSSED))
+          (PP (IN IN)
+            (NP (NNP CONGRESS))))))
+    (, ,)
+    (NP (NNP DEBATE))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP POSTPONED) (NNP UNTIL) (NNP NEXT) (NNP MONDAY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP GOVERNMENT))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (PRP IT))
+          (VP (VBZ DOES)
+            (NP (NNP NOT) (NNP OPPOSE))
+            (NP
+              (NP (DT THE) (NN APPOINTMENT))
+              (PP (IN OF)
+                (NP (DT A) (NN COMMISSION))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP
+        (NAC (NNP HOWEVER) (, ,) (NNP WE))
+        (NNP CAN) (NNP NOT))
+      (VP (VBD YIELD)
+        (PP (TO TO)
+          (NP (DT AN) (NNP OPPOSITION) (NNP WHIM)))))
+    (, ,) ('' '')
+    (NP (NNP GOVERNMENT-PAY) (NNP CONGRESSMEN))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP EL) (NNP NACIONAL))
+    (VP (VBZ HAS)
+      (VP (VBN PUBLISHED)
+        (NP
+          (NP (DT A) (NN LIST))
+          (PP (IN OF)
+            (NP
+              (NP (CD 47) (NNP PEOPLE) (NNP KILLED))
+              (CC AND)
+              (NP (CD 50) (NNP PEOPLE) (NNP MISSING)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NN NEWSPAPER))
+    (VP (VBZ CLAIMS)
+      (S
+        (NP
+          (NP (NNP THAT) (NNP AT) (NNP LEAST))
+          (CD 100) (NNS SOLDIERS))
+        (`` ``)
+        (ADJP (VBN SEPARATED)
+          (PP
+            (NP
+              (NP (DT THE) (NNP MEN))
+              (CC AND)
+              (NP (NNP WOMEN)
+                (CC AND)
+                (NNP KILLED)))
+            (NP (DT THE) (NNP MEN) (NNP INSIDE) (DT THE) (NNP CHURCH))))))
+    (. .) ('' '')))
+
