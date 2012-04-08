@@ -10,14 +10,12 @@
 
 package entities;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.HashMap;
-import java.util.Date;
 import java.util.LinkedList;
 
 import utilities.FileReader;
 import utilities.Place;
+import utilities.Time;
 
 /**
  * The class which will hold all of the articles given in the corpus.
@@ -87,21 +85,13 @@ public class Corpus
 			}
 			
 			// parse out the date and determine if the source exists
-			Date articleDate;
+			Time articleTime = null;
 			Boolean sourceExists = false;
-			String dateFormatString = "dd MMM yy";
-			SimpleDateFormat df = new SimpleDateFormat(dateFormatString);
-			try
+			
+			articleTime = new Time(dateWrittenSplit[0]);
+			if (dateWrittenSplit[0].split("\\(").length > 1)
 			{
-				articleDate = df.parse(dateWrittenSplit[0]);
-				if (dateWrittenSplit[0].split("\\(").length > 1)
-				{
-					sourceExists = true;
-				}
-			}
-			catch (ParseException e)
-			{
-				throw new IllegalArgumentException("Article was not in correct format.");
+				sourceExists = true;
 			}
 			
 			// split out the source if it exists
@@ -130,12 +120,12 @@ public class Corpus
 			if (countrySplit != null)
 			{
 				place = new Place(citySplit[0].trim(), countrySplit[0].trim());
-				newArticle = new Article(source, articleDate, place, articleText);
+				newArticle = new Article(source, articleTime, place, articleText);
 			}
 			else
 			{
 				place = new Place(citySplit[0].trim(), null);
-				newArticle = new Article(source, articleDate, place, articleText);
+				newArticle = new Article(source, articleTime, place, articleText);
 			}
 			
 			int id;

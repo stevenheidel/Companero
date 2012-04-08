@@ -32,7 +32,7 @@ public class Main
 	 * If true, will read from file of test questions
 	 * If false, will read line separated questions from stdin
 	 */
-	private static final boolean TESTING = false;
+	private static final boolean TESTING = true;
 	
 	/**
 	 * The driver itself.

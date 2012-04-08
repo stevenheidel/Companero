@@ -114,7 +114,7 @@ public class Place
 	 */
 	private void buildCities()
 	{
-		if(laCountries == null)
+		if (laCountries == null)
 			buildCountries();
 		if (cities != null)
 			return;
@@ -127,9 +127,9 @@ public class Place
 			
 			if(line[0].equals("")) continue;
 			
-			if(laCountries.contains(line[1].toUpperCase()))
+			if (laCountries.contains(line[1].toUpperCase()))
 			{
-				if(cities.containsKey(line[0].toUpperCase()))
+				if (cities.containsKey(line[0].toUpperCase()))
 				{
 					LinkedList<String> temp = cities.get(line[0].toUpperCase());
 					temp.add(line[1].toUpperCase());
@@ -222,6 +222,28 @@ public class Place
 	public LinkedList<String> getCountry()
 	{
 		return country;
+	}
+	
+	/**
+	 * Check if two places are equal
+	 * @param otherPlace the other place to check against
+	 * @return whether or not the two places are equal
+	 */
+	public boolean equals(Place otherPlace)
+	{
+		// first check if one or the other places is null
+		if ((otherPlace.hasCity() && !hasCity()) || (!otherPlace.hasCity() && hasCity()))
+			return false;
+		else if ((otherPlace.hasCountry() && !hasCountry()) || (!otherPlace.hasCountry() && hasCountry()))
+			return false;
+		// then check if the city or country is null
+		else if (!hasCity())
+			return otherPlace.getCountry().equals(country);
+		else if (!hasCountry())
+			return otherPlace.getCity().equals(city);
+		// or check that both are equal
+		else
+			return (otherPlace.getCity().equals(city) && otherPlace.getCountry().equals(country));
 	}
 	
 	/**

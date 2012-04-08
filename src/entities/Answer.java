@@ -118,8 +118,9 @@ public class Answer
 			return "No Answers Found\n";
 		
 		// no need to print percentages if only one possible answer
-		if (answers.size() == 1)
-			return answers.keySet().toArray(new String[1])[0] + "\n";
+		// TODO: Change this back
+		//if (answers.size() == 1)
+			//return answers.keySet().toArray(new String[1])[0] + "\n";
 		
 		String toReturn = "";
 		

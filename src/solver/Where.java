@@ -1,6 +1,18 @@
+/*
+ * Jamie Gaultois
+ * jpg627
+ * 11066502
+ * 
+ * Steven Heidel
+ * sdh951
+ * 11078053
+ */
+
 package solver;
 
 import java.util.LinkedList;
+
+import main.Main;
 
 import utilities.Place;
 import entities.Answer;
@@ -13,6 +25,12 @@ import entities.Article;
  *
  */
 public class Where {
+	/**
+	 * Description of method
+	 * @param art
+	 * @param text
+	 * @return
+	 */
 	private static Place getPlaceForText(Article art, String text)
 	{
 		String[] cities = null;
@@ -91,5 +109,14 @@ public class Where {
 		}
 		
 		return answer;
+	}
+	
+	/**
+	 * Convenience test method
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		Main.main(null);
 	}
 }

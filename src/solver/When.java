@@ -1,8 +1,20 @@
+/*
+ * Jamie Gaultois
+ * jpg627
+ * 11066502
+ * 
+ * Steven Heidel
+ * sdh951
+ * 11078053
+ */
+
 package solver;
 
 import java.text.FieldPosition;
 import java.text.SimpleDateFormat;
 import java.util.LinkedList;
+
+import main.Main;
 
 import utilities.Place;
 import entities.Answer;
@@ -51,7 +63,7 @@ public class When {
 				{
 					StringBuffer sb = new StringBuffer();
 					SimpleDateFormat df = new SimpleDateFormat("dd MMM, yyyy");
-					df.format(a.getDateWritten(), sb, new FieldPosition(0));
+					df.format(a.getTimeWritten().getDate(), sb, new FieldPosition(0));
 					returnDate = sb.toString();
 				}
 				
@@ -65,5 +77,14 @@ public class When {
 			answer.add(returnDate, 1);
 		
 		return answer;
+	}
+	
+	/**
+	 * Convenience test method
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		Main.main(null);
 	}
 }

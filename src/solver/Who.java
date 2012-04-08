@@ -1,6 +1,18 @@
+/*
+ * Jamie Gaultois
+ * jpg627
+ * 11066502
+ * 
+ * Steven Heidel
+ * sdh951
+ * 11078053
+ */
+
 package solver;
 
 import java.util.LinkedList;
+
+import main.Main;
 
 import entities.Answer;
 import entities.Article;
@@ -25,5 +37,14 @@ public class Who {
 		
 		
 		return new Answer();
+	}
+	
+	/**
+	 * Convenience test method
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		Main.main(null);
 	}
 }

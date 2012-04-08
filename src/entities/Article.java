@@ -20,6 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import utilities.FileReader;
 import utilities.Place;
+import utilities.Time;
 
 /**
  * Class to hold an individual article. Will store the article's source, date, city,
@@ -38,7 +39,7 @@ public class Article
 	/**
 	 * The date cited at the beginning of the article
 	 */
-	private Date dateWritten;
+	private Time timeWritten;
 	
 	/**
 	 * The location cited at the beginning of the article
@@ -72,10 +73,10 @@ public class Article
 	 * @param location the location written
 	 * @param articleText the article text
 	 */
-	public Article (String source, Date dateWritten, Place location, String articleText)
+	public Article (String source, Time timeWritten, Place location, String articleText)
 	{
 		this.source = source;
-		this.dateWritten = dateWritten;
+		this.timeWritten = timeWritten;
 		this.locationWritten = location;
 		this.articleText = articleText;
 		this.articleTextNoPunct = this.articleText.replaceAll("[^A-Z0-9]", " ");
@@ -124,12 +125,12 @@ public class Article
 	}
 	
 	/**
-	 * Return the date written
-	 * @return the date written
+	 * Return the time written
+	 * @return the time written
 	 */
-	public Date getDateWritten()
+	public Time getTimeWritten()
 	{
-		return dateWritten;
+		return timeWritten;
 	}
 	
 	/**
@@ -205,7 +206,7 @@ public class Article
 			}
 		}
 		
-		if(dateWritten.equals(givenDate))
+		if(timeWritten.equals(givenDate))
 		{
 			return true;
 		}
@@ -359,13 +360,13 @@ public class Article
 				try
 				{
 					findYear = df.parse(dateSplit[1]);
-					if(findYear.getMonth() > dateWritten.getMonth() + 2)
+					if(findYear.getMonth() > timeWritten.getDate().getMonth() + 2)
 					{
-						date += (dateWritten.getYear() - 1) + "(yearadded)";
+						date += (timeWritten.getDate().getYear() - 1) + "(yearadded)";
 					}
 					else
 					{
-						date += dateWritten.getYear() + "(yearadded)";
+						date += timeWritten.getDate().getYear() + "(yearadded)";
 					}
 				}
 				catch(ParseException e)

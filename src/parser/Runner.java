@@ -27,7 +27,7 @@ import utilities.FileReader;
  * @author Steven Heidel
  *
  */
-public class Main 
+public class Runner 
 {
 	/**
 	 * Absolute path to the latest version of the Natural Language Parser
@@ -68,18 +68,18 @@ public class Main
 			for (String type : new String[]{"PCFG", "Factored"})
 			{
 				// DEBUG: used to skip one or the other for debugging
-				if (type.equals("PCFG")) continue;
+				// if (type.equals("PCFG")) continue;
 				
 				// DEBUG: used to only redo certain articles
-				for (int i : new Integer[]{29, 37, 49, 63, 64, 73, 98})
-				// for (int i = 1; i <= corpus.getArticles().size(); i++)
+				// for (int i : new Integer[]{29, 37, 49, 63, 64, 73, 98})
+				for (int i = 1; i <= corpus.getArticles().size(); i++)
 				{
 					// create a new java process to run the Stanford NLP
 					// make sure it has lots of memory!
 					ProcessBuilder pb = new ProcessBuilder("java", "-mx2048m",
 							"edu.stanford.nlp.parser.lexparser.LexicalizedParser",
 							//"-outputFormat", "words,penn,typedDependencies",
-							"-MAX_ITEMS", "2000000",
+							//"-MAX_ITEMS", "2000000",
 							"edu/stanford/nlp/models/lexparser/english" + type + ".ser.gz",
 							"data/parser/original/" + i + ".txt");
 
