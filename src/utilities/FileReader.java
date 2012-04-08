@@ -14,6 +14,7 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 
@@ -27,6 +28,47 @@ import java.util.LinkedList;
 public class FileReader 
 {
 	/**
+	 * Overly complex method due to the weird way in which Java/Eclipse
+	 * handle internal resources.
+	 * @param filename The *relative path* to the file
+	 * @return a BufferedReader to read through the file line by line
+	 * @throws FileNotFoundException 
+	 */
+	private static BufferedReader getBufferedReader(String filename)
+	{
+		BufferedReader br = null;
+		
+		try
+		{
+			// this will work if we have exported to a .jar file
+			InputStream is = null;
+			try 
+			{
+				is = ClassLoader.getSystemResource(filename).openStream();
+			} 
+			catch (IOException e) {
+				e.printStackTrace();
+			}
+			br = new BufferedReader(new InputStreamReader(is));
+		}
+		catch (NullPointerException e)
+		{
+			// otherwise this will work in Eclipse
+			FileInputStream fis = null;
+			try 
+			{
+				 fis = new FileInputStream(filename);
+			} 
+			catch (FileNotFoundException e1) {
+				e1.printStackTrace();
+			}
+			br = new BufferedReader(new InputStreamReader(fis));
+		}
+		
+		return br;
+	}
+	
+	/**
 	 * Read the entire file and convert it to a String
 	 * @param filename the relative filename to read
 	 * @return the entire contents of the file as a string
@@ -34,14 +76,10 @@ public class FileReader
 	public static String convertToString(String filename)
 	{
 		String toReturn = "";
-		
-		FileInputStream fis;
-		BufferedReader br;
-		
+				
 		try
 		{
-			fis = new FileInputStream(filename);
-			br = new BufferedReader(new InputStreamReader(fis));
+			BufferedReader br = getBufferedReader(filename);
 			
 			String nextLine = br.readLine();
 			while (nextLine != null)
@@ -55,7 +93,8 @@ public class FileReader
 		{
 			e.printStackTrace();
 		} 
-		catch (IOException e) {
+		catch (IOException e) 
+		{
 			e.printStackTrace();
 		}
 		
@@ -72,13 +111,9 @@ public class FileReader
 	{
 		LinkedList<String> toReturn = new LinkedList<String>();
 		
-		FileInputStream fis;
-		BufferedReader br;
-		
 		try
 		{
-			fis = new FileInputStream(filename);
-			br = new BufferedReader(new InputStreamReader(fis));
+			BufferedReader br = getBufferedReader(filename);
 			
 			String nextLine = br.readLine();
 			while (nextLine != null)
@@ -91,7 +126,8 @@ public class FileReader
 		{
 			e.printStackTrace();
 		} 
-		catch (IOException e) {
+		catch (IOException e) 
+		{
 			e.printStackTrace();
 		}
 		
