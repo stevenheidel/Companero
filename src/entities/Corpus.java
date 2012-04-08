@@ -187,7 +187,7 @@ public class Corpus
 	 */
 	public static void main(String[] args)
 	{		
-		Corpus corpus = new Corpus(FileReader.convertToString("data/corpus.txt"));
+		Corpus corpus = new Corpus(FileReader.convertToString("data/structures/corpus.txt"));
 		
 		for (Article a : corpus.getArticlesWithText("ACCORDING TO RETIRED GENERAL FERNANDO TORRES SILVA"))
 		{

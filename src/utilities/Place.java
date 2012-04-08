@@ -121,7 +121,7 @@ public class Place
 		
 		cities = new HashMap<String, LinkedList<String>>();
 						
-		for (String rawLine : FileReader.convertToStringArrayOfLines("data/cities_countries.txt"))
+		for (String rawLine : FileReader.convertToStringArrayOfLines("data/structures/cities_countries.txt"))
 		{
 			String[] line = rawLine.split("\\|");
 			
@@ -160,7 +160,7 @@ public class Place
 		laCountries = new HashSet<String>();
 		allCountries = new HashSet<String>();
 				
-		for (String line : FileReader.convertToStringArrayOfLines("data/latin_american_countries.txt"))
+		for (String line : FileReader.convertToStringArrayOfLines("data/structures/latin_american_countries.txt"))
 		{
 			if (line.equals("")) 
 				continue;

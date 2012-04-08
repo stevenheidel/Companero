@@ -546,7 +546,7 @@ public class Article
 	 */
 	public static void main(String[] argv)
 	{
-		Corpus corpus = new Corpus(FileReader.convertToString("data/corpus.txt"));
+		Corpus corpus = new Corpus(FileReader.convertToString("data/structures/corpus.txt"));
 		
 		LinkedList<Article> articles = corpus.getArticlesWithText("THE");
 		

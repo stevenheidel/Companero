@@ -161,32 +161,31 @@
   (S
     (PP (IN IN)
       (NP
-        (NP (DT THE) (NNP COUNTRY) (POS 'S))
-        (NNP EASTERN) (NNP REGION)))
-    (, ,)
-    (NP (NNP MILITARY) (NNP DETACHMENT) (NNP NO.) (CD 4) (NNP REPORTED))
-    (VP (VBP THAT)
+        (NP
+          (NP (DT THE) (NNP COUNTRY) (POS 'S))
+          (NNP EASTERN) (NNP REGION))
+        (, ,)
+        (NP
+          (NP (NNP MILITARY) (NNP DETACHMENT) (NNP NO.) (CD 4))
+          (NP (NNP REPORTED) (NNP THAT)))))
+    (NP (DT A) (NN TERRORIST))
+    (VP (VBD WAS)
       (SBAR
         (S
-          (NP (DT A) (NNP TERRORIST))
-          (VP (VBD WAS)
-            (SBAR
-              (S
-                (NP
-                  (NP (NNP KILLED))
-                  (CC AND)
-                  (NP (CD TWO) (NNS OTHERS)))
-                (VP (VBP WERE)
-                  (VP (VBN WOUNDED)
-                    (S
-                      (VP (VBG DURING)
-                        (NP
-                          (NP (DT A) (NNP CLASH))
-                          (PP (IN IN)
-                            (NP
-                              (NP (NNP LA) (NNP RANERA) (NNP STREAM) (, ,) (NNP SAN) (NNPS CARLOS))
-                              (, ,)
-                              (NP (NNP MORAZAN) (NNP DEPARTMENT)))))))))))))))
+          (NP
+            (NP (NNP KILLED))
+            (CC AND)
+            (NP (CD TWO) (NNS OTHERS)))
+          (VP
+            (NP
+              (NP (NNP WERE) (NNP WOUNDED) (NNP DURING) (NNP A) (NNP CLASH))
+              (PP (IN IN)
+                (NP (NNP LA) (NNP RANERA) (NNP STREAM))))
+            (, ,)
+            (NP
+              (NP (NNP SAN) (NNP CARLOS))
+              (, ,)
+              (NP (NNP MORAZAN) (NNP DEPARTMENT)))))))
     (. .)))
 
 (ROOT
@@ -204,18 +203,15 @@
 
 (ROOT
   (S
-    (NP
-      (NP (NNP MEANWHILE))
-      (, ,)
-      (NP
-        (QP (DT THE) (CD 3D))
-        (NNP INFANTRY) (NNP BRIGADE) (NNP REPORTED) (NNP THAT) (NNP PONCE) (NNP BATTALION) (NNPS UNITS)))
+    (ADVP (RB MEANWHILE))
+    (, ,)
+    (NP (DT THE) (NNP 3D) (NNP INFANTRY) (NNP BRIGADE) (NNP REPORTED) (NNP THAT) (NNP PONCE) (NNP BATTALION) (NNP UNITS))
     (VP (VBD FOUND)
       (NP
         (NP (DT THE) (NNP DECOMPOSED) (NNP BODY))
         (PP (IN OF)
           (NP
-            (NP (DT A) (NNP SUBVERSIVE))
+            (NP (DT A) (NN SUBVERSIVE))
             (PP (IN IN)
               (NP
                 (NP (NNP LA) (NNP FINCA) (NNP HILL))
@@ -268,25 +264,25 @@
       (NP (NNP NATIONAL) (NNP GUARD))
       (VP (VBZ UNITS)
         (VP (VBG GUARDING)
-          (NP
-            (NP (DT THE) (NNP LAS) (NNPS CANAS) (NNP BRIDGE))
-            (, ,)
-            (SBAR
-              (WHNP (WDT WHICH))
-              (S
-                (VP (VBZ IS)
-                  (PRT (RP ON))
-                  (NP
-                    (NP (DT THE) (NNP NORTHERN) (NNP TRUNK) (NNP HIGHWAY))
-                    (PP (IN IN)
-                      (NP (NNP APOPA)))))))))))
+          (NP (DT THE) (NNP LAS) (NNP CANAS) (NNP BRIDGE)))))
     (, ,)
-    (NP (NNP THIS) (NNP MORNING))
-    (VP (VBD REPELLED)
-      (NP
-        (NP (DT A) (NNP TERRORIST) (NNP ATTACK) (NNP THAT) (NNP RESULTED))
-        (PP (IN IN)
-          (NP (DT NO) (NNS CASUALTIES)))))
+    (NP (WDT WHICH))
+    (VP (VBZ IS)
+      (PRT (RP ON))
+      (SBAR
+        (S
+          (NP
+            (NP (DT THE) (NNP NORTHERN) (NNP TRUNK) (NNP HIGHWAY))
+            (PP (IN IN)
+              (NP
+                (NP (NNP APOPA))
+                (, ,)
+                (NP (NNP THIS) (NNP MORNING)))))
+          (VP (VBD REPELLED)
+            (NP
+              (NP (DT A) (NNP TERRORIST) (NNP ATTACK) (NNP THAT) (NNP RESULTED))
+              (PP (IN IN)
+                (NP (DT NO) (NNP CASUALTIES))))))))
     (. .)))
 
 (ROOT

@@ -42,7 +42,7 @@ public class Main
 	{
 		// the corpus takes a few seconds to initialize
 		System.out.println("Processing the corpus...");
-		Corpus corpus = new Corpus(FileReader.convertToString("data/corpus.txt"));
+		Corpus corpus = new Corpus(FileReader.convertToString("data/structures/corpus.txt"));
 		System.out.println("\t\t\t...ready for question answering!\n");
 		
 		// if testing, read from the file, otherwise System.in
@@ -51,7 +51,7 @@ public class Main
 		{
 			try 
 			{
-				scanner = new Scanner(new File("test/questions.txt"));
+				scanner = new Scanner(new File("data/test/questions.txt"));
 			} catch (FileNotFoundException e) 
 			{
 				e.printStackTrace();

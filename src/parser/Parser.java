@@ -43,7 +43,7 @@ public class Parser
 	 */
 	public static void main(String[] args)
 	{
-		Corpus corpus = new Corpus(FileReader.convertToString("data/corpus.txt"));
+		Corpus corpus = new Corpus(FileReader.convertToString("data/structures/corpus.txt"));
 
 		// make original files
 		for (Entry<Integer, Article> a : corpus.getArticles().entrySet())
@@ -64,13 +64,17 @@ public class Parser
 			// use both PCFG and Factored methods
 			for (String type : new String[]{"PCFG", "Factored"})
 			{
+				// used to skip one or the other for debugging
+				// if (type.equals("PCFG")) continue;
+				
 				for (int i = 1; i <= corpus.getArticles().size(); i++)
 				{
 					// create a new java process to run the Stanford NLP
 					// make sure it has lots of memory!
 					ProcessBuilder pb = new ProcessBuilder("java", "-mx2048m",
 							"edu.stanford.nlp.parser.lexparser.LexicalizedParser",
-							//"-outputFormat", "words,penn,typedDependencies",  
+							//"-outputFormat", "words,penn,typedDependencies",
+							"-MAX_ITEMS", "2000000",
 							"edu/stanford/nlp/models/lexparser/english" + type + ".ser.gz",
 							"data/parser/original/" + i + ".txt");
 
@@ -107,6 +111,9 @@ public class Parser
 					out.close();
 
 					p.waitFor();
+					
+					// used to only process first article for debugging
+					// break;
 				}
 			}
 		}

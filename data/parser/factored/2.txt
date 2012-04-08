@@ -1,29 +1,28 @@
 (ROOT
   (S
-    (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
-    (PP (VBG ACCORDING)
-      (PP (TO TO)
-        (NP
-          (NP (NNP STATEMENTS) (NNP MADE) (NNP BY))
-          (NP (DT A) (NNP SALVADORAN) (NNP OFFICER) (NNP TODAY)))))
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (VP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP
+            (NP (NNP STATEMENTS) (NNP MADE) (NNP BY))
+            (NP (DT A) (NNP SALVADORAN) (NNP OFFICER) (NNP TODAY))))))
     (, ,)
     (PP (IN DESPITE)
+      (NP (DT THE) (NNP CHANGE)))
+    (PP (IN IN)
       (NP
-        (NP (DT THE) (NNP CHANGE))
-        (SBAR
-          (S
-            (PP (IN IN)
-              (NP
-                (NP (DT THE) (NNP LEADERSHIP))
-                (PP (IN OF)
-                  (NP (DT THE) (NNP SALVADORAN) (NNP AIR)))))
-            (VP (VBP FORCE))))))
-    (, ,)
-    (NP (DT THE) (NNP AIR))
-    (VP (VBP FORCE)
-      (VP (MD WILL)
-        (VP (VB CONTINUE)
-          (NP (NNP ITS) (NNP NORMAL) (NNPS ACTIVITIES)))))
+        (NP (DT THE) (NN LEADERSHIP))
+        (PP (IN OF)
+          (NP (DT THE) (NNP SALVADORAN) (NNP AIR)))))
+    (VP (VBP FORCE) (, ,)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP AIR))
+          (VP (VBP FORCE)
+            (VP (MD WILL)
+              (VP (VB CONTINUE)
+                (NP (NNP ITS) (NNP NORMAL) (NNP ACTIVITIES))))))))
     (. .)))
 
 (ROOT
