@@ -1,0 +1,267 @@
+(ROOT
+  (SINV
+    (S
+      (SBAR
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (S
+          (NP (DT A) (NNP SPECTACULAR) (NNP OPERATION))
+          (VP (VBD WAS)
+            (NP
+              (NP (NNP CONDUCTED) (NNP YESTERDAY) (NNP NOON))
+              (SBAR
+                (WHADVP (WRB WHEN))
+                (S
+                  (NP (DT A) (NN 39-MAN))
+                  (VP (VBP POLICE)
+                    (NP
+                      (NP (NNP PATROL))
+                      (PP (IN OF)
+                        (NP (DT THE) (NNP SANTA) (NNP LUCIA) (NNP DETACHMENT)))))))))))
+      (, ,)
+      (NP (NNP REINFORCED) (NNP BY) (NNP ANTI-NARCOTICS))
+      (VP (VBP POLICE)))
+    (, ,)
+    (VP (VBD SURROUNDED)
+      (NP (DT THE) (NNP UCHIZA) (NNP AIRPORT)
+        (CC AND)
+        (NNP WAITED))
+      (PP (IN FOR)
+        (NP
+          (NP (DT THE) (NNP ARRIVAL))
+          (PP (IN OF)
+            (NP (CD TWO))))))
+    (NP (NNP COLOMBIAN) (NNP LIGHT) (NNP AIRPLANES) (NNP THAT) (NNP WERE) (NNP SUPPOSEDLY) (NNP CARRYING) (NNP DRUGS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP TIP) (NNP HAD) (NNP BEEN) (NNP RECEIVED) (NNP BY) (NNP THE))
+    (VP (VBP POLICE))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP LANDING) (NNP STRIP))
+    (VP (VBD WAS)
+      (NP (NNP SUBJECTED) (NNP TO) (NNP CONTINUOUS) (NNP SURVEILLANCE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NN 60-MAN))
+    (VP (VBD ARMED)
+      (NP
+        (NP (NNP GROUP))
+        (PP (IN OF)
+          (NP (NNP DRUG) (NNP TRAFFICKERS) (NNP APPEARED) (NNP AT) (NNP 1620)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (ADJP (JJ APPARENTLY)))
+    (, ,)
+    (NP (NNP THIS) (NNP GROUP))
+    (VP (VBD WAS)
+      (VP (VBG GOING)
+        (S
+          (VP (TO TO)
+            (VP (VB PROTECT)
+              (NP (DT THE) (NNP COLOMBIAN) (NNP LIGHT) (NNP AIRPLANES)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DRUG) (NNP TRAFFICKERS))
+    (VP (VBD ARRIVED)
+      (SBAR
+        (S
+          (NP (NNP ABOARD) (NNP SEVERAL))
+          (VP (VBZ VEHICLES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THEY) (NNP DID) (NNP NOT) (NNP KNOW) (NNP THEY))
+    (VP (VBP WERE)
+      (S
+        (VP (VBG BEING)
+          (NP
+            (NP (NNP WATCHED) (NNP BY) (NNP THE) (NNP POLICE))
+            (, ,)
+            (NP (NNP WHOM) (NNP THEY) (NNP OUTNUMBERED))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN UNDER)
+      (NP (NNP THESE) (NNP CIRCUMSTANCES)))
+    (, ,)
+    (NP (CC AND)
+      (NP (NNP IMPLEMENTING) (NNP A) (NNP MASTERLY) (NNP PLAN))
+      (, ,)
+      (NP (DT THE) (NNP POLICE) (NNP FORCES) (NNP APPEARED))
+      (CC AND)
+      (NP (DT A) (JJ SPECTACULAR) (NN SHOOT-OUT)))
+    (VP (VBD ENSUED))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP SURPRISED) (NNP BY) (NNP THE) (NNP UNEXPECTED) (NNP ATTACK))
+    (, ,)
+    (NP
+      (NP (DT THE) (NNP DRUG) (NNP TRAFFICKERS) (NNP RETURNED) (NNP THE) (NNP FIRE))
+      (, ,)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (VP (VBD LASTED)
+            (NP
+              (QP (CD FOR) (CD 1\/2))
+              (DT AN) (NN HOUR))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (IN AS) (DT A) (NN RESULT))
+      (PP (IN OF)
+        (NP (DT THE) (NNP CLASH) (, ,) (CD TWO) (NNP DRUG) (NNS TRAFFICKERS))))
+    (VP (VBP WERE)
+      (NP
+        (NP (NNP KILLED)
+          (CC AND)
+          (NNP FOUR) (NNP WERE) (NNP INJURED)
+          (CC AND)
+          (NNP TRANSPORTED) (NNP TO) (NNP THE) (NNP CENTRAL) (NNP HOSPITAL))
+        (PP (IN IN)
+          (NP (NNP TINGO) (NNP MARIA)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB MEANWHILE))
+      (, ,)
+      (NP (CD 15) (NNP DRUG) (NNPS TRAFFICKERS) (NNP WERE))
+      (VP (VBD ARRESTED)))
+    (: ;)
+    (S
+      (NP (DT THE) (NN REST))
+      (VP (VBD FLED)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP AFTER) (NNP THE) (NNP INITIAL))
+      (VP (VBZ INVESTIGATIONS)))
+    (, ,)
+    (NP (DT THE) (NNP CAPTURED) (NNP DRUG) (NNP TRAFFICKERS) (NNP WERE) (NNP FULLY))
+    (VP (VBD IDENTIFIED))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (DT THE) (NNP FOLLOWING) (NNP COLOMBIAN) (NNP CITIZENS) (NNP WERE) (NNP INVOLVED))
+    (: :)
+    (NP
+      (NP
+        (NP (NNP FLORIAN) (NNP CARVAJAL) (NNP TELLO))
+        (, ,)
+        (NP (NNP MARIO) (NNP MONTES) (NNP MURILLO))
+        (, ,))
+      (CC AND)
+      (NP (NNP ROLAND) (NNP ARAMAYO) (NNP DIAZ)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (DT THE) (NNP FOLLOWING) (NNP PERUVIAN) (NNP CITIZENS) (NNP WERE) (NNP INVOLVED))
+    (: :)
+    (NP
+      (NP (NNP JAIME) (NNP LEMOS) (NNP VERA))
+      (, ,)
+      (NP (NNP GUILLERMO) (NNP ARO) (NNP MENDIETA))
+      (, ,)
+      (NP (NNP ARMANDO) (NNP SANCHEZ) (NNP FLORES))
+      (, ,)
+      (NP (NNP ROMULO) (NNP ROJAS) (NNP FARFAN))
+      (, ,)
+      (NP (NNP PERCY) (NNP ROJAS) (NNP RODRIGUEZ))
+      (, ,)
+      (NP (NNP RUAL) (NNP MORETTI) (NNP CORDOVA))
+      (, ,)
+      (NP (NNP WILLIAM) (NNP GUAJAN) (NNP LOSA))
+      (, ,)
+      (NP (NNP CARLOS) (NNP ROSAS) (NNP RODRIGUEZ))
+      (, ,)
+      (NP (NNP FERNANDO) (NNP GARCES) (NNP ALVARADO))
+      (, ,)
+      (NP (NNP RAUL) (NNP BEATINO) (NNP BARDALES))
+      (, ,)
+      (NP (NNP ALCIDES) (NNP ANGULO) (NNP DIAZ))
+      (, ,)
+      (NP (NNP AND) (NNP LUIS) (NNP RODRIGUEZ) (NNP CASTILLO)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT THE) (NNS NAMES))
+      (PP (IN OF)
+        (NP (DT THE) (NNP INJURED) (NNP DRUG) (NNP TRAFFICKERS) (NNP ARE))))
+    (: :)
+    (NP
+      (NP (NNP JOSE) (NNP HERNANDEZ) (NNP VELA))
+      (, ,)
+      (NP (NNP CESAR) (NNP VEGA) (NNP VILCA))
+      (, ,)
+      (NP (NNP PEDRO) (NNP ARROYO) (NNP ELIAS))
+      (, ,)
+      (NP (NNP AND) (NNP GRACIAN) (NNP MARTINEZ) (NNP SAVICH)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (NNP CIVIL) (NNP GUARDSMEN) (NNP FOUND) (NNP NEAR) (NNP THE) (NNP UCHIZA) (NNP LANDING))
+    (VP (VBP STRIP)
+      (NP
+        (NP (DT A) (NNP TOTAL))
+        (PP (IN OF)
+          (NP
+            (NP (CD 700) (NN KG))
+            (PP (IN OF)
+              (NP
+                (NP (NNP COCAINE) (NNP PASTE) (NNP READY))
+                (PP (IN FOR)
+                  (NP (NNP SHIPMENT)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD TWO) (NNP NISSAN) (NNP PICK-UP) (NNS TRUCKS))
+      (, ,)
+      (NP (NNP ONE) (NNP TOYOTA) (NNP PICK-UP) (NNP TRUCK))
+      (, ,))
+    (VP (VBP SIX)
+      (NP
+        (NP
+          (NP (NNS REVOLVERS))
+          (, ,)
+          (NP (CD TWO) (NNS PISTOLS)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP EIGHT) (NNP SHOTGUNS))
+          (PP (IN OF)
+            (NP (NNP VARIOUS) (NNPS BRANDS) (NNP WERE) (NNP ALSO) (NNP SEIZED))))))
+    (. .)))
+

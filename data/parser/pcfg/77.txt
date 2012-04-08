@@ -1,0 +1,333 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (NNP COLOMBIAN) (NNP INDUSTRIALIST))
+      (NP (NNP NORMAL) (NNP ECHEVARRIA)
+        (CC AND)
+        (NNP U.S.) (NNP BUSINESSMAN) (NNP MICHAEL) (NNP REYFF))
+      (, ,))
+    (VP (VBD KIDNAPPED)
+      (NP
+        (NP (CD 11) (NNP DAYS) (NNP AGO))
+        (PP (IN IN)
+          (NP (NNP MEDELLIN) (, ,) (NNP WERE) (NNP RESCUED) (NNP TODAY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICE) (NNP OPERATION) (NNP TOOK))
+    (VP (VBP PLACE)
+      (PRT (RP ON))
+      (NP
+        (NP (DT THE) (NNS OUTSKIRTS))
+        (PP (IN OF)
+          (NP
+            (NP (NNP ANTIOQUIA) (NNP DEPARTMENT) (POS 'S))
+            (NN CAPITAL)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT NO) (NNP RANSOM))
+    (VP (VBD WAS)
+      (VP (VBN PAID)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD TWO))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NNP KIDNAPPERS) (NNP WERE) (NNP KILLED))
+          (, ,)
+          (NP (NNP BUT) (NNP THE) (NNP OTHERS)))))
+    (VP (VBD MANAGED)
+      (S
+        (VP (TO TO)
+          (VP (VB ESCAPE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP NEVERTHELESS) (, ,) (NNP THERE))
+    (VP (VBZ IS)
+      (NP (NNP EVIDENCE) (NNP THAT) (NNP COULD) (NNP LEAD) (NNP TO) (NNP THEIR) (NNP ARREST)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP REPORTER))
+      (-RRB- -RRB-))
+    (NP
+      (NP (NNP COLONEL) (NNP OTALORA))
+      (, ,)
+      (NP
+        (NP (NNP ASSISTANT) (NNP COMMANDER))
+        (PP (IN OF)
+          (NP (DT THE) (NNP MEDELLIN) (NNP METROPOLITAN) (NNP POLICE))))
+      (, ,))
+    (VP (VBP HOW)
+      (NP
+        (NP (NNP WERE) (NNP NORMAL) (NNP ECHEVARRIA))
+        (CC AND)
+        (NP (NNP U.S.) (NNP CITIZEN) (NNP MICHAEL) (NNP REYFF) (NNP RESCUED))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP OTALORA))
+          (-RRB- -RRB-))
+        (NNP AT) (NNP 1700))
+      (, ,)
+      (NP (NNP MEDELLIN) (NNP METROPOLITAN) (NNP POLICE) (NNP MEMBERS) (NNP WERE)))
+    (VP (VBP ABLE)
+      (S
+        (VP (TO TO)
+          (VP (VB RESCUE)
+            (NP
+              (NP (NNP NORMAL) (NNP ECHEVARRIA)
+                (CC AND)
+                (NNP MICHAEL) (NNP REYFF))
+              (: ;)
+              (NP (NNP THEY) (NNP ARE) (NNP SAFE)
+                (CC AND)
+                (NNP SOUND)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ONCE) (NNP AGAIN) (NNP WE))
+    (VP (VBD THANK)
+      (NP
+        (NP (DT THE) (NN PEOPLE))
+        (PP (IN FOR)
+          (NP (NNP THEIR) (NNP TIMELY) (NN COOPERATION)))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP WORDS) (NNP INDISTINCT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP LOCAL) (NNP BUSINESSMEN) (NNP LENT) (NNP US) (NNP THEIR))
+        (VP (VBZ HELICOPTERS)
+          (S
+            (VP (TO TO)
+              (VP (VB SEARCH)
+                (PP (IN FOR)
+                  (NP (NNP AND)))))))))
+    (VP (VBP ARREST)
+      (NP (DT THE) (NNS KIDNAPPERS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP UNFORTUNATELY) (NNP IT) (NNP QUICKLY) (NNP BECAME) (NNP DARK)
+      (CC AND)
+      (NNP WE) (NNP COULD) (NNP NOT))
+    (VP (VBP LOCATE)
+      (NP (DT THE) (NNS KIDNAPPERS)))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB HOWEVER))
+    (, ,)
+    (NP (NNP WE) (NNP HAVE))
+    (VP (VBD IDENTIFIED)
+      (S
+        (NP (NNP THEM)
+          (CC AND)
+          (NNP HOPE))
+        (VP (TO TO)
+          (VP (VB ARREST)
+            (NP
+              (NP (NNP THEM))
+              (PP (IN IN)
+                (NP (DT A) (NNP FEW) (NNP HOURS))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+      (SBAR
+        (WHNP (WDT WHAT))
+        (S
+          (VP (VBZ IS)
+            (NP
+              (NP (DT THE) (NN CONDITION))
+              (PP (IN OF)
+                (NP (DT THE) (CD TWO) (NNS HOSTAGES))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP OTALRA) (-RRB- -RRB-))
+      (NP (NNP NORMAL) (NNP ECHEVARRIA)))
+    (VP (VBZ IS)
+      (NP (NNP PERFECTLY) (NNP ALL) (NNP RIGHT)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (MD WILL)
+      (VP
+        (ADJP (JJ PROBABLY))
+        (VB MEET)
+        (PP (IN WITH)
+          (NP (PRP YOU)))
+        (PP (IN IN)
+          (NP (DT A) (NNP FEW) (NNP MINUTES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP VERY) (NNP HAPPY))
+        (SBAR
+          (S
+            (VP (TO TO)
+              (VP (VB SEE)
+                (NP (PRP$ HIS) (NN FAMILY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (VBP ARE)
+      (VP (VBN PLEASED)
+        (PP (IN WITH)
+          (NP
+            (NP (DT THE) (NNP POSITIVE) (NNP RESULTS))
+            (PP (IN OF)
+              (NP
+                (NP (NNP THIS) (NNP OPERATION))
+                (, ,)
+                (CC AND)
+                (NP (DT THE) (NNP NATIONAL) (NNP POLICE) (NNP FEEL) (NNP PROUD))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN PEOPLE))
+      (PP (IN OF)
+        (NP (NNP ANTIOQUIA) (NNP HAVE) (NNP BEEN) (NNP BROUGHT) (NNP CLOSER) (NNP TO) (NNP THEIR))))
+    (VP (VBP POLICE))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP IT) (NNP NECESSARY))
+        (SBAR
+          (S
+            (VP (TO TO)
+              (VP (VB PAY)
+                (NP (DT A) (NNP RANSOM))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP (NNP HAD) (NNP THE) (NNP FAMILY) (NNP BEEN))
+    (VP (VBD ASKED)
+      (S
+        (VP (TO TO)
+          (VP (VB PAY)
+            (NP (DT A) (NNP RANSOM))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (-LRB- -LRB-) (NNP OTALORA) (-RRB- -RRB-))
+      (VP (VBZ NO)))
+    (, ,)
+    (NP (DT NO) (NNP RANSOM))
+    (VP (VBD WAS)
+      (VP (VBN PAID)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MR) (NNP ECHEVARRIA))
+    (VP (MD WILL)
+      (VP (VB TELL)
+        (S
+          (NP (PRP YOU))
+          (NP (NNP THAT) (NNP LATER)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THEY))
+    (VP (VBP ARE)
+      (NP (NNP PERFECTLY) (NNP SAFE)
+        (CC AND)
+        (NNP SOUND)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (NP (NNP WHERE) (NNP WERE) (NNP THEY) (NNP KEPT))
+    (. ?)))
+
+(ROOT
+  (NP (NNP CAN) (NNP YOU) (NNP DESCRIBE) (NNP IT) (. ?)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP OTALORA))
+        (-RRB- -RRB-))
+      (S
+        (INTJ (RB NO))
+        (, ,)
+        (NP (PRP I))
+        (VP (VBP CAN)
+          (SBAR
+            (S
+              (NP (NNP NOT))
+              (VP (VBP GIVE)
+                (SBAR
+                  (S
+                    (NP (PRP YOU))
+                    (VP (VBZ DETAILS))))))))))
+    (VP (VBP RIGHT)
+      (ADVP (RB NOW)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (MD WILL)
+      (VP (VB PROBABLY)
+        (NP (NNP ISSUE) (NNP THAT) (NNP INFORMATION) (NNP LATER))))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING))
+    (-RRB- -RRB-)))
+

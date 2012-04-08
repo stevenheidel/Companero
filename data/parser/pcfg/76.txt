@@ -1,0 +1,136 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP (DT THE) (NNP CINCHONERO) (NNP POPULAR) (NNP LIBERATION) (NNP MOVEMENT))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBZ ON)
+                (NP (CD 25))
+                (NP
+                  (NP (NNP JANUARY) (NNP CLAIMED) (NNP RESPONSIBILITY))
+                  (PP (IN FOR)
+                    (S
+                      (VP (VBG KILLING)
+                        (NP (JJ FORMER) (NNP HONDURAN) (NNP ARMED) (NNPS FORCES) (NNP CHIEF) (NNP GENERAL) (NNP GUSTAVO) (NNP ALVAREZ)))))))))
+          (, ,))
+        (VP (VBD CLAIMED)
+          (NP
+            (NP (NNP RESPONSIBILITY) (NNP TODAY))
+            (PP (IN FOR)
+              (S
+                (VP (VBG DETONATING)
+                  (NP
+                    (NP (DT A) (NNP BOMB) (NNP AT) (NNP TELEPHONE) (NNP COMPANY) (NNP OFFICES))
+                    (PP (IN IN)
+                      (NP (NNP SAN) (NNP PEDRO) (NNP SULA)))))))))))
+    (, ,)
+    (NP (NNP NORTHERN))
+    (VP (VBZ HONDURAS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BOMB))
+    (VP (VBD CAUSED)
+      (S
+        (NP (DT NO) (NNP CASUALTIES) (NNP BUT) (NNP DESTROYED) (NNP AT))
+        (NP
+          (NP (NNP LEAST) (NNP SIX) (NNP TELEPHONE) (NNP BOOTHS))
+          (, ,)
+          (NP (NNP OFFICE) (NNP EQUIPMENT)
+            (CC AND)
+            (NNP MATERIAL))
+          (, ,)
+          (NP
+            (NP (NNPS WALLS) (, ,) (NNPS WINDOWS) (, ,) (NNP AND) (NNPS BLINDS))
+            (PP (IN IN)
+              (NP (CD ONE)))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP ADMINISTRATION) (NNP OFFICES))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP HONDURAN) (NNP TELECOMMUNICATIONS) (NNP ENTERPRISE))))))
+          (, ,)
+          (PRN (-LRB- -LRB-)
+            (NP (NNP HONDUTEL))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP DAMAGE))
+    (VP (VBD WAS)
+      (VP (VBN ESTIMATED)
+        (S
+          (VP (VBG AT)
+            (NP
+              (NP ($ $) (CD 25,000))
+              (VP (VBG ACCORDING)
+                (S
+                  (VP (TO TO)
+                    (VP (VB PRELIMINARY)
+                      (NP (NNP FIGURES) (NNP GIVEN) (NNP BY) (NNP A) (NNP HONDUTEL) (NNP SPOKESMAN)))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP (DT A) (`` ``) (NNP CINCHONEROS) ('' '') (NNP SPOKESMAN))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP
+              (NAC (NNP CALLED) (CD TWO))
+              (NNP RADIO) (NNP STATIONS) (NNP DID) (NNP NOT))
+            (VP (VBP GIVE)
+              (NP
+                (NP (NNS DETAILS))
+                (PP (IN OF)
+                  (NP (DT THE) (NN ATTACK))))))))
+      (, ,)
+      (NP (NNP BUT))
+      (VP (VBD SAID)
+        (SBAR
+          (S
+            (NP (PRP HE))
+            (VP (VBD WOULD))))))
+    (VP (VBP GIVE)
+      (ADJP (JJR MORE)))
+    (NP (NNP INFORMATION) (NNP LATER))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP POLICE))
+    (VP (VBP ARE)
+      (VP (VBG INVESTIGATING)
+        (NP
+          (NP (DT THE) (NN KILLING))
+          (PP (IN OF)
+            (NP
+              (NP (NNP ALVAREZ))
+              (PP (IN ON)
+                (NP
+                  (NP (CD 25)
+                    (NP (NNP JANUARY)
+                      (CC AND)
+                      (NNP TODAY) (POS 'S))
+                    (NNS ATTACK))
+                  (PP (IN IN)
+                    (NP
+                      (NP (NNP SAN) (NNP PEDRO) (NNP SULA))
+                      (, ,)
+                      (NP
+                        (NP (NNP 240) (NNP KM) (NNP NORTH))
+                        (PP (IN OF)
+                          (NP (NNP TEGUCIGALPA)))))))))))))
+    (. .)))
+

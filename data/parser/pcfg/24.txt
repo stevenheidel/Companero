@@ -1,0 +1,221 @@
+(ROOT
+  (NP
+    (NP
+      (PRN (-LRB- -LRB-)
+        (NP (NNP EXCERPT))
+        (-RRB- -RRB-))
+      (NNP TWO) (NNP BOMB))
+    (VP (VBZ ATTACKS))
+    (NP
+      (NP (NNP WERE) (NNP CARRIED) (NNP OUT))
+      (PP (IN IN)
+        (NP (NNP LA) (NNP PAZ) (NNP LAST) (NNP NIGHT))))
+    (, ,)
+    (VP (VBN ONE)
+      (PP (IN IN)
+        (NP (NNP FRONT))))
+    (PP (IN OF)
+      (NP (NNP GOVERNMENT) (NNP HOUSE) (NNP FOLLOWING) (NNP THE) (NNP MESSAGE) (NNP TO) (NNP THE) (NNP NATION) (NNP OVER) (NNP A) (NNP RADIO)
+        (CC AND)
+        (NNP TELEVISION) (NNP NETWORK) (NNP BY) (NNP PRESIDENT) (NNP JAIME) (NNP PAZ) (NN ZAMORA)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP EXPLOSIONS) (NNP DID) (NNP NOT) (NNP CAUSE) (NNP ANY) (NNP SERIOUS) (NNP DAMAGE) (NNP BUT) (NNP THE) (NNP POLICE) (NNP WERE))
+    (VP (VBD MOBILIZED) (, ,)
+      (S
+        (VP (VBG FEARING)
+          (NP
+            (NP (DT A) (NNP WAVE))
+            (PP (IN OF)
+              (NP (NNP ATTACKS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN SELF-STYLED))
+      (`` ``)
+      (NP (NNP ZARATE) (NNP WILLKA) (NNP LIBERATION) (NNP ARMED) (NNP FORCES))
+      ('' ''))
+    (VP (VBP SENT)
+      (NP
+        (NP (NNP SIMULTANEOUS) (NNP WRITTEN) (NNP MESSAGES) (NNP TO) (NNP THE) (NNP MEDIA))
+        (, ,)
+        (VP (VBG CALLING)
+          (PRT (RP ON))
+          (NP (DT THE) (NN PEOPLE)
+            (S
+              (VP (TO TO)
+                (VP (VB OPPOSE)
+                  (NP (DT THE) (NN GOVERNMENT)))))))
+        (, ,)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP (NNP IT) (NNP SAYS))
+            (VP (VBZ IS) (`` ``)
+              (NP
+                (NP (NNP AT) (NNP THE) (NNP SERVICE))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP WEALTHY)
+                    (CC AND)
+                    (NNP THE) (NNS EXPLOITERS)))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (NP
+    (NP (NNP IT) (NNP ALSO) (NNPS CALLS))
+    (PP (IN FOR)
+      (NP (NNP FREE) (NNP EDUCATION)))
+    (, ,)
+    (NP
+      (NP (DT THE) (NN ESTABLISHMENT))
+      (PP (IN OF)
+        (NP (NNP PERMANENT) (NNP JOBS))))
+    (, ,)
+    (NP
+      (NP (DT THE) (NN DEFENSE))
+      (PP (IN OF)
+        (NP (NNP COCA-LEAF) (NNP FARMING))))
+    (, ,)
+    (S
+      (NP (CC AND)
+        (NP (DT THE) (NNP DEFENSE) (NNP AGAINST) (NNP U.S.) (NNP INTERVENTION))
+        (CC AND)
+        (NP (NNP BIG) (NNP LAND)))
+      (VP (VBZ OWNERS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FIRST) (NNP BOMB) (NNP ATTACK) (NNP OCCURRED) (NNP AT) (NNP 2230))
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (NNP 0230) (NNP GMT))
+          (PP (IN ON)
+            (NP (CD 12) (NN JANUARY))))
+        (-RRB- -RRB-)))
+    (PP (IN IN)
+      (NP
+        (NP (NNP FRONT))
+        (PP (IN OF)
+          (NP (NNP THE) (NNP PLANNING)
+            (CC AND)
+            (NNP ECONOMIC) (NNP COORDINATION) (NNP MINISTRY)))))
+    (, ,)
+    (NP (VBG JUST) (NNP BEFORE) (NNP PRESIDENT) (NNP PAZ) (NNP ZAMORA) (NNP CONCLUDED) (NNP HIS) (NNP MESSAGE) (NNP TO) (NNP THE) (NNP NATION) (NNS IN)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (NP (PRP HE))
+          (VP (VBD EXPLAINED)
+            (NP
+              (NP (DT THE) (NNS GUIDELINES))
+              (PP (IN OF)
+                (NP (DT THE) (NNP GENERAL) (JJ ECONOMIC) (NN PROGRAM))))))))
+    (VP (VBP THAT)
+      (SBAR
+        (S
+          (NP (DT THE) (NN GOVERNMENT))
+          (VP (MD WILL)
+            (VP (VB IMPLEMENT)
+              (NP
+                (NP (NNP BETWEEN) (CD 1990))
+                (CC AND)
+                (NP (CD 1993))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ROBERTO) (NNP BARBERY))
+      (, ,)
+      (NP (NNP INTERIOR) (NNP MINISTRY) (NNP INTELLIGENCE) (NNP DEPARTMENT) (NNP DIRECTOR))
+      (, ,))
+    (VP (VBZ HAS)
+      (VP (VBN REPORTED)
+        (S
+          (NP (NNP THAT) (NNP DYNAMITE) (NNP STICKS) (NNP WERE) (NNP HURLED) (NNP FROM) (NNP A) (NNP CAR)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SECOND) (NNP ATTACK) (NNP OCCURRED) (NNP AT) (NNP 2335)
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (NNP 0335) (NNP GMT))
+          (PP (IN ON)
+            (NP (CD 12) (NN JANUARY))))
+        (-RRB- -RRB-))
+      (, ,) (NNP JUST) (NNP AFTER) (NNP THE) (NNP CABINET))
+    (VP (VBZ MEMBERS)
+      (S
+        (NP (NNP HAD) (NNP LEFT) (NNP GOVERNMENT) (NNP HOUSE) (NNP WHERE) (NNP THEY) (NNP HAD) (NNP LISTENED))
+        (VP (TO TO)
+          (VP (VB THE)
+            (NP (NNP PRESIDENTIAL) (NNP MESSAGE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP BOMB) (NNP WAS) (NNP PLACED) (NNP OUTSIDE) (NNP GOVERNMENT) (NNP HOUSE))
+    (PP (IN IN)
+      (NP (DT THE) (NNP PARKING) (NNP LOT) (NNP THAT)))
+    (VP (VBZ IS)
+      (NP (NNP USED) (NNP BY) (NNP CABINET) (NNP MINISTERS)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (NP (DT THE) (NNP POLICE) (NNP PLACED) (NNP THE) (NNP BOMB))
+      (IN IN)
+      (NP (DT A) (NNP NEARBY) (NNP FLOWER) (NNP BED)))
+    (, ,)
+    (NP (NNP WHERE) (NNP IT))
+    (VP (VBD WENT)
+      (NP (NNP OFF)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SHOCK) (NNP WAVE) (NNP SHATTERED) (NNP SOME))
+    (VP (VBZ WINDOWS)
+      (PP (IN IN)
+        (NP
+          (NP (NNP GOVERNMENT) (NNP HOUSE)
+            (CC AND)
+            (NNP STREET) (NNP LAMPS))
+          (PP (IN IN)
+            (NP (DT THE) (NNP PLAZA) (NNP MURILLO))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP AS))
+      (PP (IN OF)
+        (NP
+          (NP (NNP 0500) (NNP GMT) (NNP TODAY))
+          (, ,)
+          (NP (DT THE) (NNP POLICE) (NNP HAD)))))
+    (VP (VBD RECEIVED)
+      (NP
+        (NP (NNS REPORTS))
+        (PP (IN OF)
+          (NP (CD TWO) (JJ OTHER) (NNS EXPLOSIONS))))
+      (PP (IN IN)
+        (NP
+          (NP (CD TWO) (NNP LA) (NNP PAZ) (NNS NEIGHBORHOODS))
+          (, ,)
+          (NP (NNP BUT) (NNP THESE) (NNP HAVE) (NNP NOT) (NNP YET) (NNP BEEN) (NNP CONFIRMED)))))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP PASSAGE) (NNP OMITTED))
+    (-RRB- -RRB-)))
+

@@ -1,0 +1,284 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP PRESIDENT) (NNP ALAN) (NNP GARCIA))
+        (VP (VBZ HAS)
+          (NP
+            (NP (NNP CONFIRMED) (NNP THAT) (NNP THE) (NNP U.S.) (NNP TROOPS) (NNP THAT) (NNP SURROUNDED) (NNP OUR) (NNP DIPLOMATIC) (NNP MISSION))
+            (PP (IN IN)
+              (NP (NNP PANAMA) (NNP WERE) (NNP WITHDRAWN) (NNP AFTER)))))))
+    (NP (DT A) (JJ FORMER) (NNP MINISTER) (NNP SURNAMED) (NNP CORDOVA))
+    (VP (VBP LEFT)
+      (NP (DT THE) (NN EMBASSY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP MILITARY) (NNP MAN))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBZ IS)
+            (VP (VBN INVOLVED)
+              (PP (IN IN)
+                (NP (DT A) (NNP MURDER) (NNP TRIAL)))))))
+      (, ,))
+    (VP (VBP LEFT)
+      (S
+        (NP (DT THE) (NNP PERUVIAN) (NNP EMBASSY) (NNP AS) (NNP SOON) (NNP AS) (NNP HE) (NNP LEARNED) (NNP THAT))
+        (NP (DT THE) (NNP EMBASSY) (NNP CONSIDERED) (NNP HIM) (NNP PERSONA) (NNP NON) (NNP GRATA))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP GARCIA))
+      (-RRB- -RRB-))
+    (NP (PRP I))
+    (VP (VBD THINK)
+      (SBAR
+        (S
+          (NP (NNP JOURNALISTS) (NNP HAVE))
+          (VP (VBD MAGNIFIED)
+            (NP (DT THE) (NNP ISSUE) (NNP A) (NNP BIT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP AS) (NNP FAR) (NNP AS) (NNP WE) (NNP KNOW))
+        (, ,)
+        (NP (NNP PEOPLE) (NNP SOUGHT) (NNP PROTECTION))
+        (: ...))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP CHANGES) (NNP THOUGHT))
+        (-RRB- -RRB-)))
+    (VP (VBP SOMEONE)
+      (NP
+        (NP (NNP ARRIVES) (NNP AT) (NNP THE) (NNP DOOR))
+        (PP (IN OF)
+          (NP
+            (NP (NNP THE) (NNP EMBASSY)
+              (CC AND)
+              (NNP ASKS))
+            (PP (IN FOR)
+              (NP
+                (NP (NNP REFUGE) (NNP IN) (NNP VIEW))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT A) (NN SITUATION))
+                    (PP (IN OF)
+                      (NP (NNP FORCE)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT THE) (NN SITUATION))
+        (PP (IN IN)
+          (NP (NNP PANAMA))))
+      (VP (VBZ IS)
+        (NP (NNP ABNORMAL))))
+    (: ;)
+    (S
+      (NP (PRP IT))
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP BEEN) (NNP TOTALLY) (NNP INVADED) (NNP BY))
+          (NP (CD 30,000) (NNS SOLDIERS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SOME) (NNP PERSONS))
+    (VP (VBD ENTERED)
+      (NP (DT THE) (NN EMBASSY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP AT) (NNP LEAST) (NNP ONE))
+      (PP (IN OF)
+        (NP (NNP THEM) (NNP HAD) (NNP BEEN) (NNP ALLEGEDLY))))
+    (VP (VBD LINKED)
+      (PP (IN WITH)
+        (NP
+          (NP (DT THE) (NNS DEATH))
+          (PP (IN OF)
+            (NP
+              (NP (DT A) (NNP PANAMANIAN) (NNP MINISTER))
+              (, ,)
+              (NP (DT A) (NNP MR) (NNP SPADAFORA))
+              (, ,)
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBD WAS)
+                    (VP (VBN MURDERED))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS AUTHORITIES))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NNP EMBASSY) (NNP AND))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP FOREIGN) (NNP MINISTRY) (NNP STATED) (NNP THAT) (NNP THIS) (NNP PERSON) (POS 'S))
+              (NN PRESENCE))))))
+    (VP (VBD WAS)
+      (ADJP (JJ UNDESIRABLE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP DO) (NNP NOT))
+    (VP (VBP REFUSE)
+      (S
+        (VP (TO TO)
+          (VP (VB GRANT)
+            (ADJP (JJ REFUGE)
+              (PRN (: --)
+                (S
+                  (NP (DT A) (NNP CONDITION) (NNP THAT))
+                  (VP (VBZ IS)
+                    (NP (NNP GRANTED) (NNP BEFORE) (NNP GRANTING) (NNP POLITICAL) (NNP ASYLUM))))
+                (: --))
+              (S
+                (VP (TO TO)
+                  (VP (VB WHOMEVER)
+                    (NP (NNP FEELS) (NNP HARASSED) (NNP OR) (NNP MISTREATED))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (DT A) (NNP CASE) (NNP LIKE) (NNP THIS)))
+    (, ,)
+    (NP (NNP HOWEVER))
+    (, ,)
+    (PP (IN IN)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (NP (NNP THERE))
+          (VP (VBD WAS)
+            (NP
+              (NP (DT AN) (NNP ALLEGED) (NNP INVOLVEMENT))
+              (PP (IN IN)
+                (NP
+                  (NP (DT A) (NN MURDER))
+                  (SBAR
+                    (WHNP (WDT WHICH))
+                    (S
+                      (VP (VBD WAS)
+                        (NP (NNP COMMITTED) (NNP YEARS) (NNP AGO))))))))))))
+    (, ,)
+    (NP
+      (NP (NNP THIS) (NNP PERSON))
+      (PRN (: --)
+        (S
+          (NP (PRP I))
+          (VP (VBP BELIEVE)
+            (SBAR
+              (S
+                (NP (PRP HE))
+                (VP (VBZ IS)
+                  (NP
+                    (NP (DT A) (NNP MAN) (NNP SURNAMED) (NNP CORDOVA))
+                    (, ,)
+                    (NP (NNP APPARENTLY) (NNP A) (NNP HIGHRANKING) (NNP PANAMANIAN) (NNP GUARD) (NNP OFFICER))))))))
+        (: --)))
+    (VP (VBD WAS)
+      (VP (VBN TOLD)
+        (S
+          (NP (NNP THAT) (NNP HIS) (NNP PRESENCE) (NNP WAS) (NNP NOT) (NNP WANTED)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBP LEFT)
+      (NP
+        (NP (DT THE) (NN EMBASSY))
+        (PP (IN OF)
+          (NP (PRP$ HIS) (NNP OWN) (NN WILL)))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (ADVP (RB THERE))
+    (VP (VBP ARE))
+    (NP (NNP OTHER) (NNP PANAMANIAN) (NNP DEFENSE) (NNP FORCES) (NNP OFFICERS) (NNP AT) (NNP THE) (NNP EMBASSY))
+    (, ,)
+    (S
+      (VP (VBG INCLUDING)
+        (NP
+          (NP (NNP MR) (NNP NORIEGA) (POS 'S))
+          (NNP SECRETARY) (, ,) (NNP BUT) (NNP THEIR) (NNP STATUS) (NNP SHOULD) (NNP BE) (NNP ESTABLISHED) (NNP BY) (NNP PERU))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT AN) (NN INCIDENT))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP REPORTED) (NNP YESTERDAY))
+        (, ,)
+        (NP (IN AS)
+          (NP (DT THE) (NNP U.S.) (NNP TROOPS) (NNP SURROUNDED) (NNP THE) (NNP EMBASSY)))
+        (, ,)
+        (NP (NNP DEPLOYING) (NNP BARRIERS)
+          (CC AND)
+          (NNP BARBED) (NNP WIRE))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBD WAS)
+      (NP (DT AN) (NN ATTEMPT)
+        (S
+          (VP (TO TO)
+            (VP (VB DEPICT)
+              (NP
+                (NP (NNP A) (NNP DRAMATIC)
+                  (CC AND)
+                  (NNP SPECTACULAR) (NNP PICTURE))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT A) (NNP SIEGE) (NNP OR) (NNP PERHAPS))
+                    (PP (IN OF)
+                      (NP
+                        (NP (DT AN) (NN INVASION))
+                        (PP (IN OF)
+                          (NP (DT THE) (NNP EMBASSY)))))))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP FORTUNATELY))
+    (, ,)
+    (NP
+      (NP (DT THE) (JJ FOREIGN) (NNP MINISTRY) (NNP RESORTED) (NNP TO) (NNP DIPLOMATIC) (NNP CHANNELS))
+      (CC AND)
+      (NP (DT THE) (NNP TROOPS) (NNP WERE) (NNP SOON) (NNP WITHDRAWN)))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING))
+    (-RRB- -RRB-)))
+

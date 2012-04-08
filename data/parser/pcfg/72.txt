@@ -1,0 +1,439 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (NNP MAJOR) (NNP ROBERTO) (NNP D'AUBUISSON) (NNP YESTERDAY)))
+    (VP (VBD STATED) (: :) (`` ``)
+      (S
+        (NP (PRP I))
+        (VP (VB HAVE)
+          (NP
+            (NP (NNP WITHSTOOD) (NNP THE) (NNP LOWEST) (NNP SLANDER))
+            (PP (IN FOR)
+              (NP (CD 8) (NNS YEARS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GOD) (NNP ALMIGHTY)
+      (CC AND)
+      (NNP MY) (NNP CONSCIENCE))
+    (VP (VBD KNOW)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP HAD)
+            (S
+              (VP (VBG NOTHING)
+                (S
+                  (VP (TO TO)
+                    (VP (VB DO)
+                      (PP (IN WITH)
+                        (NP (NNP THAT) (NNP REPUDIATED) (NN MURDER))))))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP EVERY) (NNP TIME) (NNP THERE))
+      (VP (VBP ARE)
+        (NP (NNS ELECTIONS))))
+    (, ,)
+    (NP (NNP WE) (NNP HEAR) (NNP THE) (NNP SAME) (NNP RUMORS) (NNP THAT) (NNP THERE))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP (NNP EVIDENCE) (NNP ABOUT) (NNP MSGR) (NNP OSCAR) (NNP ARNULFO) (NNP ROMERO) (POS 'S))
+          (NNP CASE)
+          (CC AND)
+          (NNP THAT))
+        (SBAR
+          (S
+            (NP (PRP IT))
+            (VP (MD WILL)
+              (VP (VB BE)
+                (VP (VBN PRESENTED))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS THUS))
+      (, ,)
+      (NP (DT A) (JJ GREAT) (NNP SHOW) (NNP IS) (NNP PRESENTED))
+      (, ,))
+    (VP (VBP BUT)
+      (SBAR (RB ONCE)
+        (S
+          (NP (DT THE) (NNS ELECTIONS))
+          (VP (VBP ARE)
+            (VP (VBG OVER)
+              (NP
+                (NP (DT NO) (CD ONE) (NNP REMEMBERS) (NNP THAT) (NN MARTYR))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP CHURCH)))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (NP
+      (NP
+        (NP (NNP DUARTE) (POS 'S))
+        (NN GOVERNMENT))
+      (, ,)
+      (NP (NNP SUPPORTED) (NNP BY) (NNP THE) (NNP CHRISTIAN) (NNP DEMOCRATIC) (NNP PARTY))
+      (, ,)
+      (NP (NNP PDC))
+      (, ,))
+    (VP (VBZ RESORTS)
+      (S
+        (VP (TO TO)
+          (VP (VB VILE)
+            (NP
+              (NP (NNP DEFAMATION) (, ,) (NNP SLANDER))
+              (, ,)
+              (CC AND)
+              (NP (NNP LIES) (NNP AGAINST) (NNP ITS) (NNP POLITICAL) (NNP OPPONENTS) (NNP BECAUSE) (NNP IT) (NNP CAN) (NNP NOT) (NNP HIDE) (NNP ITS) (NNP CORRUPTION)))))))
+    (. .) ('' '')))
+
+(ROOT
+  (SINV
+    (VP (VBZ THIS)
+      (NP (NNP STATEMENT) (NNP WAS) (NNP ISSUED) (NNP BY)))
+    (NP
+      (NP (DT THE) (NNP NATIONAL) (NNP REPUBLICAN) (NNP ALLIANCE))
+      (, ,)
+      (NP
+        (NP (NNP ARENA))
+        (, ,)
+        (NP
+          (ADJP (JJ DEPUTY)
+            (S
+              (VP (TO TO)
+                (VP (VB REJECT)
+                  (NP (DT THE) (NNP ANNOUNCEMENT) (NNP ISSUED))))))
+          (NNP BY) (NNP THE) (NNP GOVERNMENT))))
+    (, ,) (`` ``)
+    (S
+      (PP (IN IN)
+        (NP (DT A) (NNP NATIONAL) (NNP RADIO)
+          (CC AND)
+          (NNP TELEVISION) (NNP NETWORK)))
+      (, ,) ('' '')
+      (NP (NNP THAT) (NNP IMPLICATED) (NNP D'AUBUISSON) (`` ``) (NNP IN) (NNP MSGR) (NNP OSCAR) (NNP ARNULFO) (NNP ROMERO))
+      (VP (VBZ 'S)
+        (ADJP (JJ DEATH))))
+    (. .) ('' '')))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP I) (NNP AM) (NNP SORRY) (NNP I) (NNP DID) (NNP NOT))
+      (VP (VBP SEE)
+        (NP (DT THE) (NN BROADCAST))))
+    (, ,)
+    (NP (NNP BUT) (NNP OTHERS) (NNP HAVE))
+    (VP (VBD COMMENTED)
+      (PRT (RP ON))
+      (NP (PRP IT)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP CAN)
+      (NP
+        (NP (NNP VERY) (NNP WELL) (NNP IMAGINE) (NNP ALL))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP DESPICABLE) (NNP THINGS) (NNP THAT) (NNP WERE) (NNP IRRESPONSIBLY))
+            (VP (VBD SAID)
+              (S
+                (VP (TO TO)
+                  (VP (VB TWIST)
+                    (NP
+                      (NP (DT THE) (NNP TRUTH) (NNP SO))
+                      (SBAR
+                        (S
+                          (NP (DT THE) (NNP PDC) (NNP COULD) (NNP AGAIN) (NNP USE) (NNP MSGR) (NNP ROMERO))
+                          (VP (VBZ 'S)
+                            (NP
+                              (NP (NNP DEATH))
+                              (IN AS)
+                              (NP (DT AN) (NNP ELECTION) (NNP ISSUE)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP IT))
+      (VP (VBZ IS)
+        (NP
+          (NP (NNP ALL) (NNP PART))
+          (PP (IN OF)
+            (NP
+              (NP
+                (NP (DT THE) (NNP PDC) (POS 'S))
+                (NNP PROPAGANDA))
+              (, ,)
+              (NP (NNP BUT) (NNP THE) (NNP TRUTH) (NNP WILL) (NNP ALWAYS) (NNP PREVAIL)))))))
+    (, ,) ('' '')
+    (NP (NNP D'AUBUISSON))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (NP (DT THE) (NNP MOST) (NNP REPREHENSIBLE) (NNP THING))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP
+            (NP (NNP THAT) (NNP THE) (NNP DUARTE) (NNP ADMINISTRATION) (NNP USES) (NNP RADIO)
+              (CC AND)
+              (NNP TELEVISION) (NNP STATIONS))
+            (, ,)
+            (NP (NNP OPENLY) (NNP ABUSING) (NNP ITS) (NNP AUTHORITY))
+            (, ,)
+            (NP (NNP TO) (NNP SLANDER) (NNP ME)))
+          (: --)
+          (NP
+            (NP (NNP SIMPLY) (NNP BECAUSE) (NNP I) (NNP AM))
+            (NP
+              (NP (DT THE) (NNP PDC) (POS 'S))
+              (JJ POLITICAL) (NN ADVERSARY))))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP BECAUSE) (NNP THE) (NNP PDC))
+          (SBAR
+            (S
+              (VP (VBZ HAS)
+                (NP
+                  (NP (DT NO) (NNP EXCUSE) (NNP TO) (NNP JUSTIFY))
+                  (SBAR
+                    (S
+                      (NP (DT THE) (NNP CRISIS) (NNP THAT))
+                      (VP (VBZ HAS)
+                        (NP (NNP BEEN) (NNP CAUSED) (NNP BY) (NNP ITS) (NNP CORRUPTION))))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (NP
+    (NP (NNP D'AUBUISSON) (NNP ADDED))
+    (: :)
+    (NP
+      (NP
+        (NP (DT THE) (NNP CHRISTIAN) (NNP DEMOCRATS) (POS '))
+        (`` ``)
+        (NP (NNP LIE))
+        ('' '') (NN IS))
+      (NP (NNP AIMED) (NNP AT) (NNP DECEIVING) (NNP SALVADORAN) (NNP CATHOLICS)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THAT))
+      (VP (VBZ IS)
+        (NP (NNP DESPICABLE)
+          (CC AND)
+          (NNP UNSPEAKABLE))))
+    (, ,)
+    (NP (NNP BECAUSE) (NNP THEY))
+    (VP (VBP ARE)
+      (VP (VBG INSULTING)
+        (NP
+          (NP (NNP MSGR) (NNP ROMERO) (POS 'S))
+          (NN MEMORY))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PDC))
+    (VP (VBZ HAS)
+      (VP (VBN GOVERNED)
+        (NP
+          (NP (DT THE) (NN COUNTRY))
+          (PP (IN FOR)
+            (NP (CD 8) (NNS YEARS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PDC) (NNP CONTROLLED) (NNP THE) (NNP ATTORNEY) (NNP GENERAL))
+    (VP (VBZ 'S)
+      (ADJP (JJ OFFICE))
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (NP (NNP MSGR) (NNP ROMERO))
+          (VP (VBD WAS)
+            (VP (VBN KILLED))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP CRUCIAL) (NNP QUESTION))
+    (VP (VBZ IS) (: :)
+      (SBARQ
+        (WHADVP (WRB WHY))
+        (SQ
+          (VP (VBP WERE) (RB N'T))
+          (NP (DT THE) (NNP NECESSARY))
+          (NP
+            (NP (NNP MEASURES) (NNP TAKEN))
+            (S
+              (VP (TO TO)
+                (VP (VB CLARIFY)
+                  (NP (DT THE) (NNP CASE) (NNP AT) (NNP THE) (NNP TIME)))))))
+        (. ?)))))
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB WHY))
+    (SQ
+      (VP (VBZ DOES))
+      (NP (DT THE) (NNP GOVERNMENT) (NNP CLAIM) (NNP IT) (NNP HAS))
+      (NP
+        (NP (DT THE) (NNP EVIDENCE) (NNP YET) (NNP FAILS))
+        (S
+          (VP (TO TO)
+            (VP (VB PRESENT)
+              (NP (PRP IT)))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (ADVP (RB AH))
+    (, ,)
+    (NP
+      (NP
+        (NP (NNP BECAUSE) (NNP THIS) (NNP WOULD) (NNP END) (NNP THE) (NNP GOVERNMENT) (POS 'S))
+        (JJ POLITICAL) (NN GAME))
+      (PP (IN OF)
+        (NP (NNP SAYING) (NNP THAT) (NNP IT))))
+    (VP (VBZ IS)
+      (VP (VBG INVESTIGATING)
+        (NP
+          (NP (NNP MSGR) (NNP ROMERO) (POS 'S))
+          (NNS DEATH))))
+    (. !)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THIS) (NNP ENTIRE) (NNP ATTITUDE))
+      (VP (VBZ IS)
+        (ADJP (JJ REPREHENSIBLE))))
+    (, ,)
+    (NP (NNP D'AUBUISSON))
+    (VP (VBD STATED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD ASSERTED) (: :)
+      (S
+        (NP (PRP I))
+        (NP
+          (NP (NNP AM) (NNP AWARE))
+          (PP (IN OF)
+            (NP
+              (NP
+                (NP (DT THE) (NNP PDC) (POS 'S))
+                (NNP INCREDIBLE) (NNP PLOT) (NNP TO) (NNP SLANDER) (NNP ME))
+              (, ,)
+              (NP
+                (NP (NNP BUT) (NNP THE) (NNP PDC) (NNP ONLY) (NNP SAYS))
+                (SBAR
+                  (WHNP (WDT WHAT))
+                  (S
+                    (VP (VBZ IS)
+                      (NP (NNP CONVENIENT)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP IT))
+      (VP (VBZ IS)
+        (NP (DT A) (NNP DIRTY) (NNP GAME) (NNP BUT) (NNP GOD) (NNP IS) (NNP MY) (NNPS WITNESS))))
+    (: ;)
+    (S
+      (NP (NNP MY) (NNP CONSCIENCE))
+      (VP (VBZ IS)
+        (NP (NN CLEAR))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SALVADORAN) (NNP PEOPLE) (NNP KNOW) (NNP MY) (JJ GREAT) (NN CRIME))
+    (VP (VBZ HAS)
+      (VP (VBN BEEN)
+        (S
+          (VP (TO TO)
+            (VP (VB STRUGGLE)
+              (NP (NNP AGAINST) (NNP THE) (NNP MARXIST-LENINISTS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP PDC) (NNP CAN) (NNP NOT) (NNP FORGIVE) (NNP ME))
+      (PP (IN FOR)
+        (NP (NNP THIS) (NNP BECAUSE) (NNP THEY) (NNP ARE) (NNP CLOSELY))))
+    (VP (VBD LINKED)
+      (PP (IN WITH)
+        (NP
+          (NP (DT THOSE))
+          (SBAR
+            (WHNP (WP WHO))
+            (`` ``)
+            (S
+              (VP (VBP ARE)
+                (NP
+                  (NP (NNP GREEN))
+                  (PP (IN ON)
+                    (NP (DT THE) (NNP OUTSIDE)))
+                  (PRN (-LRB- -LRB-)
+                    (NP (JJ REFERENCE)
+                      (S
+                        (VP (TO TO)
+                          (VP (VB THE)
+                            (NP
+                              (NP (NNP PDC) (POS 'S))
+                              (JJ PARTY) (NNS COLORS))))))
+                    (-RRB- -RRB-))
+                  (NP
+                    (NP (NNP BUT) (NNP RED))
+                    (PP (IN ON)
+                      (NP (DT THE) (NNP INSIDE)))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP HOWEVER))
+      (PRN (, ,)
+        (S
+          (NP (PRP I))
+          (VP (MD WILL)
+            (VP (VB CONTINUE)
+              (S
+                (NP (NNP STRUGGLING) (NNP LIKE) (NNP A) (NNP GOOD) (NNP SALVADORAN) (NNP SO) (NNP THE))
+                (`` ``)
+                (NP (NNP TURNCOATS) ('' '') (NNP DO) (NNP NOT) (NNP BETRAY) (NNP US))))))
+        (, ,))
+      (NP (NNP AS))
+      (VP (VBD WAS)
+        (NP
+          (NP (DT THE) (NN CASE))
+          (PP (IN IN)
+            (NP (NNP NICARAGUA))))))
+    (, ,)
+    (NP (NNP MAJOR) (NNP ROBERTO) (NNP D'AUBUISSON) (NNP ARRIETA))
+    (VP (VBD EMPHASIZED))
+    (. .)))
+

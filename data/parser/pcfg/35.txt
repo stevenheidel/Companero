@@ -1,0 +1,213 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP (DT THE) (JJ NEW) (NN FMLN))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+            (-RRB- -RRB-)))
+        (VP (VBZ PROPOSAL)
+          (S
+            (VP (TO TO)
+              (VP (VB STOP)
+                (NP (NNP FIGHTING) (NNP PROVIDED))))))))
+    (NP (DT THE) (NNP U.S.) (NNP CONGRESS) (NNP SUSPENDS) (NNP AID) (NNP TO) (NNP EL) (NNP SALVADOR))
+    (VP (VBZ IS)
+      (NP (NNP BLACKMAIL)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN WITH)
+      (NP (NNP THIS)))
+    (PRN (, ,)
+      (S
+        (NP (PRP HE))
+        (VP (VBD SAID)))
+      (, ,))
+    (NP (DT THE) (NNP FMLN))
+    (VP (VBZ IS)
+      (VP (VBG SHOWING)
+        (S
+          (VP (VBG TO)
+            (NP (DT THE) (NNP INTERNATIONAL) (NNP COMMUNITY) (NNP THAT) (NNP ITS) (NNP MEMBERS) (NNP ARE) (NNP PLAIN) (NNPS TERRORISTS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP WAS))
+    (VP (VBD SAID)
+      (PRT (RP ON))
+      (NP
+        (NP
+          (ADJP (CD 12) (JJ JANUARY))
+          (NNP BY) (NNP THE) (NNP RULING) (NNP NATIONALIST) (NNP REPUBLICAN) (NNP ALLIANCE) (NNP PRESIDENT) (NNP DR) (NNP ARMANDO) (NNP CALDERON) (NNP SOL))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBD MAINTAINED)
+              (SBAR
+                (S
+                  (NP
+                    (NP (NNP THAT) (NNP ASPIRATIONS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNS SUBSERSIVES))))
+                  (VP (VBP ARE)
+                    (NP (`` ``)
+                      (NP (NNP DETESTABLE))
+                      (, ,) ('' '')
+                      (NP (NNP AND) (, ,) (NNP THEREFORE) (, ,) (NNP CAN) (NNP NOT) (NNP BE) (NNP ACCEPTED)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PROMINENT) (JJ POLITICAL) (NN LEADER))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP THAT) (NNP WHILE))
+            (PP (IN IN)
+              (NP (NNP EAST) (NNP EUROPE) (NNP THERE))))
+          (VP (VBZ IS)
+            (NP
+              (NP (DT A)
+                (ADJP (JJ TRUE)
+                  (NP
+                    (NP (NNP DEMOCRATIC) (NNP REVOLUTION))
+                    (, ,)
+                    (NP (DT THE) (NNP FMLN) (NNP MAINTAINS) (NNP ITS))))
+                (NN POSITION))
+              (PP (IN OF)
+                (S
+                  (VP (VBG TRYING)
+                    (S
+                      (VP (TO TO)
+                        (VP (VB SUBDUE)
+                          (NP (DT THE) (NN PEOPLE))
+                          (PP (IN WITH)
+                            (NP (DT A) (NNP TOTALITARIAN) (NNP PLAN) (NNP THROUGH) (NNP VIOLENT) (NNP MEANS))))))))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP HISTORY))
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP LEFT) (NNP THEM) (NNP BEHIND)
+            (CC AND)
+            (NNP THEY))
+          (PRN (-LRB- -LRB-)
+            (NP (DT THE) (NNPS TERRORISTS))
+            (-RRB- -RRB-))
+          (SBAR
+            (S
+              (NP (NNP HAVE) (NNP NOT))
+              (VP (VBD NOTICED)
+                (NP (PRP IT))))))))
+    (, ,) ('' '')
+    (NP (PRP HE))
+    (VP (VBD ADDED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CALDERON) (NNP SOL) (NNP EMPHASIZED) (NNP THAT) (NNP FMLN) (NNP LEADERS) (NNP SHOULD) (NNP RECONSIDER) (NNP THE) (NNP POSITION) (NNP THEY) (NNP HAVE) (NNP MAINTAINED)
+      (CC AND)
+      (NNP SHOULD))
+    (VP (VBP RESPECT)
+      (NP
+        (NP (DT THE) (NNP JUDICIAL) (NNP SYSTEM) (NNP BECAUSE) (NNP WITHOUT) (NNP IT))
+        (, ,)
+        (NP (DT NO) (NNP NATION) (NNP CAN) (NNP ACHIEVE) (NNP HARMONY)
+          (CC AND)
+          (NNP DEVELOPMENT))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP SEDITIOUS) (`` ``) (NNP SHOULD) (NNP UNDERSTAND) (NNP THAT) (NNP THEY))
+      (VP (VBP ARE)
+        (NP
+          (NP (NNP ALONE)
+            (CC AND)
+            (NNP THAT))
+          (NP (DT NO) (CD ONE) (NNP SUPPORTS) (NNP THEIR) (NNP ANARCHIC) (NN PLAN)))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNP ARENA) (NNP PRESIDENT))
+    (VP (VBD ADDED))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP HE))
+      (VP (VBD RECALLED)
+        (NP
+          (NP (NNP THAT))
+          (VP (VBG DURING)
+            (NP (DT THE) (NNP TERRORIST) (NNP AGGRESSION))))))
+    (, ,)
+    (NP (DT THE) (NNP INTERNATIONAL) (NNP COMMUNITY))
+    (VP (VBD SUPORTED)
+      (NP
+        (NP (DT THE) (NNP ALFREDO) (NNP CRISTIANI) (NNP GOVERNMENT))
+        (CC AND)
+        (NP (DT THE) (NNP FMLN) (NNP NEVER) (NNP RECEIVED) (NNP ANY) (NNP SUPPORT))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP CALDERON) (NNP SOL) (NNP STRESSED))
+      (VP (VBP THAT)
+        (S
+          (NP (DT THE) (NNP FMLN) (NNP MUST) (NNP PROVIDE) (NNP REAL) (NNP PROOF) (NNP THAT) (NNP IT) (NNP WANTS))
+          (VP (TO TO)
+            (VP (VB REACH)
+              (NP (NNP PEACE) (NNP THROUGH) (NNP NEGOTIATED) (NNP MEANS)))))))
+    (, ,)
+    (NP (NNP BECAUSE) (NNP PRESIDENT) (NNP CRISTIANI))
+    (VP (VBZ HAS)
+      (VP (VBN GOOD)
+        (S
+          (NP (NNP INTENTIONS)
+            (CC AND)
+            (NNP WANTS))
+          (VP (TO TO)
+            (VP (VB SOLVE)
+              (SBAR
+                (S
+                  (NP (DT THE) (NNP CONFLICT) (NNP AS) (NNP SOON) (NNP AS) (NNP POSSIBLE) (NNP THROUGH))
+                  (VP (VBZ TALKS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP SUBVERSIVES) (NNP MUST))
+      (VP (VBD SUSPEND)
+        (NP
+          (NP (DT THE) (NNP AGGRESSION) (NNP AGAINST) (NNP THE) (NNP PEOPLE)
+            (CC AND)
+            (NNP THE) (NNP DESTRUCTION))
+          (PP (IN OF)
+            (NP (DT THE) (NNP NATIONAL) (NNP ECONOMY))))))
+    (, ,)
+    (NP (NNP BECAUSE) (NNP ONE) (NNP CAN) (NNP NOT) (NNP BE) (NNP AT) (NNP THE) (NNP NEGOTIATING) (NNP TABLE))
+    (VP (VBP WHILE)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP FMLN) (NNP AT) (NNP THE) (NNP SAME) (NNP TIME))
+          (VP (VBZ IS)
+            (VP (VBG PREPARING)
+              (NP (DT AN) (NN OFFENSIVE)))))))
+    (. .)))
+

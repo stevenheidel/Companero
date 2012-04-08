@@ -1,0 +1,78 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP JUSTICE) (NNP MINISTER) (NNP CESAR) (NNP DELGADO) (NNP BARRETO))
+        (VP (VBD SAID)
+          (SBAR
+            (S
+              (NP (NNP TODAY) (NNP THAT) (NNP THE) (NNP TRAGIC) (NNP INCIDENT) (NNP AT) (NNP UCHIZA) (NNP DEMONSTRATES) (NNP THAT) (NNP THERE))
+              (VP (VBZ IS)
+                (NP (DT AN) (NNP ALLIANCE) (NNP BETWEEN) (NNP DRUG) (NNP TRAFFICKERS)
+                  (CC AND)
+                  (NNPS TERRORISTS))))))))
+    (, ,)
+    (NP (NNP AND))
+    (VP (VBP THAT)
+      (S
+        (NP (DT THE) (NNP COUNTRY) (NNP SHOULD))
+        (VP (VB MAKE)
+          (NP (DT A) (JJR MORE) (NNP INTENSE) (NNP EFFORT) (NNP AGAINST) (NNPS THEM)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP HE))
+      (VP (VBD SAID)
+        (SBAR
+          (S
+            (NP (NNP THAT) (NNP THE) (NNP ATTACK))
+            (VP (VBZ IS)
+              (NP
+                (NP (DT A) (NNP DIRECT) (NNP CONSEQUENCE))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP BLOWS) (NNP THAT) (NNP POLICE) (NNP HAVE) (NNP DEALT) (NNP TO) (NNP DRUG) (NNP TRAFFICKERS)))
+                (, ,)
+                (VP (VBG INCLUDING)
+                  (NP
+                    (NP (DT THE) (NN ARREST))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP SEVERAL) (NNP DRUG) (NNP GANG) (NNP LEADERS))
+                        (PP (IN IN)
+                          (NP (NNP UCHIZA)))))))))))))
+    (, ,)
+    (NP (DT A) (NNP FEW) (NNP DAYS))
+    (VP (VBP BEFORE)
+      (NP (DT THE) (NN ATTACK)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD ADDED)
+      (NP
+        (NP (NNP THAT))
+        (PP (IN IN)
+          (NP (NNP ORDER))))
+      (S
+        (VP (TO TO)
+          (VP (VB STRUGGLE)
+            (NP
+              (NP (NNP SUCCESSFULLY) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING))
+              (, ,)
+              (NP (NNP PERU) (NNP NEEDS) (NNP MORE) (NNP TECHNOLOGICAL)
+                (CC AND)
+                (NNP FINANCIAL) (NNP AID))
+              (, ,)
+              (NP (NNP ESPECIALLY) (NNP FROM) (NNP THE) (NNP UNITED) (NNP STATES))
+              (, ,)
+              (NP
+                (NP (DT THE) (NN WORLD) (POS 'S))
+                (NNP LARGEST) (NNP DRUG) (NN CONSUMER)))))))
+    (. .)))
+

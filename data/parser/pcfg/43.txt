@@ -1,0 +1,196 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (NNP NAPOLEON) (NNP DUARTE))
+      (, ,)
+      (NP
+        (NP (NNP PRESIDENT))
+        (PP (IN OF)
+          (NP (NNP EL) (NNP SALVADOR))))
+      (, ,))
+    (VP (VBZ HAS)
+      (VP (VBN REJECTED)
+        (NP
+          (NP (DT THE) (NNP PROPOSAL) (NNP FROM) (NNP THE) (NNP GUERRILLAS))
+          (, ,)
+          (SBAR
+            (WHNP (WP WHO))
+            (S
+              (VP (VBD ACCEPTED)
+                (NP
+                  (NP (DT THE) (NNP ELECTIONS) (NNP IF) (NNP THEY) (NNP WERE) (NNP POSTPONED))
+                  (PP (IN FOR)
+                    (NP
+                      (NP (CD 6) (NNS MONTHS))
+                      (CC AND)
+                      (NP (NNP HELD)))))
+                (PP (IN WITH)
+                  (NP (NNP DEMOCRATIC) (NNP GUARANTEES)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP TODAY) (NNP A) (NNP DELEGATION))
+      (PP (IN OF)
+        (NP (DT THE) (NNP SALVADORAN) (NNP INSURGENTS))))
+    (VP (MD WILL)
+      (VP (VB HOLD)
+        (NP
+          (NP (NNP TALKS))
+          (PP (IN IN)
+            (NP (NNP MADRID))))
+        (PP (IN WITH)
+          (NP
+            (NP (NNS REPRESENTATIVES))
+            (PP (IN OF)
+              (NP (DT THE) (NNP SPANISH) (NNP FOREIGN) (NNP MINISTRY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP SPANISH) (NNP OFFICIALS) (POS '))
+      (NN INTERLOCUTOR))
+    (VP (VBZ IS)
+      (NP
+        (NP
+          (NP (NNP MIGUEL) (NNP SAENZ))
+          (, ,)
+          (NP
+            (NP
+              (NP (NNP MEMBER))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP THE) (NNP POLITICAL)
+                    (CC AND)
+                    (NNP DIPLOMATIC) (NNP COMMISSION))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT)))))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP FMLN))
+                (-RRB- -RRB-)))
+            (CC AND)
+            (NP (NNP THIS) (NNP IS) (NNP HIS) (NNP FIRST) (NNP REACTION)))
+          (, ,))
+        (PP (IN IN)
+          (NP
+            (NP (NNP EXCLUSIVE) (NNP STATEMENTS) (NNP TO) (NNP RNE))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP SPANISH) (NNP NATIONAL) (NNP RADIO))
+              (-RRB- -RRB-)))))
+      (, ,)
+      (S
+        (VP (TO TO)
+          (VP (VB NAPOLEON)
+            (NP
+              (NP
+                (NP (NNP DUARTE) (POS 'S))
+                (NN REJECTION))
+              (PP (IN OF)
+                (NP
+                  (NP (DT THE) (NNP INSURGENTS) (POS '))
+                  (NN PROPOSAL))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP SAENZ))
+      (-RRB- -RRB-))
+    (NP (DT THE) (NNP ONLY) (NNP WAY) (NNP LEFT))
+    (VP (VBZ IS)
+      (S
+        (VP (TO TO)
+          (VP (VB CONTINUE)
+            (NP (DT THE)
+              (NP (NNP STRUGGLE))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP (NNP THUS) (NNP WE) (NNP WOULD) (NNP HAVE) (NNP TO) (NNP INTENSIFY) (NNP THIS) (NNP STRUGGLE))
+                (PP (IN IN)
+                  (NP (DT THE) (JJ POLITICAL) (NNP AND) (NNP MILITARY) (NNP FIELD)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THEN) (, ,) (NNP UNFAILINGLY))
+    (, ,)
+    (SBAR (IN IF)
+      (S
+        (NP (NNP THERE))
+        (VP (VBZ IS)
+          (NP (DT NO) (JJ POLITICAL) (NN SOLUTION)))))
+    (, ,)
+    (NP (NNP THERE))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (NP
+          (NP (DT A) (NNP SOCIAL) (NNP EXPLOSION))
+          (PP (IN IN)
+            (NP (DT THE) (NNP COUNTRY))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (ADJP (JJ UNSTOPPABLE)))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP WE) (NNP BELIEVE) (NNP THAT) (NNP SPAIN))
+    (PP (IN IN)
+      (NP (NNP PARTICULAR)))
+    (, ,)
+    (NP
+      (NP (NNP AS) (NNP PRESIDENT))
+      (PP (IN OF)
+        (NP (DT THE) (NNP EEC))))
+    (, ,)
+    (NP (NNP WITH) (NNP THE) (NNP TRADITIONAL))
+    (, ,)
+    (NP (NNP CULTURAL) (NNP TIES) (NNP UNITING) (NNP US))
+    (, ,)
+    (NP
+      (NP (NNP CAN) (NNP PLAY) (NNP QUITE))
+      (NP (DT A) (NNP PROMINENT) (NNP ROLE)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (ADJP (JJ SPECIFICALLY)))
+    (, ,)
+    (NP (NNP WE) (NNP BELIEVE))
+    (VP (VBD THAT)
+      (NP (DT THE) (NNP EEC) (NNP CAN) (NNP INTERCEDE))
+      (PP (IN WITH)
+        (NP
+          (NP (NNP ITS) (NNP OFFICES) (NNP BETWEEN) (NNP THE) (NNP PARTIES))
+          (PP (IN IN)
+            (NP
+              (NP (NNP CONFLICT))
+              (PP (IN IN)
+                (NP (NNP ORDER)))))))
+      (S
+        (VP (TO TO)
+          (VP (VB CONTRIBUTE)
+            (NP
+              (NP (NNP TO) (NNP THE) (NNP RESOLUTION))
+              (PP (IN OF)
+                (NP (DT THE) (NN CONFLICT))))))))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING))
+    (-RRB- -RRB-)))
+

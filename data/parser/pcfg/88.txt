@@ -1,0 +1,277 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP EDITORIAL) (NNP REPORT) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP TEXT))
+      (-RRB- -RRB-))
+    (NP (NNP RADIO))
+    (VP (VBZ VENCEREMOS)
+      (PP (IN IN)
+        (NP (NNP SPANISH)))
+      (S
+        (VP (TO TO)
+          (VP (VB EL)
+            (NP
+              (NP (NNP SALVADOR) (NNP AT) (NNP 0000) (NNP GMT) (NNP ON))
+              (PP (IN ON)
+                (NP
+                  (NP (CD 29) (NNP MARCH) (NNP BROADCASTS) (NNP APPROXIMATELY) (CD 6) (NNS MINUTES))
+                  (PP (IN OF)
+                    (NP (NNP WAR) (NNS REPORTS))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT THE) (NNP FIRST))
+        (PP (IN OF)
+          (NP (DT THE) (NNS REPORTS))))
+      (, ,)
+      (NP
+        (NP (NNP ALL))
+        (PP (IN OF)
+          (NP (NNP WHICH) (NNP ARE) (NNP READ) (NNP BY) (NNP THE) (NNP STATION) (NNP ANNOUNCER))))
+      (, ,))
+    (VP (VBZ DESCRIBES)
+      (NP
+        (NP (NNS EVENTS))
+        (PP (IN IN)
+          (NP (NNP CHALATENANGO)))))
+    (. .)))
+
+(ROOT
+  (X
+    (NP
+      (NP
+        (NP (DT THE) (NNP REPORT) (NNP STATES) (NNP THAT))
+        (PP (IN ON)
+          (NP (CD 27) (NNP MARCH) (NNP AT) (CD 2100) (, ,) (NNP FMLN) (NNPS UNITS) (NNP BEGAN) (NNP ATTACKING) (NNP ATLACATL) (NNP BATTALION) (NNS POSITIONS))))
+      (PP (IN IN)
+        (NP (NN PLAN))))
+    (NP
+      (NP (NNP DEL) (NNP PICACHO))
+      (, ,)
+      (NP (NNP LA) (NNP CEIBITA))
+      (, ,)
+      (NP (NNP AMATILLO))
+      (, ,)
+      (NP (NNP LA) (NNP CEIBA) (NNP AREA))
+      (, ,)
+      (NP (NNP TEMPISQUE) (NNP HILL))
+      (, ,)
+      (NP (NNP AND) (NNP EL) (NNP COPINOL))
+      (, ,)
+      (NP
+        (NP (NNP ALL))
+        (PP (IN OF)
+          (NP (NNP WHICH) (NNP ARE) (NNP WITHIN) (NNP LAS) (NNP VUELTAS) (NNP JURISDICTION))))
+      (, ,)
+      (NP (NNP CHALATENANGO) (NNP DEPARTMENT)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NN ATTACK))
+    (VP (VBD LASTED)
+      (PP (IN FOR)
+        (NP
+          (NP (CD 4) (NNS HOURS))
+          (, ,)
+          (NP (NNP AND))))
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (NP (PRP IT))
+          (VP (VBD CONCLUDED)
+            (NP
+              (NP
+                (NP (DT THE) (NNP ARMY) (POS 'S))
+                (NNP TROOPS) (NNP HAD) (NNP BEEN) (NNP DISLODGED) (NNP FROM) (NNP THEIR) (NNPS POSITIONS))
+              (PP (IN IN)
+                (NP (NNP LA) (NNP CEIBITA)
+                  (CC AND)
+                  (NNP PLAN) (NNP DEL) (NNP PICACHO))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (`` ``) (NNP ENEMY) ('' '') (NNP SENT))
+    (VP (VBZ REINFORCEMENTS)
+      (S
+        (VP (TO TO)
+          (VP (VB TEMPISQUE)
+            (NP
+              (NP (NNP HILL)
+                (CC AND)
+                (NNP EL) (NNP COPINOL) (CD 1) (NN HOUR) (NN LATER))
+              (, ,)
+              (NP
+                (NP (NNP BUT) (`` ``) (NNP THIS) (NNP EFFORT) (NNP PROVED) (NNP USELESS) ('' ''))
+                (CC AND)
+                (NP (NNP AIR) (NNP SUPPORT) (NNP HAD))))
+            (S
+              (VP (TO TO)
+                (VP (VB BE)
+                  (VP (VBN CALLED)
+                    (PP (IN IN))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNS CLASH))
+    (VP (VBD LASTED)
+      (NP
+        (NP (NNP UNTIL) (CD 0400))
+        (PP (IN ON)
+          (NP (CD 28) (NNS MARCH))))
+      (, ,)
+      (S
+        (VP (VBG RESULTING)
+          (PP (IN IN)
+            (NP (NNP NINE) (NNP CASUALTIES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP STATION) (NNP ANNOUNCER))
+    (VP (VBZ GOES)
+      (PRT (RP ON))
+      (S
+        (VP (TO TO)
+          (VP (VB REPORT)
+            (NP
+              (NP (NNP THAT))
+              (PP (IN ON)
+                (NP (CD 28) (NNP MARCH) (NNP AT) (CD 1000) (, ,) (NNP SNIPER) (NNPS UNITS) (NNP ENTERED) (NNP PLAN) (NNP DEL) (NNP PICACHO)
+                  (CC AND)
+                  (NNP INFLICTED) (NNP THREE) (NNS CASUALTIES)))
+              (PP (IN ON)
+                (NP (DT THE) (NNP ATLACATL) (NNP BATTALION))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ANOTHER) (NNP REPORT) (NNP FROM) (NNP THE) (NNP SAME) (NNP AREA) (NNP INDICATES))
+    (VP (VBP THAT)
+      (PRT (RP ON))
+      (NP
+        (NP (CD 27) (NNS MARCH))
+        (SBAR
+          (S
+            (NP (DT AN) (NNP ATLACATL) (NNP BATTALION) (NNP UNIT))
+            (VP (VBD ENTERED)
+              (NP
+                (NP (DT A) (NNP MINE) (NNP FIELD) (NNP SET) (NNP UP) (NNP BY) (NNP THE) (NNP FMLN))
+                (PP (IN IN)
+                  (NP (NNP PLAN) (NNP DEL) (NNP PICACHO))))
+              (, ,)
+              (S
+                (VP (VBG RESULTING)
+                  (PP (IN IN)
+                    (NP (NNP THREE) (NNP ARMY) (NNP CASUALTIES))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB ALL))
+      (IN IN)
+      (NP (NNP ALL)))
+    (, ,)
+    (NP (NNP OVER) (CD 2))
+    (VP (VBZ DAYS)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP FMLN))
+          (VP (VBZ CLAIMS)
+            (S
+              (VP (TO TO)
+                (VP (VB HAVE)
+                  (NP
+                    (NP (NNP INFLICTED) (CD 15) (NNS CASUALTIES))
+                    (PP (IN ON)
+                      (NP (DT THE) (NNP ATLACATL) (NNP BATTALION)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP STATION) (NNP ANNOUNCER))
+    (VP (VBZ GOES)
+      (PRT (RP ON))
+      (S
+        (VP (TO TO)
+          (VP (VB REPORT)
+            (NP
+              (NP (NNP THAT))
+              (PP (IN ON)
+                (NP (CD 27) (NNP MARCH) (NNP FMLN) (NNS UNITS))))
+            (PP (IN WITH)
+              (NP
+                (NP
+                  (NP (NNS RIFLES))
+                  (, ,)
+                  (NP (NNP RIFLE) (NNP GRENADES)))
+                (, ,)
+                (CC AND)
+                (NP
+                  (NP (NNP HOMEMADE) (NNP ARTILLERY) (NNP ATTACKED) (NNP ARMY) (NNP POSITIONS) (NNP AT))
+                  (NP (DT THE) (CD 5) (NNP NOVEMBER) (NNP DAM)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT NO) (NNP CASUALTY) (NNP FIGURE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP GIVEN))
+        (PP (IN FOR)
+          (NP (NNP THIS) (NNP ATTACK)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB MEANWHILE))
+    (, ,)
+    (NP
+      (NP (DT THE) (NNP STATION) (NNP ANNOUNCER) (NNP SAYS))
+      (, ,)
+      (NP
+        (NP (DT THE) (NNP FELICIANO) (NNP AMA) (NNP FRONT) (NNP STATIONED))
+        (PP (IN IN)
+          (NP
+            (NP (NNP SANTA) (NNP ANA) (NNP REPORTS) (NNP THAT))
+            (PP (IN ON)
+              (NP (CD 26) (NNP MARCH) (NNP FMLN) (NNS UNITS)))))))
+    (VP (VBD AMBUSHED)
+      (NP (DT A) (NN SIX-VEHICLE))
+      (X
+        (NP (NNP MILITARY) (NNP CONVOY) (NNP TRANSPORTING) (NNP TROOPS) (NNP FROM) (NNP THE) (NNP 2D) (NNP INFANTRY) (NNP BRIGADE) (NNP 'S) (NNP EL) (NNP PIPIL) (NNP BATTALION) (NNP FROM) (NNP METAPAN) (NN TO) (NNP SANTA) (NNP ANA))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP
+      (NP (DT THE) (NNP AMBUSH) (NNP TOOK) (NNP PLACE))
+      (IN IN)
+      (NP (NNP CASITAS)))
+    (, ,)
+    (NP (NNP TEXISTEPEQUE) (NNP JURISDICTION))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB WHEN))
+      (S
+        (NP (NNP TWO) (NNP POWERFUL) (NNP FELICIANO) (NNP AMA) (NNP MINES))
+        (VP (VBD EXPLODED))))
+    (, ,)
+    (NP (NNP INFLICTING) (NNP EIGHT))
+    (VP (VBZ CASUALTIES)
+      (PRT (RP ON))
+      (NP
+        (NP (NNP THE) (NNP ARMY)
+          (CC AND)
+          (NNP TOTALLY))
+        (VP (VBG DESTROYING)
+          (NP (DT A) (NNP MILITARY) (NNP VEHICLE)))))
+    (. .)))
+

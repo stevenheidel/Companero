@@ -1,0 +1,544 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP ACCORDING))
+        (VP (TO TO)
+          (VP (VB OFFICIAL)
+            (NP (NNS SOURCES))))))
+    (, ,)
+    (NP (DT THE) (NNP HOLY) (NNP WEEK) (NNP TRUCE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP APPARENTLY) (NNP BROKEN) (NNP OVER) (NNP THE) (NNP WEEKEND) (NNP BY) (NNP SEVERAL) (NNP REVOLUTIONARY) (NNP ARMED) (NNP FORCES) (NNP OF) (NNP COLOMBIA)
+          (PRN (-LRB- -LRB-)
+            (NP (NNP FARC))
+            (-RRB- -RRB-))
+          (NNS FRONTS))
+        (PP (IN IN)
+          (NP (NNP ANTIOQUIA) (, ,) (NNP META) (, ,) (NNP AND) (NNP HUILA) (NNP DEPARTMENTS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (ADJP (CD ONE))
+      (NNP ARMY) (NNP LIEUTENANT) (, ,) (NNP FOUR) (NNP SOLDIERS) (, ,) (NNP AND) (NNP THREE) (NNP CIVILIANS) (NNP WERE))
+    (VP (VBD KILLED)
+      (S
+        (VP (VBG DURING)
+          (NP (DT THE) (NNS ATTACKS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DEFENSE) (NNP MINISTRY))
+    (VP (VBD REPORTED)
+      (SBAR
+        (S
+          (NP
+            (NP (DT THE) (NNP FIRST) (NNP INCIDENT) (NNP TOOK) (NNP PLACE) (NNP AT) (NNP LA) (NNP LINEA))
+            (, ,)
+            (NP
+              (NP (DT A) (NNP CORREGIMIENTO) (NNP LOCATED))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP ALGECIRAS) (NNP MUNICIPALITY))
+                  (, ,)
+                  (NP (NNP HUILA) (NNP DEPARTMENT)))))
+            (, ,))
+          (VP (VBP WHERE)
+            (SBAR
+              (S
+                (NP (DT A) (NNP FARC) (NNP FRONT))
+                (VP (VBD AMBUSHED)
+                  (NP (DT AN) (CD 11TH) (NNP BRIGADE) (NNP ARMY) (NNP PATROL)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SEVERAL) (NNP MINES) (NNP PLACED))
+      (PP (IN IN)
+        (NP (DT THE) (NN AREA))))
+    (VP (VBD WENT)
+      (NP
+        (NP (NNP OFF))
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP (DT THE) (NNS SOLDIERS))
+            (VP (VBD PASSED)
+              (NP (NNP THROUGH) (NNP LA) (NNP LINEA) (NNP CORREGIMIENTO)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP LIEUTENANT))
+    (VP (VBP JAIME)
+      (NP
+        (NP
+          (NP (NNP QUINTERO) (NNP CARDONA)
+            (CC AND)
+            (NNP SOLDIERS) (NNP NELSON) (NNP SANCHEZ) (NNP MOLINA))
+          (, ,)
+          (NP (NNP MAXIMILIANO) (NNP SERRATO) (NNP CUELLAR)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP DAIRO) (NNP SUAREZ) (NNP SUAREZ) (NNP WERE) (NNP KILLED))
+          (PP (IN IN)
+            (NP (NNP THIS) (NNP ACTION))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP
+      (NP (DT THE) (NN FERVOR))
+      (PP (IN OF)
+        (NP (DT THE) (NNP SATURDAY) (NNP PROCESSION)
+          (CC AND)
+          (NNP PRAYERS) (NNP WERE))))
+    (VP (VBD INTERRUPTED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP SANTA) (NNP RITA) (NNP CORREGIMIENTO))
+          (, ,)
+          (NP (NNP ITUANGO) (NNP MUNICIPALITY))
+          (, ,)
+          (NP (NNP ANTIOQUIA) (NNP DEPARTMENT))
+          (, ,)
+          (NP (NNP AT) (NNP 1800) (NNP BY))))
+      (NP
+        (NP (CD 200) (NNS GUERRILLAS))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBD ENTERED)
+              (NP
+                (NP (DT THE) (NNP TOWN) (NNP SHOOTING) (NNP AT) (NNP ARMY) (NNP TROOPS))
+                (PRN (: --)
+                  (NP
+                    (QP (CD APPROXIMATELY) (CD 72))
+                    (NNS SOLDIERS))
+                  (: --))
+                (SBAR
+                  (WHNP (WP WHO))
+                  (S
+                    (NP (NNP WERE) (NNP RETURNING))
+                    (VP (VBD TO)
+                      (SBAR
+                        (S
+                          (NP (DT THE) (NNP TOWN) (NNP AFTER) (NNP THEIR) (NNP PATROL))
+                          (VP (VBZ OPERATIONS)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP GIRARDO) (NNP BATTALION) (NNP OFFICERS))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD ASKED)
+            (S
+              (NP (NNP US) (NNP NOT))
+              (VP (TO TO)
+                (VP (VB REVEAL)
+                  (NP (JJ THEIR) (NNS NAMES))))))))
+      (, ,))
+    (VP (VBD STATED)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP THAT) (NNP THE) (NNP REBELS))
+            (, ,)
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (VP (VBP WERE)
+                  (NP
+                    (NP (NNS MEMBERS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP FARC) (CD 28TH) (NN FRONT)))))))
+            (, ,))
+          (VP (VBD ATTACKED)
+            (NP
+              (NP (CD TWO) (NNS TRUCKS))
+              (VP (VBN FILLED)
+                (PP (IN WITH)
+                  (NP (NNP SOLDIERS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SANTA) (NNP RITA) (NNP POLICE) (NNP CHIEF))
+    (VP (VBD FOUND)
+      (NP
+        (NP (DT THE) (NNS BODIES))
+        (PP (IN OF)
+          (NP
+            (NP (NNP A) (NNP SOLDIER)
+              (CC AND)
+              (NNP A) (NNP REBEL))
+            (PP (IN ON)
+              (NP (DT THE) (NNP ROAD) (NNP LEADING) (NNP TO) (NNP SANTA) (NNP RITA)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NN SOLDIER))
+    (VP (VBD WAS)
+      (NP (NNP IDENTIFIED) (NNP AS) (NNP EDISON) (NNP ESTRADA) (NNP BOLIVAR)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SOLDIER) (NNP RAUL) (NNP DURANGO) (NNP HERRERA))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP WOUNDED)
+          (CC AND)
+          (NNP TAKEN) (NNP TO) (NNP THE) (NNP PABLO) (NNP TOBON) (NNP URIBE) (NNP HOSPITAL))
+        (PP (IN IN)
+          (NP (NNP MEDELLIN)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP DEAD) (NNP REBEL))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBZ HAS)
+            (NP (NNP NOT) (NNP YET) (NNP BEEN) (NNP IDENTIFIED)))))
+      (, ,))
+    (VP (VBP HAD)
+      (NP
+        (NP
+          (NP (DT A) (NN SUBMACHINEGUN))
+          (, ,)
+          (NP (CD 3) (NNS CLIPS)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (CD 30) (CD 9-MM) (NNS CARTRIDGES))
+          (PP (IN ON)
+            (NP (NNP HIM))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ITUANGO) (NNP MUNICIPALITY))
+      (, ,)
+      (NP
+        (NP (NNP 195) (NNP KM) (NNP NORTH))
+        (PP (IN OF)
+          (NP (NNP MEDELLIN))))
+      (, ,))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP NEAR) (NNP LOWER) (NNP CAUCA) (, ,) (NNP WHERE))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP ARMY) (NNP DISMANTLED) (NNP DURING) (NNP HOLY))
+            (VP (VBD WEEK)
+              (SBAR
+                (S
+                  (NP (DT A) (NNP FARC) (CD 37TH) (JJ FRONT) (NN PLAN))
+                  (VP (VBD DESIGNED)
+                    (S
+                      (VP (TO TO)
+                        (VP (VB COMMIT)
+                          (NP (NNP AND) (NNP CARRY) (NNP OUT) (NNP AMBUSHES)
+                            (CC AND)
+                            (NNPS ASSAULTS)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB MEANWHILE))
+    (, ,)
+    (NP (NNP AT) (NNP LEAST) (CD 50) (NNP FARC) (NNS REBELS))
+    (VP (VBD BLEW)
+      (PRT (RP UP))
+      (SBAR
+        (S
+          (NP (DT A) (NNP JEEP) (NNP NEAR) (NNP SAN) (NNP JUAN) (NNP DE) (NNP URAMA) (NNP MUNICIPALITY) (NNP NEAR))
+          (VP (VBD ROAD)
+            (NP
+              (QP (CD NO) (CD 32)))
+            (PP (IN IN)
+              (NP (NNP META) (NNP DEPARTMENT)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (S
+          (VP (TO TO)
+            (VP (VB POLICE)
+              (NP
+                (NP (NNP COMMANDER) (NNP COLONEL) (NNP JOSE) (NNP WILLIAM) (NNP BERMUDEZ) (NNP ZAPATA))
+                (, ,)
+                (SBAR
+                  (WHNP (WP WHO))
+                  (S
+                    (VP (VBZ COMMANDS)
+                      (NP (NNP ANTIGUERRILLA) (NNP OPERATIONS))
+                      (PP (IN WITH)
+                        (NP
+                          (NP (DT THE) (NN SUPPORT))
+                          (PP (IN OF)
+                            (NP (CD 7TH) (JJ BRIGADE) (NNS TROOPS))))))))))))))
+    (, ,)
+    (NP (DT THE) (NNS REBELS))
+    (VP (VBD KILLED)
+      (NP
+        (NP (NNP THREE) (NNP PEOPLE)
+          (CC AND)
+          (NNP TOOK) (NNP THE) (NNP FOURTH) (NNP PASSENGER))
+        (PP (IN OF)
+          (NP (DT THE) (NNP JEEP))))
+      (PP (IN WITH)
+        (NP (NNP THEM))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS VICTIMS))
+      (PRN (: --)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP (NNP WERE))
+            (VP (VBD INVOLVED)
+              (PP (IN IN)
+                (NP (NNP COCAINE) (NNP TRAFFICKING))))))
+        (: --)))
+    (VP (VBP ARE) (: :)
+      (NP
+        (NP
+          (NP
+            (NP (NNP ALFONSO) (NNP OLIVARES))
+            (, ,)
+            (NP (NNP ALIAS) (NNP PICO) (NNP FRESCO)))
+          (: ;)
+          (NP (DT AN) (NNP N.N.)
+            (PRN (-LRB- -LRB-)
+              (NP (NNP NOT) (NNP FURTHER) (NNP IDENTIFIED))
+              (-RRB- -RRB-))
+            (NNP KNOWN) (NNP AS) (NNP EL) (NN MOCHO)))
+        (: ;)
+        (CC AND)
+        (NP (NNP ROMAN) (NNP OLIVARES) (NNP GUTIERREZ))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP JAIME) (NNP MONTEALEGRE))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT THE) (NN NAME))
+        (PP (IN OF)
+          (NP (DT THE) (NNP PERSON) (NNP TAKEN) (NNP BY) (NNP THE) (NNP REBELS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB MEANWHILE))
+    (, ,)
+    (NP (NNP WE) (NNP HAVE) (NNP BEEN))
+    (VP (VBP UNABLE)
+      (S
+        (VP (TO TO)
+          (VP (VB OBTAIN)
+            (NP
+              (NP (NNP INFORMATION) (NNP ABOUT) (NNP THE) (NNP RESULTS))
+              (PP (IN OF)
+                (NP (DT THE) (NNP OPERATIONS) (NNP CONDUCTED) (NNP BY) (CD 5TH) (NNP BRIGADE) (NNP TROOPS) (NNP COMMANDED) (NNP BY) (NNP GENERAL) (NNP ALFONSO) (NNP VACA) (NNP PERILLA))))
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NNS AREAS))
+                (PP (IN OF)
+                  (NP
+                    (NP (NNP EL) (NNP CARMEN)
+                      (CC AND)
+                      (NNP SAN) (NNP VICENTE) (NNP DE) (NNP CHUCURRI))
+                    (, ,)
+                    (NP (NNP SANTANDER) (NNP DEPARTMENT))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP COL) (NNP JORGE) (NNP ERNESTO) (NNP FERRERO) (NNP ECHEVERRI))
+      (, ,)
+      (NP (NNP SANTANDER) (NNP DEPARTMENT) (NNP POLICE) (NNP COMMANDER))
+      (, ,))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP SPECIAL) (NNP SECURITY) (NNP COUNCIL))
+          (VP (MD WILL)
+            (VP (VB MEET)
+              (NP (NNP TODAY) (-LRB- -LRB-) (NNP MONDAY) (-RRB- -RRB-))
+              (S
+                (VP (TO TO)
+                  (VP (VB ASSESS)
+                    (NP (DT THE) (NN SITUATION))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP COL) (NNP FERRERO) (NNP EXPLAINED) (NNP THAT))
+      (`` ``)
+      (PP (IN IN)
+        (NP (NNP PRINCIPLE)))
+      (, ,)
+      (NP (NNP WE) (NNP HAVE) (NNP REPORTS) (NNP SAYING) (NNP MANY) (NNP PEOPLE) (NNP WERE))
+      (VP (VBD KILLED)))
+    (, ,)
+    (VP (VBP BUT))
+    (NP (NNP WE) (NNP DO) (NNP NOT) (NNP KNOW) (NNP EXACTLY) (NNP HOW) (NNP MANY))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP KNOW) (NNP SEVEN) (NNP PEASANTS) (NNP WERE) (NNP MURDERED) (NNP BY) (NNP FARC) (CD 12TH) (NNP FRONT))
+    (VP (VBZ MEMBERS))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNS HELICOPTERS))
+    (VP (VBP CONTINUE)
+      (S
+        (VP (VBG OVERFLYING)
+          (NP (DT THE) (NNP BATTLE) (NNP ZONE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP AIRBORNE) (NNP TROOPS))
+    (VP (VBD REPLACED)
+      (NP
+        (NP (DT THE) (NNS TROOPS))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (NP (NNP WERE) (NNP FIGHTING))
+            (VP (VBP AGAINST)
+              (NP (DT THE) (NNP MEN))
+              (PRT (RP UP))
+              (PP (IN IN)
+                (NP (NNP ARMS))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS PEASANTS))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD ARRIVED)
+            (SBAR
+              (S
+                (NP (NNP AT) (NNP SAN) (NNP VICENTE) (NNP CHUCURRI))
+                (VP (VBD SAID)
+                  (SBAR
+                    (S
+                      (NP (NNP POWERFUL) (NNP EXPLOSIONS) (NNP HAVE) (NNP BEEN) (NNP CONTINUOUSLY))
+                      (VP (VBD HEARD)))))))))))
+    (VP (VBP SINCE)
+      (NP
+        (NP (DT THE) (NNP MILITARY) (NNP ACTIONS) (NNP BEGAN))
+        (PP (IN ON)
+          (NP (CD 22) (NNS MARCH)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ARMY) (NNP OFFICERS) (NNP BELIEVE) (NNP THE) (NNP REBEL) (NNP COLUMN))
+    (VP (VBZ IS)
+      (VP (VBN SURROUNDED)
+        (PP (IN IN)
+          (NP (DT A) (NNP MOUNTAINOUS) (NNP STRIP) (NNP LOCATED) (NNP BETWEEN) (NNP EL) (NNP CARMEN)
+            (CC AND)
+            (NNP SAN) (NNP VICENTE) (NNP CHUCURRI) (NNP MUNICIPALITIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP GEN) (NNP VACA) (NNP PERILLA) (NNP RETURNED))
+      (VP (VBZ TO)
+        (NP (DT THE) (NN AREA) (NN YESTERDAY))))
+    (, ,)
+    (NP (NNP BUT) (NNP HE) (NNP DID) (NNP NOT) (NNP MAKE) (NNP ANY))
+    (VP (VBZ STATEMENTS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP COMMANDING) (NNP OPERATIONS))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NN AREA))
+            (PP (IN FOR)
+              (NP (DT THE) (JJ LAST) (CD 5) (NNS DAYS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT AN) (NNP UNOFFICIAL) (NNP REPORT) (NNP INDICATED) (NNP TWO))
+    (VP (VBZ HELICOPTERS)
+      (NP
+        (NP (NNP WERE) (NNP HIT) (NNP BY) (NNP FARC) (NNP REBELS) (POS '))
+        (NNP RIFLE) (NNP FIRE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SAN) (NNP VICENTE) (NNP CHUCURRI) (NNP PARISH) (NNP PRIEST) (NNP JUVENAL) (NNP MARTINEZ))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (DT THE)
+            (NP (NN AREA) (NNS RESIDENTS))
+            (CC AND)
+            (NP (DT THE) (NNP COMMON) (NNP FRONT)))
+          (VP (VBP ARE)
+            (VP (VBG TRYING)
+              (S
+                (VP (TO TO)
+                  (VP (VB FORM)
+                    (NP
+                      (NP (DT A) (NNP COMMISSION) (NNP TO) (NNP VERIFY))
+                      (SBAR
+                        (WHNP (WDT WHAT))
+                        (S
+                          (VP (VBZ IS)
+                            (VP (VBG GOING)
+                              (PRT (RP ON))
+                              (PP (IN IN)
+                                (NP (DT THE) (NN AREA))))))))))))))))
+    (. .)))
+

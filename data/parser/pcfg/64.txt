@@ -1,0 +1,213 @@
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (NP
+      (NP
+        (NP (DT THE) (NNP PRESIDENT) (POS 'S))
+        (NNP OFFICE) (NNP HAS) (NNP REPORTED) (NNP THAT) (NNP THE) (NNPS CHIEFS))
+      (PP (IN OF)
+        (NP
+          (NP (NNP STATE))
+          (PP (IN OF)
+            (NP (CD 21) (NNS COUNTRIES))))))
+    (NP
+      (NP (NNP FROM) (NNP THE) (NNP AMERICAS)
+        (CC AND)
+        (NNP EUROPE))
+      (, ,)
+      (NP (NNP AMONG) (NNP THEM)))
+    (NP
+      (NP (DT THE) (NNS MEMBERS))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NNP GROUP))
+          (PP (IN OF)
+            (NP (NNP EIGHT))))))
+    (, ,)
+    (NP
+      (NP (NNP HAVE) (NNP EXPRESSED) (NNP SUPPORT))
+      (PP (IN FOR)
+        (NP
+          (NP (NNP PRESIDENT) (NNP RAUL) (NNP ALFONSIN))
+          (`` ``)
+          (ADJP (IN IN)
+            (NP
+              (NP (NNP VIEW))
+              (PP (IN OF)
+                (NP (DT THE) (NNP THREATS) (NNP AGAINST) (NNP ARGENTINE) (NNP DEMOCRACY)))))
+          ('' ''))))
+    (NP
+      (NP (NNP RESULTING) (NNP FROM))
+      (NP (DT AN) (NNP ATTACK) (NNP PERPETRATED) (NNP BY) (NNP A) (NNP SUBVERSIVE) (NNP GROUP)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT THE) (NN TEXT))
+        (PP (IN OF)
+          (NP (DT THE) (NNP MESSAGE) (NNP SENT))))
+      (VP (VBP BY)
+        (NP
+          (NP (DT THE) (CD 21) (NNS CHIEFS))
+          (PP (IN OF)
+            (NP
+              (NP (NNP STATE))
+              (, ,)
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBD ATTENDED)
+                    (NP
+                      (NP (DT THE) (NN INAUGURATION))
+                      (PP (IN OF)
+                        (NP (NNP PRESIDENT) (NNP CARLOS) (NNP ANDRES) (NNP PEREZ))))
+                    (PP (IN IN)
+                      (NP
+                        (NP (NNP VENEZUELA))
+                        (, ,)
+                        (NP (NNS STATES))))
+                    (: :) (`` ``)
+                    (S
+                      (NP
+                        (NP
+                          (NP (DT THE) (NNS CHIEFS))
+                          (PP (IN OF)
+                            (NP
+                              (NP (NNP STATE))
+                              (PP (IN OF)
+                                (NP (NNP VENEZUELA) (, ,) (NNP ECUADOR) (, ,) (NNP URUGUAY) (, ,) (NNP COLOMBIA) (, ,) (NNP GUYANA) (, ,) (NNP HONDURAS) (, ,) (NNP GUATEMALA) (, ,) (NNP BRAZIL) (, ,) (NNP PORTUGAL) (, ,) (NNP PERU) (, ,) (NNP COSTA) (NNP RICA))))))
+                        (, ,)
+                        (NP
+                          (NP (NNP DOMINICAN) (NNP REPUBLIC) (, ,) (NNP DOMINICA) (, ,) (NNP SPAIN) (, ,) (NNP TRINIDAD)
+                            (CC AND)
+                            (NNP TOBAGO))
+                          (, ,)
+                          (NP (NNP NETHERLANDS) (NNP ANTILLES) (, ,) (NNP SURINAME) (, ,) (NNP BARBADOS) (, ,) (NNP BELIZE) (, ,) (NNP SAINT) (NNP VINCENT)
+                            (CC AND)
+                            (NNP THE) (NNP GRENADINES)))
+                        (, ,)
+                        (CC AND)
+                        (NP (NNP SAINT) (NNP LUCIA))
+                        (, ,))
+                      (VP (VBG MEETING)
+                        (PP (IN IN)
+                          (NP
+                            (NP (NNS CARACAS))
+                            (PP (IN ON)
+                              (NP
+                                (NP (DT THE) (NN OCCASION))
+                                (PP (IN OF)
+                                  (NP
+                                    (NP (DT THE) (NN INAUGURATION))
+                                    (PP (IN OF)
+                                      (NP
+                                        (NP (NNP PRESIDENT) (NNP CARLOS) (NNP ANDRES) (NNP PEREZ))
+                                        (, ,)
+                                        (NP (NNP HEREBY) (NNP STATE))))))))))))))))))))
+    (: :)
+    (S
+      (PP (IN IN)
+        (NP
+          (NP (NNP VIEW))
+          (PP (IN OF)
+            (NP (DT THE) (NNP THREATS) (NNP TO) (NNP ARGENTINE) (NNP DEMOCRACY)))))
+      (, ,)
+      (NP
+        (NP (NNP THEY) (NNP EXPRESS) (NNP THEIR) (NNP RECOGNITION) (NNP TO) (NNP PRESIDENT) (NNP RAUL) (NNP ALFONSIN))
+        (PP (IN FOR)
+          (NP (PRP$ HIS) (NN SUSTAINED))))
+      (VP (VBZ EFFORTS)
+        (S
+          (VP (TO TO)
+            (VP (VB CONSOLIDATE)
+              (NP (NNP DEMOCRACY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THEY) (NNP ALSO))
+    (VP (VBZ EXPRESS)
+      (NP (NNP THEIR) (NNP APPRECIATION)
+        (CC AND)
+        (NNP SOLIDARITY))
+      (PP (IN WITH)
+        (NP (NNP THIS) (NNP UNDERTAKING))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (NNP THEY) (NNP STATE) (NNP THAT) (NNP ANY) (NNP ATTEMPT) (NNP AGAINST) (NNP ANY) (NNP CONSTITUTIONAL) (NNP CONTINUITY))
+    (VP (MD WILL)
+      (VP (VB REPRESENT)
+        (S
+          (NP (DT A) (NNP SERIOUS) (NNP OFFENSE))
+          (VP (TO TO)
+            (VP (VB THE)
+              (NP
+                (NP (NNP DEMOCRATIC) (NNP GOVERNMENTS)
+                  (CC AND)
+                  (NNP PEOPLES))
+                (PP (IN OF)
+                  (NP (DT THE) (NNS AMERICAS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ADD) (NNP THAT) (NNP THEY))
+    (VP (MD WILL)
+      (VP (VB NOT)
+        (S
+          (NP (NNP REMAIN) (NNP INDIFFERENT))
+          (VP (TO TO)
+            (VP (VB AN)
+              (NP
+                (NP (NNP ATTEMPT))
+                (PP (IN OF)
+                  (NP (NNP THIS) (NNP KIND)))))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (NP (NNP THEY) (NNP REASSERT) (NNP THEIR) (NNP PROFOUND) (NNP CONVICTION) (NNP THAT) (NNP DEMOCRATIC) (NNP SOCIETIES) (NNP MAY) (NNP EFFECTIVELY))
+    (VP (VBD DEFEND)
+      (NP
+        (NP
+          (NP (NNP THEMSELVES) (NNP FROM) (NNP THE) (NNP SCOURGE))
+          (PP (IN OF)
+            (NP
+              (NP (NNP TERRORISM) (NNP WITHIN) (NNP THE) (NNP FRAMEWORK))
+              (PP (IN OF)
+                (NP (DT THE) (NN LAW))))))
+        (CC AND)
+        (NP
+          (NP (DT THE) (NN EXERCISE))
+          (PP (IN OF)
+            (NP (JJ POLITICAL) (NNP PLURALISM))))))
+    (. .) ('' '')))
+
+(ROOT
+  (FRAG
+    (NP (NNP THE) (NNP COMMUNIQUE) (NNP ENDS) (NNP BY) (NNP STATING))
+    (: :) (`` ``)
+    (S
+      (NP (PRP IT))
+      (VP (VBZ IS)
+        (NP
+          (NP (NNP WITHIN) (NNP THAT) (NNP FRAMEWORK) (NNP THAT))
+          (SBAR
+            (S
+              (NP (DT THE) (NNP ARGENTINE) (NNP GOVERNMENT))
+              (VP (VBZ IS)
+                (VP (VBG CONFRONTING)
+                  (NP
+                    (NP (NNP EXTREMIST) (NNP ACTIONS))
+                    (, ,)
+                    (CC AND)
+                    (NP (NNP WE) (NNP THEREFORE) (NNP WISH) (NNP TO) (NNP EXPRESS) (NNP OUR) (NNP RECOGNITION))))))))))
+    (. .) ('' '')))
+

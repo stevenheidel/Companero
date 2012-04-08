@@ -1,0 +1,84 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP MAOIST) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS) (NNP HAVE))
+        (VP (VBD KILLED)
+          (NP
+            (NP (DT THE) (NN MAYOR))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP SMALL) (NNP TOWN))
+                (PP (IN OF)
+                  (NP (NNP HOSTIGAL) (, ,) (NNP AS) (CD WELL) (IN AS) (CD TWO) (NNS PEASANTS)))))))))
+    (, ,)
+    (NP (DT THE) (NNP LOCAL))
+    (VP (VBZ PRESS)
+      (NP (NNP REPORTED) (NNP TODAY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HOSPITAL))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP LOCATED) (NNP SOME) (NNP 20) (NNP KM) (NNP FROM) (NNP YAUYOS) (NNP PROVINCE))
+        (, ,)
+        (NP (NNP LIMA) (NNP DEPARTMENT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS))
+    (VP (VBD ARRIVED)
+      (SBAR
+        (S
+          (PP (IN IN)
+            (NP (NNP HOSTIGAL) (NNP LAST) (NNP MONDAY) (NNP MORNING)
+              (CC AND)
+              (NNP FORCED)))
+          (NP (NNP PARISH) (NNP PRIEST) (NNP LUIS) (NNP FUENTES) (NNP TO))
+          (VP (VBD SOUND)
+            (NP
+              (NP (DT THE) (NNP ALARM))
+              (PP (IN IN)
+                (NP (NNP ORDER) (NNP TO) (NNP GATHER) (NNP THE) (NNP PEOPLE))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MAYOR) (NNP ARMANSIO) (NNP QUISPE)
+      (CC AND)
+      (NNP THE) (CD TWO) (NNP PEASANTS) (NNP WERE) (NN BROUGHT))
+    (VP (VBP BEFORE)
+      (NP
+        (NP
+          (NP (DT A) (`` ``) (NN KANGAROO) (NN COURT) ('' ''))
+          (NP (NNP BY) (NNP THE) (NNP SHINING) (NNP PATH)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP THEN) (NNP KILLED) (NNP BY))
+          (NP (DT A) (NNP FIRING) (NNP SQUAD)))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (VP (VBG ACCORDING))
+    (VP (VBZ TO)
+      (NP (DT THE) (NNP LATEST) (NNP CALCULATIONS) (NNP MADE) (NNP BY)))
+    (NP
+      (NP (DT THE) (NNP PERUVIAN) (NNP CONGRESS) (NNP PACIFICATION) (NNP COMMITTEE))
+      (, ,)
+      (NP
+        (NP (NNP ABOUT) (NNP 13,000) (NNP PEOPLE) (NNP HAVE) (NNP BEEN) (NNP KILLED))
+        (PP (IN IN)
+          (NP
+            (NP (NNP PERU) (NNP SINCE) (NNP 1980) (IN AS) (DT A) (NNP RESULT))
+            (PP (IN OF)
+              (NP (JJ POLITICAL) (NNP VIOLENCE)))))))
+    (. .)))
+

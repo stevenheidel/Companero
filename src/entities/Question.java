@@ -1,42 +1,80 @@
+/*
+ * Jamie Gaultois
+ * jpg627
+ * 11066502
+ * 
+ * Steven Heidel
+ * sdh951
+ * 11078053
+ */
+
 package entities;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ * A class to store a question which was inputted using square brackets to
+ * identify to important elements. It will find the type of question, text to
+ * search for, date, and place if applicable.
+ * 
+ * @author Steven Heidel
+ *
+ */
 public class Question
 {
+	/**
+	 * The type of question. Four possible options: WHO, WHAT, WHEN, and WHERE
+	 */
 	private String type;
 	
+	/**
+	 * The important text of the question
+	 */
 	private String text;
-		
+	
+	/**
+	 * The location specified in the question
+	 */
 	private String place;
 	
+	/**
+	 * The time or date specified in the question
+	 */
 	private String time;
 	
+	/**
+	 * Create a new question
+	 * @param input A question in the form specified using square brackets
+	 */
 	public Question(String input)
 	{
 		input = input.toUpperCase();
 		
 		type = input.split(" ")[0];
 		
+		// get the elements in square brackets
 		Matcher m = Pattern.compile("\\[(.*?)\\]").matcher(input);
 		
+		// the important text will always be in the first bracket set
 		m.find();
 		text = m.group(1);
 				
 		m.find();
+		// if WHO or WHAT, get both time and place
 		if (type.equals("WHO") || type.equals("WHAT"))
 		{
 			place = m.group(1);
 			m.find();
 			time = m.group(1);
 		}
+		// if WHERE, get just time
 		else if (type.equals("WHERE"))
 		{
 			place = null;
 			time = m.group(1);
 		}
+		// if WHEN, get just place
 		else if (type.equals("WHEN"))
 		{
 			place = m.group(1);
@@ -44,26 +82,46 @@ public class Question
 		}
 	}
 	
+	/**
+	 * Return the type of question
+	 * @return the type of question
+	 */
 	public String getType()
 	{
 		return type;
 	}
 	
+	/**
+	 * Return the important text
+	 * @return the important text
+	 */
 	public String getText()
 	{
 		return text;
 	}
 	
+	/**
+	 * Return the place
+	 * @return the place
+	 */
 	public String getPlace()
 	{
 		return place;
 	}
 	
+	/**
+	 * Return the time or date
+	 * @return the time or date as a String
+	 */
 	public String getTime()
 	{
 		return time;
 	}
 		
+	/**
+	 * Test method
+	 * @param args
+	 */
 	public static void main(String[] args)
 	{
 		Question who = new Question("Who was [the army judge advocate general] of [Chile] in [1990]?");

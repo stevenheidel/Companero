@@ -1,0 +1,231 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP EDITORIAL) (NNP REPORT) (-RRB- -RRB-))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-)))
+    (VP (VBZ RADIO)
+      (NP
+        (NP (NNP FARABUNDO) (NNP MARTI))
+        (PP (IN IN)
+          (NP
+            (NP (NNP SPANISH) (NNP TO) (NNP EL) (NNP SALVADOR) (NNP AT) (NNP 2200) (NNP GMT))
+            (PP (IN ON)
+              (NP
+                (NP (CD 5) (NNP FEBRUARY) (NNP BROADCASTS) (NNP APPROXIMATELY) (CD 10) (NNS MINUTES))
+                (PP (IN OF)
+                  (NP
+                    (NP (JJ BATTLE) (NNS REPORTS))
+                    (VP (VBG COVERING)
+                      (NP (DT THE) (NN PERIOD) (CD 29) (JJ JANUARY)
+                        (ADJP
+                          (QP (CD TO) (CD 4)))
+                        (NN FEBRUARY)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (NP (NNP TO) (NNP THE) (NNP STATION))))
+    (, ,)
+    (NP (NNP DURING) (NNP THIS) (NN PERIOD) (NNP GOVERNMENT) (NNP FORCES))
+    (VP (VBD SUSTAINED)
+      (NP
+        (NP
+          (NP
+            (NP (CD 109) (NNS CASUALTIES))
+            (, ,)
+            (NP (NNP BROKEN) (NNP DOWN) (NNP AS) (NNP FOLLOWS)))
+          (: :)
+          (NP
+            (NP (NNP 64) (IN AS) (DT THE) (NNP RESULT))
+            (PP (IN OF)
+              (NP
+                (NP (NNP ATTACKS) (NNP OR) (NNP COMBAT))
+                (, ,)
+                (NP
+                  (NP (CD 37))
+                  (PP (IN IN)
+                    (NP
+                      (NP (NNS AMBUSHES))
+                      (, ,)
+                      (CC AND)
+                      (NP (CD 8)))))))))
+        (IN AS)
+        (NP
+          (NP (DT THE) (NN RESULT))
+          (PP (IN OF)
+            (NP
+              (NP (NNP GOVERNMENT) (NNP TROOPS) (NNP STEPPING))
+              (PP (IN ON)
+                (NP (NNP MINES))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP CASUALTIES) (NNP REPORTEDLY))
+    (VP (VBD INCLUDED)
+      (NP
+        (NP
+          (NP (DT A) (NN SERGEANT))
+          (, ,)
+          (NP (CD TWO) (NNS CORPORALS))
+          (, ,))
+        (CC AND)
+        (NP (DT A) (NNP CIVILIAN) (NNP DEFENSE) (NNP COMMANDER))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NN REPORT))
+    (VP (VBZ ADDS)
+      (NP
+        (NP
+          (NP (NNP THAT))
+          (PP (IN ON)
+            (NP (CD 29))))
+        (CC AND)
+        (NP
+          (NP (CD 30) (NN JANUARY))
+          (, ,)
+          (NP
+            (NP (DT THE) (NNP FMLN) (NNP CARRIED) (NNP OUT) (NNP THE) (NNP SUBREGIONAL) (NNP MANEUVER) (`` ``) (NNP OUR) (NNP PEOPLE) (NNP FIGHT) (NNP BRAVELY))
+            (PP (IN FOR)
+              (NP (NNP PEACE)
+                (CC AND)
+                (NNP LIBERTY)))))))
+    (. .) ('' '')))
+
+(ROOT
+  (X
+    (NP
+      (NP (DT THE) (NNP FMLN) (NNP REPORTEDLY) (NNP ATTACKED) (NNP LA) (NNP LAGUNA))
+      (, ,)
+      (NP (NNP CONCEPCION) (NNP QUZALTEPEQUE))
+      (, ,)
+      (NP (NNP LA) (NNP PALMA))
+      (, ,)
+      (NP (NNP SAN) (NNP IGNACIO))
+      (, ,)
+      (NP (NNP SAN) (NNP MIGUEL) (NNP DE) (NNP MERCEDES))
+      (, ,)
+      (NP (NNP AND) (NNP EL) (NNP CHIQUE))
+      (, ,)
+      (NP
+        (NP (NNP ALL))
+        (PP (IN IN)
+          (NP (NNP CHALATENANGO))))
+      (, ,)
+      (NP (NNP AND) (NNP INFLICTED)))
+    (NP
+      (NP (CD 55) (NNS CASUALTIES))
+      (PP (IN ON)
+        (NP
+          (NP (DT THE) (NN ENEMY))
+          (, ,)
+          (NP
+            (NP (CD 45))
+            (PP (IN OF)
+              (NP
+                (NP (NNP WHICH) (NNP WERE) (NNP INFLICTED))
+                (PP (IN ON)
+                  (NP
+                    (NP (DT THE) (NNP 4TH) (NNP INFANTRY) (NNP BRIGADE) (POS 'S))
+                    (NNP AZMITIA) (NNP BATTALION)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP STATION) (NNP REPORTS) (NNP THAT))
+      (PP (IN ON)
+        (NP (CD 30) (NN JANUARY))))
+    (, ,)
+    (PP
+      (NP (NNP GUERRILLA) (NNP FORCES) (NNP OCCUPIED) (NNP YAMABAL)
+        (CC AND)
+        (NNP SENSENBRA))
+      (IN IN)
+      (NP (NNP MORAZAN)))
+    (, ,)
+    (NP (NNP WHERE) (NNP MILITARY))
+    (VP (VBP DETACHMENT)
+      (SBAR
+        (S
+          (NP (DT NO) (CD 4))
+          (VP (VBZ 'S)
+            (NP
+              (NP (NNP CACAGUATIQUE) (NNP BATTALION) (NNP TROOPS) (NNP FLED))
+              (PP (IN IN)
+                (NP (NNP DISARRAY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP STATION))
+    (VP (VBZ ADDS) (: :) (`` ``)
+      (S
+        (NP
+          (NP (NNP ANOTHER) (NNP IMPORTANT) (NNP ACTION) (NNP THIS) (NNP WEEK) (NNP RESULTED))
+          (PP (IN IN)
+            (NP
+              (NP (CD 20) (NNP CASUALTIES) (NNP INFLICTED))
+              (PP (IN ON)
+                (NP (DT THE) (NNP NATIONAL) (NNP GUARD))))))
+        (VP (VBG DURING)
+          (NP
+            (NP (DT A) (CD 29) (NNP JANUARY) (NNP AMBUSH))
+            (PP (IN ON)
+              (NP
+                (NP (DT THE) (NNP ILOBASCO-SAN) (NNP ISIDRO) (NNP HIGHWAY))
+                (, ,)
+                (NP (NNP CABANAS) (NNP DEPARTMENT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP ADDITION)))
+    (, ,)
+    (NP (NNP CLANDESTINE) (NNP MILITIAS))
+    (VP (VBD AMBUSHED)
+      (NP
+        (NP (CD 2D) (NNP INFANTRY) (NNP BRIGADE) (NNS TROOPS))
+        (PP (IN ON)
+          (NP
+            (NP (DT THE) (NNP SANTA) (NNP ANA-SAN) (NNP SALVADOR) (NNP FREEWAY))
+            (, ,)
+            (NP (NNP NEAR) (NNP EL) (NNP BEJUCO))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP ACTION))
+    (VP (VBD RESULTED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP NINE) (NNP GOVERNMENT) (NNP CASUALTIES))
+          (, ,)
+          (NP (NNP COUNTING) (NNP DEAD)
+            (CC AND)
+            (NNP WOUNDED)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP STATION) (NNS REPORTS))
+      (PP (IN IN)
+        (NP (NNP CONCLUSION))))
+    (VP (VBP THAT)
+      (NP (DT THE) (NNP FMLN) (NNP LAUNCHED) (NNP FIVE) (NNP AMBUSHES) (NNP THIS) (NNP WEEK))
+      (`` ``)
+      (PP (IN WITH)
+        (NP
+          (NP (DT THE) (NNP OUTSTANDING) (NNP PARTICIPATION))
+          (PP (IN OF)
+            (NP (NNP CLANDESTINE) (NNP MILITIAS))))))
+    (. .) ('' '')))
+

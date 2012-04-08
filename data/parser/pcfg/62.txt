@@ -1,0 +1,378 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (RRC
+        (ADVP (RB JUSTICE))
+        (NP (NNP MINISTER) (NNP JULIO) (NNP ALFREDO) (NNP SAMAYOA) (NNP SAID) (NNP TODAY) (NNP ALL) (NNP THE) (NNP EVIDENCE) (NNP GATHERED) (NNP BY) (NNP THE) (NNP CRIMINAL) (NNP INVESTIGATIONS) (NNP COMMISSION) (NNP DEMONSTRATES) (NNP THAT) (NNP DR) (NN ANTONIO) (NN REGALADO))))
+    (VP (VBD WAS)
+      (NP
+        (NP (DT THE) (NN PERPETRATOR))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NN MURDER))
+            (PP (IN OF)
+              (NP (NNP MSGR) (NNP ROMERO)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP
+        (NP (NNP HIS) (NNP CAPACITY) (NNP AS) (NNP CHAIRMAN))
+        (PP (IN OF)
+          (NP (DT THE) (JJ CRIMINAL) (NNP INVESTIGATIONS) (NNP COMMISSION)))))
+    (, ,)
+    (NP (NNP DR) (NNP JULIO) (NNP ALFREDO) (NNP SAMAYOA))
+    (VP (VBD REPORTED)
+      (NP
+        (NP (NNP TODAY) (NNP IN) (NNP DETAIL))
+        (PP (IN ON)
+          (NP
+            (NP (DT THE) (NN MURDER))
+            (PP (IN OF)
+              (NP (NNP MSGR) (NNP OSCAR) (NNP ARNULFO) (NNP ROMERO)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP DR) (NNP SAMAYOA))
+      (VP (VBD SAID)
+        (S
+          (VP (TO TO)
+            (VP (VB CLARIFY)
+              (NP (DT THE) (NN CASE)))))))
+    (, ,)
+    (NP (DT THE) (NNP COMMISSION))
+    (VP (VBZ HAS)
+      (VP (VBN CONDUCTED)
+        (NP
+          (NP
+            (NP (CD 238) (NNS MEETINGS))
+            (, ,)
+            (NP (NNP OVER) (CD 100) (NNS INQUIRIES))
+            (, ,))
+          (CC AND)
+          (NP (CD 21) (NNS DEPOSITIONS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD ADDED)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP THE) (NNP INVESTIGATION))
+          (VP (VBD WAS)
+            (NP
+              (NP (NNP CARRIED) (NNP OUT))
+              (SBAR
+                (S
+                  (PP (IN UNDER)
+                    (NP
+                      (NP (DT THE) (NN NAME))
+                      (PP (IN OF) (`` ``)
+                        (NP (NNP OPERATION) (NNP PINEAPPLE))
+                        ('' ''))))
+                  (NP (CC AND)
+                    (NP (NNP THAT) (NNP IT) (NNP WAS) (NNP CONCLUDED) (NNP THAT) (NNP MAJOR) (NNP ROBERTO) (NNP D'AUBUISSON) (NNP WAS) (NNP THE) (NNP MASTERMIND))
+                    (CC AND)
+                    (NP (NNP DR) (NNP ANTONIO) (NNP REGALADO)))
+                  (VP (VBD WAS)
+                    (NP (DT THE) (NN PERPETRATOR))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP SAMAYOA))
+        (-RRB- -RRB-)))
+    (ADVP (RB THERE))
+    (VP (VBZ IS)
+      (NP (DT NO) (NN DOUBT)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ALL) (NNP THE) (NNP INVESTIGATIONS) (NNP CARRIED) (NNP OUT) (NNP BY) (NNP THE) (NNP COMMISSION))
+    (VP (VBP POINT)
+      (S
+        (VP (TO TO)
+          (VP (VB MAJ)
+            (NP
+              (NP (NNP ROBERTO) (NNP D'AUBUISSON))
+              (IN AS)
+              (NP (DT THE) (NN MASTERMIND)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS THIS))
+    (VP (VBZ HAS)
+      (S
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP
+              (NP (NNP PROVEN))
+              (PP (IN IN)
+                (NP (NNP COURT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB HOWEVER))
+    (, ,)
+    (NP (PRP HE))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP PARLIAMENTARY) (NNP IMMUNITY))
+        (: ;)
+        (NP (NNP HE) (NNP CAN) (NNP NOT) (NNP BE) (NNP BROUGHT) (NNP TO) (NNP COURT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP NATIONALIST) (NNP REPUBLICAN) (NNP ALLIANCE))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP ARENA))
+        (-RRB- -RRB-)))
+    (VP (VBZ HAS)
+      (NP
+        (NP
+          (NP (DT THE) (NN MAJORITY))
+          (PP (IN IN)
+            (NP (DT THE) (NNP NATIONAL) (NNP ASSEMBLY))))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP ARENA) (NNP IS) (NNP NOT))
+          (VP (VBG GOING)
+            (S
+              (VP (TO TO)
+                (VP (VB PERMIT)
+                  (NP
+                    (NP (DT A) (NNP DECLARATION) (NNP THAT) (NNP WILL))
+                    (VP (VBG BRING)
+                      (NP (PRP$ HIS) (NN CASE)
+                        (S
+                          (VP (TO TO)
+                            (VP (VB COURT))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP END) (NNP RECORDING))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP DR) (NNP SAMAYOA) (NNP ALSO))
+        (VP (VBD SAID)
+          (SBAR
+            (S
+              (NP (PRP HE))
+              (VP (VBZ IS)
+                (VP (VBG WILLING)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB PRESENT)
+                        (NP (NNP ALL) (NNP THE) (NNP EVIDENCE))))))))))))
+    (NP (PRP HE))
+    (VP (VBZ HAS)
+      (VP (VBN ON)
+        (NP (DT THE) (NN CASE))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB HOWEVER))
+    (, ,)
+    (NP (PRP HE))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (PRP HE))
+          (VP (VBP DID)
+            (NP
+              (NP (NNP NOT) (NNP TRUST) (NNP THE) (NNP BEHAVIOR))
+              (PP (IN OF)
+                (NP
+                  (NP (DT THE) (NNP ATTORNEY) (NNP GENERAL))
+                  (PP (IN OF)
+                    (NP (DT THE) (NN REPUBLIC))))))
+            (: :)
+            (S (-LRB- -LRB-)
+              (NP (NNP BEGIN) (NNP RECORDING))
+              (-RRB- -RRB-)
+              (NP
+                (NP (-LRB- -LRB-) (NNP SAMAYOA) (-RRB- -RRB-))
+                (SBAR
+                  (S
+                    (NP (NNP WE))
+                    (VP (MD WILL)
+                      (VP (VB PRESENT)
+                        (NP (DT THE) (NN EVIDENCE))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD THINK)
+        (SBAR
+          (S
+            (NP (NNP THEY))
+            (VP (VBP ARE)
+              (VP (VBG GOING)
+                (S
+                  (VP (TO TO)
+                    (VP (VB BE)
+                      (NP (NNP SORRY) (NNP THEY) (NNP MADE) (NNP THAT) (NNP REQUEST)))))))))))
+    (, ,)
+    (NP (NNP BECAUSE) (NNP MANY) (NNP PERSONS))
+    (VP (VBP ARE)
+      (VP (VBN INVOLVED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SINCE) (NNP THEIR) (NNP PARTICIPATION))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP NOT) (NNP YET) (NNP BEEN) (NNP PROVEN))
+        (, ,)
+        (NP (NNP THESE) (NNP NAMES) (NNP HAVE) (NNP NOT) (NNP YET) (NNP BEEN) (NNP RELEASED))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HOWEVER))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB WHEN))
+      (S
+        (NP (NNP WE) (NNP PRESENT) (NNP THE) (NNP ENTIRE) (NNP DOSSIER))
+        (VP (VBZ TO)
+          (NP (DT THE) (NNS COURTS)))))
+    (, ,)
+    (NP (NNP THESE) (NNP NAMES))
+    (VP (VBP ARE)
+      (VP (VBG GOING)
+        (S
+          (VP (TO TO)
+            (VP (VB COME)
+              (PRT (RP UP)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THEN) (NNP SOME))
+    (VP (MD WILL)
+      (VP (VB JUDGE)
+        (NP (NNP AND) (NNP DECIDE) (NNP IF) (NNP THEY) (NNP PARTICIPATED) (NNP OR) (NNP NOT))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP BUT) (NNP THEIR) (NNP NAMES))
+      (VP (VBP ARE)
+        (ADJP (JJ THERE))))
+    (, ,)
+    (NP (NNP AS))
+    (VP (VBP ARE)
+      (NP
+        (NP (NNP THEIR) (NNP ACTIVITIES)
+          (CC AND)
+          (NNP THEIR) (NNP RELATIONSHIPS))
+        (VP (TO TO)
+          (NP (DT THE) (NNP DEATH) (NNP SQUADS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP MANY) (NNP PERSONS))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBP ARE)
+            (VP (VBN MENTIONED))))))
+    (VP (VBP ARE)
+      (NP
+        (NP (NNP APPARENTLY) (NNP RESPECTABLE))
+        (, ,)
+        (CC AND)
+        (NP (NNP I) (NNP MEAN) (NNP RESPECTABLE)))
+      (PP (IN IN)
+        (NP (NNP QUOTES))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP END) (NNP RECORDING))
+          (-RRB- -RRB-))
+        (NNP THE) (NNP ASSASSINATION))
+      (PP (IN OF)
+        (NP
+          (NP (NNP MSGR) (NNP OSCAR) (NNP ARNULFO) (NNP ROMERO) (NNP TOOK) (NNP PLACE))
+          (PP (IN ON)
+            (NP
+              (NP (CD 24) (NNP MARCH) (CD 1980))
+              (: ;)
+              (NP
+                (NP (NNP ACCORDING) (NNP TO) (NNP THE) (NNP OFFICIAL))
+                (, ,)
+                (NP (DT THE) (NNP INVESTIGATIONS) (NNP HAVE) (NNP TAKEN) (CD 9) (NNS YEARS))))))))
+    (VP (VBP BECAUSE)
+      (SBAR
+        (S
+          (NP (NNP MANY) (NNP PERSONS) (NNP CONSIDERED) (NNP KEY) (NNP WITNESSES) (NNP HAVE))
+          (VP (VBD DIED)
+            (NP
+              (NP (NNP SINCE) (NNP THE) (NNP TIME))
+              (PP (IN OF)
+                (NP (DT THE) (NN MURDER))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB HOWEVER))
+    (PRN (, ,)
+      (S
+        (NP (PRP HE))
+        (VP (VBD ADDED) (, ,)
+          (PP (IN WITH)
+            (NP
+              (NP (DT THE) (NN COOPERATION))
+              (PP (IN OF)
+                (NP (DT THE) (NNP FBI) (NNP AS) (NNP WELL) (NNP AS) (NNP SOME) (NNP CENTRAL) (NNP AMERICAN) (NNP INVESTIGATION) (NNP ORGANIZATIONS)))))))
+      (, ,))
+    (NP (DT THE) (NN CASE))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN) (NNP CLARIFIED))
+        (, ,)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP (NNP MIGHT) (NNP LEAD))
+            (VP (VBD TO)
+              (NP
+                (NP (DT THE) (NN IMPRISONMENT))
+                (PP (IN OF)
+                  (NP (NNP MAJ) (NNP D'AUBUISSON))))
+              (SBAR (RB ONCE)
+                (S
+                  (NP (PRP HE))
+                  (VP (VBZ LOSES)
+                    (NP (PRP$ HIS) (JJ PARLIAMENTARY) (NN IMMUNITY))))))))))
+    (. .)))
+

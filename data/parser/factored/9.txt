@@ -1,0 +1,88 @@
+(ROOT
+  (S
+    (S
+      (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
+      (NP (DT THE) (NNP NATIONAL) (NNP ARMY))
+      (VP (VBD WAS)
+        (NP
+          (NP (NNP INVOLVED))
+          (PP (IN IN)
+            (NP
+              (NP (NNP NEW) (NNPS CLASHES) (NNP WITHIN))
+              (NP (DT THE) (NNP PAST) (NNP FEW) (NNP HOURS)))))
+        (PP (IN WITH)
+          (NP
+            (NP (NNP FARC))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP REVOLUTIONARY) (NNP ARMED) (NNPS FORCES))
+                (PP (IN OF)
+                  (NP (NNP COLOMBIA))))
+              (-RRB- -RRB-))))))
+    (CC AND)
+    (S
+      (NP
+        (NP (DT THE) (NNP ELN))
+        (PRN (-LRB- -LRB-)
+          (NP
+            (NP (NNP ARMY))
+            (PP (IN OF)
+              (NP (NNP NATIONAL) (NNP LIBERATION))))
+          (-RRB- -RRB-)))
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NNP RURAL) (NN AREA))
+          (PP (IN OF)
+            (NP (NNP YONDO))))))
+    (PP (IN IN)
+      (NP
+        (NP (NNP ANTIOQUIA) (POS 'S))
+        (NNP MIDDLE) (NNP MAGDALENA) (NNP REGION)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SPOKESMEN))
+      (PP (IN FOR)
+        (NP (DT THE) (CD 5TH) (NN BRIGADE))))
+    (VP (VBD REPORTED)
+      (NP
+        (NP (CD 5) (NNP SOLDIERS) (NNP KILLED))
+        (, ,)
+        (NP (NNP SEVERAL) (NNP WOUNDED))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP AT) (NNP LEAST) (CD 12))
+          (NP (NNP REBEL) (NNP CASUALTIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS EXODUS))
+      (PP (IN OF)
+        (NP (NNP PEASANTS) (NNP FROM) (NNP THAT) (NNP REGION))))
+    (VP (VBD CONTINUED)
+      (S
+        (VP (TO TO)
+          (VP (VB INCREASE)
+            (S
+              (NP (NNP TODAY) (NNP ACCORDING))
+              (VP (TO TO)
+                (VP (VB OFFICIAL)
+                  (NP (NNS REPORTS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PEASANTS) (NNP WALKED) (NNP AWAY) (NNP FROM) (NNP THEIR) (NNPS PROPERTIES))
+    (VP
+      (PP (TO TO)
+        (NP
+          (NP (NNP AVOID) (NNP BECOMING) (NNS VICTIMS))
+          (PP (IN OF)
+            (NP (DT THE) (NNS CLASHES))))))
+    (. .)))
+

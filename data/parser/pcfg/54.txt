@@ -1,0 +1,306 @@
+(ROOT
+  (SINV
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (NNP FOUR) (NNP OFFICIALS))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBP HAD)))))
+    (VP (VBD STARTED)
+      (S
+        (VP (TO TO)
+          (VP (VB INVESTIGATE)
+            (NP
+              (NP (DT THE) (NN KILLING))
+              (PP (IN OF)
+                (NP (CD 12) (NNP JUDICIAL) (NNS OFFICIALS))))))))
+    (NP
+      (NP (NNP NEAR) (NNP LA) (NNP ROCHELA))
+      (, ,)
+      (NP
+        (NP (NNP IN) (NNP SANTANDER) (NNP DEPARTMENT) (NNP HAVE) (NNP RESIGNED) (NNP BECAUSE))
+        (PP (IN OF)
+          (NP (NNP THREATS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB HOWEVER))
+    (, ,)
+    (NP (NNP VARIOUS) (NNP ENTITIES))
+    (VP (VBP CONTINUE)
+      (S
+        (VP (TO TO)
+          (VP (VB INVESTIGATE)
+            (NP (DT THE) (NN CRIME))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP DEATH) (NNP HANGS) (NNP OVER) (NNP BARRANCABERMEJA) (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (DT THE) (NN JUDGE))
+      (VP (VBD APPOINTED)
+        (S
+          (VP (TO TO)
+            (VP (VB INVESTIGATE)
+              (NP
+                (NP (DT THE) (NNS KILLINGS))
+                (PP (IN OF)
+                  (NP (DT THE) (CD 12) (NNP JUDICIAL) (NNS OFFICIALS)))))))))
+    (VP (VBD WAS))
+    (NP (NNP THREATENED) (NNP TODAY))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP YESTERDAY) (, ,) (NNP TWO) (NNS INDIVIDUALS) (NNP RIDING) (NNP A) (NNP RED) (NNP MOTORCYCLE))
+    (VP (VBD THREATENED)
+      (NP
+        (NP (CD TWO) (NNS INVESTIGATORS))
+        (VP (VBG DURING)
+          (NP
+            (NP (DT THE) (NNP FUNERAL))
+            (PP (IN OF)
+              (NP
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP WORDS) (NNP INDISTINCT))
+                  (-RRB- -RRB-))
+                (NN HELD))))
+          (PP (IN IN)
+            (NP (NNP BARRANCABERMEJA) (NNP OIL) (NNP PORT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP
+        (NP (NNP SPITE))
+        (PP (IN OF)
+          (NP (NNP THESE) (NNP INCIDENTS)))))
+    (, ,)
+    (S
+      (NP
+        (NP (DT A) (CD 15-MEMBER) (NNP TEAM))
+        (, ,)
+        (NP
+          (NP (NNP INCLUDING) (NNP TWO) (NNP JUDGES)
+            (CC AND)
+            (NNP THREE) (NNP MEMBERS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP JUDICIAL) (NNP POLICE))))
+        (, ,))
+      (VP (VBP ARE)
+        (VP (VBG EXAMINING)
+          (NP
+            (NP (NNP EVIDENCE) (NNP FOUND))
+            (PP (IN IN)
+              (NP (NNP LA) (NNP ROCHELA)))))))
+    (, ,)
+    (ADVP (RB WHERE))
+    (S
+      (NP (DT THE) (NN CRIME))
+      (VP (VBD WAS)
+        (VP (VBN COMMITTED))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP NATIONAL) (NNP DIRECTOR))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (JJ CRIMINAL) (NNP INVESTIGATIONS) (NNP DEPARTMENT) (NNP FLEW))
+          (PP (IN IN)
+            (NP (DT A) (NN HELICOPTER)
+              (S
+                (VP (TO TO)
+                  (VP (VB INSPECT)
+                    (NP
+                      (NP (NNP THE) (NNP SITE)
+                        (CC AND)
+                        (NNP LOOKED))
+                      (PP (IN ON)
+                        (NP (NNP AS) (NNP EVIDENCE))))))))))))
+    (VP (VBD WAS)
+      (VP (VBN GATHERED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN POSTER))
+      (PP (IN OF)
+        (NP (NNP ALVARO) (NNP GOMEZ) (NNP HURTADO)
+          (CC AND)
+          (NNP SEVERAL) (NNP EMPTY) (NNP AR-15)
+          (CC AND)
+          (NNP 9-MM))))
+    (VP (VBZ CARTRIDGES)
+      (NP
+        (NP (NNP WERE) (NNP FOUND))
+        (PP (IN ON)
+          (NP
+            (NP (DT A) (NN HIGHWAY))
+            (, ,) (IN AS)
+            (NP (NNP WELL) (IN AS) (DT A) (NNP CARD)))))
+      (PP (IN WITH)
+        (NP
+          (NP (DT A) (NN NAME))
+          (PP (IN ON)
+            (NP (PRP IT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP NOT) (NNP BEEN) (NNP DETERMINED) (NNP YET))
+        (SBAR
+          (S
+            (SBAR (IN IF)
+              (S
+                (NP (NNP THESE) (NNP OBJECTS))
+                (VP (VBD BELONGED)
+                  (S
+                    (VP (TO TO))))))
+            (NP (DT THE) (NNS VICTIMS))
+            (VP (VBP OR)
+              (VP (TO TO)
+                (NP (DT THE) (NNS CRIMINALS))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS COLLEAGUES))
+      (PP (IN OF)
+        (NP (DT THE) (CD 12) (NNP WHO) (NNP WERE) (NNP MURDERED) (NNP CAREFULLY))))
+    (VP (VBD SIFTED)
+      (NP
+        (NP (NNP THROUGH) (NNP THE) (NNP SOIL) (, ,) (NNP LOOKING))
+        (PP (IN FOR)
+          (NP (JJR MORE) (NN EVIDENCE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP BEGIN) (NNP RECORDING) (-RRB- -RRB-))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP UNIDENTIFIED) (NNP OFFICIAL))
+        (-RRB- -RRB-))
+      (NP (NNP WE) (NNP MUST) (NNP INVESTIGATE) (NNP THIS) (NNP SCIENTIFICALLY))
+      (: ;))
+    (PP (IN IN)
+      (NP (NNP OTHER) (NNP WORDS)))
+    (, ,)
+    (NP (NNP WE) (NNP MUST) (NNP APPLY) (NNP SCIENCE) (NNP TO))
+    (VP (VBZ THIS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP EVIDENCE))
+    (VP (MD WILL)
+      (VP (VB TELL)
+        (NP
+          (NP (NNP US))
+          (SBAR
+            (WHNP (WDT WHAT))
+            (S
+              (VP (VBD HAPPENED)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP END) (NNP RECORDING))
+          (-RRB- -RRB-))
+        (NNS RELATIVES))
+      (PP (IN OF)
+        (NP (DT THE) (NN MURDER) (NNS VICTIMS))))
+    (VP (VBD WENT)
+      (S
+        (VP (TO TO)
+          (VP (VB THE)
+            (NP
+              (NP (NNP JUDICIAL) (NNP POLICE) (NNP OFFICE))
+              (PP (IN IN)
+                (NP (NNP BARRANCABERMEJA))))
+            (S
+              (VP (TO TO)
+                (VP (VB DEMAND)
+                  (NP
+                    (NP
+                      (NP
+                        (NP (DT THE) (NNS VICTIMS) (POS '))
+                        (NN CLOTHING))
+                      (, ,)
+                      (NP (NNP IDENTIFICATION) (NNP CARDS)))
+                    (, ,)
+                    (CC AND)
+                    (NP
+                      (NP (NNP EVEN) (NNP A) (NNP TYPEWRITER) (NNP THEY) (NNP WERE))
+                      (VP (VBG PLANNING)
+                        (S
+                          (VP (TO TO)
+                            (VP (VB USE)
+                              (S
+                                (VP (TO TO)
+                                  (VP (VB REPORT)
+                                    (PRT (RP ON))
+                                    (NP
+                                      (NP (DT THE) (NNS INVESTIGATIONS))
+                                      (PP (IN OF)
+                                        (NP (DT THE) (CD 56) (NNP KILLINGS) (NNP THAT) (NNP HAVE) (NNP TAKEN) (NNP PLACE))))
+                                    (PP (IN IN)
+                                      (NP
+                                        (NP (NNP THIS) (NNP PART))
+                                        (PP (IN OF)
+                                          (NP (DT THE) (NNP MIDDLE) (NNP MAGDALENA) (NN AREA)))))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (NP
+        (NP
+          (NP (NNP BEEN) (CD 4) (NNP DAYS) (NNP SINCE))
+          (NP (DT THE) (NN KILLING)))
+        (CC AND)
+        (NP (DT NO)
+          (ADJP (CD ONE) (NN HAS))
+          (NNP BEEN) (NNP ARRESTED))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP HOWEVER))
+        (, ,)
+        (NP
+          (NP (DT THE) (NNS JUDGES))
+          (CC AND)
+          (NP (DT THE) (JJ CRIMINAL) (NNP INVESTIGATIONS) (NNP DEPARTMENT) (NNS OFFICIALS))))
+      (VP (VBP ARE)
+        (ADVP (RB HERE))))
+    (, ,)
+    (NP (NNP TRYING) (NNP TO) (NNP GATHER) (NNP EVIDENCE) (NNP THAT))
+    (VP (MD WILL)
+      (VP (VB CLEAR)
+        (PRT (RP UP))
+        (NP (NNP THIS) (NN CRIME))))
+    (. .)))
+

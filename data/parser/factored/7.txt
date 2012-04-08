@@ -1,0 +1,708 @@
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP COMMENTARY) (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP OLGA) (NNP KLIVADENKO))
+          (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-)))
+      (NP (DT THE) (NN DEPLOYMENT)))
+    (PP (IN OF)
+      (NP (NNP U.S.) (NNPS SHIPS)))
+    (, ,)
+    (VP (VBG INCLUDING)
+      (NP
+        (NP (DT THE) (NNP AIRCRAFT) (NN CARRIER) (`` ``)
+          (NX (NNP JOHN) (NNP F.) (NNP KENNEDY))
+          ('' ''))
+        (CC AND)
+        (NP
+          (NP (DT THE) (NNP CORVETTE) (`` ``) (NNP VIRGINIA) ('' '') (NNP ALONG))
+          (SBAR
+            (S
+              (S
+                (NP (DT THE) (NNP COLOMBIAN) (NNP COAST) (NNP YESTERDAY))
+                (, ,)
+                (PP (VBG SEEKING)
+                  (PP (TO TO)
+                    (NP (NNP INTERCEPT) (NNP DRUG) (NNP TRAFFICKING) (NNPS ROUTES))))
+                (, ,)
+                (VP (VBD COULD)
+                  (VP (VB BE)
+                    (NP
+                      (NP (DT THE) (NN RESULT))
+                      (PP (IN OF)
+                        (NP (NNP THREE) (NNPS POLICIES)))))))
+              (: :)
+              (S
+                (ADVP (RB FIRST))
+                (, ,)
+                (NP (NNP THAT) (NNP THE) (NNP UNITED) (NNS STATES))
+                (VP (VBZ NEEDS)
+                  (PP (TO TO)
+                    (NP
+                      (NP (NNP JUSTIFY) (DT THE) (NNP INVASION))
+                      (PP (IN OF)
+                        (NP (NNP PANAMA)))))))
+              (PP (IN UNDER)
+                (NP (DT THE) (NNP EXCUSE))))))))
+    (PP (IN OF)
+      (NP (NNP ITS) (NNP FIGHT) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP SECOND))
+        (, ,)
+        (NP (NNP THAT)
+          (NX
+            (NP (DT BOTH) (DT THE) (NN DEPLOYMENT))
+            (PP (IN OF)
+              (NP (NNP SHIPS))))))
+      (CC AND)
+      (NP
+        (NP (DT THE) (NN INVASION))
+        (PP (IN OF)
+          (NP (NNP PANAMA)))))
+    (VP (VBP ARE)
+      (S
+        (NP
+          (NP (NNP PART))
+          (PP (IN OF)
+            (NP (DT A) (NNP SERIOUS) (NNP MILITARY) (NN PLAN))))
+        (VP (TO TO)
+          (VP (VB END)
+            (NP (DT THE) (NNP DRUG) (NNP PLAGUE))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP THIRD) (, ,) (NNP THAT))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP UNITED) (NNS STATES))
+          (VP (VBP MUST)
+            (NP
+              (NP (NNP SOMEHOW) (NNP JUSTIFY) (NNP THE) (NNP INVASION))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP PANAMA))
+                  (CC AND)
+                  (NP (DT THE) (NNP NEED)))))
+            (PP (TO TO)
+              (NP (NNP RECOVER) (NNP ITS) (NNP INTERNATIONAL) (NNP IMAGE)))))))
+    (VP (VBZ HAS)
+      (VP (VBN PROVIDED)
+        (NP (DT A) (NNP REAL) (NNP OPPORTUNITY))
+        (PP (TO TO)
+          (NP
+            (NP (NNP PUT) (DT AN) (NNP END))
+            (PP (TO TO)
+              (NP (NNP DRUG) (NNP TRAFFICKING)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (SBAR (IN IF)
+        (S
+          (NP (DT THE) (NNP OBJECTIVE) (NNP REALLY))
+          (VP (VBZ IS)
+            (S
+              (VP (TO TO)
+                (VP (VB ELIMINATE)
+                  (NP (NNS DRUGS))))))))
+      (, ,)
+      (NP (NNP THEN) (DT THE) (NNP BATTLE))
+      (VP (VBZ IS)
+        (NP
+          (NP
+            (NP (NNP PRAISEWORTHY))
+            (, ,)
+            (NP (NNP BUT)))
+          (: --)
+          (NP
+            (NP (NNP LIKE))
+            (PP (IN IN)
+              (NP (NNP PANAMA)))))))
+    (: --)
+    (S
+      (NP (DT THE) (NNP PROCEDURE))
+      (VP (VBZ IS)
+        (NP
+          (NP (NNP PAINFUL))
+          (, ,)
+          (NP (NNP OVERBEARING))
+          (, ,)
+          (NP (NNP IMPERIALISTIC))
+          (, ,)
+          (CC AND)
+          (NP (NNP HUMILIATING)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP INSTEAD))
+      (PP (IN OF)
+        (S
+          (VP (VBG WINNING)
+            (NP
+              (NP
+                (NP (DT THE) (NNP LATIN) (NNP AMERICAN) (NNP COUNTRIES) (POS '))
+                (NNS APPRECIATION))
+              (CC AND)
+              (NP
+                (ADJP (JJ SOLIDARITY)
+                  (PP (IN WITH)
+                    (NP
+                      (NP (NNP THIS) (NNP LAUDABLE) (NNP CAUSE))
+                      (, ,)
+                      (NP (DT THE) (NNP UNITED)))))
+                (NNS STATES)))))))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP AGAIN) (NNP PROVOKING) (NNP ANGRY) (NNP REACTIONS))
+        (CC AND)
+        (NP (NNP DEEP) (NNP DISTRUST))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP SIDE) (NNPS EFFECTS))
+      (PP (IN OF)
+        (NP (NNP THIS) (NNP ACTION))))
+    (VP (VBD COULD)
+      (S
+        (VP (VB BE)
+          (NP
+            (NP (NNP VERY) (NNP NEGATIVE))
+            (PP (IN FOR)
+              (NP (DT THE) (NNP STRUGGLE) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING))))))
+      (, ,)
+      (PP (IN IN)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (NP
+              (NP (NNP ALL) (DT THE) (NNP COUNTRIES))
+              (PP (IN OF)
+                (NP (NNP THIS) (NNP CONTINENT))))
+            (VP (MD SHOULD)
+              (VP (VB BE)
+                (NP (NNP COOPERATING))))))))
+    (. .)))
+
+(ROOT
+  (SQ
+    (ADVP (NNP ALTERNATIVELY))
+    (, ,) (VBD WOULD)
+    (NP (PRP IT))
+    (VP (VB BE)
+      (S
+        (ADJP (JJ BETTER))
+        (SBAR (IN IF)
+          (S
+            (NP (NNP THEY) (NNP DID) (NNP NOT))
+            (VP (VBP COOPERATE)
+              (PP (IN IN)
+                (NP (NNP THIS) (NNP PHASE))))))))
+    (. ?)))
+
+(ROOT
+  (SQ
+    (SBAR
+      (S
+        (VP (VBD COULD)
+          (S
+            (NP (PRP IT))
+            (VP (VB BE)
+              (NP
+                (NP (NNP THAT))
+                (SBAR
+                  (WHNP (WDT WHAT))
+                  (S
+                    (NP (NNP WE))
+                    (VP (VBP HAVE)
+                      (VP (VBN CALLED)
+                        (NP
+                          (NP (NNP IMPERIALISTIC) (NNP CLUMSINESS))
+                          (, ,)
+                          (NP (NNP INSENSIBILITY))
+                          (, ,)
+                          (CC AND)
+                          (NP (NN ABUSE)))))))))))))
+    (, ,) (VBZ IS)
+    (NP (NNP SIMPLY))
+    (NP
+      (NP (DT A) (NNP DELIBERATE) (NNP STRATEGY))
+      (SBAR
+        (WHPP (IN WITH)
+          (WHNP (WDT WHICH)))
+        (S (, ,)
+          (PP
+            (NP (NNS PERHAPS))
+            (IN FOR)
+            (NP
+              (NP
+                (NP (NNP WELL) (NNP FOUNDED) (NNP REASONS)
+                  (CC AND)
+                  (NNP EVEN) (NNP AT))
+                (NP (DT THE) (NN RISK)))
+              (PP (IN OF)
+                (NP (NNP DIPLOMATIC) (NNPS CONFLICTS)))))
+          (, ,)
+          (NP (DT THE) (NNP UNITED) (NNS STATES))
+          (VP (VBZ SEEKS)
+            (S
+              (VP (TO TO)
+                (VP (VB ISOLATE)
+                  (NP
+                    (NP (NNP LATIN) (NNP AMERICA))
+                    (PP (IN ON)
+                      (NP (NNP PURPOSE)
+                        (CC AND)
+                        (NNP THUS) (NNP ENSURE)))))))))))
+    (NP
+      (NP (DT THE) (NNS SUCCESS))
+      (PP (IN OF)
+        (NP (NNP ITS) (NNP OPERATION))))
+    (. ?)))
+
+(ROOT
+  (S
+    (SBAR (IN IF)
+      (S
+        (NP (NNS THIS))
+        (VP (VBP WERE)
+          (NP (DT THE) (NN CASE)))))
+    (NP (NNP THEN) (NNP WE))
+    (VP (VBD MUST)
+      (NP (NNP ASK))
+      (, ,)
+      (ADVP (WRB WHY)))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP FROM) (NNP ITS) (NNP OPERATIONS))
+      (PP (IN IN)
+        (NP
+          (NP (NNP PANAMA)
+            (CC AND)
+            (NNP COLOMBIA))
+          (, ,)
+          (NP (DT THE) (NNP UNITED) (NNS STATES)))))
+    (VP (VBZ IS)
+      (NP (NNP TELLING) (NNP US) (NNP THAT))
+      (SBAR
+        (S
+          (NP (PRP IT))
+          (VP (VBZ IS)
+            (NP (NNP NOT) (NNP CONCERNED))
+            (PP (IN WITH)
+              (NP
+                (NP (DT THE) (NNP DIPLOMATIC) (NNP ASPECT))
+                (PP (IN FOR)
+                  (NP (DT THE) (NNP TIME)))))
+            (VP (VBG BEING))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP UNITED) (NNS STATES))
+    (VP (VBZ WANTS)
+      (NP (NNP ACTION)
+        (CC AND)
+        (NNP EFFICIENCY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP UNITED) (NNS STATES))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP LOSING) (NNP ITS) (NNP PATIENCE))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP PERHAPS) (NNP ITS) (NNP CONFIDENCE))
+          (PP (IN IN)
+            (NP (DT THE) (NNP SERIOUSNESS)
+              (CC AND)
+              (NNP CAPABILITY)))
+          (PP (IN OF)
+            (NP (NNP LATIN) (NNP AMERICA)))))
+      (PP (TO TO)
+        (NP (NNP FACE) (NNP THIS) (NNP WAR))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR (IN IF)
+      (S
+        (NP
+          (NP (DT THE) (NNP ACTION))
+          (PP (IN IN)
+            (NP (NNP COLOMBIA))))
+        (VP (VBZ GOES)
+          (NP (NNP FURTHER))
+          (PP (IN THAN)
+            (NP (DT A) (NNP MERE) (NNP SURVEILLANCE))))))
+    (, ,)
+    (NP (DT THE) (NNP UNITED) (NNS STATES))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (S
+          (VP (VBG ESTABLISHING)
+            (NP
+              (NP (DT A) (NN PRECEDENT))
+              (PP (IN IN)
+                (NP (NNP THIS) (NNP BATTLE) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP MEANS) (NNP THAT) (NNP DURING) (NNP A) (NNP FIRST) (NNP PHASE))
+    (NP (DT THE) (NNP UNITED) (NNS STATES))
+    (VP (MD WILL)
+      (VP (VB CARRY)
+        (VP (NNP OUT)
+          (NP (DT A) (NNP MILITARY) (NNP OPERATION) (NNP BY) (NNP ITSELF)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG DURING)
+        (NP (DT A) (NNP SECOND) (NNP PHASE))))
+    (NP (PRP IT))
+    (VP (MD WILL)
+      (VP (VB DISCUSS)
+        (NP (NNP SECONDARY) (NNP SUBJECTS) (NNP BUT))
+        (PP (IN WITH)
+          (NP
+            (NP (NNP LESS) (NNP URGENCY))
+            (PP (IN IN)
+              (NP (DT THE) (NNP WAR) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP NEXT) (CD 15))
+      (NP (NNP FEBRUARY)))
+    (, ,)
+    (NP (NNP BUSH))
+    (VP (MD WILL)
+      (VP (VB MEET)
+        (PP (IN IN)
+          (NP
+            (NP (NNP CARTAGENA) (NNP DE) (NNP INDIAS))
+            (, ,)
+            (NP (NNP COLOMBIA))
+            (, ,)))
+        (PP (IN WITH)
+          (NP (PRP$ HIS)
+            (NAC
+              (NAC (NNP COLOMBIAN) (, ,) (NNP PERUVIAN) (, ,))
+              (CC AND)
+              (NAC (NNP BOLIVIAN)))
+            (NNS COUNTERPARTS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS PERHAPS))
+      (PP (IN ON)
+        (NP (NNP THAT) (NNP OCCASION) (NNP THEY))))
+    (VP (MD WILL)
+      (VP
+        (NP (NNP TALK) (NNP ABOUT))
+        (NP
+          (NP
+            (NP (DT THE) (NNP OTHER) (NNPS ASPECTS))
+            (PP (IN OF)
+              (NP (NNP THIS) (NNP WAR))))
+          (: :)
+          (NP
+            (NP (DT THE) (NNP REORGANIZATION))
+            (PP (IN OF)
+              (NP (DT THE) (NNP LOCAL) (NNPS ECONOMIES)))))
+        (PP (TO TO)
+          (NP
+            (NP
+              (NP (NNP END) (DT THE) (NNP DEPENDENCY))
+              (PP (IN ON)
+                (NP (NNP COCA) (NNPS PLANTATIONS))))
+            (, ,)
+            (NP
+              (NP (DT THE) (NNP RECOVERY))
+              (PP (IN OF)
+                (NP (NNP DRUG) (NNPS ADDICTS))))
+            (, ,)
+            (CC AND)
+            (NP
+              (NP (DT THE) (NNP CONSOLIDATION))
+              (PP (IN OF)
+                (NP (NNP GOVERNMENTS) (, ,) (NNP ETC.))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP DURING) (NNP THIS) (NNP CURRENT) (NNP PHASE))
+      (, ,)
+      (NP
+        (NP (NNP HOWEVER))
+        (, ,)
+        (NP (DT THE) (NNP UNITED) (NNS STATES))))
+    (VP (VBZ WISHES)
+      (PP (TO TO)
+        (NP (NNP ACT) (NNP ALONE))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WP WHO))
+    (SQ
+      (VP (VBZ KNOWS)
+        (S
+          (SBAR (IN IF)
+            (S
+              (NP (PRP IT))
+              (VP (VBZ IS)
+                (NP
+                  (NP (NNP BECAUSE))
+                  (PP (IN OF)
+                    (NP
+                      (NP
+                        (NP (NNP LATIN) (NNP AMERICA) (POS 'S))
+                        (NN LACK))
+                      (PP (IN OF)
+                        (NP (NNP UNDERSTANDING))))))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP AS) (NNP WE))
+      (VP (VBD SAID)
+        (NP (DT A) (NNP FEW) (NNP DAYS) (NNP AGO))))
+    (, ,)
+    (NP (DT THE) (NNP DRUG) (NNP TRAFFICKING) (NNP PROBLEM))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP CREATING) (NNP NEW) (NNP SITUATIONS))
+        (PP (IN IN)
+          (NP (NNP INTERNATIONAL) (NNP RELATIONS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP U.S.) (NN PROPOSAL))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP PROBABLY) (NNP SOMETHING) (NNP LIKE))
+        (: :)
+        (SQ (VBD COULD)
+          (NP (DT A) (NN WORLD) (NNP POWER))
+          (VP (VB LIKE)
+            (S
+              (NP (DT THE) (NNP UNITED) (NNS STATES))
+              (VP (VB CONTINUE)
+                (S
+                  (VP (TO TO)
+                    (VP (VB IGNORE)
+                      (S
+                        (NP (DT A) (NNP SERIOUS) (NNP PROBLEM) (NNP LIKE))
+                        (NP (DT THE)
+                          (NAC
+                            (NAC (NNP PRODUCTION) (, ,) (NNP DISTRIBUTION) (, ,))
+                            (CC AND)
+                            (NAC (NNP CONSUMPTION)
+                              (PP (IN OF)
+                                (NP (NNS DRUGS)))))
+                          (, ,) (NN MERELY))))))))
+            (PP (TO TO)
+              (NP
+                (NP (NNP AVOID) (NNP HARMING) (NNP LATIN) (NNP AMERICAN) (NNP SENSIBILITIES))
+                (, ,)
+                (NP
+                  (NP (NNS SENSIBILITIES))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNPS COUNTRIES) (NNP WHOSE) (NNPS GOVERNMENTS) (VBP ARE) (NNS ALWAYS))
+                      (VP (VBD MUDDLED)
+                        (PRT (RP UP))
+                        (PP (IN IN)
+                          (NP
+                            (NP (NNP USELESS) (NNP DIPLOMATIC))
+                            (CC AND)
+                            (NP (NNP BUREAUCRATIC) (NNPS PROCEDURES)
+                              (CC AND)
+                              (NNPS FRUITLESS) (NNP NEGOTIATIONS))))))))))))))
+    (. ?)))
+
+(ROOT
+  (S (CC AND)
+    (NP
+      (NP (NNP ALL) (NNP THIS) (NNP WHILE) (NNP A) (NNP LARGE) (NNP PART))
+      (PP (IN OF)
+        (NP
+          (NP (DT THE) (NNP DEVELOPED) (NN WORLD) (POS 'S))
+          (NNP POPULATION))))
+    (VP (VBZ IS)
+      (VP (VBG BECOMING)
+        (VP (VBN ADDICTED)
+          (PP (TO TO)
+            (NP (DT A) (NNP DEADLY) (NNP PRODUCT))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP UNITED) (NNS STATES) (NNP COULD) (NNP ALSO))
+      (VP (VB BE)
+        (NP (NNP ASKING) (NNP ITSELF))))
+    (: :)
+    (S
+      (VP (VB HAVE)
+        (S
+          (NP (DT THE) (NNP LATIN) (NNP AMERICAN) (NNP GOVERNMENTS) (NNP BEEN) (NNP ABLE))
+          (VP (TO TO)
+            (VP (VB SOLVE)
+              (NP (NNP THIS) (NNP SERIOUS) (NNP PROBLEM) (NNP BY) (NNP THEMSELVES)))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP (NNP CAN) (DT THOSE) (NNP GOVERNMENTS))
+    (VP (VBP STOP)
+      (NP
+        (NP (NNP DRUG) (NNP TRAFFICKING))
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP (PRP IT))
+            (VP (VBZ IS)
+              (NP
+                (NP (NNP KNOWN) (NNP THAT) (NNPS DRUGS)
+                  (CC AND)
+                  (NNP CORRUPTION) (NNP GO) (NNP HAND))
+                (PP (IN IN)
+                  (NP (NNP HAND))))))))
+      (: ;)
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (S
+            (PP (IN IN)
+              (NP (DT THE) (NNP PAST)
+                (CC AND)
+                (NNP PERHAPS)))
+            (PP (IN IN)
+              (NP (DT THE) (NNP PRESENT)))
+            (, ,)
+            (NP (NNP HIGH) (NNP RANKING) (NNP GOVERNMENT) (NNS OFFICIALS) (NNP HAVE) (NNP BEEN))
+            (VP (VBD LINKED)
+              (PP (IN WITH)
+                (NP (NNP THIS) (NNP ILLEGAL) (NN TRADE)))))
+          (CC AND)
+          (S
+            (VP (VBG PROTECTING)
+              (NP (DT THE) (NNP MEDELLIN) (NNP CARTEL) (NNPS CHIEFS)))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB WHY))
+      (S (, ,)
+        (PP (IN FOR)
+          (NP (NNP EXAMPLE)))
+        (, ,)
+        (NP (NNP AFTER) (NNP ALL) (NNP THIS))
+        (VP (VBZ HAS)
+          (ADVP (RB N'T)))))
+    (NP (DT THE) (NNP COLOMBIAN) (NNP GOVERNMENT))
+    (VP (VBD MANAGED)
+      (S
+        (VP (TO TO)
+          (VP (VB EXTRADITE)
+            (NP
+              (NP (DT THE) (NNP MAIN) (NNPS CHIEFS))
+              (PP (IN OF)
+                (NP (NNP THAT) (NNP CARTEL))))
+            (PP (TO TO)
+              (NP (DT THE) (NNP UNITED) (NNS STATES)))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP LET) (NNP US) (NNP RECALL))
+        (NP (DT THE) (NNP HORRIBLE) (NNP EXPLOSION)))
+      (PP (IN OF)
+        (NP (DT THE) (NNP COLOMBIAN) (NNP AIRLINER))))
+    (, ,)
+    (PP (IN IN)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (NP
+            (ADJP (JJR MORE)
+              (PP (IN THAN)
+                (NP (CD 100))))
+            (NNP PEOPLE))
+          (VP (VBD DIED)
+            (PRN (: ;)
+              (S
+                (NP (DT THE) (NNP BOMB) (NNP EXPLOSION))
+                (PP (IN IN)
+                  (NP (DT THE) (NNP SECRET) (NNP POLICE) (NNP HEADQUARTERS)))
+                (PP (IN IN)
+                  (NP (NNP BOGOTA))))
+              (: ;))
+            (NP
+              (NP (DT THE) (NN MURDER))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP MANY) (NNP JOURNALISTS))
+                  (SBAR
+                    (WHNP (WP WHO))
+                    (S
+                      (NP (NNP WERE) (NNP ENGAGED))
+                      (PP (IN IN)
+                        (NP (DT AN) (NNP HEROIC) (NNP WAR) (NNP AGAINST) (NNP DRUG) (NNP TRAFFICKING)))))
+                  (: ;)
+                  (CC AND)
+                  (NP (NNP MAINLY)))))))))
+    (, ,)
+    (NP
+      (NP (NNP LET) (NNP US) (NNP RECALL))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP EVER-PRESENT) (NNP DIFFICULTIES) (NNP THAT) (NNP MUST))
+          (VP (VB BE)))))
+    (VP (VBD FACED)
+      (SBAR
+        (WHADVP (WRB WHEN))
+        (S
+          (NP (DT THE) (NNP MEDELLIN) (NNP CARTEL) (NNP CHIEFS) (NNP MUST))
+          (VP (VB BE)
+            (NP (NNP PUNISHED)
+              (CC AND)
+              (NNP EXTRADITED))))))
+    (. .)))
+

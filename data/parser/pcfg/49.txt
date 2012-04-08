@@ -1,0 +1,446 @@
+(ROOT
+  (SINV
+    (S
+      (SBAR
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (S
+          (NP (NNP ACCORDING) (NNP TO) (NNP A) (NNP CLAIM) (NNP MADE))
+          (VP (VBP BY)
+            (NP
+              (NP
+                (NP (DT THE) (NN MINISTER))
+                (PP (IN OF)
+                  (NP (NNP INTERIOR) (, ,) (NNP MIGRATION))))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP (NNP JUSTICE))
+                (, ,)
+                (NP (NNP JUAN) (NNP CARLOS) (NNP DURAN)))))))
+      (, ,)
+      (NP (CD 1988))
+      (VP (VBD WAS)
+        (NP (DT A) (`` ``) (NNP POSITIVE) (NNP YEAR))))
+    (, ,) ('' '')
+    (VP (VBP BECAUSE)
+      (NP (DT THE) (NNP GOVERNMENT) (NNP MANAGED))
+      (S
+        (VP (TO TO)
+          (VP (VB SCORE)
+            (NP
+              (NP (NNS ACHIEVEMENTS))
+              (PP (IN IN)
+                (NP (DT THE) (JJ ECONOMIC) (NN AREA))))))))
+    (NP
+      (NP (NNP AS) (NNP WELL) (NNP AS))
+      (PP (IN IN)
+        (NP
+          (NP (NNP DEFENSE))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP DEMOCRATIC) (NNP SYSTEM) (NNP EXISTING))
+              (PP (IN IN)
+                (NP (NNP BOLIVIA))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NN MINISTER))
+      (VP (VBD REMARKED) (: :) (`` ``)
+        (S
+          (NP (PRP I))
+          (VP (VB BELIEVE)
+            (SBAR
+              (S
+                (NP (NNP THAT) (NNP IT))
+                (VP (VBD WAS)
+                  (NP
+                    (NP (DT A) (NN YEAR))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP FULL) (NNP ACCOMPLISHMENT))
+                        (, ,)
+                        (NP (DT A) (NNP VERY) (NNP POSITIVE)
+                          (CC AND)
+                          (NNP VERY) (NNP GOOD) (NNP YEAR) ('' ''))))))))))))
+    (: ;)
+    (S
+      (NP (PRP HE))
+      (VP (VBD ADDED)
+        (NP
+          (NP (NNP THAT) (NNP THE) (NNP MONTHS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP CURRENT) (NNP FISCAL) (NNP YEAR) (NNP REPRESENTED) (NNP PROGRESS))))
+        (PP (IN FOR)
+          (NP
+            (NP (DT THE) (NN GOVERNMENT))
+            (PP (IN IN)
+              (NP (NNP STATE) (NNP ADMINISTRATION) (NNP TASKS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD EXPLAINED)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP GREATER) (NNP CONSOLIDATION))
+          (VP (VBD WAS)
+            (VP (VBN ACHIEVED)
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (JJ ECONOMIC) (NN AREA))
+                  (, ,)
+                  (NP
+                    (NP (NNP MAKING) (NNP IT) (NNP POSSIBLE))
+                    (PP (IN FOR)
+                      (NP (DT THE) (NNP EFFORTS) (NNP INTENDED))))))
+              (S
+                (VP (TO TO)
+                  (VP (VB REINFORCE)
+                    (NP
+                      (NP (NNP BOLIVIA) (POS 'S))
+                      (JJ POLITICAL) (NN SYSTEM))
+                    (S
+                      (VP (TO TO)
+                        (VP (VB BE)
+                          (NP (NNP WELL) (NNP AIMED)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP HE))
+      (VP (VBD CLAIMED)
+        (SBAR
+          (S
+            (NP
+              (NP (NNP THAT) (NNP A) (NNP SYSTEM) (NNP SUCH) (IN AS) (DT THE) (NNP ONE))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP FORCE))
+                  (PP (IN IN)
+                    (NP (NNP OUR) (NNP NATION))))))
+            (VP (VBZ HAS)
+              (VP (VBN ENABLED)
+                (NP (DT THE) (NNS CITIZENS))
+                (S
+                  (VP (TO TO)
+                    (VP (VB ENJOY) (`` ``)
+                      (NP (NNP ABSOLUTE) (NNP FREEDOM)))))))))))
+    (, ,) ('' '')
+    (PRN
+      (S
+        (NP (NNP SOMETHING) (NNP THAT))
+        (VP (VBZ HAS)
+          (NP
+            (NP (NNP BEEN) (NNP UNDERSCORED) (NNP NOT) (NNP ONLY))
+            (PP (IN IN)
+              (NP (NNP OUR) (NNP COUNTRY)))))))
+    (, ,)
+    (S
+      (NP (NNP BUT))
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NNS NATIONS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP ENTIRE) (NNP WORLD) (NNP AS) (NNP WELL))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD NOTED)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP THE) (NNP GOVERNMENT))
+          (VP (VBZ HAS)
+            (S
+              (NP (NNP NOT) (NNP HAD))
+              (VP (TO TO)
+                (VP (VB RESORT)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB ANY)
+                        (NP (NNP UNUSUAL) (NNP ACTION) (NNP TO) (NNP DEFEND) (NNP DEMOCRACY))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD RECALLED)
+      (SBAR
+        (S
+          (NP (NNP MARTIAL) (NNP LAW) (NNP HAD) (NNP NOT) (NNP BEEN))
+          (VP (VBD ORDERED) (, ,)
+            (S
+              (VP (VBG ATTESTING)
+                (NP
+                  (NP (NNP TO) (NNP PROGRESS))
+                  (PP (IN IN)
+                    (NP (DT THE) (NNP NATIONAL) (NNP CONSCIOUSNESS))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP HE))
+      (VP (VBD COMMENTED) (: :) (`` ``)
+        (S
+          (NP (NNP BOLIVIA))
+          (VP (VBZ IS)
+            (NP
+              (NP (DT AN) (NNP EXEMPLARY) (NNP COUNTRY))
+              (PP (IN IN)
+                (NP
+                  (NP (NNS TERMS))
+                  (PP (IN OF)
+                    (NP (NNP FREEDOM))))))))))
+    (, ,) ('' '')
+    (NP (NNP STRESSING) (NNP THE) (NNP BENEFITS) (NNP THIS) (NNP NATION))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP EXPERIENCED) (NNP BY) (NNP HAVING) (NNP A) (NNP DEMOCRATIC) (NNP SYSTEM))
+        (PP (IN IN)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (NP (NN EVERYONE))
+              (VP (VBZ HAS)
+                (NP (DT AN) (NN OPPORTUNITY)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB DISAGREE)
+                        (NP (NNP EVEN))
+                        (PP (IN WITH)
+                          (NP (DT THE) (NNP EXECUTIVE) (NNP BRANCH)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD SAID)
+      (NP
+        (NP
+          (NP (NNP THAT))
+          (NP (DT THE) (NNS CITIZENS)))
+        (IN AS)
+        (NP
+          (NP (DT A) (NNP WHOLE) (NNP HAVE) (NNP FOUND) (NNP IT) (NNP NECESSARY))
+          (PP (IN FOR)
+            (NP (NNS RIGHTS)))))
+      (S
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP (NNP RECOGNIZED)
+              (CC AND)
+              (NNP OBLIGATIONS) (NNP ACCEPTED))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN FOR)
+      (NP (NNP THIS) (NNP REASON)))
+    (PRN (, ,)
+      (S
+        (NP (PRP HE))
+        (VP (VBD CLAIMED) (, ,)
+          (S
+            (NP (DT THE) (NNP PRESENT) (NNP GOVERNMENT) (NNP HAS) (NNP MADE) (NNP IT) (NNP POSSIBLE))
+            (VP (TO TO)
+              (VP (VB ACHIEVE)
+                (NP
+                  (NP (NNP STABILITY))
+                  (PP (IN IN)
+                    (NP
+                      (NP (DT THE) (NNP VARIOUS) (NNP FIELDS))
+                      (PP (IN OF)
+                        (NP (NNP ACTIVITY)))))))))))
+      (, ,))
+    (NP (NNP SOMETHING) (NNP THAT))
+    (VP (MD WILL)
+      (VP (VB HAVE)
+        (NP
+          (ADJP (RB FAR) (JJR MORE))
+          (NNP VISIBLE) (NNPS EFFECTS))
+        (PP (IN IN)
+          (NP (DT THE) (NNP NEAR) (NNP FUTURE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP DRUG) (NNP TRAFFICKING) (NNP WITH) (NNP REGARD) (NNP TO) (NNP THE) (NNP BATTLE))
+      (VP (VBP AGAINST)
+        (NP (DT THE) (NNP DRUG) (NNP TRAFFIC))))
+    (, ,)
+    (NP (PRP HE))
+    (VP (VBD CITED)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP WORK) (NNP PERFORMED) (NNP BY) (NNP THE) (NNP SPECIAL))
+          (VP (VBZ FORCES)
+            (S
+              (VP (TO TO)
+                (VP (VB BATTLE)
+                  (NP
+                    (NP (NNP DRUG) (NNP TRAFFICKING) (NNP WHICH))
+                    (, ,)
+                    (VP (VBG ACCORDING)
+                      (S
+                        (VP (TO TO)
+                          (VP (VB HIS)
+                            (NP
+                              (NP (NN ACCOUNT))
+                              (, ,)
+                              (NP
+                                (NP (NNP DESTROYED) (NNP HUNDRED))
+                                (PP (IN OF)
+                                  (NP (NNP COCAINE) (NNP FACTORIES)
+                                    (CC AND)
+                                    (NNP PROCESSING) (NNP PITS))))
+                              (, ,))
+                            (PP (IN IN)
+                              (NP (NNP ADDITION) (NNP TO) (NNP CONFISCATING) (NNP DRUGS)
+                                (CC AND)
+                                (NNP ARRESTING) (NNPS PERSONS) (NNP LINKED)))
+                            (PP (IN WITH)
+                              (NP (NNP THEIR) (NNP PRODUCTION) (NNP OR) (NNP ILLICIT) (NNP TRAFFICKING)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HE) (NNP DECLARED) (NNP THAT))
+    (, ,)
+    (PP (IN DESPITE)
+      (NP (NNP ITS) (NNP ECONOMIC)
+        (CC AND)
+        (NNP TECHNICAL) (NNP LIMITATIONS)))
+    (, ,)
+    (NP (NNP BOLIVIA))
+    (VP (VBZ HAS)
+      (VP (VBN MANAGED)
+        (S
+          (VP (TO TO)
+            (VP (VB RESPOND)
+              (S
+                (VP (TO TO)
+                  (VP (VB THE)
+                    (S
+                      (NP (NNP INTERNATIONAL) (NNP CONFIDENCE)
+                        (CC AND)
+                        (NNP TO) (NNP FOSTER))
+                      (NP (DT A) (NNP CONSCIOUSNESS) (NNP AIMED) (NNP AT))
+                      (S
+                        (VP (VBG IMPROVING)
+                          (NP
+                            (NP (DT THE) (NNS METHODS))
+                            (PP (IN FOR)
+                              (NP (NNP COMBATING) (NNP DRUG) (NNP TRAFFICKERS)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ROBBERY) (NNP THE) (NNP MINISTER) (NNP ANNOUNCED))
+    (VP (VBD THAT)
+      (S
+        (NP (DT THE) (NNP SANTA) (NNP CRUZ) (NNP POLICE) (NNP HAD) (NNP MOBILIZED))
+        (PP (IN IN)
+          (NP (DT A) (`` ``) (NNP COMBING) (NNP OPERATION))))
+      (, ,) ('' '')
+      (S
+        (VP (TO TO)
+          (VP (VB FIND)
+            (NP
+              (NP (DT THE) (NNS PERPETRATORS))
+              (PP (IN OF)
+                (NP
+                  (NP (DT THE) (NN ROBBERY))
+                  (PP (IN OF)
+                    (NP
+                      (NP (DT A) (NNP CAR))
+                      (PP (IN ON)
+                        (NP
+                          (NP (DT THE) (NN TRACK))
+                          (PP (IN OF)
+                            (NP (DT THE) (NNP EASTERN) (NNP RAILROAD) (NNP SYSTEM) (NNP FROM)))))))))
+              (SBAR
+                (WHNP (WDT WHICH))
+                (S
+                  (NP
+                    (NP (CD 130,000) (NNS BOLIVIANOS))
+                    (, ,)
+                    (VP (VBN INTENDED)
+                      (S
+                        (VP (TO TO)
+                          (VP (VB PAY)
+                            (NP (NNP CHRISTMAS) (NNP BONUSES))))))
+                    (, ,))
+                  (VP (VBD WAS)
+                    (NP (NNP STOLEN))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP THAT) (NNP THE) (NNP ARMED) (NNP FORCES)
+              (CC AND)
+              (NNP POLICE) (NNP WERE) (NNP STILL))
+            (VP (VBG COMPLYING)
+              (PP (IN WITH)
+                (NP (NNP INSTRUCTIONS)))
+              (S
+                (VP (TO TO)
+                  (VP (VB ERADICATE)
+                    (NP (DT THE) (NN CRIME) (NN THAT)))))))
+          (VP (VBZ HAS)
+            (NP
+              (NP (NNP BEEN) (NNP OCCURRING))
+              (PP (IN ON)
+                (NP
+                  (NP (DT A) (NNP LARGE) (NNP SCALE))
+                  (VP (VBG DURING)
+                    (NP
+                      (NP
+                        (NP (JJ RECENT) (NNS MONTHS))
+                        (PP (IN IN)
+                          (NP
+                            (NP (DT THE) (NN CITY))
+                            (PP (IN OF)
+                              (NP (NNP SANTA) (NNP CRUZ))))))
+                      (, ,)
+                      (CC AND)
+                      (NP
+                        (NP (NNP TO) (NNP BENEFIT))
+                        (NP (DT THE) (NNP EASTERN) (NNP POPULATION))))
+                    (PP (IN WITH)
+                      (NP (NNP PROTECTION)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD EXPLAINED)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP THE) (NNP POLICE) (NNP HAVE) (NNP BEEN) (NNP TAKING) (NNP STATEMENTS) (NNP FROM))
+          (VP (VBZ INDIVIDUALS)
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (NP (NNP MAY) (NNP HAVE) (NNP SEEN) (NNP THE) (NNP HOLDUP) (NNP MEN) (NNP AT) (NNP CLOSE))
+                (VP (VBP RANGE) (, ,)
+                  (S
+                    (NP (NNP SO) (NNP AS))
+                    (VP (TO TO)
+                      (VP (VB CAPTURE)
+                        (NP (NNP THEM) (NNP PROMPTLY))))))))))))
+    (. .)))
+

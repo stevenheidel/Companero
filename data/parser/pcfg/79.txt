@@ -1,0 +1,177 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (DT THE) (NNP NICARAGUAN) (NNP FOREIGN) (NNP MINISTRY))
+        (VP (VBZ HAS)
+          (VP (VBN DENIED)
+            (SBAR
+              (S
+                (NP (DT THE) (NNP CHARGES) (NNP THAT) (NNP THE) (NNP HONDURAN) (NNP GOVERNMENT))
+                (VP (VBZ HAS)
+                  (NP
+                    (NP (NNP LEVELED) (NNP AGAINST) (NNP THE) (NNP NICARAGUAN) (NNP EMBASSY))
+                    (PP (IN IN)
+                      (NP
+                        (NP (NNP TEGUCIGALPA))
+                        (VP (VBG REGARDING)
+                          (NP (DT THE) (CD 7) (NNP JANUARY) (NNP ASSASSINATION))
+                          (PP (IN IN)
+                            (NP
+                              (NP (NNP TEGUCIGALPA))
+                              (PP (IN OF)
+                                (NP
+                                  (NP (NNP MANUEL) (NNP RUGAMA))
+                                  (, ,)
+                                  (NP (NNP KNOWN) (IN AS) (NNP COMMANDER) (NNP AURELIANO)))))))))))))))))
+    (, ,)
+    (NP (DT THE) (NNP SECOND) (NNP IN))
+    (VP (VBD COMMAND)
+      (PP (IN OF)
+        (NP (DT THE) (NNS COUNTERREVOLUTIONARIES)))
+      (PP (IN IN)
+        (NP (NNP HONDURAS))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (NP
+      (NP (NNP HONDURAN) (NNP NATIONAL) (NNP POLICE))
+      (PP (IN ON)
+        (NP (NNP MONDAY) (NNP PRESENTED) (NNP TO) (NNP THE) (NNP PRESS) (NNP HONDURAN) (NNP JUAN) (NNP BAUTISTA) (NNP NUNEZ) (NNP AMADOR)
+          (CC AND)
+          (NNP NICARAGUAN) (NNP LUIS) (NNP FERNANDO) (NNP ORDONEZ) (NN REYES)))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD TOLD)
+            (SBAR
+              (S
+                (NP (NNP REPORTERS) (NNP THAT) (NNP COMMANDER) (NNP AURELIANO))
+                (VP (VBD WAS)
+                  (VP (VBN ASSASSINATED)
+                    (PRT (RP ON))))))))))
+    (VP (VBZ ORDERS))
+    (NP
+      (NP (NNP FROM) (NNP JOSE) (NNP DE) (NNP JESUS) (NNP PENA))
+      (, ,)
+      (NP
+        (NP (DT THE) (NNP NICARAGUAN) (NNP EMBASSY) (NNP CHIEF))
+        (PP (IN OF)
+          (NP (NNP SECURITY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP MERCEDES) (NNP BORGE))
+      (, ,)
+      (NP
+        (NP (NNP PRESS) (NNP DIRECTOR) (NNP AT))
+        (NP (DT THE) (NNP NICARAGUAN) (NNP FOREIGN) (NNP MINISTRY)))
+      (, ,))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THERE))
+          (VP (VBZ IS)
+            (NP
+              (NP
+                (NP (DT NO) (NNP JOSE) (NNP DE) (NNP JESUS) (NNP PENA) (NNP EMPLOYED) (NNP AT) (NNP THE) (NNP NICARAGUAN) (NNP EMBASSY))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP TEGUCIGALPA)
+                      (CC AND)
+                      (NNP THAT) (NNP AURELIANO) (POS 'S))
+                    (NNP ASSASSINATION) (NNP WAS) (NNP PERPETRATED) (NNP BY) (NNP THREE) (NNP INDIVIDUALS)
+                    (CC AND)
+                    (NNP NOT) (NN TWO))))
+              (, ,)
+              (NP (IN AS)
+                (NP (DT THE) (NNP HONDURAN) (NNP POLICE) (NNP CLAIM))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP BORGE))
+      (VP (VBD SAID)
+        (S
+          (NP (NNP THAT) (NNP WHILE) (NNP NICARAGUA) (NNP MAKES) (NNPS SERIOUS)
+            (CC AND)
+            (NNP FORMAL) (NNP PROPOSALS))
+          (VP (TO TO)
+            (VP (VB ADVANCE)
+              (NP (NNP PEACE) (NNP EFFORTS)))))))
+    (, ,)
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP WORRISOME) (NNP THAT) (NNP HONDURAN))
+        (SBAR
+          (S
+            (NP (NNP MILITARY) (NNP PERSONNEL))
+            (VP (VBP ARE)
+              (VP (VBG CREATING)
+                (S
+                  (NP (NNP SITUATIONS) (NNP THAT) (NNP COULD) (NNP UNLEASH) (NNP CONFLICTS) (NNP BETWEEN))
+                  (NP (DT THE) (CD TWO) (NNS COUNTRIES)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP THERE) (NNP HAVE) (NNP ALREADY) (NNP BEEN) (NNP TWO))
+      (VP (VBZ ATTACKS)
+        (PRT (RP ON))
+        (NP
+          (NP (DT THE) (NNP NICARAGUAN) (NNP EMBASSY))
+          (PP (IN IN)
+            (NP (NNP TEGUCIGALPA))))))
+    (, ,)
+    (NP (NNP BORGE))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SHE) (NNP ADDED))
+    (VP (VBD THAT)
+      (NP (DT THE) (NNP HONDURAN) (NNP POLICE) (NNP REPORT) (NNP CONFLICTS))
+      (PP (IN WITH)
+        (NP (DT THE) (NNP AUTOPSY) (NNP REPORT)))
+      (, ,)
+      (ADJP (JJ BECAUSE)
+        (PP (IN IN)
+          (NP (PRP$ HIS) (NN STATEMENT))))
+      (, ,)
+      (FRAG
+        (NP
+          (NP (NNP NUNEZ) (NNP AMADOR) (NNP REFERRED) (NNP TO) (NNP ONLY))
+          (NP (DT A) (CD .38)))
+        (: -)
+        (NP
+          (NP (NNP CALIBER) (NNP REVOLVER)
+            (CC AND)
+            (NNP A) (NNP .45))
+          (: -)
+          (NP (NNP CALIBER) (NNP PISTOL))))
+      (, ,)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (NP (NNP WERE) (NNP NOT))
+          (VP (VBD FOUND)
+            (PRT (RP ON))
+            (NP
+              (NP
+                (NP (NNP RUGAMA) (POS 'S))
+                (NNP BODY) (NNP OR))
+              (PP (IN IN)
+                (NP (PRP$ HIS) (NN VEHICLE))))))))
+    (. .)))
+

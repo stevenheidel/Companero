@@ -1,0 +1,94 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (DT THE) (NNP NATIONAL) (NNP ARMY))
+        (VP (VBD WAS)
+          (VP (VBN INVOLVED)
+            (PP (IN IN)
+              (NP (NNP NEW) (NNP CLASHES) (NNP WITHIN)))))))
+    (NP (DT THE) (NNP PAST) (NNP FEW))
+    (VP (VBZ HOURS)
+      (PP (IN WITH)
+        (NP
+          (NP
+            (NP
+              (NP
+                (NP (NNP FARC))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NNP REVOLUTIONARY) (NNP ARMED) (NNP FORCES))
+                    (PP (IN OF)
+                      (NP (NNP COLOMBIA))))
+                  (-RRB- -RRB-)))
+              (CC AND)
+              (NP (DT THE) (NNP ELN)))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP ARMY))
+                (PP (IN OF)
+                  (NP (NNP NATIONAL) (NNP LIBERATION))))
+              (-RRB- -RRB-)))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (JJ RURAL) (NN AREA))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP YONDO))
+                  (PP (IN IN)
+                    (NP
+                      (NP (NNP ANTIOQUIA) (POS 'S))
+                      (NNP MIDDLE) (NNP MAGDALENA) (NNP REGION))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SPOKESMEN))
+      (PP (IN FOR)
+        (NP (DT THE) (CD 5TH) (NNP BRIGADE) (NNP REPORTED) (CD 5))))
+    (VP (VBZ SOLDIERS)
+      (NP
+        (NP
+          (NP (NNP KILLED))
+          (, ,)
+          (NP (NNP SEVERAL) (NNP WOUNDED)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP AT) (NNP LEAST))
+          (NP (CD 12) (JJ REBEL) (NNS CASUALTIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNS EXODUS))
+      (PP (IN OF)
+        (NP (NNP PEASANTS) (NNP FROM) (NNP THAT) (NNP REGION))))
+    (VP (VBD CONTINUED)
+      (S
+        (VP (TO TO)
+          (VP (VB INCREASE)
+            (S
+              (NP (NNP TODAY) (NNP ACCORDING))
+              (VP (TO TO)
+                (VP (VB OFFICIAL)
+                  (NP (NNS REPORTS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP PEASANTS) (NNP WALKED) (NNP AWAY) (NNP FROM) (NNP THEIR) (NNPS PROPERTIES) (NNP TO))
+    (VP (VBD AVOID)
+      (S
+        (VP (VBG BECOMING)
+          (NP
+            (NP (NNS VICTIMS))
+            (PP (IN OF)
+              (NP (DT THE) (NNS CLASHES)))))))
+    (. .)))
+

@@ -1,0 +1,292 @@
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP
+          (PRN (-LRB- -LRB-)
+            (NP (NNP TEXT))
+            (-RRB- -RRB-))
+          (NNP ELITE) (NNP UNITS))
+        (PP (IN OF)
+          (NP (DT THE) (NNP GUATEMALAN) (NNP ARMY) (NNP THIS) (NNP AFTERNOON) (NNP BEGAN) (NNP TO))))
+      (VP (VBD SURROUND)
+        (NP
+          (NP (NNP PAVON) (NNP PRISON))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBP SINCE)
+                (NP (CD 26) (NNS MARCH))))))))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNS HANDS))
+            (PP (IN OF)
+              (NP (NNP SOME) (CD 200) (NNS PRISONERS)))))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBP ARE)
+              (VP (VBG HOLDING)
+                (NP (JJR MORE))
+                (PP (IN THAN)
+                  (NP (CD 500)))))))))
+    (NP (NNP PEOPLE) (NNP HOSTAGE))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP UNITS) (NNP WERE) (NNP DEPLOYED) (NNP TO) (NNP PAVON))
+      (, ,)
+      (NP
+        (NP (CD 30) (NNP KM) (NNP SOUTHEAST))
+        (PP (IN OF)
+          (NP (DT THE) (NNP GUATEMALAN) (NNP CAPITAL))))
+      (, ,))
+    (VP (VBZ TO)
+      (NP
+        (NP (NNP APPLY) (NNP PRESSURE))
+        (PP (IN ON)
+          (NP
+            (NP (DT THE) (NNS PRISONERS))
+            (, ,)
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (NP (NNP TODAY))
+                (VP (VBD REFUSED)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB SIGN)
+                        (NP (DT A) (NNP DOCUMENT) (NNP CONTAINING) (NNPS GUARANTEES) (NNP DRAFTED) (NNP BY) (NNP THE) (NNP MEDIATION) (NNP COMMISSION))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP INSTEAD))
+        (, ,)
+        (NP (DT THE) (NNP PRISONERS) (NNP PRESENTED) (NNP A) (NNP COUNTERPROPOSAL) (NNP TO) (NNP THE) (NNP MEDIATION) (NNP COMMISSION)))
+      (PRN (: --)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (VP (VBD WAS)
+              (VP (VBN ESTABLISHED)
+                (S
+                  (NP (NNP BY) (NNP PRESIDENT) (NNP VINICIO) (NNP CEREZO) (NNP HIMSELF) (NNP TO))
+                  (`` ``)
+                  (NP (NNP PREVENT) (NNP BLOODSHED))
+                  ('' ''))))))
+        (: --))
+      (NP (NNP SEVERAL) (NNP COMMISSION) (NNP MEMBERS)))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP AS) (NNP THEY))
+          (VP (VBP LEFT)
+            (NP (DT THE) (JJ PENAL) (NN CENTER))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP POSSIBLE) (NNP PEACEFUL) (NNP SOLUTION) (NNP THAT))
+    (VP (VBD WAS)
+      (VP (VBN HOPED)
+        (PP (IN FOR)
+          (NP
+            (NP (NNP YESTERDAY) (NNP IS) (NNP AGAIN) (`` ``) (JJ ON) (JJ HOLD) ('' '') (NNP TODAY) (NNP BECAUSE))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP REBELS) (POS '))
+                (NNP REFUSAL)))))
+        (S
+          (VP (TO TO)
+            (VP (VB SIGN)
+              (NP (DT THE) (NN DOCUMENT)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HUMAN) (NNP RIGHTS) (NNP ATTORNEY) (NNP GENERAL) (NNP GONZALO) (NNP MENENDEZ))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (`` ``) (NNP THE) (NNP SOLUTION) (NNP TO) (NNP THE) (NNP PROBLEM))
+          (VP (VBZ IS)
+            (NP
+              (NP (NNP AGAIN) (NNP AT) (NNP AN) (NNP IMPASSE))
+              (, ,)
+              (NP
+                (NP (NNP BECAUSE) (NNP THE) (NNP GOVERNMENT) (NNP MINISTER) (NNP MUST) (NNP ANALYZE))
+                (NP
+                  (NP (DT THE) (NNP PRISONERS) (POS '))
+                  (NN PROPOSAL))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN UPRISING))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP WHICH) (NNP BEGAN) (NNP AT) (NNP 1100))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP 1700) (NNP GMT))
+            (-RRB- -RRB-)))
+        (PP (IN ON)
+          (NP (CD 26) (NNP MARCH)
+            (CC AND)
+            (NNP WHICH) (NNP INCLUDES) (NNS DEMANDS)))
+        (PP (IN FOR)
+          (NP (NNP BETTER) (NNP JAIL) (NNP CONDITIONS))))
+      (, ,))
+    (VP (VBZ HAS)
+      (NP
+        (NP
+          (NP (NNP LEFT) (NNP AT) (NNP LEAST) (CD 12))
+          (NP (NNP DEAD)
+            (CC AND)
+            (NNP SOME) (CD 20) (NNP INJURED)))
+        (, ,)
+        (VP (VBG ACCORDING)
+          (S
+            (VP (TO TO)
+              (VP (VB POLICE)
+                (NP (NNP SPOKESMEN))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP SOME) (CD 150) (NNP HONOR) (NNP GUARD) (NNP MEMBERS))
+    (, ,)
+    (NP (`` ``)
+      (NP
+        (NP (NNP ALL) (NNP EXPERTS))
+        (PP (IN IN)
+          (NP (NNP DISORDERS)
+            (CC AND)
+            (NNP UPRISINGS))))
+      (, ,) ('' '')
+      (NP
+        (NP (NNP HAVE) (NNP BEEN) (NNP POSITIONED) (NNP NEAR) (NNP THE) (NNP PRISON))
+        (SBAR
+          (S
+            (PP (IN UNDER)
+              (NP
+                (NP (DT THE) (NN COMMAND))
+                (PP (IN OF)
+                  (NP (DT A) (NNP LIEUTENANT) (NNP COLONEL)
+                    (CC AND)
+                    (NNP FIVE) (NNP OTHER) (NNP OFFICERS)))))
+            (, ,)
+            (NP (NNP ACCORDING) (NNP TO) (NNP STATEMENTS))
+            (VP (VBP MADE)
+              (S
+                (VP (TO TO)
+                  (VP (VB ACAN-EFE)
+                    (NP
+                      (NP (NNP BY) (NNP A) (NNP TOP) (NNP MILITARY) (NNP OFFICER))
+                      (, ,)
+                      (SBAR
+                        (WHNP (WP WHO))
+                        (S
+                          (VP (VBD ASKED)
+                            (S
+                              (VP (TO TO)
+                                (VP (VB REMAIN)
+                                  (NP (NNS ANONYMOUS)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ASSAULT) (NNP TROOPS))
+    (VP (VBP ARE)
+      (VP (VBN ARMED)
+        (PP (IN WITH)
+          (NP
+            (NP (NNS BATONS))
+            (, ,)
+            (NP
+              (NP
+                (NP (NNP TEAR) (NNP GAS))
+                (, ,)
+                (NP (NNP GAS) (NNP MASKS))
+                (, ,))
+              (CC AND)
+              (NP (NNS MACHINEGUNS)))))))
+    (. .)))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP MY) (NNP MEN))
+      (VP (VBP ARE)
+        (ADJP (JJ CAPABLE)
+          (PP (IN OF)
+            (S
+              (VP (VBG DEALING)
+                (PP (IN WITH)
+                  (NP
+                    (NP (NNP DISORDERS)
+                      (CC AND)
+                      (NNP HAVE) (NNP BEEN) (NNP PREPARED))
+                    (PP (IN FOR)
+                      (NP (NNP CASES) (NNP SUCH) (IN AS) (NNP THIS) (NNP ONE)))))))))))
+    (, ,) ('' '')
+    (NP (DT THE) (NNP MILITARY) (NNP CHIEF))
+    (VP (VBD SAID))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP REBELLIOUS) (NNP PRISONERS))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (NP
+            (NP (NNP HAVE) (NNP CONTROL))
+            (PP (IN OF)
+              (NP
+                (NP (CD 65) (NN PERCENT))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP PRISON) (NNP INSTALLATIONS) (, ,) (NNP REMAIN) (NNP INFLEXIBLE)
+                    (CC AND)
+                    (NNP REFUSE))))))
+          (VP (TO TO)
+            (VP (VB RELEASE)
+              (NP (DT THE) (NNP HOSTAGES)
+                (CC AND)
+                (NNP LAY) (NNP DOWN) (NN THEIR)))))))
+    (VP (VBZ WEAPONS))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN DESPITE)
+      (NP
+        (NP (DT THE) (NNP MEDIATING) (NNP COMMISSION) (POS 'S))
+        (NNP OPTIMISM)))
+    (, ,)
+    (NP (NNP AFTER) (CD 72))
+    (VP (VBZ HOURS)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP REBELLIOUS) (NNP PRISONERS))
+          (VP (VBD PRESENTED)
+            (NP
+              (NP (DT A) (JJ NEW) (NN PROPOSAL))
+              (SBAR
+                (S
+                  (NP (NNP TODAY) (NNP AT) (NNP NOON) (, ,) (NNP HUMAN) (NNS RIGHTS) (NNP ATTORNEY) (NNP GENERAL) (NNP GONZALO) (NNP MENENDEZ))
+                  (VP (VBD SAID)))))))))
+    (. .)))
+

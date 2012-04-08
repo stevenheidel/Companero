@@ -1,0 +1,99 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (ADJP
+        (NP (CD TWO) (NNS VEHICLES))
+        (JJ WERE)))
+    (VP (VBD DESTROYED)
+      (NP (CC AND)
+        (NP
+          (NP (DT AN) (NNP UNIDENTIFIED) (NNP OFFICE))
+          (PP (IN OF)
+            (NP (DT THE) (NNP AGRICULTURE))))
+        (CC AND)
+        (NP
+          (NP (NNP LIVESTOCK) (NNP MINISTRY) (NNP WAS) (NNP HEAVILY) (NNP DAMAGED))
+          (VP (VBG FOLLOWING)
+            (NP
+              (NP (DT THE) (NN EXPLOSION))
+              (PP (IN OF)
+                (NP (CD TWO) (NNP BOMBS) (NNP YESTERDAY) (NNP AFTERNOON))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP NATIONAL) (NNP FIRE) (NNP DEPARTMENT) (NNP REPORTED))
+      (VP (VBP THAT)
+        (S
+          (VP (VBG FOLLOWING)
+            (NP (DT THE) (NNP EXPLOSIONS) (NNP AT) (NNP 1830))))))
+    (, ,)
+    (NP (DT A) (NNP FIRE) (NNP ERUPTED) (NNP THAT) (NNP PARTIALLY))
+    (VP (VBD DESTROYED)
+      (NP
+        (NP (DT AN) (NNP UNIDENTIFIED) (NNP OFFICE))
+        (PP (IN IN)
+          (NP (NNP THE) (NNP AGRICULTURE)
+            (CC AND)
+            (NNP LIVESTOCK) (NNP MINISTRY) (NNP BUILDING)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP REPORTED) (NNP THAT))
+        (SBAR
+          (S
+            (NP
+              (NP (CD TWO) (NNS VEHICLES))
+              (PP (IN IN)
+                (NP (DT THE) (NN AREA))))
+            (VP (VBP WHERE)
+              (NP
+                (NP (DT THE) (NNP BOMBS) (NNP WERE) (NNP DETONATED) (NNP WERE) (NNP DESTROYED)
+                  (CC AND)
+                  (NNP SEVERAL) (NNP HOUSES))
+                (PP (IN IN)
+                  (NP (DT THE) (NNP AREA) (NNP WERE) (NNP DAMAGED)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DAMAGED) (NNP OFFICES))
+    (VP (VBP ARE)
+      (NP
+        (NP (NNP LOCATED) (NNP AT) (NNP 123) (NNP A) (NNP AVENUE))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP SAN) (NNP JOSE) (NNP NEIGHBORHOOD))
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NNP WESTERN) (NN SECTION))
+                (PP (IN OF)
+                  (NP (NNP SAN) (NNP SALVADOR)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP FORTUNATELY) (, ,) (NNP THERE))
+    (VP (VBP WERE)
+      (NP
+        (NP (DT NO) (NNP CASUALTIES) (NNP REPORTED) (IN AS) (DT A) (NNP RESULT))
+        (PP (IN OF)
+          (NP (NNP THIS) (NNP INCIDENT)))
+        (, ,)
+        (PP (IN FOR)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (NP (DT THE) (NNP FMLN) (NNP GUERRILLAS))
+              (VP (VBP ARE)
+                (VP (VBG BEING)
+                  (VP (VBN HELD)
+                    (ADVP (RB RESPONSIBLE))))))))))
+    (. .)))
+

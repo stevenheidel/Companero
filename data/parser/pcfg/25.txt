@@ -1,0 +1,149 @@
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP COMMUNIQUE) (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP NATIONAL) (NNP REVOLUTIONARY) (NNP MOVEMENT))
+          (, ,)
+          (NP (NNP MNR))
+          (-RRB- -RRB-)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-)))
+    (NP
+      (NP (DT THE) (NNP MNR) (NNP REPORTS) (NNP THE) (NNP DISAPPEARANCE)
+        (CC AND)
+        (NNP KIDNAPPING))
+      (PP (IN OF)
+        (NP
+          (NP (NNP MNR) (NNP ASSISTANT) (NNP SECRETARY) (NNP GENERAL) (NNP HECTOR) (NNP OQUELI) (NNP COLINDRES))
+          (PP (IN IN)
+            (NP
+              (NP (NNP GUATEMALA) (NNP CITY) (NNP TODAY))
+              (, ,)
+              (NP (CD 12) (NN JANUARY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OQUELI))
+    (VP (VBD ARRIVED)
+      (PP (IN IN)
+        (NP
+          (NP (NNP GUATEMALA))
+          (PP (IN ON)
+            (NP (CD 11) (NN JANUARY))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HE) (NNP HAD))
+    (VP (VBD PLANNED)
+      (S
+        (VP (TO TO)
+          (VP (VB TRAVEL)
+            (NP
+              (NP (NNP TO) (NNP NICARAGUA) (NNP EARLY))
+              (PP (IN ON)
+                (NP (CD 12) (NN JANUARY))))
+            (S
+              (VP (TO TO)
+                (VP (VB JOIN)
+                  (NP
+                    (NP (DT A) (NNP SOCIALIST) (NNP INTERNATIONAL) (NNP DELEGATION))
+                    (PP (IN IN)
+                      (NP (NNP THAT) (NNP COUNTRY)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP FROM) (NNP NICARAGUA) (NNP HE))
+    (VP (VBD WOULD)
+      (NP
+        (NP (NNP TRAVEL) (NNP TO) (NNP QUITO) (, ,) (NNP ECUADOR) (, ,) (NNP TO) (NNP ATTEND) (NNP A) (NNP CONVENTION))
+        (PP (IN OF)
+          (NP (DT THE) (NNP SOCIALIST) (NNP INTERNATIONAL) (NNP COMMITTEE)))
+        (PP (IN FOR)
+          (NP (NNP LATIN) (NNP AMERICA)))
+        (, ,)
+        (PP (IN OF)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (NP (NNP OQUELI))
+              (VP (VBZ IS)
+                (ADJP (JJ SECRETARY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (NP (JJ TO) (NNS REPORTS))))
+    (, ,)
+    (NP
+      (NP (NNP OQUELI)
+        (CC AND)
+        (NNP HIS) (NNP COMPANION) (NNP GILDA) (NNP FLORES))
+      (, ,)
+      (NP
+        (NP (DT A) (NN MEMBER))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NNP SOCIAL) (NNP DEMOCRATIC) (NNP PARTY))
+            (PP (IN OF)
+              (NP (NNP GUATEMALA))))))
+      (, ,))
+    (ADVP (RB WERE))
+    (VP (VBD ABDUCTED)
+      (X
+        (NP (NNP BY) (NNP HEAVILY) (NNP ARMED) (NNP MEN) (NNP BETWEEN) (NNP 0630) (NNP AND) (NNP 0700) (NNP AS) (NNP THEY) (NNP WERE) (NNP HEADING) (NNP TO) (NNP LA) (NNP AURORA) (NNP AIRPORT) (NNP TO) (NNP BOARD) (NN THEIR) (NN FLIGHT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (VBP URGE)
+      (S
+        (NP
+          (NP (DT THE) (NNP INTERNATIONAL) (NNP COMMUNITY))
+          (, ,)
+          (NP
+            (NP (NNP PARTICULARLY) (NNP THE) (NNP DEMOCRATIC) (NNP GOVERNMENTS))
+            (PP (IN OF)
+              (NP (DT THE) (NN WORLD))))
+          (, ,))
+        (VP (TO TO)
+          (VP (VB DEMAND)
+            (NP
+              (NP
+                (NP (DT THE) (NNP IMMEDIATE) (NNP RELEASE))
+                (PP (IN OF)
+                  (NP
+                    (NP (NNP HECTOR) (NNP OQUELI)
+                      (CC AND)
+                      (NNP HIS) (NNP COMPANION))
+                    (, ,)
+                    (NP (NNP AS) (NNP WELL)))))
+              (IN AS)
+              (NP
+                (NP (DT A) (NNP TOTAL) (NNP CLARIFICATION))
+                (PP (IN OF)
+                  (NP (NNP THIS) (NNP ATTACK)))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (-LRB- -LRB-) (NNP SIGNED) (-RRB- -RRB-))
+      (NP
+        (NP (NNP MNR) (NNP NATIONAL) (NNP EXECUTIVE) (NNP COMMITTEE))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP DATED))
+          (-RRB- -RRB-))))
+    (NP
+      (NP (CD 12) (NNP JANUARY) (CD 1990))
+      (, ,)
+      (NP (NNP SAN) (NNP SALVADOR)))))
+

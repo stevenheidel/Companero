@@ -1,0 +1,135 @@
+(ROOT
+  (NP
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (PP (IN ON)
+        (NP (CD 10))))
+    (ADJP (JJ JANUARY)
+      (NP (NNP AT) (CD 1030)))
+    (, ,)
+    (PP (IN ON)
+      (NP
+        (NP (DT THE) (CD 10TH) (NN ANNIVERSARY))
+        (PP (IN OF)
+          (NP (NNP RADIO) (NNP VENCEREMOS)))))
+    (, ,)
+    (S
+      (NP (DT AN) (NNP FMLN) (NNP UNIT) (NNP COMMEMORATED) (NNP THIS) (NNP OCCASION) (NNP BY))
+      (VP (VBG AMBUSHING)
+        (S
+          (NP (DT A) (NNP MILITARY) (NNP VEHICLE) (NNP TRANSPORTING) (NNP NATIONAL) (NNP GUARDSMEN) (NNP FROM) (NNP SESORI))
+          (VP (TO TO)
+            (VP (VB SAN)
+              (NP (NNP MIGUEL)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP AMBUSH) (NNP TOOK) (NNP PLACE) (NNP AT) (NNP EL) (NNP BOTIJON))
+    (, ,)
+    (PP (IN IN)
+      (NP
+        (NP (NNP SAN) (NNP SEBASTIAN) (NNP CANTON))
+        (, ,)
+        (NP (NNP SESORI))))
+    (, ,)
+    (NP (NNP AND) (NNP WAS) (NNP CARRIED) (NNP OUT) (NNP USING))
+    (VP (VBZ EXPLOSIVES))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP FEW) (NNP MINUTES) (NNP AFTER) (NNP THE) (NNP FIGHTING) (NNP BEGAN) (NNP OUR))
+    (VP (VBZ TROOPS)
+      (NP
+        (NP (NNP GAINED) (NNP CONTROL))
+        (PP (IN OF)
+          (NP (DT THE) (NNP SITUATION)))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP ATTENTION) (, ,) (JJ YOUR) (NNP ATTENTION))
+    (: :)
+    (S
+      (NP (DT THE) (NNP MILITARY) (NNP VEHICLE))
+      (VP (VBD WAS)
+        (VP (VBN DESTROYED)
+          (S
+            (VP (VBG DURING)
+              (NP
+                (NP (DT THE) (NNP AMBUSH)
+                  (CC AND)
+                  (NNP FIVE) (NNP NATIONAL) (NNP GUARD) (NNP SOLDIERS) (NNP WERE) (NN KILLED))
+                (, ,)
+                (VP (VBG INCLUDING)
+                  (NP
+                    (NP (DT A) (NN SERGEANT))
+                    (SBAR
+                      (WHNP (WP WHO))
+                      (S
+                        (VP (VBD WAS)
+                          (PP (IN IN)
+                            (NP
+                              (NP (NNP CHARGE))
+                              (PP (IN OF)
+                                (NP (DT THE) (NNP NATIONAL) (NNP GUARD) (NNP TROOPS))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG DURING)
+        (NP
+          (NP (NNP THIS) (NNP SUCCESSFUL) (NNP AMBUSH))
+          (PP (IN IN)
+            (NP (NNP SESORI))))))
+    (, ,)
+    (NP
+      (NP (NNP WE) (NNP SEIZED) (NNP FROM) (NNP THE) (NNP ENEMY))
+      (PRN (: --)
+        (NP (DT THE) (NNP REPRESSIVE) (NNP NATIONAL) (NNP GUARD))
+        (: --))
+      (NP (NNP THREE) (NNP G3-A3) (NNP RIFLES))
+      (, ,)
+      (NP
+        (NP (NNP THREE) (NNP SETS))
+        (PP (IN OF)
+          (NP (NNP MILITARY))))
+      (, ,)
+      (NP
+        (NP (NNP OVER) (CD 1,000) (NNS BULLETS))
+        (PP (IN FOR)
+          (NP (NNP G3-A3) (NNP RIFLES))))
+      (, ,))
+    (VP
+      (VP (VBZ BOOTS))
+      (, ,)
+      (NP
+        (NP (NNS VESTS))
+        (, ,)
+        (CC AND)
+        (NP (NNP OTHER) (NNP MILITARY) (NNP MATERIEL))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (CD TWO) (NN G3-A3) (NNS RIFLES))
+      (CC AND)
+      (NP (DT A) (NNP PRC-77) (NNP MILITARY) (NNP COMMUNICATIONS) (NNP RADIO) (NNP WERE)))
+    (VP (VBD DESTROYED)
+      (NP
+        (NP (NNP AT) (NNP THE) (NNP SITE))
+        (PP (IN OF)
+          (NP (DT THE) (NNP AMBUSH)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OUR) (NNP PEOPLE))
+    (VP (VBZ WITHDREW)
+      (PP (IN WITH)
+        (NP (DT NO) (NNS PROBLEMS))))
+    (. .)))
+

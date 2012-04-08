@@ -1,0 +1,183 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP EXCERPTS) (-RRB- -RRB-))
+      (NP (DT THE) (NNP GOVERNMENT) (NNP JUNTA) (NNP YESTERDAY)))
+    (VP (VBD APPROVED)
+      (NP (DT A) (NNP DRAFT) (NNP BILL))
+      (PP (TO TO)
+        (NP
+          (NP (`` ``) (NNP MODIFY) (NNP LAW) (CD 18314))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBZ DEFINES)
+                (NP
+                  (NP (NNP TERRORIST) (NNP ACTIVITIES))
+                  (CC AND)
+                  (NP (NNP ESTABLISHES) (NNP PENALTIES)))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BILL))
+    (VP
+      (VP (MD WILL)
+        (VP (VB RESTRICT)
+          (NP
+            (NP (DT THE) (NN APPLICATION))
+            (PP (IN OF)
+              (NP (DT THE) (NN LAW))))
+          (PP (TO TO)
+            (NP (DT THE) (JJS MOST) (NNP SERIOUS) (NNS CASES)))))
+      (CC AND)
+      (VP (MD WILL)
+        (VP (VB LEAVE)
+          (NP
+            (NP
+              (NP (NNP OTHER) (NNP CRIMES))
+              (, ,)
+              (NP (NNP THAT) (NNP WERE) (NNP FORMERLY) (NNP CONSIDERED) (NNP TERRORIST) (NNP ACTIVITY))
+              (, ,))
+            (PP (IN FOR)
+              (NP (NNP TRIAL)))))))
+    (PP (IN UNDER)
+      (NP (NNP COMMON) (NNP LAW)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP NEW) (NNP BILL))
+    (VP (VBZ ACCEPTS)
+      (NP
+        (NP (DT THE) (NNP POSSIBILITY))
+        (PP (IN IN)
+          (NP
+            (NP (JJ SOME) (NNS CASES))
+            (PP (IN OF)
+              (NP
+                (NP (DT A) (NN PRISONER))
+                (VP (VBG BEING)
+                  (NP
+                    (NP
+                      (NP (NNP RELEASED))
+                      (PP (IN ON)
+                        (NP (NNP BAIL) (NNP OR) (NNP RECEIVING))))
+                    (NP (DT A) (NNP PARDON) (NNP OR) (NNP AMNESTY))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BILL) (NNP ALSO))
+    (VP (VBZ ESTABLISHES)
+      (NP
+        (NP
+          (NP (JJ OTHER) (NNS BENEFITS))
+          (NP (NNP NOT) (NNP CONTEMPLATED) (NNP BY) (NNP LAW) (NNP 18314)))
+        (, ,)
+        (VP (VBG INCLUDING)
+          (NP
+            (NP (DT A) (JJ NEW) (NNS PROCEEDINGS))
+            (PP (IN FOR)
+              (NP (NNP SPEEDIER) (NNP TRIALS)))))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (S
+      (NP (-LRB- -LRB-) (NNP PASSAGE) (NNP OMITTED) (-RRB- -RRB-))
+      (VP (VBG ACCORDING)
+        (PP (TO TO)
+          (NP (NNP RETIRED) (NNP GENERAL) (NNP FERNANDO) (NNP TORRES) (NNP SILVA)))))
+    (, ,)
+    (WHNP (WP WHO))
+    (SQ
+      (VP (VBZ IS)
+        (NP
+          (NP (DT THE) (NNP ARMY) (NN JUDGE) (NNP ADVOCATE) (NNP GENERAL))
+          (, ,)
+          (NP (DT THE) (NNP MODIFICATIONS) (NNP ESTABLISH) (NNP LIGHTER) (NNP SENTENCES))
+          (, ,)
+          (NP
+            (NP (NNP FREEDOM))
+            (PP (IN ON)
+              (NP (NNP BAIL))))
+          (, ,)
+          (CC AND)
+          (NP (NNP POSSIBLE) (NNP PARDONS) (NNP OR) (NNP AMNESTIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (JJ THESE) (NNS BENEFITS))
+    (VP (VBP WERE)
+      (S
+        (NP (NNP NOT) (NNP CONTEMPLATED))
+        (PP (IN UNDER)
+          (NP (DT THE) (JJ FORMER) (JJ ANTITERRORIST) (NN LAW)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN AS)
+      (NP (DT AN) (NNP EXAMPLE) (NNP TORRES) (NNP CITED) (NNP THAT)))
+    (NP
+      (NP (`` ``) (NNS SENTENCES))
+      (PP (IN OF)
+        (NP (NNP INDIVIDUALS) (NNP TRIED) (NNP AS) (NNP ACCOMPLICES))))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (NP (NN LOWER))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THEY))
+    (VP (MD WILL)
+      (VP (VB RECEIVE)
+        (NP (JJ LOWER) (NNS SENTENCES))
+        (PP (IN THAN)
+          (NP (NNP THAT) (NNP PREVIOUSLY) (NNP CONTEMPLATED)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP NEW) (NNP BILL))
+    (VP (MD WILL)
+      (VP (VB ALSO)
+        (VP (VBN ALLOW)
+          (NP
+            (NP (DT A) (JJ GREAT) (NN NUMBER))
+            (PP (IN OF)
+              (NP (NNP PEOPLE)))
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (VP (VBP ARE)
+                  (VP (VBG BEING)
+                    (NP
+                      (NP (NNP TRIED) (NNP BY))
+                      (NP (DT THE) (NNP INTERIOR) (NNP MINISTRY)))
+                    (PP (TO TO)
+                      (NP
+                        (NP (NNP GO) (NNP OUT))
+                        (PP (IN ON)
+                          (NP (NNP BAIL)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (NP
+        (NP (DT THE) (NNP GENERAL) (NNP ATTORNEY) (POS 'S))
+        (JJ OFFICE) (, ,)
+        (ADJP (JJR MORE)
+          (PP (IN THAN)
+            (NP (CD 1,000))))
+        (NNS PRISONERS)))
+    (NP (NNP MIGHT) (NNP BENEFIT))
+    (VP (VBD FROM)
+      (NP (DT THE) (NNS MODIFICATIONS)))
+    (. .)))
+

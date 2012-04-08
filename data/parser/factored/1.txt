@@ -1,0 +1,320 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP REPORT) (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP ARMED) (NNP FORCES) (NNP PRESS) (NNP COMMITTEE))
+          (, ,)
+          (NP (NNP COPREFA))
+          (-RRB- -RRB-)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (NP (DT THE) (NNP ARCE) (NNP BATTALION) (NNP COMMAND)))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP REPORTED) (NNP THAT) (NNP ABOUT))
+        (PP
+          (NP
+            (NP (CD 50) (NNS PEASANTS))
+            (PP (IN OF)
+              (NP
+                (NP
+                  (NP (NNP VARIOUS) (NNP AGES) (NNP HAVE) (NNP BEEN) (NNP KIDNAPPED) (NNP BY) (NNPS TERRORISTS))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP FMLN))
+                  (-RRB- -RRB-)))))
+          (IN IN)
+          (NP (NNP SAN) (NNP MIGUEL) (NNP DEPARTMENT)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (NNP THAT) (NNP GARRISON))))
+    (, ,)
+    (NP (DT THE) (NNP MASS) (NNP KIDNAPPING))
+    (VP (VBD TOOK)
+      (VP (VB PLACE)
+        (PRT (RP ON))
+        (NP
+          (NP (CD 30) (NN DECEMBER))
+          (PP (IN IN)
+            (NP (NNP SAN) (NNP LUIS) (NNP DE) (NNP LA) (NNP REINA))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SOURCE) (NNP ADDED))
+    (VP (VBP THAT)
+      (SBAR
+        (S
+          (NP (DT THE) (NNPS TERRORISTS))
+          (VP (VBD FORCED)
+            (NP
+              (NP (DT THE) (NNS INDIVIDUALS))
+              (, ,)
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBP WERE)
+                    (NP (NNP TAKEN))
+                    (PP (TO TO)
+                      (NP
+                        (NP (DT AN) (NNP UNKNOWN) (NNP LOCATION) (, ,) (NNP OUT))
+                        (PP (IN OF)
+                          (NP (NNP THEIR) (NNPS RESIDENCES)))))
+                    (, ,)
+                    (ADJP (JJ PRESUMABLY)
+                      (PP (TO TO)
+                        (NP (NNP INCORPORATE) (NNP THEM) (NNP AGAINST) (NNP THEIR))))
+                    (SBAR
+                      (SINV (MD WILL)
+                        (NP (NNP INTO) (NNP CLANDESTINE))
+                        (VP (VBZ GROUPS))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP MEANWHILE))
+      (, ,)
+      (NP (NNP THREE) (NNP SUBVERSIVES) (NNP WERE) (NNP KILLED))
+      (CC AND)
+      (NP (NNP SEVEN) (NNP OTHERS) (NNP WERE)))
+    (VP (VBD WOUNDED)
+      (NP
+        (NP (NNP DURING) (NNP CLASHES) (NNP YESTERDAY))
+        (PP (IN IN)
+          (NP
+            (NP (NNP USULUTAN))
+            (CC AND)
+            (NP (NNP MORAZAN) (NNP DEPARTMENTS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ATONAL) (NNP BATTALION) (NNP REPORTED) (NNP THAT) (CD ONE) (NNP EXTREMIST))
+    (VP (VBD WAS)
+      (NP
+        (NP
+          (NP
+            (NP
+              (NP (NNP KILLED))
+              (CC AND)
+              (NP (CD FIVE) (NNS OTHERS)))
+            (NP (NNP WERE) (NNP WOUNDED) (NNP DURING)))
+          (NP (DT A) (NNP CLASH) (NNP YESTERDAY) (NNP AFTERNOON) (NNP NEAR) (NNP LA) (NNP ESPERANZA) (NNP FARM)))
+        (, ,)
+        (NP
+          (NP (NNP SANTA) (NNP ELENA) (NNP JURISDICTION))
+          (, ,)
+          (NP (NNP USULUTAN) (NNP DEPARTMENT)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (NP (NNP ALSO) (NNP REPORTED) (NNP THAT))
+      (SBAR
+        (S
+          (NP (DT A) (NN SOLDIER))
+          (VP (VBD WAS)
+            (NP (NNP WOUNDED)
+              (CC AND)
+              (NNP TAKEN))
+            (PP (TO TO)
+              (NP
+                (NP (DT THE) (NNP MILITARY) (NNP HOSPITAL))
+                (PP (IN IN)
+                  (NP (NNP THIS) (NNP CAPITAL)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP SAME) (NNP MILITARY) (NNP UNIT) (NNP REPORTED) (NNP THAT) (NNP THERE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP ANOTHER) (NNP CLASH) (NNP THAT) (NNP RESULTED))
+        (PP (IN IN)
+          (NP
+            (NP (CD ONE) (NNP DEAD) (NNP TERRORIST))
+            (CC AND)
+            (NP
+              (NP (DT THE) (NN SEIZURE))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP VARIOUS) (NNPS KINDS))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNP WAR) (NNP MATERIEL) (NNP NEAR) (NNP SAN) (NNP RAFAEL) (NNP FARM))
+                      (PP (IN IN)
+                        (NP (DT THE) (NNP SAME) (NNP TOWN))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP
+        (NP (DT THE) (NNP COUNTRY) (POS 'S))
+        (NNP EASTERN) (NNP REGION)))
+    (, ,)
+    (NP (NNP MILITARY) (NNP DETACHMENT) (NNP NO.) (CD 4) (NNP REPORTED))
+    (VP (VBP THAT)
+      (SBAR
+        (S
+          (NP (DT A) (NNP TERRORIST))
+          (VP (VBD WAS)
+            (SBAR
+              (S
+                (NP
+                  (NP (NNP KILLED))
+                  (CC AND)
+                  (NP (CD TWO) (NNS OTHERS)))
+                (VP (VBP WERE)
+                  (VP (VBN WOUNDED)
+                    (S
+                      (VP (VBG DURING)
+                        (NP
+                          (NP (DT A) (NNP CLASH))
+                          (PP (IN IN)
+                            (NP
+                              (NP (NNP LA) (NNP RANERA) (NNP STREAM) (, ,) (NNP SAN) (NNPS CARLOS))
+                              (, ,)
+                              (NP (NNP MORAZAN) (NNP DEPARTMENT)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT AN) (NNP M-16) (NNP RIFLE))
+      (, ,)
+      (NP (NNP CARTRIDGE) (NNP CLIPS))
+      (, ,)
+      (CC AND)
+      (NP (NNP AMMUNITION) (NNP WERE)))
+    (VP (VBD SEIZED)
+      (NP (NNP THERE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP MEANWHILE))
+      (, ,)
+      (NP
+        (QP (DT THE) (CD 3D))
+        (NNP INFANTRY) (NNP BRIGADE) (NNP REPORTED) (NNP THAT) (NNP PONCE) (NNP BATTALION) (NNPS UNITS)))
+    (VP (VBD FOUND)
+      (NP
+        (NP (DT THE) (NNP DECOMPOSED) (NNP BODY))
+        (PP (IN OF)
+          (NP
+            (NP (DT A) (NNP SUBVERSIVE))
+            (PP (IN IN)
+              (NP
+                (NP (NNP LA) (NNP FINCA) (NNP HILL))
+                (, ,)
+                (NP (NNP SAN) (NNP MIGUEL))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT AN) (NNP M-16) (NNP RIFLE))
+      (, ,)
+      (NP (CD FIVE) (NNS GRENADES))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (NNP MATERIAL))
+        (PP (IN FOR)
+          (NP
+            (NP (DT THE) (NN PRODUCTION))
+            (PP (IN OF)
+              (NP (NNP EXPLOSIVES) (NNP WERE)))))))
+    (VP (VBD FOUND)
+      (PP (IN IN)
+        (NP (DT THE) (NNP SAME) (NNP PLACE))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BRIGADE))
+    (, ,)
+    (NP (WDT WHICH))
+    (VP (VBZ IS)
+      (VP (VBN HEADQUARTERED)
+        (SBAR
+          (S
+            (PP (IN IN)
+              (NP
+                (NP (NNP SAN) (NNP MIGUEL))
+                (, ,)
+                (NP (NNP ADDED) (NNP THAT))))
+            (NP (DT THE) (NNP SEIZURE))
+            (VP (VBD WAS)
+              (NP (NNP MADE) (NNP YESTERDAY) (NNP MORNING)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP NATIONAL) (NNP GUARD))
+      (VP (VBZ UNITS)
+        (VP (VBG GUARDING)
+          (NP
+            (NP (DT THE) (NNP LAS) (NNPS CANAS) (NNP BRIDGE))
+            (, ,)
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (VP (VBZ IS)
+                  (PRT (RP ON))
+                  (NP
+                    (NP (DT THE) (NNP NORTHERN) (NNP TRUNK) (NNP HIGHWAY))
+                    (PP (IN IN)
+                      (NP (NNP APOPA)))))))))))
+    (, ,)
+    (NP (NNP THIS) (NNP MORNING))
+    (VP (VBD REPELLED)
+      (NP
+        (NP (DT A) (NNP TERRORIST) (NNP ATTACK) (NNP THAT) (NNP RESULTED))
+        (PP (IN IN)
+          (NP (DT NO) (NNS CASUALTIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ARMED) (NNP CLASH))
+    (VP (VBD INVOLVED)
+      (NP (NNP MORTAR)
+        (CC AND)
+        (NNP RIFLE) (NNP FIRE)
+        (CC AND)
+        (NNP LASTED) (CD 30) (NNS MINUTES)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS MEMBERS))
+      (PP (IN OF)
+        (NP (NNP THAT) (NNP SECURITY) (NNP GROUP))))
+    (VP (VBP ARE)
+      (VP (VBG COMBING)
+        (NP (DT THE) (NN AREA))
+        (S
+          (VP (TO TO)
+            (VP (VB DETERMINE)
+              (NP
+                (NP (DT THE) (JJ FINAL) (NN OUTCOME))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP FIGHTING)))))))))
+    (. .)))
+

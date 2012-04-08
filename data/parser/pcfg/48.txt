@@ -1,0 +1,77 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP EXCERPT) (-RRB- -RRB-))
+        (NP
+          (NP (DT THE) (JJ NEW) (NN SECOND))
+          (PP (IN IN)
+            (NP
+              (NP (NNP COMMAND))
+              (PP (IN OF)
+                (NP (DT THE) (CD 3D) (NNP INFANTRY) (NNP REGIMENT) (NNP BASED) (NNP AT) (NNP LA) (NNP TABLADA)))))))
+      (, ,)
+      (NP (NNP MAJOR) (NNP HECTOR) (NNP MUSIO))
+      (, ,))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (NP (NNP INSTALLED) (NNP THIS) (NNP AFTERNOON))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBZ REPLACES)
+      (NP
+        (NP (NNP MAJOR) (NNP HORACIO) (NNP FERNANDEZ) (NNP CUTIELLO))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBD WAS)
+              (VP (VBN KILLED)
+                (S
+                  (VP (VBG DURING)
+                    (NP
+                      (NP (DT THE) (NN ATTACK))
+                      (PP (IN ON)
+                        (NP
+                          (NP (DT THE) (CD 3D) (NN REGIMENT))
+                          (PP (IN ON)
+                            (NP (CD 23) (NN JANUARY))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MUSIO))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (NP
+          (NP (DT THE) (NNP ACTING) (NNP COMMANDING) (NNP OFFICER) (NNP BECAUSE) (NNP COMMANDER) (NNP JORGE) (NNP SAMUDIO) (NNP WAS) (NNP INJURED))
+          (PP (IN ON)
+            (NP
+              (NP (CD 23) (NNP JANUARY) (NNP WHILE))
+              (VP (VBG HEADING)
+                (NP
+                  (NP (DT A) (NNP GROUP))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNP OFFICERS) (NNP INCLUDING) (NNP NONCOMMISSIONED) (NNP OFFICERS))
+                      (SBAR
+                        (WHNP (WP WHO))
+                        (S
+                          (VP (VBP WERE)
+                            (S
+                              (VP (VBG REPELLING)
+                                (NP
+                                  (NP
+                                    (NP (DT THE) (NNP TERRORISTS) (POS '))
+                                    (NNP ATTACK) (NNP FROM) (NNP THE) (NNP REAR))
+                                  (PP (IN OF)
+                                    (NP (DT THE) (NNP REGIMENT) (NNP GROUNDS))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP PASSAGE) (NNP OMITTED))
+    (-RRB- -RRB-)))
+

@@ -1,4 +1,4 @@
-/**
+/*
  * Jamie Gaultois
  * jpg627
  * 11066502
@@ -6,8 +6,6 @@
  * Steven Heidel
  * sdh951
  * 11078053
- * 
- * The class which will hold all of the articles given in the corpus.
  */
 
 package entities;
@@ -21,30 +19,40 @@ import java.util.LinkedList;
 import utilities.FileReader;
 import utilities.Place;
 
+/**
+ * The class which will hold all of the articles given in the corpus.
+ * 
+ * @author Jamie Gaultois
+ *
+ */
 public class Corpus 
 {
+	/**
+	 * The list of all the articles in the corpus
+	 */
 	HashMap<Integer, Article> articleMap;
 	
 	/**
-	 * Constructor for the Corpus class. Takes in a String of corpusText, splitting it into articles.
+	 * Constructor for the Corpus class. Takes in a String of corpusText, 
+	 * splitting it into articles.
 	 * @param corpusText - The text with the articles
 	 * @throws IllegalArgumentException if the text is formatted incorrectly.
 	 */
 	public Corpus(String corpusText) throws IllegalArgumentException
 	{
-		// Create the articleMap
+		// create the articleMap
 		articleMap = new HashMap<Integer, Article>();
 		
-		// Get rid of newlines in the corpus text
+		// get rid of newlines in the corpus text
 		corpusText = corpusText.replace("\n", " ");
 		
-		// Five spaces however mean a new paragraph
+		// five spaces however mean a new paragraph
 		corpusText = corpusText.replace("     ", "\n");
 		
-		// Split the text into articles
+		// split the text into articles
 		String[] articles = corpusText.split("DEV-MUC3-");
 		
-		// Create a new Article object for each article and add it to the HashMap
+		// create a new Article object for each article and add it to the HashMap
 		for (String article : articles)
 		{
 			if (article.equals(""))
@@ -52,13 +60,13 @@ public class Corpus
 				continue;
 			}
 			
-			// Split out the article id
+			// split out the article id
 			String[] idSplit = article.split("\\(NOSC\\)", 2);
 			
-			// Split out the city
+			// split out the city
 			String[] citySplit = idSplit[1].split(",", 2);
 			
-			// Find out if the country is given in the article
+			// find out if the country is given in the article
 			String[] countrySplit = null;
 			if (citySplit[0].split("\\(").length > 1)
 			{
@@ -66,7 +74,7 @@ public class Corpus
 				countrySplit = citySplit[1].split("\\)", 2);
 			}
 			
-			// Split out the date written (source given)
+			// split out the date written (source given)
 			String[] dateWrittenSplit;
 			if (countrySplit == null)
 			{
@@ -78,7 +86,7 @@ public class Corpus
 				dateWrittenSplit = tempSplit[1].split("--", 2);
 			}
 			
-			// Parse out the date and determine if the source exists
+			// parse out the date and determine if the source exists
 			Date articleDate;
 			Boolean sourceExists = false;
 			String dateFormatString = "dd MMM yy";
@@ -96,7 +104,7 @@ public class Corpus
 				throw new IllegalArgumentException("Article was not in correct format.");
 			}
 			
-			// Split out the source if it exists
+			// split out the source if it exists
 			String[] sourceSplit = null;
 			if(sourceExists)
 			{
@@ -104,7 +112,7 @@ public class Corpus
 				sourceSplit = tempSplit[1].split("\\)", 2);
 			}
 			
-			// Create the Article and add it to the HashMap
+			// create the Article and add it to the HashMap
 			Article newArticle;
 			
 			String source, articleText;
@@ -144,6 +152,15 @@ public class Corpus
 	}
 	
 	/**
+	 * Return the list of articles
+	 * @return the list of articles
+	 */
+	public HashMap<Integer, Article> getArticles()
+	{
+		return articleMap;
+	}
+	
+	/**
 	 * A method to return all of the articles contained in the corpus that contain the given text.
 	 * @param text - The text to search the articles for.
 	 * @return All of the articles containing the given text.
@@ -152,7 +169,7 @@ public class Corpus
 	{
 		LinkedList<Article> articleList = new LinkedList<Article>();
 		
-		// Iterate through all of the articles in the HashMap and check if they contain the given text
+		// iterate through all of the articles in the HashMap and check if they contain the given text
 		for (Article a : articleMap.values())
 		{
 			if (a.containsText(text))
@@ -164,20 +181,13 @@ public class Corpus
 		return articleList;
 	}
 	
+	/**
+	 * Test method
+	 * @param args
+	 */
 	public static void main(String[] args)
-	{
-		String corpusText = "";
-		
-		try
-		{
-			corpusText = FileReader.convertToString("corpus.txt");
-		}
-		catch (Exception e)
-		{
-			System.out.println("Error reading from the file");
-		}
-		
-		Corpus corpus = new Corpus(corpusText);
+	{		
+		Corpus corpus = new Corpus(FileReader.convertToString("data/corpus.txt"));
 		
 		for (Article a : corpus.getArticlesWithText("ACCORDING TO RETIRED GENERAL FERNANDO TORRES SILVA"))
 		{

@@ -1,0 +1,100 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP
+            (NP (-LRB- -LRB-) (NNP COMMUNIQUE) (-RRB- -RRB-))
+            (-LRB- -LRB-)
+            (NP (NNP ANTICOMMUNIST) (NNP ACTION) (NNP ALLIANCE))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP AAA))
+              (-RRB- -RRB-))
+            (-RRB- -RRB-))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP TEXT))
+            (-RRB- -RRB-)))
+        (NP (DT THE) (NNP ANTICOMMUNIST) (NNP ACTION) (NNP ALLIANCE)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP ALIANZA) (NNP DE) (NNP ACCION) (NNP ANTICOMUNISTA))
+        (-RRB- -RRB-)))
+    (VP (VBP REPORTS)
+      (NP
+        (NP
+          (NP (DT THE) (NNP FOLLOWING) (NNP TO) (NNP THE) (NNP HONDURAN) (NNP PEOPLE))
+          (, ,)
+          (PP (IN IN)
+            (NP (NNP PARTICULAR))))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP TO) (NNP THE) (NNP INTERNATIONAL) (NNP COMMUNITY))
+          (PP (IN IN)
+            (NP (NNP GENERAL)))))
+      (: :)
+      (NP (CD 1)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG DURING)
+        (NP (DT A) (NNP MEETING) (NNP TODAY))))
+    (, ,)
+    (NP (DT THE) (NNP DEMOCRATIC) (NNP PATRIOTIC) (NNPS COMMITTEES)
+      (CC AND)
+      (NNP OUR) (NNP ORGANIZATION))
+    (VP (VBZ 'S)
+      (VP (VBG DISCIPLINARY)
+        (S
+          (NP (NNP TRIBUNAL) (NNP TRIED)
+            (CC AND)
+            (NNP SENTENCED))
+          (VP (TO TO)
+            (VP (VB DEATH)
+              (NP
+                (NP
+                  (NP (DT THE) (NNP FOLLOWING) (NNP TERRORISTS))
+                  (PP (IN OF)
+                    (NP (NNP INTERNATIONAL) (NNP COMMUNISM))))
+                (: :)
+                (NP
+                  (NP (NNP JORGE) (NNP ARTURO) (NNP REINA))
+                  (, ,)
+                  (NP (NNP JUAN) (NNP ALMENDAREZ) (NNP BONILLA))
+                  (, ,)
+                  (NP (NNP RAMON) (NNP CUSTODIO) (NNP LOPEZ))
+                  (, ,)
+                  (NP (NNP ANIBAL) (NNP PUERTO))
+                  (, ,)
+                  (NP (NNP AND) (NNP HECTOR) (NNP HERNANDEZ)))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THESE) (NNP PEOPLE))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (VP (VBN EXECUTED)
+          (S
+            (VP (VBG BEGINNING)
+              (PRT (RP ON))
+              (NP
+                (NP (NNP THIS) (NNP DATE))
+                (PP (IN FOR)
+                  (NP
+                    (NP (DT THE) (NN SAKE))
+                    (PP (IN OF)
+                      (NP (NNP LOVE)
+                        (CC AND)
+                        (NNP FREEDOM)))))))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP DEATH) (NNP TO) (NNP COMMUNISM) (. !)))
+

@@ -1,3 +1,13 @@
+/*
+ * Jamie Gaultois
+ * jpg627
+ * 11066502
+ * 
+ * Steven Heidel
+ * sdh951
+ * 11078053
+ */
+
 package solver;
 
 import java.text.FieldPosition;
@@ -11,10 +21,28 @@ import entities.Article;
 import entities.Corpus;
 import entities.Question;
 
-public class Solver {
-	
+/**
+ * A static class used to determine the answer to a particular question based
+ * on the information found in the corpus. This is somewhat general, such that
+ * you could technically implement a different question/corpus class for many
+ * corpuses and question types provided they implemented the same methods.
+ * 
+ * @author Jamie Gaultois and Steven Heidel
+ *
+ */
+public class Solver 
+{
+	/**
+	 * Gets a list of all articles that contain the text, and then delegates
+	 * the work of finding the answer to a method depending on the type of
+	 * question.
+	 * @param question The question that should be answered
+	 * @param corpus The corpus of text to search
+	 * @return zero or more answers weighted by their potential
+	 */
 	public static Answer solve(Question question, Corpus corpus)
 	{
+		// get a list of all articles which could possibly contain the answer
 		LinkedList<Article> articles = corpus.getArticlesWithText(question.getText());
 		
 		if(question.getType().equals("WHO"))
@@ -37,6 +65,14 @@ public class Solver {
 		return new Answer();
 	}
 	
+	/**
+	 * A method to solve "who" questions.
+	 * @param articles the list of answers
+	 * @param text the important text
+	 * @param place the place of the question
+	 * @param time the time of the question
+	 * @return zero or more possible answers
+	 */
 	private static Answer whoAnswer(LinkedList<Article> articles, String text, String place, String time)
 	{
 		
@@ -44,6 +80,14 @@ public class Solver {
 		return new Answer();
 	}
 	
+	/**
+	 * A method to solve "what" questions.
+	 * @param articles the list of answers
+	 * @param text the important text
+	 * @param place the place of the question
+	 * @param time the time of the question
+	 * @return zero or more possible answers
+	 */
 	private static Answer whatAnswer(LinkedList<Article> articles, String text, String place, String time)
 	{
 		String toReturn = null;
@@ -53,7 +97,7 @@ public class Solver {
 		{	
 			if (a.containsPlace(questionPlace))
 			{				
-				// Get the rest of the sentence after the text
+				// get the rest of the sentence after the text
 				int index = a.getArticleText().indexOf(text) + text.length();
 				
 				toReturn = a.getArticleText().substring(index);
@@ -73,7 +117,7 @@ public class Solver {
 					toReturn = toReturn.split("\\.")[0];
 				}
 				
-				// We found a correct answer, so break
+				// we found a correct answer, so break
 				break;
 			}
 		}
@@ -142,6 +186,13 @@ public class Solver {
 		return new Place(closestPlace);
 	}
 	
+	/**
+	 * A method to solve "where" questions.
+	 * @param articles the list of answers
+	 * @param text the important text
+	 * @param time the time of the question
+	 * @return zero or more possible answers
+	 */
 	private static Answer whereAnswer(LinkedList<Article> articles, String text, String time)
 	{
 		Answer answer = new Answer();
@@ -159,6 +210,13 @@ public class Solver {
 		return answer;
 	}
 	
+	/**
+	 * A method to solve "when" questions.
+	 * @param articles the list of answers
+	 * @param text the important text
+	 * @param place the place of the question
+	 * @return zero or more possible answers
+	 */
 	private static Answer whenAnswer(LinkedList<Article> articles, String text, String place)
 	{
 		String returnDate = null;
@@ -166,7 +224,7 @@ public class Solver {
 		Place questionPlace = new Place(place);
 		for(Article a : articles)
 		{			
-			// We only need to get the first country from questionPlace, as only one country will be entered per question
+			// we only need to get the first country from questionPlace, as only one country will be entered per question
 			if(a.containsPlace(questionPlace))
 			{				
 				LinkedList<String> dates = a.getDatesFromText();
@@ -183,7 +241,7 @@ public class Solver {
 					}
 				}
 				
-				// If we didn't find a date in the text, give the date the article was written
+				// if we didn't find a date in the text, give the date the article was written
 				if (returnDate == null)
 				{
 					StringBuffer sb = new StringBuffer();

@@ -1,0 +1,99 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP SUMMARY))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP EL) (NNP TIEMPO))
+        (VP (VBZ HAS)
+          (VP (VBN LEARNED)
+            (S
+              (NP (NNP THAT) (NNP OIL) (NNP REVENUE) (NNP DROPPED) (NNP BY))
+              (NP
+                (NP
+                  (QP ($ $) (CD 201.1) (CD MILLION)))
+                (PP (IN IN)
+                  (NP (CD 1988)))))))))
+    (, ,)
+    (NP (NNP WHILE) (NNP GASOLINE) (NNPS IMPORTS) (NNP JUMPED))
+    (VP (VBD FROM)
+      (NP
+        (QP ($ $) (CD 99.5) (CD MILLION)))
+      (PP (IN IN)
+        (NP (CD 1987) (NNS TO)
+          (QP ($ $) (CD 155.7) (CD MILLION))))
+      (PP (IN IN)
+        (NP (CD 1988))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN REDUCTION))
+      (PP (IN IN)
+        (NP (NNP REVENUE))))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP DUE) (NNP TO) (NNP A) (NNP DROP))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP INTERNATIONAL) (NNP PRICE))
+            (PP (IN OF)
+              (NP
+                (NP (NNP OIL) (NNP AS) (NNP WELL) (IN AS) (DT A) (NNP DROP))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP SALES) (NNP DUE) (NNP TO) (NNP TERRORIST) (NNP ATTACKS))
+                    (PP (IN ON)
+                      (NP (DT THE) (NNP CANO) (NNP LIMON-COVENAS) (NNP OIL) (NNP PIPELINE)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP REPORT) (NNP ADDED) (NNP THAT) (NNP COLOMBIA))
+      (VP (VBD EXPORTED)
+        (NP
+          (NP (NNP 53.3) (NNP MILLION) (NNP BARRELS))
+          (PP (IN OF)
+            (NP (NNP OIL))))
+        (PP (IN IN)
+          (NP (CD 1988)))))
+    (, ,)
+    (NP (NNP WHILE) (NNP IT))
+    (VP (VBD EXPORTED)
+      (NP (CD 51.8) (NNP MILLION) (NNS BARRELS))
+      (PP (IN IN)
+        (NP (CD 1987))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (S
+          (VP (TO TO)
+            (VP (VB FINAL)
+              (NP (NNS REPORTS)))))))
+    (, ,)
+    (NP
+      (NP (NNP COLOMBIAN) (NNP OIL) (NNP EXPORTS))
+      (PP (IN IN)
+        (NP (CD 1988))))
+    (VP (VBD AMOUNTED)
+      (S
+        (VP (TO TO)
+          (VP
+            (NP
+              (NP
+                (QP ($ $) (CD 694.5) (CD MILLION)))
+              (, ,)
+              (NP
+                (NP (NNP AS) (NNP COMPARED) (NNP TO))
+                (NP
+                  (QP ($ $) (CD 895.6) (CD MILLION)))))
+            (PP (IN IN)
+              (NP (CD 1987)))))))
+    (. .)))
+

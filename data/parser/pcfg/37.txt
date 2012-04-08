@@ -1,0 +1,248 @@
+(ROOT
+  (SINV
+    (S (-LRB- -LRB-)
+      (NP (NNP TEXT))
+      (-RRB- -RRB-)
+      (VP (VBP GOVERNMENT)
+        (SBAR
+          (S
+            (NP (NNP MINISTER) (NNP CARLOS) (NNP MORALES))
+            (VP (VBD SAID)
+              (SBAR
+                (S
+                  (NP (NNP TODAY))
+                  (VP (VBP THAT)
+                    (NP (DT A) (`` ``) (JJ FOREIGN) (NN COMMANDO) ('' ''))))))))))
+    (VP (VBD KILLED))
+    (NP
+      (NP (NNP HECTOR) (NNP OQUELI))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP LEADER))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP SALVADORAN) (NNP LEFTIST) (NNP PARTY) (NNP NATIONAL) (NNP REVOLUTIONARY) (NNP MOVEMENT))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP MNR))
+                (-RRB- -RRB-)))))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP GUATEMALAN) (NNP SOCIAL) (NNP DEMOCRATIC) (NNP LEADER) (NNP GILDA) (NNP FLORES))
+          (PP (IN IN)
+            (NP (NNP GUATEMALA))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNS MORALES))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP AT) (NNP A) (NNP NEWS) (NNP CONFERENCE) (NNP HELD) (NNP AT) (NNP THE) (NNP NATIONAL) (NNP POLICE) (NNP HEADQUARTERS))
+          (VP (VBP THAT)
+            (SBAR
+              (S
+                (NP
+                  (NP (DT THE) (NN INTENTION))
+                  (PP (IN OF)
+                    (NP (DT THE) (`` ``) (NNP TERRORIST) (NNP COMMANDO) ('' ''))))
+                (VP (VBD WAS)
+                  (VP (VBG CAPTURING)
+                    (S
+                      (NP (NNP OQUELI) (NNP ALIVE))
+                      (VP (TO TO)
+                        (VP (VB TAKE)
+                          (SBAR
+                            (S
+                              (NP (NNP HIM) (NNP TO) (NNP EL) (NNP SALVADOR) (NNP BUT) (NNP THAT) (`` ``) (NNP SOMETHING) (NNP MADE) (NNP THEM) (NNP CHANGE) (NNP THEIR))
+                              (VP (VBZ PLANS)))))))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (NNP MORALES) (NNP STRESSED) (NNP THAT) (NNP THE) (NNP EXISTENCE))
+          (PP (IN OF)
+            (NP (DT THE) (`` ``) (JJ FOREIGN) (NN COMMANDO))))
+        (, ,) ('' '')
+        (NP
+          (NP (NNP THE) (NNP NATIONALITY)
+            (CC AND)
+            (NNP ORIGIN))
+          (PP (IN OF)
+            (NP (NNP WHOM) (NNP HE) (NNP DID) (NNP NOT) (NNP SPECIFY))))
+        (, ,))
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP BEEN) (NNP KNOWN))
+          (PP (IN FOR)
+            (NP (NNP MONTHS))))))
+    (, ,)
+    (NP (NNP ADDING))
+    (VP (VBP THAT)
+      (S (`` ``)
+        (NP (PRP IT))
+        (VP (VBZ IS)
+          (NP
+            (NP (NNP RESPONSIBLE))
+            (PP (IN FOR)
+              (NP (NNP MANY) (NNP TERRORIST) (NNP ATTACKS)))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNS MORALES))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP THE) (NNP GROUP))
+          (VP (VBZ HAS)
+            (NP
+              (NP (NNP KILLED) (NNP SEVERAL) (NNP PEOPLE)
+                (CC AND)
+                (NNP HAS) (NNP CARRIED) (NNP OUT) (NNP VARIOUS) (NNP BOMB) (NNP ATTACKS))
+              (PP (IN IN)
+                (NP (NNP GUATEMALA))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP ASKED) (NNP ABOUT) (NNP A) (NNP STATEMENT) (NNP BY) (NNP SOCIAL) (NNP DEMOCRATIC) (NNP PARTY) (NNP LEADER) (NNP MARIO) (NNP SOLORZANO))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD SAID)
+            (SBAR
+              (S
+                (NP (NNP THAT) (NNP SALVADORAN)
+                  (CC AND)
+                  (NNP GUATEMALAN) (NNP PARAMILITARY))
+                (VP (VBZ GROUPS)
+                  (NP
+                    (NP (NNP OPERATE) (NNP JOINTLY))
+                    (PP (IN IN)
+                      (NP (NNP GUATEMALA))))))))))
+      (, ,))
+    (VP (VBZ MORALES)
+      (S
+        (NP (NNP SAID) (NNP THAT) (`` ``) (NNP THIS) (FW IS) (NNP CURRENTLY))
+        (PP (IN UNDER)
+          (NP (NNP INVESTIGATION)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (NNP WE) (NNP CAN) (NNP NOT) (NNP SAY) (NNP WHAT) (NNP COUNTRY))
+      (VP (VBZ THIS)
+        (NP
+          (NP (NNP TERRORIST) (NNP COMMANDO) (NNP CAME) (NNP FROM))
+          (: ;)
+          (NP
+            (NP (NNP HOWEVER) (, ,) (NNP WE) (NNP HAVE) (NNP ALREADY) (NNP TAKEN) (NNP MEASURES) (NNP TO) (NNP COUNTER) (NNP ITS) (NNP ACTIVITIES))
+            (PP (IN IN)
+              (NP (NNP OUR) (NNP NATIONAL) (NNP TERRITORY)))))))
+    (, ,) ('' '')
+    (NP (PRP HE))
+    (VP (VBD STRESSED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OUR) (NNP GOVERNMENT))
+    (VP (MD WILL)
+      (VP (VB NOT)
+        (NP
+          (NP (NNP LET) (NNP THIS))
+          (NP (NNP GROUP) (`` ``) (NNP DEFAME) ('' '') (NNP GUATEMALA)))
+        (PP (IN WITH)
+          (NP (NNP ITS) (NNP ACTIVITIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP ALREADY) (NNP A) (NNP SPECIAL) (NNP UNIT) (NNP WITHIN) (NNP THE) (NNP SECURITY) (NNP FORCES))
+        (PP (IN IN)
+          (NP
+            (NP (NNP CHARGE))
+            (PP (IN OF)
+              (S
+                (VP (VBG LOCATING)
+                  (NP
+                    (NP (DT THE) (NNS KILLERS))
+                    (PP (IN OF)
+                      (NP (NNP OQUELI)
+                        (CC AND)
+                        (NNP FLORES)))))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (VP (VBG ACCORDING)
+      (S
+        (VP (TO TO)
+          (VP (VB THE)
+            (NP (JJ INITIAL) (NNS REPORTS))))))
+    (VP (VBD RECEIVED))
+    (NP
+      (NP (NNP BY) (NNP THE) (NNP POLICE))
+      (, ,)
+      (NP
+        (NP (DT THE) (NNP KIDNAPPING) (NNP TOOK) (NNP PLACE) (NNP YESTERDAY))
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP (NNP OQUELI)
+              (CC AND)
+              (NNP FLORES))
+            (VP (VBP WERE)
+              (NP
+                (NP (NNP HEADING) (NNP TO) (NNP LA) (NNP AURORA) (NNP AIRPORT))
+                (PP (IN IN)
+                  (NP (NNP THIS) (NNP CAPITAL)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT THE) (NN VEHICLE))
+        (PP (IN IN)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (NP
+                (NP (NNP THEY) (NNP WERE) (NNP TRAVELING))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT WHICH))
+                  (S
+                    (VP (VBD WAS)
+                      (NP (NNP FOUND) (NNP NEAR) (NNP THE) (NNP AIRPORT)))))
+                (, ,))
+              (VP (VBD WAS)
+                (NP
+                  (NP (NNP INTERCEPTED) (NNP BY) (NNP ANOTHER) (NNP CAR))
+                  (, ,)
+                  (NP
+                    (NP (NNP WHOSE) (NNP OCCUPANTS) (NNP FORCED) (NNP GILDA) (NNP FLORES) (NNP OUT))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP CAR) (NNP WHILE) (NNP OQUELI))))))))))
+      (VP (VBD TRIED)
+        (S
+          (VP (TO TO)
+            (VP (VB ESCAPE))))))
+    (, ,)
+    (NP (NNS MORALES))
+    (VP (VBD SAID))
+    (. .)))
+

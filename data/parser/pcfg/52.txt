@@ -1,0 +1,133 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (PRP IT))
+        (VP (VBZ HAS)
+          (NP
+            (NP (NNP BEEN) (NNP OFFICIALLY) (NNP CONFIRMED) (NNP THAT) (CD TWO) (NNS LEADERS))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNP LEFTIST) (NNP PATRIOTIC) (NN UNION))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP UP))
+                  (-RRB- -RRB-))))))))
+    (NP (NNP WERE) (NNP KILLED) (NNP BY) (NNP UNKNOWN))
+    (VP (VBZ PERSONS)
+      (NP
+        (NP (NNP NEAR) (NNP RIO) (NNP BLANCO) (NNP MUNICIPALITY))
+        (, ,)
+        (NP (NNP TOLIMA) (NNP DEPARTMENT))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP LEARNED) (NNP THAT) (NNP CRISTOBAL) (NNP PEREZ)
+          (CC AND)
+          (NNP RUBEN) (NNP DARIO) (NNP RAMIREZ) (NNP WERE) (NNP SHOT))
+        (SBAR
+          (S
+            (VP (TO TO)
+              (VP (VB DEATH)
+                (NP
+                  (NP (NNP BY) (NNP A) (NNP GROUP))
+                  (PP (IN OF)
+                    (NP (NNP HEAVILY) (NNP ARMED) (NNP MEN))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP SO) (NNP FAR) (NNP THIS) (NNP YEAR))
+      (, ,)
+      (NP
+        (NP (CD 12) (NNS MEMBERS))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NN UP))
+            (, ,)
+            (NP (DT THE) (NNP LARGEST) (NNP LEFTIST) (NNP POLITICAL))))))
+    (VP (VBP FORCE)
+      (SBAR
+        (S
+          (PP (IN IN)
+            (NP (NNP COLOMBIA)))
+          (, ,)
+          (NP (NNP HAVE) (NNP BEEN) (NNP KILLED) (NNP BY) (NNP RIGHTIST) (NNP PARAMILITARY))
+          (VP (VBZ GROUPS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SINCE) (NNP THE) (NNP UP))
+    (VP (VBD WAS)
+      (VP (VBN FOUNDED)
+        (PP (IN IN)
+          (NP
+            (NP (CD 1985))
+            (, ,)
+            (NP
+              (NP (NNP APPROXIMATELY) (CD 900))
+              (PP (IN OF)
+                (NP (NNP ITS) (NNP MEMBERS) (NNP HAVE) (NNP BEEN) (NNP MURDERED))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (NP
+          (NP (NNP TO) (NNP THE) (NNP ADMINISTRATIVE) (NNP DEPARTMENT))
+          (PP (IN OF)
+            (NP
+              (NP (NNP SECURITY))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP DAS))
+                (-RRB- -RRB-)))))))
+    (, ,)
+    (NP (DT A) (NNP RIGHTIST) (NNP PARAMILITARY) (NNP GROUP))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP RESPONSIBLE))
+        (PP (IN FOR)
+          (NP
+            (NP (DT THE) (NN MASSACRE))
+            (PP (IN OF)
+              (NP (CD 12) (NNP PERSONS) (NNP LAST) (NNP WEDNESDAY)))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (DT THE) (CD 12))
+    (NP
+      (NP (NNP WERE) (NNP MEMBERS))
+      (PP (IN OF)
+        (NP (DT A) (NNP LEGAL) (NNP COMMISSION) (NNP INVESTIGATING) (NNP NEARLY))))
+    (NP
+      (NP (CD 30) (NNS CASES))
+      (PP (IN OF)
+        (NP
+          (NP (NNP MURDERS)
+            (CC AND)
+            (NNP DISAPPEARANCES))
+          (PP (IN OF)
+            (NP (JJ PEASANT) (NNS LEADERS))))))
+    (, ,)
+    (NP
+      (NP (NNP SOME))
+      (PP (IN OF)
+        (NP (NNP THEM) (NNP UP) (NNP MEMBERS))))
+    (, ,)
+    (PP (IN IN)
+      (NP
+        (NP (NNP SEVERAL) (NNP MUNICIPALITIES))
+        (PP (IN OF)
+          (NP (NNP NORTHEASTERN) (NNP COLOMBIA)))))
+    (. .)))
+

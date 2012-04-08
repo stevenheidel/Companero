@@ -1,0 +1,726 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP STATION) (NNP COMMENTARY))
+        (-RRB- -RRB-))
+      (S (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-)
+        (VP (VBP GOODBYE)
+          (S (-LRB- -LRB-)
+            (NP (NNP AIR) (NNP FORCE) (NNP COMMANDER))
+            (-RRB- -RRB-)
+            (NP (NNP GENERAL) (NNP RAFAEL) (NNP BUSTILLO))))))
+    (, ,)
+    (NP
+      (NP (NNP FALSE) (NNP HOPE))
+      (PP (IN FOR)
+        (NP (NNP MASS))))
+    (VP (VBZ KILLERS))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP GEN.) (NNP BUSTILLO) (NNPS RESIGNS) (NNP OR))
+    (VP (VBZ IS)
+      (ADJP (JJ MADE)
+        (S
+          (VP (TO TO)
+            (VP (VB RESIGN)
+              (NP (NNP AS) (NNP THE) (NNP AIR) (NNP FORCE) (NNP CHIEF)))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP
+        (NP (NNP BECAUSE))
+        (PP (IN OF)
+          (NP
+            (NP (NNS THIS))
+            (, ,)
+            (NP (DT THE) (NNP GENERAL)))))
+      (VP (VBZ IS)
+        (VP (VBG ADMITTING)
+          (NP
+            (NP (NNP THAT) (NNP WITHOUT) (NNP THE) (NNP BOMBING))
+            (PP (IN ON)
+              (NP
+                (NP
+                  (NP (NNP SAN) (NNP SALVADOR) (POS 'S))
+                  (NNP NEIGHBORHOODS) (NNP THE) (NNP FMLN))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+                  (-RRB- -RRB-))))))))
+    (VP (VBD WOULD))
+    (NP (NNP HAVE) (NNP DEFEATED) (NNP THE) (NNP SALVADORAN) (NNP ARMED) (NNP FORCES))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP BUSTILLO) (POS 'S))
+      (NN RESIGNATION))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP YET) (NNP ANOTHER) (NNP SIGN))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NN FAILURE))
+            (PP (IN OF)
+              (NP
+                (NP (CD 10) (NNS YEARS))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT THE) (NNP U.S.) (NNP COUNTERINSURGENCY) (NNP POLICY))
+                    (PP (IN IN)
+                      (NP
+                        (NP (NNP EL) (NNP SALVADOR))
+                        (, ,) (IN AS)
+                        (NP (NNP BECAME) (NNP CLEAR)))))))))))
+      (PP (IN WITH)
+        (NP
+          (NP (DT THE) (NNP OFFENSIVE) (NNP LAUNCHED))
+          (PP (IN ON)
+            (NP (CD 10) (NNS NOVEMBER))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN FOR)
+      (NP (CD 10) (NNS YEARS)))
+    (NP (NNP THE) (NNP MILITARY)
+      (CC AND)
+      (NNP THEIR) (NNP U.S.))
+    (VP (VBZ SPONSORS)
+      (S
+        (NP
+          (NP (NNP BASED) (NNP THEIR) (NNP TRUST))
+          (PP (IN IN)
+            (NP (DT THE) (NNP AIR) (NNP POWER))))
+        (VP (TO TO)
+          (VP (VB DROWN)
+            (PP (IN IN)
+              (NP (NN BLOOD)))
+            (NP
+              (NP (DT THE) (NN ASPIRATION))
+              (PP (IN OF)
+                (NP (DT THE) (NN NATION)
+                  (S
+                    (VP (TO TO)
+                      (VP (VB ACHIEVE)
+                        (NP (NNP DEMOCRACY)
+                          (CC AND)
+                          (NNP SOCIAL) (NNP JUSTICE))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP FIRST))
+    (VP (VBD HAPPENED)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NN INTERIOR))
+          (PP (IN OF)
+            (NP (DT THE) (NNP COUNTRY)))))
+      (, ,)
+      (PP (IN WITH)
+        (NP
+          (NP
+            (NP (DT THE) (NN DESTRUCTION))
+            (PP (IN OF)
+              (NP
+                (NP (NNS DOZENS))
+                (PP (IN OF)
+                  (NP (NNP TOWNS) (NNP LIKE) (NNP TENANCINGO) (, ,) (NNP BERLIN) (, ,) (NNP TOROLA) (, ,) (NNP SAN) (NNP FERNANDO))))))
+          (, ,)
+          (CC AND)
+          (NP
+            (NP (NNP SO) (NNP MANY) (NNP OTHERS) (NNP THAT) (NNP TOOK) (NNP PLACE))
+            (VP (VBG ALONG)
+              (PP (IN WITH)
+                (NP (DT THE) (NNP GENOCIDE) (NNP CARRIED) (NNP OUT) (NNP BY) (NNP THE) (NNP INFANTRY)))
+              (PP (IN WITH)
+                (NP
+                  (NP (DT THE) (NNP MASS) (NNP MURDERS))
+                  (PP (IN OF)
+                    (NP
+                      (NP (NNS CIVILIANS))
+                      (PP (IN IN)
+                        (NP (NNP EL) (NNP MOSOTO) (, ,) (NNP SUNPUL) (, ,) (NNP AND) (NNP OCOTAPAYO))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BUSTILLO))
+    (VP (VBZ IS)
+      (VP (VBG LEAVING)
+        (S
+          (NP (NNP AS) (NNP SO))
+          (NP (NNP MANY) (NNP GENERALS)
+            (CC AND)
+            (NNP U.S.) (NNPS AMBASSADORS) (NNP HAVE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP AND) (NNP LIKE) (NNP ALL))
+      (PP (IN OF)
+        (NP (NNP THEM) (NNP HIS) (NNP DEPARTURE))))
+    (VP (VBZ REVEALS)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP IMPERIALIST) (NNP POWER))
+          (VP (VBZ 'S)
+            (ADJP (JJ FAILURE)
+              (S
+                (VP (TO TO)
+                  (VP (VB CONSOLIDATE)
+                    (NP
+                      (NP (NNP ITS) (NNP COUNTERINSURGENCY) (NNP PROGRAM))
+                      (PP (IN IN)
+                        (NP (NNP EL) (NNP SALVADOR))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP AS) (NNP ALL) (NNP THE))
+    (VP (VBZ OTHERS)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (NP
+            (NP (NNP HAVE) (NNP LEFT))
+            (, ,)
+            (NP
+              (NP (NNP BUSTILLO) (NNP ALSO) (NNP SEEKS) (NNP EXCUSES))
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (NN FACE))
+                  (PP (IN OF)
+                    (NP (PRP$ HIS) (NN FAILURE))))))
+            (, ,))
+          (VP (VBP BY)
+            (S
+              (VP (VBG ACCUSING)
+                (NP (NNS OTHERS))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBZ ACCUSES)
+      (PRN (-LRB- -LRB-)
+        (NP (JJ FORMER) (NNP DEFENSE) (NNP MINISTER) (NNP EUGENIO))
+        (-RRB- -RRB-))
+      (NP
+        (NP (NNP VIDES) (NNP CASANOVA))
+        (PP (IN OF)
+          (S
+            (VP (VBG BEING)
+              (VP (VBN SOFT)
+                (PP (IN IN)
+                  (S
+                    (VP (VBG FIGHTING)
+                      (NP
+                        (NP (DT THE) (NNP PEOPLE) (POS 'S))
+                        (NN PLAN)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ONE) (NNP WOULD) (NNP HAVE) (NNP TO) (NNP ASK) (NNP BUSTILLO))
+    (SBAR (IN IF)
+      (S
+        (NP
+          (NP (DT THE) (NNP AIR) (NNP FORCE))
+          (, ,)
+          (PP (IN OF)
+            (SBAR
+              (WHNP (WDT WHICH))
+              (S
+                (NP (PRP HE))
+                (VP (VBD REPRESENTED)
+                  (NP (NNP ITS) (NNP MOST) (NNP ENCOURAGING) (NNP PILLAR))))))
+          (, ,))
+        (VP (VBD WAS)
+          (VP (VBG SOFT)
+            (NP
+              (SBAR
+                (WHADVP (WRB WHEN))
+                (S
+                  (NP (PRP IT))
+                  (VP (VBD MURDERED)
+                    (NP (CD 70,000) (NNS SALVADORANS)))))
+              (, ,)
+              (NP (NNP MONSIGNOR) (NNP ARNULFO) (NNP ROMERO)
+                (CC AND)
+                (NNP THE) (NNP JESUIT) (NNP PRIESTS) (NNP INCLUDED))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP (NNP EVEN))
+                (SBAR
+                  (WHADVP (WRB WHEN))
+                  (S
+                    (NP (PRP IT))
+                    (VP (VBD MURDERED)
+                      (NP
+                        (NP (NNP PATRIOT) (NNP OFFICERS))
+                        (PP (IN OF)
+                          (NP (NNP THAT) (NNP SAME) (NNP ARMY)))))))))))))
+    (. .)))
+
+(ROOT
+  (SQ (VBD WAS)
+    (NP (DT THE) (NNP U.S.))
+    (NP (NNP PENTAGON) (NNP SOFT))
+    (SBAR
+      (WHADVP (WRB WHEN))
+      (S
+        (NP (PRP IT))
+        (VP (VBP GAVE)
+          (NP
+            (NP
+              (NP ($ $) (CD 3))
+              (NP (NNP BILLION) (, ,) (NNP WEAPONS)))
+            (, ,)
+            (CC AND)
+            (NP
+              (NP (NNS BOMBS))
+              (PP (IN FOR)
+                (NP
+                  (NP (DT THE) (NNP MOST) (NNP COWARDLY) (NNP ACT))
+                  (PP (IN OF)
+                    (NP (NNP GENOCIDE) (NNP LATIN) (NNP AMERICA) (NNP CAN) (NNP RECALL) (NNP THIS) (NNP CENTURY))))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP U.S.) (NNP STRATEGY))
+    (, ,)
+    (X
+      (NP
+        (NP (NNP IMPLEMENTED) (NNP THROUGH) (NNP THE) (NNP TOP) (NNP MILITARY) (NNP COMMAND))
+        (PP (IN IN)
+          (NP (DT THE) (JJ PAST) (CD 10) (NNS YEARS))))
+      (NP (NNP WITH) (NNP ALL) (NNP ITS) (NNP MIGHT) (NNP DID) (NNP ALL) (NNP IT) (NN COULD) (NNP SO) (NNP THAT))
+      (NP
+        (NP (DT THE) (NNP PERMANENT) (NNP REBELLION))
+        (PP (IN IN)
+          (NP (DT THE) (NNP RURAL) (NNP AREAS) (NNP REACHED)))))
+    (NP (DT THE) (NNP COUNTRY))
+    (VP (VBZ 'S)
+      (NP
+        (NP (NNP VITAL) (NNP CENTERS))
+        (, ,)
+        (NP
+          (NP (NNP AS) (NNP INDEED) (NNP HAPPENED) (NNP AS))
+          (PP (IN OF)
+            (NP (DT THE) (CD 10) (NNP NOVEMBER) (NNP OFFENSIVE))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP BUSTILLO) (NNP STATES) (NNP IT) (NNP CLEARLY) (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP BOMBING) (NNP TEMPORARILY))
+    (VP (VBD HALTED)
+      (NP
+        (NP (DT THE) (NN DEFEAT))
+        (PP (IN OF)
+          (NP (DT THE) (NNP TOP) (NNP COMMAND)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VB THROUGH)
+        (NP
+          (NP (DT AN) (NNP ACT))
+          (PP (IN OF)
+            (NP (NNP GENOCIDE))))))
+    (, ,)
+    (NP (PRP IT))
+    (VP (VBD MANAGED)
+      (S
+        (VP (TO TO)
+          (VP (VB REMOVE)
+            (S
+              (NP (DT THE) (NNP DISGRUNTLED) (NNP PEOPLE) (NNP FROM))
+              (NP (DT THE) (NNP NEIGHBORHOODS) (NNP WHERE) (NNP THE) (NNP GUERRILLA) (NNP FORCES) (NNP WERE)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BUSTILLO) (NNP ACKNOWLEDGES) (NNP GENOCIDE))
+    (VP (VBZ IS)
+      (NP (DT THE) (NNP SOLE) (NNP WAY) (NNP THE) (NNP ARMED) (NNP FORCES) (NNP CAN) (NNP SURVIVE)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP BUSTILLO) (NNP ACKNOWLEDGES) (NNP THE) (NNP FMLN) (POS 'S))
+      (NNP STRENGTH)
+      (CC AND)
+      (NNP THEREFORE))
+    (VP (VBZ URGES)
+      (S
+        (NP (DT THE) (NNP ARMED) (NNP FORCES))
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP
+              (NP (NNP TOUGHER)
+                (CC AND)
+                (NNP INFLEXIBLE))
+              (CC AND)
+              (NP
+                (NP (NNS REJECTS))
+                (NP (DT A) (JJ POLITICAL) (NNP SOLUTION) (NNP TO) (NNP THE) (NNP CONFLICT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (JJ POLITICAL) (NNP SOLUTION) (NNP WOULD))
+    (VP (VBZ EXPRESS)
+      (S
+        (NP (DT THE) (NNS CONSENSUS))
+        (PP (IN AMONG)
+          (NP
+            (NP (DT THE) (NNP COUNTRY) (POS 'S))
+            (NNP MAJOR) (NNP SECTORS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OBVIOUSLY) (NNP THE) (NNP TOP) (NNP COMMAND))
+    (VP (VBZ REPRESENTS)
+      (NP (DT A) (JJ DECADENT) (NN MINORITY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BUSTILLO) (NNP SUPPORTS) (NNP LAUNCHING) (NNP A) (NNP FASCIST) (NNP CRUSADE))
+    (VP (VBP AGAINST)
+      (NP
+        (NP
+          (NP (DT THE) (NNP PEOPLE) (POS 'S))
+          (NNS WISH))
+        (PP (IN FOR)
+          (NP (NNP DEMOCRACY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP THIS) (NNP EFFORT)))
+    (, ,)
+    (NP (PRP HE))
+    (VP (VBZ LASHES)
+      (NP
+        (NP
+          (NP (NNP OUT) (NNP AT) (NNP THE) (NNP CATHOLIC) (NNP CHURCH))
+          (, ,)
+          (NP (NNP ALL) (NNP OPPOSITION) (NNP SECTORS) (NNP THAT) (NNP REPORT) (NNP HUMAN) (NNP RIGHTS) (NNP VIOLATIONS)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP ALL) (NNP SECTORS) (NNP THAT) (NNP SUPPORT) (NNP DEMOCRATIZING))
+          (NP (DT THE) (NN COUNTRY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP CONCLUSION)))
+    (, ,)
+    (NP (NNP WE) (NNP SAY) (NNP THAT) (NNP BUSTILLO))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP NOT) (NNP RESIGNING))
+        (PP (IN OF)
+          (NP (PRP$ HIS) (NNP OWN) (NN VOLITION)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FMLN) (NNP ACTION))
+    (VP (VBD ELIMINATED)
+      (NP
+        (NP
+          (NP (NNP BUSTILLO) (NNP AS) (NNP IT) (NNP ELIMINATED) (NNP GARCIA))
+          (, ,)
+          (NP (NNS VIDES)))
+        (, ,)
+        (CC AND)
+        (NP (NNP SO) (NNP MANY) (NNP OTHER) (NNP MILITARY) (NNP CHIEFS) (NNP WHO) (NNP LEFT) (NNP THEIR) (NNP POSTS) (NNP WITHOUT) (NNP FULFILLING) (NNP THE) (NNP TASK) (NNP COMMISSIONED) (NNP BY) (NNP THE) (NNP UNITED) (NNS STATES))
+        (: :))
+      (S
+        (VP (TO TO)
+          (VP (VB STOP)
+            (NP (DT THE) (NN FMLN))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FMLN) (NNP OFFENSIVE))
+    (VP (VBD BARED)
+      (NP
+        (NP
+          (NP (DT THE) (NNP GENOCIDAL))
+          (, ,)
+          (NP (NNP ANTIPOPULAR)))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP FASCIST) (NNP NATURE))
+          (PP (IN OF)
+            (NP (DT THE) (NNP ALFREDO) (NNP CRISTIANI) (NNP REGIME)))))
+      (S
+        (VP (TO TO)
+          (VP (VB SUCH)
+            (NP
+              (NP (DT AN) (NNP EXTENT) (NNP THAT) (NNP IT) (NNP PROMPTED) (NNP A) (NNP STRONG) (NNP DEBATE))
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (NNP UNITED) (NNS STATES))
+                  (PP (IN ON)
+                    (NP (NNP CUTTING) (NNP MILITARY) (NNP AID))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP JESUITS) (POS '))
+      (NNP MURDERS)
+      (CC AND)
+      (NNP THE))
+    (VP (VBZ BOMBINGS)
+      (NP
+        (NP (NNP SO) (NNP SHOOK))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP INTERNATIONAL) (NNP COMMUNITY) (NNP THAT) (NNP IT))
+            (VP (VBZ IS)
+              (VP (VBG PRESSURING)
+                (PP (IN FOR)
+                  (NP
+                    (NP (NNP PUNISHMENT))
+                    (PP (IN OF)
+                      (NP
+                        (NP (DT THE) (NNP OFFICERS) (NNP INVOLVED))
+                        (PP (IN IN)
+                          (NP (NNP THESE) (NNP INCIDENTS)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP HOWEVER))
+      (, ,)
+      (NP (DT THE) (NNP BUSH) (NNP ADMINISTRATION) (NNP ACCEPTED) (NNP THIS))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP SINCE) (NNP COLONEL) (NNP RENE) (NNP EMILIO) (NNP PONCE))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (NNP CHAIRMAN))
+              (PP (IN OF)
+                (NP (DT THE) (NNP JOINTS) (NNP CHIEFS)))
+              (PP (IN OF)
+                (NP (NNP STAFF))))
+            (-RRB- -RRB-)))
+        (CC AND)
+        (NP (PRP$ HIS) (NN CLIQUE)))
+      (, ,)
+      (NP (NNP EVEN) (NNP CRISTIANI))
+      (, ,))
+    (VP (VBP MUST)
+      (NP (NNP SHOULDER) (NNP THIS) (NNP RESPONSIBILITY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP MUST) (NNP NOT) (NNP FORGET))
+    (VP (VBP THAT)
+      (SBAR
+        (S
+          (PP (IN IN)
+            (NP (NNP COSTA) (NNP RICA)))
+          (NP (DT THE) (NNP SALVADORAN) (NNP DEFENSE) (NNP MINISTER) (NNP DISCLOSED) (NNP CRISTIANI))
+          (VP (VBD AUTHORIZED)
+            (NP (DT THE) (NNS BOMBINGS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BUSH))
+    (VP (VBD NEEDED)
+      (NP (DT A) (NN SCAPEGOAT)
+        (S
+          (VP (TO TO)
+            (VP (VB PLACE)
+              (NP
+                (NP (PRP IT))
+                (PP (IN ON)
+                  (NP
+                    (NP (DT THE) (NN ALTAR))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNS DEBATES)))))
+                (SBAR
+                  (WHNP (WDT WHICH))
+                  (S
+                    (VP (MD WILL)
+                      (VP (VB BEGIN)
+                        (PP (IN IN)
+                          (NP
+                            (NP (DT THE) (NNP U.S.) (NNP CONGRESS))
+                            (PP (IN ON)
+                              (NP
+                                (NP (DT THE) (NN FATE))
+                                (PP (IN OF)
+                                  (NP (NNP MILITARY) (NNP AID)))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP BUSTILLO))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP BUSH) (POS 'S))
+        (NN SCAPEGOAT)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP HOWEVER) (, ,) (NNP BUSTILLO))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP ALREADY) (NNP A) (NNP USELESS) (NNP ELEMENT))
+        (PP (IN OF)
+          (NP (DT THE) (NNP MURDEROUS) (NNP MACHINERY) (NNP THAT) (NNP REMAINS) (NNP ACTIVE)))))
+    (. .)))
+
+(ROOT
+  (SQ (MD WILL)
+    (NP (DT THE) (NNP U.S.) (NNP PUBLIC) (NNP AND) (NNP CONGRESS))
+    (VP (VB BE)
+      (VP (VBN APPEASED)
+        (PP (IN WITH)
+          (NP (NNP THIS) (NNP FOUL) (NNP TASTING) (NNP CANDY)))))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP TIME)
+        (CC AND)
+        (NNP THE) (NNP SPIRIT))
+      (PP (IN OF)
+        (NP (DT THE) (NNP TIMES) (NNP ARE) (NNP OBVIOUSLY) (NNP RUNNING))))
+    (VP (VBP AGAINST)
+      (NP
+        (NP (DT THE) (JJ FASCIST) (NN PROGRAM))
+        (PP (IN IN)
+          (NP (NNP EL) (NNP SALVADOR)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNP WHILE) (NNP PEOPLES))
+        (PP (IN OF)
+          (NP (DT THE) (NNP WORLD) (NNP TEAR) (NNP DOWN) (NNP DOGMAS))))
+      (, ,)
+      (NP (NNS DICTATORSHIPS))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (NNP WALLS) (, ,) (NNP BUSTILLO) (, ,) (NNP WHO) (NNP LEAVES) (NNP THROUGH) (NNP THE) (NNP DOOR))
+        (PP (IN OF)
+          (NP (NNP DEFEAT))))
+      (, ,))
+    (VP (VBZ ASKS)
+      (S
+        (NP (DT THE) (NNP ARMED) (NNP FORCES))
+        (VP (TO TO)
+          (VP (VB BE)
+            (NP
+              (NP
+                (NP (NNP TOUGHER))
+                (, ,)
+                (NP (NNP COMMIT) (NNP MORE) (NNP GENOCIDE)))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP
+                  (NP
+                    (NP (NNP BUILD) (NNP MORE) (NNP WALLS))
+                    (PP (IN OF)
+                      (NP (NNP REPRESSION) (NNP AGAINST) (NNP THE) (NNP CHURCH))))
+                  (, ,)
+                  (NP (DT THE) (NN PEOPLE))
+                  (, ,))
+                (CC AND)
+                (NP (DT THE) (NNP NATION) (IN AS) (DT A) (NNP WHOLE))))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (NNP GOODBYE))
+    (, ,)
+    (NP (NNP GEN.) (NNP BUSTILLO))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE) (NNP CONTINUE) (NNP WRITING) (NNP HISTORY))
+    (VP (VBP WITHOUT)
+      (NP (PRP YOU)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP DECADE) (NNP WE) (NNP BEGIN))
+    (VP (VBZ IS)
+      (PP (IN OF)
+        (NP (NNP DEMOCRACY) (, ,) (NNP INDEPENDENCE) (, ,) (NNP AND) (NNP SELF-DETERMINATION))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THAT))
+    (VP (VBZ IS)
+      (SBAR
+        (WHADVP (WRB WHY))
+        (S
+          (NP
+            (NP (NNP FOREIGN) (NNP INTERVENTION)
+              (CC AND)
+              (NNP THE) (NNP WALLS))
+            (PP (IN OF)
+              (NP
+                (NP (NNP INTOLERANCE) (NNP HAVE) (NNP A) (NNP SHORT) (NNP LIFE) (NNP SPAN))
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP THIS) (NNP COUNTRY))
+                    (, ,)
+                    (NP
+                      (NP (NNP WHERE) (NNP THE) (NNP PEOPLE) (NNP GROW))
+                      (PP (IN IN)
+                        (NP
+                          (NP (NNP HEROISM)
+                            (CC AND)
+                            (NNP THE) (NNP STRUGGLE))
+                          (PP (IN FOR)
+                            (NP (NNP SOCIAL) (NNP CHANGE)))))))))))
+          (VP (VBZ IS)
+            (NP (NNP NOT) (NNP DETERRED) (NNP BY) (NNP BOMBINGS))))))
+    (. .)))
+

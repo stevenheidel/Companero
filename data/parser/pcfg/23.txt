@@ -1,0 +1,323 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (NNP THE) (NNP MRTA))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TUPAC) (NNP AMARU) (NNP REVOLUTIONARY) (NNP MOVEMENT))
+        (-RRB- -RRB-)))
+    (VP (VBZ TODAY)
+      (NP
+        (NP (NNP DISTRIBUTED) (NNP LEAFLETS) (NNP CLAIMING) (NNP RESPONSIBILITY))
+        (PP (IN FOR)
+          (NP
+            (NP (DT THE) (NN MURDER))
+            (PP (IN OF)
+              (NP (JJ FORMER) (NNP DEFENSE) (NNP MINISTER) (NNP ENRIQUE) (NNP LOPEZ) (NNP ALBUJAR)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP GENERAL) (NNP OSVALDO) (NNP DIAZ) (NNP SALVADOR))
+      (, ,)
+      (NP
+        (NP (JJ CHIEF))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (CD 7TH) (NNS SUBREGION))
+            (PP (IN OF)
+              (NP (DT THE) (NNP NATIONAL) (NNP POLICE))))))
+      (, ,))
+    (VP (VBZ HAS)
+      (VP (VBN CONFIRMED)
+        (NP
+          (NP
+            (NP (DT THE) (NN EXISTENCE))
+            (PP (IN OF)
+              (NP (DT THE) (NNS LEAFLETS))))
+          (, ,)
+          (CC AND)
+          (NP
+            (NP (NNP ADDED) (NNP THAT))
+            (SBAR
+              (S
+                (NP (DT THE) (NN MURDER) (NN CASE))
+                (VP (VBZ IS)
+                  (NP
+                    (NP (NNP STILL))
+                    (VP (VBG BEING)
+                      (VP (VBN INVESTIGATED)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT))
+          (PP (IN AMONG)
+            (NP
+              (NP (DT THE) (NNS THOUSANDS))
+              (PP (IN OF)
+                (NP (NNP DETAINEES) (NNP THERE)))))
+          (VP (VBP ARE)
+            (NP
+              (NP (CD 16) (NNS SUSPECTS))
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBP ARE)
+                    (VP (VBN BELIEVED)
+                      (S
+                        (VP (TO TO)
+                          (VP (VB HAVE)
+                            (NP
+                              (NP (NNP PARTICIPATED))
+                              (PP (IN IN)
+                                (NP
+                                  (NP (DT THE) (NN MURDER))
+                                  (PP (IN OF)
+                                    (NP (DT THE) (NNP OUTSTANDING) (NNP GENERAL))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP BEGIN) (NNP RECORDING))
+        (-RRB- -RRB-))
+      (S (-LRB- -LRB-)
+        (NP (NNP DIAZ) (NNP SALVADOR))
+        (-RRB- -RRB-)
+        (VP (VBZ WELL))))
+    (, ,)
+    (NP (NNP THERE))
+    (VP (VBP ARE)
+      (NP (CD TWO) (NNS OPERATIONS)))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB FIRST))
+    (, ,)
+    (NP (DT THE) (NNP DRAGNET) (NNP OPERATION))
+    (, ,)
+    (PP (IN IN)
+      (SBAR
+        (WHNP (WDT WHICH))
+        (S
+          (VP (VBP PEOPLE)
+            (PP (IN WITH)
+              (NP (DT THE) (NNP CHARACTERISTICS) (NNP ESTABLISHED) (NNP BY) (NNP WITNESSES) (NNP ARE) (NNP ARRESTED)))))))
+    (, ,)
+    (NP (CC AND)
+      (NNP SECOND) (, ,) (NNP THERE))
+    (VP (VBZ IS)
+      (NP (DT A) (JJR MORE) (NNP SPECIFIC) (NNP OPERATION) (NNP BEING) (NNP CONDUCTED) (NNP BY) (NNP THE) (NNP SPECIALIZED) (NNPS UNITS)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP THERE) (NNP ANY) (NNP INFORMATION) (NNP YET))
+        (VP (VBG REGARDING)
+          (NP
+            (NP (DT THE) (NN CAPTURE))
+            (PP (IN OF)
+              (NP
+                (NP (DT THE) (NNS MURDERERS))
+                (PP (IN OF)
+                  (NP (DT THE) (JJ FORMER) (NNP DEFENSE) (NNP MINISTER)))))))))
+    (. ?)))
+
+(ROOT
+  (SINV
+    (S (-LRB- -LRB-)
+      (NP (NNP DIAZ) (NNP SALVADOR))
+      (-RRB- -RRB-)
+      (VP (VBP THESE)
+        (S
+          (NP (NNP OPERATIONS) (NNP SEEK))
+          (VP (TO TO)
+            (VP (VB CLEAR)
+              (PRT (RP UP))
+              (NP (DT BOTH) (NNP A) (NN CRIME) (NN THAT)))))))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP SHOCKED) (NNP THE) (NNP NATION)
+          (CC AND)
+          (NNP ALSO) (NNP THE) (NNP KILLING))
+        (PP (IN OF)
+          (NP
+            (NP (CD TWO) (NNS PATROLMEN))
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (ADVP (RB WERE))
+                (VP (VBD MURDERED)
+                  (PP (IN IN)
+                    (NP (JJ COLD) (NN BLOOD)))
+                  (NP (DT THE) (NNP DAY)))))))))
+    (NP (NNP BEFORE) (NNP THE) (NNP GENERAL) (NNP WAS) (NNP MURDERED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (VP (VBP DO)
+      (NP
+        (NP (DT THE) (NNP POLICE) (NNP HAVE) (NNP IDENTIKITS))
+        (PP (IN OF)
+          (NP (DT THE) (NNS MURDERERS)))))
+    (. ?)))
+
+(ROOT
+  (NP
+    (NP
+      (PRN (-LRB- -LRB-)
+        (NP (NNP DIAZ) (NNP SALVADOR))
+        (-RRB- -RRB-))
+      (NNP WE) (NNP HAVE))
+    (NP
+      (NP (NNP RECEIVED) (NNP SOME) (NNP IDENTIKITS))
+      (PP (IN OF)
+        (NP (NNP PEOPLE)))
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD COULD)
+            (NP
+              (NP (NNP HAVE) (NNP PARTICIPATED))
+              (PP (IN IN)
+                (NP (DT THE) (NNP ATTACK) (NNP FROM))))
+            (NP
+              (NP (DT THE) (JJ SPECIALIZED) (NNS UNITS))
+              (PP (IN OF)
+                (NP (DT THE) (NNP TECHNICAL) (NNP POLICE))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP BASED))
+      (PP (IN ON)
+        (NP (NNP THESE) (NNP IDENTIKITS) (NNP THE) (NNP POLICE))))
+    (VP (MD WILL)
+      (VP (VB BE)
+        (NP (NNP MORE) (NNP SPECIFIC)
+          (CC AND)
+          (NNP SELECTIVE))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (NP (NNP HOW) (NNP MANY) (NNP IDENTIKITS) (NNP DO) (NNP YOU) (NNP HAVE) (NNP SO) (NNP FAR))
+    (. ?)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP DIAZ) (NNP SALVADOR) (-RRB- -RRB-))
+    (VP (VBP SO)
+      (SBAR
+        (S
+          (NP (NNP FAR) (NNP WE) (NNP HAVE) (NNP RECEIVED) (NNP THREE))
+          (VP (VBZ IDENTIKITS)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+      (NP (DT THE) (NN MURDER)))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP ATTRIBUTED) (NNP TO) (NNP MRTA)
+          (CC AND)
+          (NNP NOT))
+        (VP (TO TO)
+          (NP (DT THE) (NNP SHINING) (NNP PATH)))))
+    (. .)))
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT WHAT)
+      (NP
+        (NP (NNP NEWS) (NNP DO))
+        (NP (DT THE) (NNP HAVE) (NNP ON))))
+    (SQ
+      (VP (VBZ THIS)))
+    (. ?)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP DIAZ) (NNP SALVADOR))
+        (-RRB- -RRB-))
+      (S
+        (NP (PRP I))
+        (VP (VBP BELIEVE))))
+    (NP (DT THE) (NNP INTELLIGENCE) (NNP SERVICES))
+    (VP (MD WILL)
+      (VP (VB HAVE)
+        (NP
+          (NP (DT THE) (NNP FINAL) (NNP WORD))
+          (PP (IN ON)
+            (NP (NNP THIS))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP REPORTER) (-RRB- -RRB-))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP IT) (NNP TRUE) (NNP THAT))
+        (SBAR
+          (S
+            (NP (DT THE) (NNP MRTA))
+            (VP (VBZ HAS)
+              (NP
+                (NP (NNP CLAIMED) (NNP RESPONSIBILITY))
+                (PP (IN FOR)
+                  (NP (DT THE) (NN MURDER)))))))))
+    (. ?)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP DIAZ) (NNP SALVADOR))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP WELL) (, ,) (NNP WE) (NNP ALL) (NNP KNOW))
+        (VP (VBP THAT)
+          (SBAR
+            (S
+              (NP (NNP SOME) (NNP LEAFLETS) (NNP HAVE) (NNP APPEARED) (NNP TODAY) (NNP INSIDE) (NNP A) (NNP NEWSPAPER) (NNP THAT))
+              (VP (VBZ CLAIMS)
+                (S
+                  (VP (TO TO)
+                    (VP (VB BE)
+                      (NP
+                        (NP (DT THE) (NN MOUTHPIECE))
+                        (PP (IN ON)
+                          (NP (NNP THIS) (NNP MATTER)))))))))))))
+    (, ,)
+    (NP (NNP BUT) (NNP I) (NNP DO) (NNP NOT) (NNP THINK) (NNP THIS))
+    (VP (VBZ IS)
+      (NP (NNP FINAL)))
+    (. .)))
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (NP (NNP END) (NNP RECORDING))
+    (-RRB- -RRB-)))
+

@@ -1,0 +1,74 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (DT A) (NNS SEARCH))
+        (VP (VBZ IS)
+          (VP (VBN ON)
+            (PP (IN FOR)
+              (NP (DT AN) (NNP EPL)
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP POPULAR) (NNP LIBERATION) (NNP ARMY))
+                  (-RRB- -RRB-))
+                (NNP UNIT)))))))
+    (NP (NNP THAT) (NNP YESTERDAY))
+    (VP (VBD INCINERATED)
+      (NP
+        (NP (CD FIVE) (NNS MEMBERS))
+        (PP (IN OF)
+          (NP
+            (NP
+              (NP (DT A) (NNP NATIONAL) (NNP POLICE) (NNP PATROL) (NNP IN))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP WORD) (NNP INDISTINCT))
+                (-RRB- -RRB-)))
+            (, ,)
+            (NP (NNP RISARALDA) (NNP DEPARTMENT))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICEMEN))
+    (VP (VBD BURNED)
+      (S
+        (VP (TO TO)
+          (VP (VB DEATH)
+            (NP
+              (NP (NNP INSIDE) (NNP THEIR) (NNP VEHICLE))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP LA) (NNP SELVA))
+                  (, ,)
+                  (NP (DT A) (NNP FEW) (NNP KILOMETERS) (NNP FROM) (NNP CHINCHILLA)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN POLICEMEN))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (MD WILL)
+            (VP (VB BE)
+              (NP
+                (NP (NNP BURIED) (NNP TODAY))
+                (, ,)
+                (NP (NNP WERE) (NNP LIEUTENANT) (NNP JESUS) (NNP ANTONIO) (NNP CORDOBA))
+                (, ,)
+                (NP (NNP ANTONIO) (NNP GUILLEN))
+                (, ,)
+                (NP (NNP RUBIANO) (NNP WAPAXMAYO)))))))
+      (, ,))
+    (VP (VBP JORGE)
+      (NP
+        (NP (NNP PEREZ) (NNP GALLEGOS))
+        (, ,)
+        (CC AND)
+        (NP (NNP OSCAR) (NNP CASTANO) (NNP TAMAYO))))
+    (. .)))
+

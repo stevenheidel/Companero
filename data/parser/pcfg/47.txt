@@ -1,0 +1,133 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (VP (VBG ACCORDING)
+        (NP
+          (NP (NNP TO) (NNP MILITARY) (NNP SOURCES)
+            (CC AND)
+            (NNP PEOPLE))
+          (SBAR
+            (WHNP (WP WHO))
+            (S
+              (VP (VBD ARRIVED)
+                (NP
+                  (NP (NNP TODAY))
+                  (PP (IN IN)
+                    (NP (NNP AYACUCHO) (NNP FROM))))))))
+        (NP
+          (NP (DT THE) (NNP LA) (NNP MAR) (NN AREA))
+          (, ,)
+          (NP (CD 44) (NNS PEASANTS)))))
+    (VP (VBP HAVE)
+      (NP
+        (NP (NNP BEEN) (NNP KILLED))
+        (PP (IN IN)
+          (NP
+            (NP (CD TWO) (NNS TOWNSHIPS))
+            (PP (IN OF)
+              (NP
+                (NP (NNP LA) (NNP MAR) (NNP PROVINCE))
+                (, ,)
+                (NP (NNP AYACUCHO) (NNP DEPARTMENT))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP YESTERDAY) (NNP A) (NNP COLUMN))
+      (PP (IN OF)
+        (NP (NNP SHINING) (NNP PATH) (NNP TERRORISTS))))
+    (VP (VBD ARRIVED)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NN VILLAGE))
+          (PP (IN OF)
+            (NP (NNP CHINCHIPE)))))
+      (, ,)
+      (PP (IN IN)
+        (NP
+          (NP
+            (NP (DT THE) (NNP JUNGLE) (NNP PROVINCE))
+            (PP (IN OF)
+              (NP (NNP LA) (NNP MAR))))
+          (, ,)
+          (CC AND)
+          (NP
+            (NP (NNP SHOT) (CD 16) (NNS PEASANTS))
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (VP (VBP WERE)
+                  (NP
+                    (NP (NNS MEMBERS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP PEASANT) (NNP PATROLS) (NNP THAT) (NNP OPPOSE) (NNP THE) (NNP TERRORISTS)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP SHINING) (NNP PATH) (NNP GUERRILLAS))
+      (, ,)
+      (SBAR
+        (WHNP (WP WHO))
+        (S
+          (VP (VBD BURNED)
+            (NP
+              (NP (NNP MURDERED) (NNP PEASANTS) (POS '))
+              (NNS HOUSES)))))
+      (, ,))
+    (VP (VBD CHARGED)
+      (NP (NNP THEM))
+      (PP (IN WITH)
+        (S
+          (VP (VBG COLLABORATING)
+            (PP (IN WITH)
+              (NP (DT THE) (NNP ARMY)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NN TOWN))
+      (PP (IN OF)
+        (NP (NNP CHINCHIPE))))
+    (VP (VBZ IS)
+      (NP
+        (NP (NNP 220) (NNP KM) (NNP NORTH))
+        (PP (IN OF)
+          (NP (NNP AYACUCHO)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP TRAVELLERS) (NNP ARRIVING) (NNP FROM) (NNP LA) (NNP MAR) (NNP PROVINCE))
+    (VP (VBD SAID)
+      (NP
+        (NP (NNP THAT))
+        (PP (IN ON)
+          (NP
+            (NP (CD 23) (NNP SEPTEMBER) (CD 28) (NNS BODIES))
+            (PP (IN OF)
+              (NP
+                (NP (NNP ALLEGED) (NNP PEASANTS) (NNP WERE) (NNP FOUND) (NNP NEAR) (NNP THE) (NNP TOWN))
+                (PP (IN OF)
+                  (NP (NNP CHULLAS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP BODIES) (NNP SHOWED) (NNP SIGNS))
+      (PP (IN OF)
+        (NP (NNP TORTURE)
+          (CC AND)
+          (NNP BULLET))))
+    (VP (VBZ WOUNDS)
+      (NP
+        (NP (NNP BUT) (NNP THE) (NNP IDENTITY))
+        (PP (IN OF)
+          (NP (DT THE) (NNP MURDERERS) (NNP APPARENTLY) (NNP COULD) (NNP NOT) (NNP BE) (NNP DETERMINED)))))
+    (. .)))
+

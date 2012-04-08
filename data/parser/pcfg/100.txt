@@ -1,0 +1,30 @@
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+      (NP (DT A) (NNP CARGO) (NNP TRAIN) (NNP RUNNING) (NNP FROM) (NNP LIMA) (NNP TO) (NNP LOROHIA)))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP DERAILED) (NNP BEFORE) (NNP DAWN) (NNP TODAY) (NNP AFTER))
+        (VP (VBG HITTING)
+          (NP (DT A) (NNP DYNAMITE) (NNP CHARGE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP INSPECTOR) (NNP EULOGIO) (NNP FLORES))
+    (VP (VBD DIED)
+      (PP (IN IN)
+        (NP (DT THE) (NNP EXPLOSION))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICE) (NNP REPORTED))
+    (VP (VBP THAT)
+      (NP
+        (NP (DT THE) (NNP INCIDENT) (NNP TOOK) (NNP PLACE) (NNP PAST) (NNP MIDNIGHT))
+        (PP (IN IN)
+          (NP (DT THE) (NNP CARAHUAICHI-JAURIN) (NN AREA)))))
+    (. .)))
+

@@ -1,0 +1,72 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (DT A) (NNP WAR) (NNP BULLETIN) (NNP INDICATES))
+        (VP (VBP THAT)
+          (PRT (RP ON))
+          (NP (CD 6) (NNP JANUARY) (NNP AT) (NNS 1625)))))
+    (, ,)
+    (NP
+      (NP (NNP FMLN))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+        (-RRB- -RRB-))
+      (NNS TROOPS))
+    (VP (VBD CLASHED)
+      (PP (IN WITH)
+        (NP (DT THE) (NNP CAVALRY) (NNP COMPANY)))
+      (PP (IN IN)
+        (S
+          (NP
+            (NP (NNP FINCA) (NNP SANTA) (NNP ELENA))
+            (, ,)
+            (NP (NNP SANTA) (NNP TECLA))
+            (, ,)
+            (NP (NNP NEAR) (NNP SAN) (NNP SALVADOR))
+            (, ,)
+            (NP (NNP KILLING) (NNP THREE)
+              (CC AND)
+              (NNP WOUNDING) (NNP FOUR) (NNP ENEMY) (NNP TROOPS))
+            (, ,))
+          (VP (VBG INCLUDING)
+            (NP
+              (NP (DT THE) (NNP PATROL) (NNP LEADER))
+              (SBAR
+                (WHNP (WP WHO))
+                (S
+                  (VP (VBD WAS)
+                    (ADJP (JJ AMONG)
+                      (SBAR
+                        (S
+                          (NP (DT THOSE))
+                          (VP (VBD KILLED)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP OUR) (NNP TROOPS))
+    (VP (VBD SEIZED)
+      (NP (DT AN)
+        (NP
+          (NP (NNP M-14) (NNP RIFLE) (NNP FROM))
+          (NP (DT THE) (NN ENEMY)))
+        (, ,)
+        (NP
+          (NP (CD 3,000) (NNS CARTRIDGES))
+          (PP (IN FOR)
+            (NP (DT A) (CD 7.62-MM) (NN RIFLE))))
+        (, ,)
+        (NP
+          (NP
+            (NP (CD FIVE) (NNS KNAPSACKS))
+            (, ,)
+            (NP (NNP SIX) (NNP GRENADES))
+            (, ,))
+          (CC AND)
+          (NP (NNP FIELD) (NNP EQUIPMENT)))))
+    (. .)))
+

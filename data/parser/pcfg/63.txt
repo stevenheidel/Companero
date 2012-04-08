@@ -1,0 +1,288 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP (DT THE) (NNP PUBLIC) (NNP SECURITY) (NNP FORCES))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP FUSEP))
+            (-RRB- -RRB-)))
+        (VP (VBP HAVE)
+          (S
+            (NP
+              (NP (NNP DECLARED) (NNP A) (NNP STATE))
+              (PP (IN OF)
+                (NP (NNP MAXIMUM) (NNP ALERT))))
+            (PP (IN THROUGHOUT)
+              (NP (DT THE) (NNP COUNTRY)))
+            (PP (IN IN)
+              (NP
+                (NP (NNP VIEW))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT THE) (NN POSSIBILITY))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP SUBVERSIVE) (NNP ATTACKS))
+                        (PP (IN ON)
+                          (NP (NNP POLICE) (NNP STATIONS)))))))))))))
+    (, ,)
+    (NP
+      (NP (DT A) (NN SPOKESMAN))
+      (PP (IN FOR)
+        (NP (NNP THAT) (NNP INSTITUTION))))
+    (VP (VBZ HAS)
+      (VP (VBN REPORTED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP ALERT) (NNP STATUS))
+    (VP (VBZ HAS)
+      (NP
+        (NP (NNP BEEN))
+        (PP (IN IN)
+          (NP
+            (NP (NNP EFFECT) (NNP SINCE) (NNP LAST) (NNP THURSDAY))
+            (, ,)
+            (SBAR
+              (WHADVP (WRB WHEN))
+              (S
+                (NP (NNP FUSEP) (NNP STAFF) (NNP COMMANDER) (NNP COLONEL) (NNP CRISTOBAL) (NNP SIMON) (NNP ROMERRO) (NNP SENT) (NNP NOTICE) (NNP TO))
+                (VP (VBZ COMMANDERS)
+                  (SBAR
+                    (S
+                      (NP (CC AND)
+                        (NP (NNP REGIONAL))
+                        (CC AND)
+                        (NP (NNP SUBREGIONAL) (NNP POSTS) (NNP ALERTING) (NNP THEM)))
+                      (VP (VBP ABOUT)
+                        (NP
+                          (NP (DT THE) (NN DANGER))
+                          (PP (IN OF)
+                            (NP (NNP LEFTIST) (NNP ATTACKS))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP POLICE) (NNP SPOKESMAN) (NNP HAS))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP FUSEP))
+          (VP (VBZ HAS)
+            (NP
+              (NP (NNP INTELLIGENCE) (NNP INFORMATION))
+              (PP (IN ON)
+                (NP (NNP LEFTIST) (NNP PLANS) (NNP TO) (NNP ATTACK) (NNP POLICE) (NNP STATIONS))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT THE) (NNP SOURCE) (NNP REPORTED) (NNP THAT) (NNP A) (NNP STATE))
+        (PP (IN OF)
+          (NP (NNP MAXIMUM) (NNP ALERT))))
+      (VP (MD WILL)
+        (VP (VB BE)
+          (PP (IN IN)
+            (NP (NNP EFFECT) (NNP UNTIL) (NNP FURTHER) (NNP NOTICE))))))
+    (, ,)
+    (NP (NNP ADDING) (NNP THAT) (NNP THE) (NNP POLICE) (NNP HAVE) (NNP STRATEGIC))
+    (VP (VBZ PLANS)
+      (S
+        (VP (TO TO)
+          (VP (VB RESPOND)
+            (S
+              (VP (TO TO)
+                (VP (VB ANY)
+                  (NP (NNS ATTACKS)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT NO) (NN REPORT))
+        (PP (IN ON)
+          (NP
+            (NP (NNP WHETHER) (NNP OR) (NNP NOT))
+            (SBAR
+              (S
+                (NP (DT THE) (NNP ARMY))
+                (VP (VBZ IS)
+                  (NP
+                    (NP (NNP ALSO))
+                    (PP (IN ON)
+                      (NP
+                        (NP (DT A) (NN STATE))
+                        (PP (IN OF)
+                          (NP (NNP ALERT)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (S
+        (ADJP (JJ YESTERDAY)))
+      (, ,)
+      (NP (NNP PEOPLE) (NNP WERE))
+      (VP (VBP ABLE)
+        (S
+          (VP (TO TO)
+            (VP (VB MOVE)
+              (NP
+                (NP (NNP ABOUT) (NNP AS) (NNP USUAL))
+                (PP (IN IN)
+                  (NP (NNP SOUTHERN) (NNP TEGUCIGALPA)))))))))
+    (, ,)
+    (NP (NNP WHERE) (NNP SOME) (NNP ARMY) (NNP COMBAT) (NNP UNITS))
+    (VP (VBP ARE)
+      (VP (VBN HEADQUARTERED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICE) (NNP DEPARTMENT))
+    (VP (VBD DECLARED)
+      (NP
+        (NP (DT THE) (NN STATE))
+        (PP (IN OF)
+          (NP
+            (NP (NNP ALERT) (IN AS) (DT A) (NNP RESULT))
+            (PP (IN OF)
+              (NP
+                (NP (DT A) (NNP WAVE))
+                (PP (IN OF)
+                  (NP (NNP VIOLENCE) (NNP THAT) (NNP BEGAN))))))))
+      (PP (IN WITH)
+        (NP
+          (NP (DT THE) (NN KILLING))
+          (PP (IN OF)
+            (NP
+              (NP (NNP THREE) (NNP PEOPLE))
+              (PP (IN IN)
+                (NP (NNP JANUARY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP NICARAGUAN) (NNP CONTRA) (NNP COMMANDER) (NNP MANUEL) (NNP ADAN) (NNP RUGAMA))
+      (, ,)
+      (NP (NNP ALIAS) (NNP AURELIANO))
+      (, ,))
+    (VP (VBD WAS)
+      (ADJP (JJ SHOT)
+        (S
+          (VP (TO TO)
+            (VP (VB DEATH)
+              (PP (IN IN)
+                (NP
+                  (NP (NNP NORTHERN) (NNP TEGUCIGALPA))
+                  (PP (IN ON)
+                    (NP (CD 7)))))
+              (NP
+                (NP (NNP JANUARY))
+                (, ,)
+                (CC AND)
+                (NP (NNP ATTORNEY) (NNP CARLOS) (NNP LORENZANA))
+                (, ,)
+                (SBAR
+                  (WHNP (WP WHO))
+                  (S
+                    (VP (VBD DEFENDED)
+                      (NP
+                        (NP (NNP JUAN) (NNP RAMON) (NNP MATTA))
+                        (PP (IN IN)
+                          (NP (NNP HONDURAS))))
+                      (, ,)
+                      (S
+                        (NP (NNP WAS) (NNP SHOT))
+                        (VP (TO TO)
+                          (VP (VB DEATH)
+                            (NP
+                              (NP (NNP NEAR) (NNP HIS) (NNP RESIDENCE))
+                              (PP (IN IN)
+                                (NP (DT THE) (NNP MODELO) (NNP NEIGHBORHOOD) (NNP BY) (NNP UNIDENTIFIED) (NNP ASSAILANTS))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP NONE))
+      (PP (IN OF)
+        (NP (NNP THESE) (NNP CRIMES))))
+    (VP (VBZ HAS)
+      (NP (NNP BEEN) (NNP SOLVED) (NNP BY) (NNP THE) (NNP POLICE)))
+    (. .)))
+
+(ROOT
+  (SINV
+    (FRAG
+      (PP (IN ON)
+        (NP (CD 25) (NN JANUARY))))
+    (, ,)
+    (VP (VBD ALLEGED)
+      (NP
+        (NP (NNS COMMANDOS))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (`` ``) (NNP CINCHONERO) ('' '') (NNP PEOPLE) (POS 'S))
+            (NNP LIBERATION) (NNP FRONT) (NNP MACHINEGUNNED) (NNP RETIRED) (NNP GENERAL)))))
+    (NP
+      (NP (NNP GUSTAVO) (NNP ALVAREZ) (NNP MARTINEZ))
+      (, ,)
+      (NP (DT A) (JJ FORMER) (NNP ARMED) (NNP FORCES) (NN COMMANDER)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ALVAREZ) (NNP MARTINEZ))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP KILLED) (NNP NEAR) (NNP HIS) (NNP RESIDENCE))
+        (PP (IN IN)
+          (NP
+            (NP (NNP TEGUCIGALPA) (POS 'S))
+            (NNP FLORENCIA) (NNP DEL) (NNP ESTE) (NNP NEIGHBORHOOD)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FOLLOWING) (NNP SUNDAY) (NNP THE) (NNP RESIDENCE))
+      (PP (IN OF)
+        (NP (DT THE) (NNP NICARAGUAN)
+          (NAC (NN AMBASSADOR)
+            (PP (IN IN)
+              (NP (NNP THIS))))
+          (NNP CAPITAL))))
+    (VP (VBD WAS)
+      (VP (VBN ATTACKED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP PAST) (NNP WEDNESDAY) (NNP UNIDENTIFIED) (NNP PEOPLE))
+    (VP (VBD FIRED)
+      (PRT (RP ON))
+      (NP
+        (NP (DT A) (NNP U.S.) (NNP MILITARY) (NNP CONVOY))
+        (PP (IN IN)
+          (NP (NNP YORO) (NNP DEPARTMENT)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MILITARY) (NNP SOURCES) (NNP HAVE) (NNP REPORTED) (NNP THAT) (NNP SPECIAL) (NNP TROOPS))
+    (VP (VBP ARE)
+      (VP (VBG COMBING)
+        (NP (DT THE) (NN AREA))))
+    (. .)))
+

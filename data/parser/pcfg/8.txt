@@ -1,0 +1,224 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP (NNP RICARDO) (NNP ALFONSO) (NNP CASTELLAR))
+          (, ,)
+          (NP
+            (NP (NNP MAYOR))
+            (PP (IN OF)
+              (NP (NNP ACHI)))))
+        (, ,)
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP NORTHERN) (NNP DEPARTMENT))
+            (PP (IN OF)
+              (NP (NNP BOLIVAR)))
+            (, ,)
+            (SBAR
+              (WHNP (WP WHO))
+              (S
+                (VP (VBD WAS)
+                  (VP (VBN KIDNAPPED)
+                    (PRT (RP ON))
+                    (NP
+                      (NP (CD 5) (NN JANUARY))
+                      (, ,)
+                      (NP
+                        (NP (NNP APPARENTLY) (NNP BY) (NNP ARMY))
+                        (PP (IN OF)
+                          (NP (NNP NATIONAL) (NNP LIBERATION)
+                            (PRN (-LRB- -LRB-)
+                              (NP (NNP ELN))
+                              (-RRB- -RRB-))
+                            (NNP GUERRILLAS)))))))))))
+        (, ,)
+        (VP (VBD WAS)
+          (NP (NNP FOUND) (NNP DEAD) (NNP TODAY)))))
+    (, ,)
+    (NP (NNP ACCORDING) (NNP TO))
+    (VP (VBZ AUTHORITIES))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CASTELLAR))
+    (VP (VBD WAS)
+      (VP (VBN KIDNAPPED)
+        (PRT (RP ON))
+        (NP
+          (NP (CD 5) (NN JANUARY))
+          (PP (IN ON)
+            (NP
+              (NP (DT THE) (NNS OUTSKIRTS))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP ACHI))
+                  (, ,)
+                  (NP
+                    (NP (NNP ABOUT) (NNP 850) (NNP KM) (NNP NORTH))
+                    (PP (IN OF)
+                      (NP (NNP BOGOTA))))
+                  (, ,)
+                  (NP
+                    (NP (NNP BY) (NNP A) (NNP GROUP))
+                    (PP (IN OF)
+                      (NP (NNP ARMED) (NNP MEN))))
+                  (, ,)
+                  (SBAR
+                    (WHNP (WP WHO))
+                    (S
+                      (VP (VBD FORCED)
+                        (S
+                          (NP (NNP HIM) (NNP TO) (NNP ACCOMPANY) (NNP THEM))
+                          (VP (TO TO)
+                            (VP (VB AN)
+                              (NP (NNP UNDISCLOSED) (NNP LOCATION)))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP POLICE) (NNP SOURCES))
+      (PP (IN IN)
+        (NP (NNP CARTAGENA) (NNP REPORTED) (NNP THAT) (NNP CASTELLAR))))
+    (VP (VBZ 'S)
+      (NP
+        (NP (NNP BODY) (NNP SHOWED) (NNP SIGNS))
+        (PP (IN OF)
+          (NP (NNP TORTURE)
+            (CC AND)
+            (NNP SEVERAL) (NNP BULLET) (NNP WOUNDS)))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP CASTELLAR))
+      (VP (VBD WAS)
+        (NP
+          (NP (NNP KIDNAPPED) (NNP BY) (NNP ELN) (NNP GUERRILLAS) (NNP WHILE))
+          (SBAR
+            (S
+              (NP (PRP HE))
+              (VP (VBD WAS)
+                (VP (VBG TRAVELING)
+                  (PP (IN IN)
+                    (NP (DT A) (NNP BOAT) (NNP DOWN) (NNP THE) (NNP CAUCA) (NNP RIVER))))))))))
+    (VP (VBZ TO))
+    (NP
+      (NP (DT THE) (JJ TENCHE) (NN AREA))
+      (, ,)
+      (NP (DT A) (NNP REGION) (NNP WITHIN) (NNP HIS) (NNP JURISDICTION)))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP CARTAGENA)))
+    (NP (PRP IT))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP REPORTED) (NNP THAT) (NNP CASTELLAR) (NNP FACED))
+        (SBAR
+          (S
+            (NP (DT A) (`` ``) (NNP REVOLUTIONARY) (NNP TRIAL) ('' ''))
+            (VP (VBP BY)
+              (NP
+                (NP (NNP THE) (NNP ELN)
+                  (CC AND)
+                  (NNP THAT))
+                (SBAR
+                  (S
+                    (NP (PRP HE))
+                    (VP (VBD WAS)
+                      (NP (NNP FOUND) (NNP GUILTY)
+                        (CC AND)
+                        (NNP EXECUTED)))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CASTELLAR))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT THE) (NNP SECOND) (NNP MAYOR) (NNP THAT) (NNP HAS) (NNP BEEN) (NNP MURDERED))
+        (PP (IN IN)
+          (NP
+            (NP (NNP COLOMBIA))
+            (PP (IN IN)
+              (NP (DT THE) (JJ LAST) (CD 3) (NNS DAYS)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN ON)
+      (NP (CD 5) (NN JANUARY)))
+    (, ,)
+    (NP
+      (NP (NNP CARLOS) (NNP JULIO) (NNP TORRADO))
+      (, ,)
+      (NP
+        (NP (NNP MAYOR))
+        (PP (IN OF)
+          (NP
+            (NP (NNP ABREGO))
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NNP NORTHEASTERN) (NNP DEPARTMENT))
+                (PP (IN OF)
+                  (NP (NNP SANTANDER))))))))
+      (, ,))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP KILLED) (NNP APPARENTLY) (NNP BY) (NNP ANOTHER) (NNP GUERILLA) (NNP COLUMN))
+        (, ,)
+        (NP (NNP ALSO) (NNP BELONGING) (NNP TO) (NNP THE) (NNP ELN))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (NNP TORRADO) (POS 'S))
+        (NNP SON))
+      (, ,)
+      (NP (NNP WILLIAM)))
+    (: ;)
+    (NP
+      (NP (NNP GUSTAVO) (NNP JACOME) (NNP QUINTERO))
+      (, ,)
+      (NP (DT THE) (NNP DEPARTMENTAL) (NNP GOVERNMENT) (NNP SECRETARY)))
+    (: ;)
+    (NP
+      (NP (NNP AND) (NNP BODYGUARD) (NNP JAIRO) (NNP ORTEGA))
+      (, ,)
+      (NP (NNP WERE) (NNP ALSO) (NNP KILLED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP GROUP))
+    (VP (VBD WAS)
+      (VP (VBG TRAVELING)
+        (PP (IN IN)
+          (NP (DT A) (JJ 4-WHEEL) (NNP DRIVE) (NNP VEHICLE) (NNP BETWEEN) (NNP CUCUTA)
+            (CC AND)
+            (NNP THE) (NNP RURAL) (NNP AREA) (NNP KNOWN) (NNP AS) (NN CAMPANARIO)))
+        (SBAR
+          (WHADVP (WRB WHEN))
+          (S
+            (NP (NNP THEIR) (NNP VEHICLE))
+            (VP (VBD WAS)
+              (VP (VBG BLOWN)
+                (PRT (RP UP))
+                (NP
+                  (NP (NNP BY) (NNP FOUR) (NNP EXPLOSIVE) (NNP CHARGES) (NNP THAT) (NNP DETONATED))
+                  (PP (IN ON)
+                    (NP (DT THE) (NNP HIGHWAY))))))))))
+    (. .)))
+

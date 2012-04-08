@@ -1,0 +1,156 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP OFFICIAL) (NNP SOURCES) (NNP HAVE) (NNP REPORTED))
+        (VP (VBP THAT)
+          (S
+            (NP
+              (NP (NNP SEVERAL) (NNP GUERRILLA) (NNP ATTACKS)
+                (CC AND)
+                (NNP HEAVY))
+              (VP (VBG FIGHTING)
+                (NP
+                  (NP (NNP TOOK) (NNP PLACE) (NNP THE) (NNP EVENING))
+                  (PP (IN OF)
+                    (NP (CD 9))))))
+            (NP (NNP JANUARY)
+              (CC AND)
+              (NNP THIS) (NNP MORNING))
+            (PP (IN THROUGHOUT)
+              (NP (DT THE) (NNP COUNTRY)))))))
+    (, ,)
+    (NP (CC AND)
+      (NP (IN AS) (DT A) (NN RESULT))
+      (, ,)
+      (NP (NNP THREE) (NNP SOLDIERS) (NNP WERE) (NNP KILLED))
+      (CC AND)
+      (NP (NNP THREE) (NNP OTHERS)))
+    (VP (VBD INJURED))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP ALLEGED) (NNP GUERRILLA) (NNP URBAN) (NNP COMMANDOS) (NNP LAUNCHED) (NNP TWO) (NNP HIGHPOWER) (NNP BOMBS))
+    (VP (VBP AGAINST)
+      (NP
+        (NP (DT A) (NNP CAR) (NNP DEALERSHIP))
+        (PP (IN IN)
+          (NP (NNP DOWNTOWN) (NNP SAN) (NNP SALVADOR) (NNP THIS) (NNP MORNING)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT A) (NNP POLICE) (NNP REPORT))
+      (VP (VBD SAID)
+        (NP
+          (NP (NNP THAT) (NNP THE) (NNP ATTACK) (NNP SET) (NNP THE) (NNP BUILDING))
+          (PP (IN ON)
+            (NP (NNP FIRE))))))
+    (, ,)
+    (NP
+      (NP (NNP BUT) (NNP DID) (NNP NOT) (NNP RESULT))
+      (PP (IN IN)
+        (NP (NNP ANY) (NNP CASUALTIES) (NNP ALTHOUGH) (NNP ECONOMIC) (NNP LOSSES))))
+    (VP (VBP ARE)
+      (ADJP (JJ HEAVY)))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG DURING)
+        (NP
+          (NP (DT THE) (NN EVENING))
+          (PP (IN OF)
+            (NP (CD 9) (NN JANUARY))))))
+    (, ,)
+    (NP (NNP GUERRILLA) (NNP URBAN) (NNP COMMANDOS))
+    (VP (VBD BOMBED)
+      (NP (CD TWO) (NNP ELECTRICITY) (NNS FACILITIES))
+      (PP (IN IN)
+        (NP (NNP DIFFERENT) (NNP PLACES)))
+      (PP (IN IN)
+        (NP
+          (NP (NNP SAN) (NNP SALVADOR))
+          (, ,)
+          (SBAR
+            (WHNP (WDT WHICH))
+            (S
+              (VP (VBD CAUSED)
+                (NP
+                  (NP (NNP POWER) (NNP OUTAGES))
+                  (PP (IN IN)
+                    (NP
+                      (NP (NNP SOME) (NNP AREAS))
+                      (PP (IN OF)
+                        (NP (DT THE) (NN CAPITAL))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (ADVP (RB MEANWHILE))
+    (, ,)
+    (NP
+      (NP (DT THE) (NNP ARMED) (NNP FORCES) (NNP PRESS) (NNP COMMITTEE))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP COPREFA))
+        (-RRB- -RRB-)))
+    (VP (VBD REPORTED)
+      (NP
+        (NP (NNP TODAY) (NNP THAT) (NNP THREE) (NNP ARMY) (NNP SOLDIERS) (NNP WERE) (NNP KILLED) (NNP RECENTLY))
+        (PP (IN IN)
+          (NP
+            (NP (NNP CLASHES) (NNP AGAINST) (NNP MEMBERS))
+            (PP (IN OF)
+              (NP (DT THE) (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT)))))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP FMLN))
+          (-RRB- -RRB-)))
+      (PP (IN IN)
+        (NP
+          (NP (NNP DIFFERENT) (NNP PARTS))
+          (PP (IN OF)
+            (NP
+              (NP (NNP THE) (NNP CENTRAL)
+                (CC AND)
+                (NNP EASTERN) (NNP REGIONS))
+              (PP (IN OF)
+                (NP (DT THE) (NNP COUNTRY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP WAR) (NNP BULLETIN) (NNP BY) (NNP COPREFA) (NNP STATED))
+      (VP (VBP THAT)
+        (NP (DT THE) (NNS CLASHES))))
+    (, ,)
+    (S
+      (PP (IN IN)
+        (NP
+          (NP (NNP WHICH) (NNP THREE) (NNP MEMBERS))
+          (PP (IN OF)
+            (NP (DT THE) (NNP GENERAL) (NNP JUAN) (NNP RAMON) (NNP BELLOSO) (NNP BATTALION) (NNP WERE) (NNP INJURED)))))
+      (, ,)
+      (NP
+        (NP (NNP TOOK) (NNP PLACE))
+        (PP (IN IN)
+          (NP (NNP SAN) (NNP JOSE) (NNP GUAYABAL)))))
+    (, ,)
+    (PP (IN IN)
+      (NP (DT THE) (NNP CENTRAL) (NNP CUSCATLAN) (NNP DEPARTMENT)))
+    (, ,)
+    (S
+      (NP (NNP AND))
+      (PP (IN IN)
+        (NP
+          (NP (NNP SANTA) (NNP ELENA))
+          (PP (IN IN)
+            (NP (DT THE) (NNP EASTERN) (NNP USULUTAN) (NNP DEPARTMENT))))))
+    (. .)))
+

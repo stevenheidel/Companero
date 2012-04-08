@@ -1,0 +1,64 @@
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (NP
+      (NP
+        (NP (DT A) (NNP BOMB) (NNP EXPLODED) (NNP TODAY))
+        (PP (IN IN)
+          (NP (DT A) (NNP LIMA) (NNP RESTAURANT))))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (DT A) (NNP SECOND) (NNP DEVICE) (NNP THAT) (NNP HAD) (NNP BEEN) (NNP PLACED))
+        (PP (IN IN)
+          (NP (DT THE) (NNP SAME) (NNP ESTABLISHMENT) (NNP WAS) (NNP DEACTIVATED) (NNP BY) (NNP THE) (NNP PERUVIAN) (NNP NATIONAL) (NNP POLICE)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THERE))
+    (VP (VBP WERE)
+      (NP
+        (NP (DT NO) (NNS VICTIMS))
+        (, ,)
+        (CC AND)
+        (NP (DT THE) (NNP EXPLOSION) (NNP CAUSED) (NNP VERY) (NNP LITTLE) (NNP DAMAGE) (NNP TO) (NNP THE) (NNP RESTAURANT))
+        (, ,)
+        (SBAR
+          (WHNP (WDT WHICH))
+          (S
+            (VP (VBZ IS)
+              (VP (VBN LOCATED)
+                (PP (IN IN)
+                  (NP
+                    (NP (DT THE) (JJ COMMERCIAL) (NN ARE))
+                    (PP (IN OF)
+                      (NP
+                        (NP (DT THE) (NNP RESIDENTIAL) (NNP DISTRICT))
+                        (PP (IN OF)
+                          (NP (NNP MIRAFLORES)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NNS GUERRILLAS))
+        (PP (IN OF)
+          (NP (DT THE) (NNP TUPAC) (NNP AMARU) (NNP REVOLUTIONARY) (NNP MOVEMENT))))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP MRTA))
+        (-RRB- -RRB-)))
+    (VP (VBP HAVE)
+      (NP
+        (NP (NNP CLAIMED) (NNP CREDIT))
+        (PP (IN FOR)
+          (NP
+            (NP (DT THE) (NNP TERRORIST) (NNP ACT) (NNP THROUGH) (NNP PAMPHLETS) (NNP THEY) (NNP LEFT))
+            (PP (IN ON)
+              (NP
+                (NP (DT THE) (NNS PREMISES))
+                (, ,)
+                (NP (NNP ACCORDING) (NNP TO) (NNP THE) (NNP POLICE))))))))
+    (. .)))
+

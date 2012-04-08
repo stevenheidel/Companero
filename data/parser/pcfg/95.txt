@@ -1,0 +1,114 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP EDITORIAL) (NNP REPORT) (-RRB- -RRB-))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP TEXT))
+      (-RRB- -RRB-))
+    (NP (NNP RADIO))
+    (VP (VBZ VENCEREMOS)
+      (PP (IN IN)
+        (NP
+          (NP (NNP SPANISH) (NNP TO) (NNP EL) (NNP SALVADOR) (NNP AT) (NNP 0000) (NNP GMT))
+          (PP (IN ON)
+            (NP (CD 28) (NNP MARCH) (NNP BROADCASTS) (CD TWO) (NNP MILITARY) (NNP REPORTS) (NNP LASTING) (NNP APPROXIMATELY) (CD 5) (NNS MINUTES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FIRST) (NNP REPORT) (NNP STATES) (NNP THAT) (NNP AT) (NNP 0330))
+      (PP (IN ON)
+        (NP
+          (NP (CD 25) (NNS MARCH))
+          (, ,)
+          (NP
+            (NP (DT A) (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL))
+            (NP (NNP LIBERATION) (NNP FRONT)
+              (PRN (-LRB- -LRB-)
+                (NP (NNP FMLN))
+                (-RRB- -RRB-))
+              (NNP UNIT))))))
+    (VP (VBD LAUNCHED)
+      (SBAR
+        (S
+          (NP (DT A) (JJ 5-MINUTE) (NN ATTACK))
+          (VP (VBP AGAINST)
+            (SBAR
+              (S
+                (NP (DT A) (CD 5TH) (NNP INFANTRY) (NNP BRIGADE) (NNP UNIT))
+                (VP (VBD LOCATED)
+                  (SBAR
+                    (S
+                      (NP
+                        (NP (NNP AT) (NNP LAST) (NNP DELICIAS) (NNP HACIENDA))
+                        (, ,)
+                        (NP (NNP SAN) (NNP ESTEBAN) (NNP JURISDICTION))
+                        (, ,)
+                        (NP (NNP SAN) (NNP VICENTE) (NNP DEPARTMENT))
+                        (, ,)
+                        (NP
+                          (NP (NNP USING) (NNP PEOPLE) (POS 'S))
+                          (NN ARTILLERY))
+                        (, ,))
+                      (VP (VBD HAND)
+                        (NP
+                          (NP (NNS GRENADES))
+                          (, ,)
+                          (CC AND)
+                          (NP (NNP RIFLE) (NNP FIRE)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP REPORT) (NNP ADDS) (NNP THAT) (`` ``) (NNP AFTER) (CD 5) (NNP MINUTES))
+    (, ,)
+    (PP
+      (NP (DT THE) (NNP ENEMY) (NNP WAS))
+      (IN UNDER)
+      (NP (NNP COMPLETE) (NNP CONTROL)))
+    (, ,)
+    (NP (NNP HAVING))
+    (VP (VBD SUFFERED)
+      (NP (CD 12) (NNS CASUALTIES)))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP FMLN) (NNP CLAIMED) (NNP THEY) (NNP LEFT))
+    (VP (VBD UNIMPEDED) (`` ``)
+      (S
+        (NP (NNP AFTER))
+        (VP (VBG COMPLETING)
+          (NP (DT THE) (NN MISSION)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP OTHER) (NNP REPORT) (NNP TELLS))
+      (PP (IN OF)
+        (NP (DT A) (`` ``) (NNP DARING) (NNP AMBUSH) (NNP USING) (NNP THREE) (NNP M-18) (NNP MINES)
+          (CC AND)
+          (NNP CONTACT) (NNPS GRENADES) ('' '') (NN THAT))))
+    (VP (VBD TOOK)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP PLACE) (NNP AT) (NNP 0630))
+            (PP (IN ON)
+              (NP (CD 22) (NNS MARCH))))
+          (VP (VBP AGAINST)
+            (SBAR
+              (S
+                (NP
+                  (NP (DT A) (NNP NATIONAL) (NNP GUARD) (NNP UNIT) (NNP AT) (NNP QUEBRADA) (NNP LA) (NNP ALGRABILLA))
+                  (, ,)
+                  (NP (NNP CANTON) (NNP LAS) (NNP PUERTAS))
+                  (, ,))
+                (VP (VBZ MERCEDES)
+                  (NP
+                    (NP (NNP UMANAS) (NNP JURISDICTION))
+                    (, ,) (`` ``)
+                    (NP (NNP INFLICTING) (NNP SIX) (NNP CASUALTIES) (NNP UPON) (NNP THE) (NNP NATIONAL) (NNP GUARD))))))))))
+    (. .) ('' '')))
+

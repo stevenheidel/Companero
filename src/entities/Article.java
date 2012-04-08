@@ -1,4 +1,4 @@
-/**
+/*
  * Jamie Gaultois
  * jpg627
  * 11066502
@@ -6,9 +6,6 @@
  * Steven Heidel
  * sdh951
  * 11078053
- * 
- * Class to hold an individual article. Will store the article's source, date, city,
- * and country.
  */
 
 package entities;
@@ -24,22 +21,57 @@ import java.util.regex.Pattern;
 import utilities.FileReader;
 import utilities.Place;
 
+/**
+ * Class to hold an individual article. Will store the article's source, date, city,
+ * and country.
+ * 
+ * @author Jamie Gaultois
+ *
+ */
 public class Article 
 {	
+	/**
+	 * The news source of the article, not everyone has one
+	 */
 	private String source;
 	
+	/**
+	 * The date cited at the beginning of the article
+	 */
 	private Date dateWritten;
 	
+	/**
+	 * The location cited at the beginning of the article
+	 */
 	private Place locationWritten;
 	
+	/**
+	 * The body of the article
+	 */
 	private String articleText;
 	
+	/**
+	 * The body of the article without punctuation
+	 */
 	private String articleTextNoPunct;
 	
+	/**
+	 * Names of cities contained within the article text
+	 */
 	private String cities = "";
 	
+	/**
+	 * Names of countries contained within the article text
+	 */
 	private String countries = "";
 	
+	/**
+	 * Create a new Article
+	 * @param source the news source
+	 * @param dateWritten the date written
+	 * @param location the location written
+	 * @param articleText the article text
+	 */
 	public Article (String source, Date dateWritten, Place location, String articleText)
 	{
 		this.source = source;
@@ -57,7 +89,7 @@ public class Article
 			System.exit(-1);
 		}
 		
-		// Look for cities and countries in the text, ignoring any blank ones
+		// look for cities and countries in the text, ignoring any blank ones
 		for(String s : allCities.keySet())
 		{
 			String temp = " " + s + " ";
@@ -82,51 +114,55 @@ public class Article
 		}
 	}
 	
+	/**
+	 * Return the source
+	 * @return the source
+	 */
 	public String getSource()
 	{
 		return source;
 	}
 	
-	public void setSource(String newSource)
-	{
-		source = newSource;
-	}
-	
+	/**
+	 * Return the date written
+	 * @return the date written
+	 */
 	public Date getDateWritten()
 	{
 		return dateWritten;
 	}
 	
-	public void setDateWritten(Date newDateWritten)
-	{
-		dateWritten = newDateWritten;
-	}
-	
+	/**
+	 * Return the location written
+	 * @return the location written
+	 */
 	public Place getLocationWritten()
 	{
 		return locationWritten;
 	}
 	
-	public void setLocationWritten(Place newLocation)
-	{
-		locationWritten = newLocation;
-	}
-	
+	/**
+	 * Return the article text
+	 * @return the article text
+	 */
 	public String getArticleText()
 	{
 		return articleText;
 	}
 	
-	public void setArticleText(String newArticleText)
-	{
-		articleText = newArticleText;
-	}
-	
+	/**
+	 * Return the cities within the article
+	 * @return the cities within the article
+	 */
 	public String getCities()
 	{
 		return cities;
 	}
 	
+	/**
+	 * Return the countries within the article
+	 * @return the countries within the article
+	 */
 	public String getCountries()
 	{
 		return countries;
@@ -347,7 +383,7 @@ public class Article
 	/**
 	 * A method to find how close a given date is to a given string in the article text.
 	 * @param	date - string containing the date how it was in the article
-	 * 			text - text contained in the article that we want to find the closeness to the date
+	 * @param	text - text contained in the article that we want to find the closeness to the date
 	 * @return 	The number of character positions the date and text are apart. -1 is returned if the date
 	 * 			or the text aren't in the article.
 	 */
@@ -419,7 +455,7 @@ public class Article
 	/**
 	 * A method to find how close a given city or country is to a given string in the article text.
 	 * @param	place - string containing the city or country to find
-	 * 			text - text contained in the article that we want to find the closeness to the city or country
+	 * @param	text - text contained in the article that we want to find the closeness to the city or country
 	 * @return 	The number of character positions the date and text are apart. -1 is returned if the
 	 * 			city, country, or the text aren't in the article.
 	 */
@@ -496,6 +532,9 @@ public class Article
 		return minDistance;
 	}
 	
+	/**
+	 * Convert to a string, which is just the article text
+	 */
 	public String toString()
 	{
 		return articleText;
@@ -503,21 +542,11 @@ public class Article
 	
 	/**
 	 * Test method
+	 * @param args
 	 */
 	public static void main(String[] argv)
 	{
-		String corpusText = "";
-		
-		try
-		{
-			corpusText = FileReader.convertToString("corpus.txt");
-		}
-		catch (Exception e)
-		{
-			System.out.println("Error reading from the file");
-		}
-		
-		Corpus corpus = new Corpus(corpusText);
+		Corpus corpus = new Corpus(FileReader.convertToString("data/corpus.txt"));
 		
 		LinkedList<Article> articles = corpus.getArticlesWithText("THE");
 		

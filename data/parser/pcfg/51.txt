@@ -1,0 +1,96 @@
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (NP
+      (NP (DT A) (NNP BOMB) (NNP EXPLODED))
+      (PP (IN IN)
+        (NP (DT A) (NNP PILMAIQUEN) (NNP ALLEY) (NNP DESTROYING) (NNP WINDOWS)
+          (CC AND)
+          (NNP WATER) (NNP PIPES))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (S
+          (VP (TO TO)
+            (VP (VB UNOFFICIAL)
+              (NP (NNS REPORTS)))))))
+    (, ,)
+    (NP (DT THE) (NNP BOMB))
+    (VP (VBD CONTAINED)
+      (NP (CD 125) (NNP TO) (CD 150) (NNS GRAMS))
+      (PP (IN OF)
+        (NP (NNP TNT)
+          (CC AND)
+          (NNP WAS) (NNP PLACED)))
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NN BACK))
+          (PP (IN OF)
+            (NP (DT THE) (NNP PILMAIQUEN) (NNP TELEPHONE) (NNP COMPANY) (NNP BUILDING))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP EXPLOSION))
+    (VP (VBD OCCURRED)
+      (NP
+        (NP (NNP AT) (CD 2350))
+        (PP (IN ON)
+          (NP
+            (NP (CD 16) (NN JANUARY))
+            (, ,)
+            (NP (NNP CAUSING) (NNP PANIC) (NNP BUT) (NNP NO) (NNP CASUALTIES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP EXPLOSION) (NNP BROKE) (NNP WINDOWS))
+      (PP (IN OF)
+        (NP (DT THE) (NNP TELEPHONE) (NNP COMPANY))))
+    (VP (VBZ OFFICES))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP IT) (NNP ALSO))
+    (VP (VBD DESTROYED)
+      (SBAR
+        (S
+          (NP (DT A) (NNP PUBLIC) (NNP TELEPHONE) (NNP BOOTH)
+            (CC AND)
+            (NNP WATER))
+          (VP (VBZ PIPES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WITNESSES) (NNP REPORTED) (NNP THAT) (NNP THE) (NNP BOMB))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP PLANTED) (NNP BY) (NNP TWO) (NNP INDIVIDUALS) (NNP WEARING) (NNP SPORTS) (NNP CLOTHES))
+        (, ,)
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBD ESCAPED)
+              (NP (NNP INTO) (NNP THE) (NNP NIGHT)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP SECURITY) (NNP PERSONNEL))
+    (VP (VBP ARE)
+      (VP (VBG PREPARING)
+        (NP
+          (NP (NNS SKETCHES))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP SUSPECTS) (NNP BASED))
+              (PP (IN ON)
+                (NP (NNP EYEWITNESS) (NNP DESCRIPTIONS))))))))
+    (. .)))
+

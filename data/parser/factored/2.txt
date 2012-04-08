@@ -1,0 +1,390 @@
+(ROOT
+  (S
+    (LST (-LRB- -LRB-) (NN TEXT) (-RRB- -RRB-))
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP
+          (NP (NNP STATEMENTS) (NNP MADE) (NNP BY))
+          (NP (DT A) (NNP SALVADORAN) (NNP OFFICER) (NNP TODAY)))))
+    (, ,)
+    (PP (IN DESPITE)
+      (NP
+        (NP (DT THE) (NNP CHANGE))
+        (SBAR
+          (S
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NNP LEADERSHIP))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP SALVADORAN) (NNP AIR)))))
+            (VP (VBP FORCE))))))
+    (, ,)
+    (NP (DT THE) (NNP AIR))
+    (VP (VBP FORCE)
+      (VP (MD WILL)
+        (VP (VB CONTINUE)
+          (NP (NNP ITS) (NNP NORMAL) (NNPS ACTIVITIES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (DT THE) (NNP SALVADORAN) (NNP AIR))
+      (VP (VBP FORCE)
+        (PP (NNP MAINTAINS)
+          (NP (DT THE) (NNP SAME) (NNP OPERATIONAL) (NNP LEVEL)))))
+    (NP (PRP IT))
+    (VP (VBZ HAS)
+      (NP (NNP HAD))
+      (SBAR
+        (S
+          (PP (IN FOR)
+            (NP (DT THE) (JJ LAST) (CD 10) (NNS YEARS)))
+          (, ,)
+          (PP (IN DESPITE)
+            (NP
+              (NP (DT THE) (NNP REMOVAL))
+              (PP (IN OF)
+                (NP
+                  (NP (NNP ITS) (NNP TOP) (NNP COMMANDER))
+                  (, ,)
+                  (NP (NNP JAUN) (NNP RAFAEL) (NNP BUSTILLOS))))))
+          (, ,)
+          (VP (VBZ THIS)
+            (NP (NNP WEEK))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PARATROOPER) (NNP BATTALION) (NNP COMMANDER) (NNP MAJOR) (NNP RENE) (NNP RODRIGUEZ) (NNP HURTADO))
+    (VP (VBD SAID)
+      (NP (NNP TODAY) (NNP THAT))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP AIR))
+          (VP (VBP FORCE)
+            (VP (MD WILL)
+              (VP (VB CONTINUE)
+                (S
+                  (VP
+                    (VP (TO TO)
+                      (VP (VB OBEY)
+                        (NP
+                          (NP (DT THE) (NNS ORDERS))
+                          (PP (IN OF)
+                            (NP (DT THE) (NNP GENERAL) (NNP STAFF))))))
+                    (CC AND)
+                    (VP (TO TO)
+                      (VP (VB MAINTAIN)
+                        (NP (DT A) (NNP SIMILAR) (NNP OPERATIONAL) (NNP LEVEL))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (-LRB- -LRB-) (NNP RODRIGUEZ) (-RRB- -RRB-))
+          (`` ``)
+          (NP (NNP WE) (NNP KNOW) (NNP GENERAL) (NNP VILLAMARIONA)))
+        (PRN (-LRB- -LRB-)
+          (S
+            (NP (NNP NEW) (NNP AIR))
+            (VP (VBP FORCE)
+              (ADJP (JJ COMMANDER))))
+          (-RRB- -RRB-)))
+      (VP (VBN ENOUGH)
+        (PP (TO TO)
+          (NP (NNP KNOW) (NNP THAT) (NNP WE)))))
+    (VP (MD WILL)
+      (VP (VB CONTINUE)
+        (PP (IN WITH)
+          (NP
+            (NP
+              (NP (NNP OUR) (NNP BATTALION) (POS 'S))
+              (NNS ATTACKS))
+            (PP (IN ON)
+              (NP (NNP ALL)))))
+        (NP
+          (NP (DT THE) (NNP TERRORIST) (NNP CRIMINALS) (POS '))
+          (NNS REDOUBTS))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP WE) (NNP DEPEND) (NNP DIRECTLY))
+      (PP (IN ON)
+        (NP (DT THE) (NNP GENERAL) (NNP STAFF))))
+    (, ,)
+    (ADVP (RB SINCE))
+    (NP (PRP IT))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT THE) (NNP STRATEGIC) (NNP HEAD))
+        (PP (IN OF)
+          (NP (DT THE) (NNP ENTIRE) (NNP ARMY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP GENERAL) (NNP STAFF) (NNP GIVES) (NNP US) (NNP OUR))
+    (VP (VBZ ORDERS)
+      (S
+        (VP (TO TO)
+          (VP (VB LAUNCH)
+            (NP (NNP OUR) (NNP OPERATIONS))))))
+    (. .) ('' '')))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP MAJOR) (NNP RODRIGUEZ) (NNP HURTADO) (NNP TODAY) (NNP DENIED) (NNP THAT) (NNP SALVADORAN) (NNP AIR))
+      (VP (VBP FORCE)
+        (S
+          (NP (NNP PLANES) (NNP HAD) (NNP ENTERED) (NNP NICARAGUAN) (NNP TERRITORY))
+          (PP (IN AS)
+            (NP (DT THE) (NNP SANDINIST) (NNP GOVERNMENT))))))
+    (VP (VBD SAID))
+    (NP (NNP LAST) (NNP WEEK))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MAJ) (NNP RODRIGUEZ) (NNP HURTADO))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP SALVADORAN) (NNP AIR))
+          (VP (VBP FORCE)
+            (SBAR
+              (S
+                (NP (NNP PLANES) (NNP HAVE) (NNP NEVER))
+                (VP (VBD ENTERED)
+                  (NP
+                    (NP (DT THE) (NNP NEIGHBORING) (NNP TERITORY))
+                    (PP (IN OF)
+                      (NP (NNP NICARAGUA)))))))))))
+    (. .)))
+
+(ROOT
+  (FRAG
+    (PRN (-LRB- -LRB-)
+      (NP (NNP RODRIGUEZ))
+      (-RRB- -RRB-))
+    (`` ``)
+    (INTJ
+      (S
+        (NP (PRP I))
+        (VP (VBP CAN)
+          (ADJP (JJ TELL))
+          (SBAR
+            (S
+              (NP (PRP YOU))
+              (VP (VBP THAT)
+                (NP (DT THOSE) (NNP WERE) (NNP NEITHER) (NNP SALVADORAN) (NNP NOR) (NNP HONDURAN) (NNP PLANES))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN IN)
+      (NP (NNP MY) (NNP OPINION)))
+    (, ,)
+    (NP (DT THE) (NNS SANDINISTS))
+    (VP (VBP WANT)
+      (S
+        (VP (TO TO)
+          (VP (VB INVENT)
+            (NP (DT AN) (NN EXCUSE))
+            (PP (TO TO)
+              (NP
+                (NP
+                  (NP (NNP CONTINUE) (NNP HELPING))
+                  (NP (DT THE) (NNP FMLN)))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP FARABUNDO) (NNP MARTI) (NNP NATIONAL) (NNP LIBERATION) (NNP FRONT))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNPS OURS))
+      (CC AND)
+      (NP (DT THE) (NNP HONDURAN) (NNPS PLANES)))
+    (VP (VBP ARE)
+      (NP (NNP SMALL) (NNP PLANES)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP DO)
+      (NP (NNP NOT) (NNP THINK) (NNP THAT) (NNP HONDURAN) (NNP PLANES) (NNP ENTERED) (NNP NICARAGUAN) (NNP TERRITORY)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THOSE) (NNS COMMUNISTS))
+    (VP (VBP ARE)
+      (VP (VBG TRYING)
+        (S
+          (VP (TO TO)
+            (VP (VB INVENT)
+              (NP (DT AN) (NN EXCUSE)
+                (S
+                  (VP (TO TO)
+                    (VP (VB CONTINUE)
+                      (S
+                        (VP (VBG HELPING)
+                          (NP (DT THE) (NNP FMLN) (NNP TERRORIST) (NNPS CRIMINALS)))))))))))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (NNP MAJ.) (NNP RODRIGUEZ) (NNP MADE) (NNP THESE))
+    (VP (VBZ STATEMENTS)
+      (VP (VBG DURING)
+        (NP
+          (NP (DT THE) (NN PRESENTATION))
+          (PP (IN OF)
+            (NP
+              (NP (DT A) (NN NUMBER))
+              (PP (IN OF)
+                (NP (NNP WEAPONS) (NNP CONFISCATED) (NNP BY)
+                  (NAC (DT THE) (NNP PARATROOPERS) (NNP BATTALION)
+                    (PP (IN ON)
+                      (NP (CD 4))))
+                  (NNP JANUARY))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP RODRIGUEZ) (-RRB- -RRB-))
+      (SBAR
+        (S (`` ``) (RB HERE)
+          (S
+            (NP (NNP WE))
+            (VP (VBP HAVE)
+              (NP
+                (NP
+                  (NP
+                    (NP (CD 12) (NNS RIFLES))
+                    (, ,)
+                    (NP (CD 11) (NN AR-15) (NNS RIFLES))
+                    (CC AND)
+                    (NP (CD 1) (NNP AK-47) (NNP RIFLE)))
+                  (: ;)
+                  (NP
+                    (NP (CD 4,000) (NNS CARTRIDGES))
+                    (, ,)
+                    (SBAR
+                      (WHPP (IN OF)
+                        (WHNP (WDT WHICH)))
+                      (S
+                        (NP (CD 2,000))
+                        (VP (VBP ARE)
+                          (PP (IN FOR)
+                            (NP
+                              (NP (NNP M-16) (NNP MACHINE) (NNPS GUNS))
+                              (CC AND)
+                              (NP
+                                (NP (CD 2,000))
+                                (PP (IN FOR)
+                                  (NP (NNP AK-47) (NNPS RIFLES))))))))))
+                  (: ;)
+                  (NP
+                    (NP (CD 36) (NNS CARTRIDGES))
+                    (PP (IN OF)
+                      (NP (DT AN) (NNP UNKNOWN) (NNP CALIBER))))
+                  (: --)
+                  (NP
+                    (NP (NNP MILITARY) (NNP INTELLIGENCE))
+                    (SBAR
+                      (S
+                        (VP (VBZ HAS)
+                          (NP
+                            (NP (NNP ALREADY) (NNP BEEN) (NNP INFORMED))
+                            (PP (IN OF)
+                              (NP (NNP THIS) (NNP DISCOVERY))))))))
+                  (: ;)
+                  (CC AND)
+                  (NP
+                    (NP (PRP I))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP ICON))
+                      (-RRB- -RRB-))
+                    (NP (NNP RADIO))))
+                (PP (IN OF)
+                  (NP (DT THE) (NNP TYPE) (NNP USED)))))))))
+    (VP (VBP BY)
+      (NP
+        (NP (DT THE) (NNS LEADERS))
+        (PP (IN OF)
+          (NP (DT THE) (NNP TERRORIST) (NNPS GROUPS)))))
+    (. .) ('' '')))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP WEAPONS) (NNP WERE) (NNP FOUND) (NNP AT) (NNP EL) (NNP NISPERO) (NNP CREEK) (NNP NEAR) (NNP THE) (NNP SACAMIL))
+    (VP (VBD NEIGHBORHOOD))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN AMONG)
+      (NP (DT THE) (NNP CONFISCATED)))
+    (NP (NNS WEAPONS))
+    (VP (VBP WERE)
+      (NP
+        (NP (NNS CARTRIDGES))
+        (PP (IN OF)
+          (NP (NNP UNKNOWN))))
+      (S
+        (VP (VB MAKE))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS))
+    (VP (VBZ IS)
+      (ADJP (JJ APPPARENTLY))
+      (SBAR
+        (S
+          (NP (DT THE) (NNP FIRST) (NNP TIME) (NNP THE) (NNP ARMY))
+          (VP (VBZ HAS)
+            (NP
+              (NP (NNP FOUND) (NNP THAT) (NNP TYPE))
+              (PP (IN OF)
+                (NP (NNP CARTRIDGE))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP MAJ) (NNP RODRIGUEZ) (NNP HURTADO))
+    (VP (VBD SAID)
+      (SBAR
+        (S
+          (NP (NNP THAT) (NNP MILITARY) (NNP INTELLIGENCE))
+          (VP (MD WILL)
+            (VP (VB PROCEED)
+              (S
+                (VP (TO TO)
+                  (VP (VB ESTABLISH)
+                    (NP
+                      (NP (DT THE) (NN ORIGIN))
+                      (PP (IN OF)
+                        (NP
+                          (NP (NNP THESE) (NNPS CARTRIDGES))
+                          (CC AND)
+                          (NP (DT THE) (NNS WEAPONS)))))
+                    (PP (IN FOR)
+                      (SBAR
+                        (WHNP (WDT WHICH))
+                        (S
+                          (NP (NNP THEY))
+                          (VP (VBP ARE)
+                            (VP (VBN INTENDED))))))))))))))
+    (. .)))
+

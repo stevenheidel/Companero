@@ -1,0 +1,136 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (-LRB- -LRB-) (NNP REPORT) (-RRB- -RRB-))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP MARIA) (NNP EUGENIA) (NNP SALAZAR))
+          (-RRB- -RRB-)))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-)))
+    (VP (VBP THREE)
+      (NP
+        (NP (NNS MEMBERS))
+        (PP (IN OF)
+          (NP
+            (NP (DT THE) (NN GANG))
+            (VP (VBN CALLED)
+              (NP
+                (NP (DT THE) (NNP OWLS) (NNP WERE) (NNP ARRESTED))
+                (PP (IN IN)
+                  (NP (NNP MEDELLIN))))
+              (PP (IN IN)
+                (NP (NNP CONNECTION)))
+              (PP (IN WITH)
+                (NP
+                  (NP (DT THE) (NN ATTACK))
+                  (PP (IN ON)
+                    (NP (NNP SENATOR) (NNP ERNESTO) (NNP SAMPER)
+                      (CC AND)
+                      (NNP PATRIOTIC) (NNP UNION) (NNP LEADER) (NNP JOSE) (NNP ANTEQUERA))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP MEN) (NNP WERE) (NNP ARRESTED))
+      (PP (IN IN)
+        (NP (CD TWO) (NNS OPERATIONS))))
+    (VP (VBD CARRIED)
+      (NP
+        (NP (NNP OUT) (NNP BY) (NNP THE) (NNP POLICE))
+        (PP (IN IN)
+          (NP
+            (NP (NNP DOWNTOWN) (NNP MEDELLIN) (NNP AND))
+            (PP (IN IN)
+              (NP (DT THE) (NNP EL) (NNP PEDREGAL) (NNP NEIGHBORHOOD)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP BEGIN) (NNP RECORDING))
+        (-RRB- -RRB-))
+      (S
+        (PRN (-LRB- -LRB-)
+          (NP (NNP MEDELLIN) (NNP POLICE) (NNP COMMANDER) (NNP ANTONIO) (NNP MEJIA) (NNP SANCHEZ))
+          (-RRB- -RRB-))
+        (NP (DT THE) (NNP MINUTE) (NNP WE) (NNP RECEIVED) (NNP INFORMATION))
+        (VP (VBP THAT)
+          (NP
+            (NP (CD ONE))
+            (PP (IN OF)
+              (NP (DT THE) (NNP SUSPECTED) (NNP MURDERERS) (NNP WAS) (NNP FROM) (NNP MEDELLIN)))))))
+    (, ,)
+    (NP (NNP WE))
+    (VP (VBD DECIDED)
+      (S
+        (VP (TO TO)
+          (VP (VB OPEN)
+            (NP (DT AN) (NNP INVESTIGATION)
+              (CC AND)
+              (NNP SOLVE) (NNP THE) (NN CASE))))))
+    (. .)))
+
+(ROOT
+  (NP (NNP THREE) (NNP MEN) (NNP WERE) (NNP ARRESTED) (NNP YESTERDAY) (. .)))
+
+(ROOT
+  (S
+    (NP (NNP WE))
+    (VP (VBP ARE)
+      (VP (VBG COORDINATING)
+        (PP (IN WITH)
+          (NP
+            (NP (NNP SECURITY) (NNP OFFICIALS) (NNP FROM) (NNP BOGOTA)
+              (CC AND)
+              (NNP CRIMINAL) (NNP INVESTIGATORS))
+            (PP (IN IN)
+              (NP
+                (NP (NNP MEDELLIN))
+                (PP (IN ON)
+                  (NP (DT THE) (NNP LEGAL) (NNP PROCEDURES)))))))
+        (S
+          (VP (TO TO)
+            (VP (VB BE)
+              (VP (VBN FOLLOWED)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (-LRB- -LRB-) (NNP END) (NNP RECORDING) (-RRB- -RRB-) (NNP NONE))
+      (PP (IN OF)
+        (NP (DT THE) (NNP MEN) (NNP HAD) (NNP IDENTIFICATION) (NNP PAPERS) (NNP OR))))
+    (VP (VBZ WEAPONS))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (S
+          (VP (TO TO)
+            (VP (VB THE)
+              (NP (NNS AUTHORITIES)))))))
+    (, ,)
+    (NP (DT THOSE))
+    (VP (VBD ARRESTED)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP MAY) (NNP BE) (NNP MEMBERS))
+            (PP (IN OF)
+              (NP (DT A) (NNP BAND) (NNP CALLED) (NNP THE) (NNP OWLS) (NNP THAT))))
+          (VP (VBZ HAS)
+            (NP
+              (NP (NNP BEEN) (NNP OPERATING))
+              (PP (IN IN)
+                (NP
+                  (NP (DT THE) (NNP NORTHEASTERN) (NNP PART))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP CITY))))))))))
+    (. .)))
+

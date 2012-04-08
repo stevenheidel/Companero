@@ -1,0 +1,112 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP (NNP MILITARY) (NNP SOURCES) (NNP FROM) (NNP AYACUCHO) (NNP HAVE))
+        (VP (VBD REPORTED)
+          (S
+            (VP (TO TO)
+              (VP (VB EFE)
+                (NP
+                  (NP
+                    (NP (NNP THAT) (NNP THREE) (NNP OFFICERS)
+                      (CC AND)
+                      (NNP SEVEN) (NNP SOLDIERS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP PERUVIAN) (NNP ARMY))))
+                  (, ,)
+                  (CC AND)
+                  (NP
+                    (NP (CD 15) (NNS MEMBERS))
+                    (PP (IN OF)
+                      (NP (DT THE) (NNP MAOIST) (NNP GUERRILLA) (NNP SHINING) (NNP PATH)))))))))))
+    (NP (NNP MOVEMENT) (NNP TODAY))
+    (VP (VBD DIED)
+      (PP (IN IN)
+        (NP (NNP COMBAT)))
+      (, ,)
+      (PP (IN IN)
+        (NP
+          (NP (DT THE) (NNP DEPARTMENT))
+          (PP (IN OF)
+            (NP (NNP HUANCAVELICA))))))
+    (. .)))
+
+(ROOT
+  (NP
+    (NP (DT THE) (NNP CONFRONTATION) (NNP BETWEEN) (NNP THE) (NNP ARMY)
+      (CC AND)
+      (NNP THE) (`` ``) (NNP SHINING) (NNP PATH) ('' ''))
+    (NP
+      (NP (NNP MEMBERS) (NNP TOOK) (NNP PLACE) (NNP NEAR) (NNP A) (NNP MINE))
+      (PP (IN IN)
+        (NP (DT THE) (NNP ANDEAN) (NNP MOUNTAINS) (NNP LOCATED) (NNP AT))))
+    (NP
+      (NP (DT AN) (NN ALTITUDE))
+      (PP (IN OF)
+        (NP (CD 4,000) (NNS METERS))))
+    (, ,)
+    (PP (IN IN)
+      (NP
+        (NP
+          (NP (DT THE) (NN DISTRICT))
+          (PP (IN OF)
+            (NP (NNP HUACHOCOLPA))))
+        (, ,)
+        (NP
+          (NP (NNP SOME) (CD 30) (NNP KM) (NNP SOUTH))
+          (PP (IN OF)
+            (NP (NNP HUANCAVELICA))))
+        (, ,)
+        (NP
+          (NP (NN CAPITAL))
+          (PP (IN OF)
+            (NP
+              (NP (DT THE) (NNP DEPARTMENT))
+              (PP (IN OF)
+                (NP (DT THE) (NNP SAME) (NNP NAME))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (NNP AYACUCHO))
+      (VP (VBZ IS)
+        (NP
+          (NP (DT THE) (NN BASE))
+          (PP (IN OF)
+            (NP (DT THE) (NNP MILITARY) (NNP COMMAND) (NNP THAT) (NNPS CONTROLS) (NNP HUANCAVELICA)
+              (CC AND)
+              (NNP APURIMAC) (NNP DEPARTMENTS))))))
+    (, ,)
+    (NP (NNP DUE) (NNP TO) (NNP THE) (`` ``) (NNP SHINING) (NNP PATH) ('' ''))
+    (VP (VBZ ACTIVITIES))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT A) (NNP COMMUNIQUE) (NNP RELEASED) (NNP BY) (NNP THE) (NNP MILITARY))
+    (VP (VBD COMMAND)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP STATES) (NNP THAT))
+            (PP (IN ON)
+              (NP (CD 20) (NNP SEPTEMBER) (, ,) (CD TWO) (NNP SHINING) (NNP PATH) (NNS MEMBERS))))
+          (VP (VBD DIED)
+            (PP (IN IN)
+              (NP (NNP ANOTHER) (NNP CLASH)))
+            (, ,)
+            (PP (IN IN)
+              (NP (DT THE) (NNP UCRO) (NNP SECTOR)))
+            (, ,)
+            (PP (IN IN)
+              (NP
+                (NP (DT THE) (NNP NORTHERN) (NNP PART))
+                (PP (IN OF)
+                  (NP (NNP AYACUCHO) (NNP DISTRICT)))))))))
+    (. .)))
+

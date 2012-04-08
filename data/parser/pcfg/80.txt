@@ -1,0 +1,58 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-))
+    (VP (VBZ BUENOS)
+      (SBAR
+        (S
+          (NP (NNP AIRES) (NNP POLICE) (NNP CHIEF) (NNP WALTER) (NNP JURADO))
+          (VP (VBZ HAS)
+            (NP
+              (NP (NNP CONFIRMED) (NNP THAT) (NNP MILITARY) (NNP PERSONNEL))
+              (PP (IN OF)
+                (NP (DT THE) (NNP VILLA) (NNP MARTELLI) (NNP 601ST) (NNP REGIMENT) (NNP THIS) (NNP MORNING) (NNP HEARD) (NNP SOME) (NNP SHOTS) (NNP NEAR) (NNP THE) (NN REGIMENT))))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (PRP HE))
+      (VP (VBD DENIED)))
+    (, ,)
+    (VP (VBP HOWEVER) (, ,) (VBP THAT)
+      (NP (DT THE) (NNP SHOOTING) (NNP OCCURRED) (NNP OUTSIDE)))
+    (NP
+      (NP (DT THE) (NNP LA) (NNP TABLADA) (NNP REGIMENT))
+      (, ,)
+      (NP (IN AS)
+        (NP (NNP HAS) (NNP BEEN) (NNP REPORTED))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (DT THE) (NNP ARMY) (NNP GENERAL) (NNP STAFF))
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP DENIED) (NNP REPORTS) (NNP THAT) (NNP A) (NNP MILITARY) (NNP UNIT))
+          (PP (IN IN)
+            (NP (NNP LA) (NNP TABLADA) (NNP OR) (NNP VILLA) (NNP MARTELLI) (NNP WAS) (NNP ATTACKED) (NNP THIS) (NN MORNING))))))
+    (, ,)
+    (VP (VBD ALTHOUGH)
+      (SBAR
+        (S
+          (NP (PRP HE))
+          (VP (VBD ADMITTED)
+            (NP
+              (NP (NNP THAT) (NNP TROOPS))
+              (PP (IN OF)
+                (NP (DT THE) (CD 601ST) (NNS BATTALLION))))
+            (PP (IN IN)
+              (NP (NNP VILLA) (NNP MARTELLI) (NNP HEARD)))))))
+    (NP
+      (NP (CD TWO) (NNS SHOTS))
+      (, ,)
+      (NP
+        (NP (NNP BUT) (NNP THAT))
+        (NP (DT NO) (NNP STRANGE) (NNP MOVEMENT) (NNP HAS) (NNP BEEN) (NNP OBSERVED))))
+    (. .)))
+

@@ -1,0 +1,62 @@
+(ROOT
+  (S
+    (NP
+      (NP
+        (PRN (-LRB- -LRB-)
+          (NP (NNP TEXT))
+          (-RRB- -RRB-))
+        (NNP TWO) (NNP INDIVIDUALS))
+      (VP (VBG WEARING)
+        (NP (NNP MILITARY) (NNP UNIFORMS)
+          (CC AND)
+          (NNP CARRYING))))
+    (VP (VBZ SUBMACHINEGUNS)
+      (SBAR
+        (S
+          (NP (NNP EARLY) (NNP THIS) (NNP MORNING))
+          (VP (VBD ENTERED)
+            (NP
+              (NP
+                (NP (DT THE) (NNP INFANT) (NNP HEALTH) (NNP CENTER))
+                (PP (IN OF)
+                  (NP (NNP MERCEDES) (, ,) (CD 240) (NNP KM) (NNP FROM) (NNS CORRIENTES))))
+              (, ,)
+              (CC AND)
+              (NP
+                (NP (NNP TOOK) (NNP LARGE) (NNP QUANTITIES))
+                (PP (IN OF)
+                  (NP (NNP BLOOD) (, ,) (NNP SERUM)
+                    (CC AND)
+                    (NNP MEDICINE)))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP THIS) (NNP INFORMATION) (NNP AS))
+    (VP (VBD CONFIRMED)
+      (NP
+        (NP (NNP BY) (NNP MAYOR) (NNP JOSE) (NNP ALBERTO) (NNP TRONCOSO))
+        (SBAR
+          (WHNP (WP WHO))
+          (S
+            (VP (VBD ALERTED)
+              (NP (DT THE) (NN POPULATION)
+                (S
+                  (VP (TO TO)
+                    (VP (VB PROVIDE)
+                      (NP
+                        (NP (NNP ANY) (NNP INFORMATION))
+                        (PP (IN ON)
+                          (NP (DT THE) (NNS INDIVIDUALS)))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP POLICE) (NNP FORCES) (NNP HAVE) (NNP BEEN) (NNP DEPLOYED) (NNP AROUND))
+    (VP (VBZ MERCEDES)
+      (S
+        (VP (TO TO)
+          (VP (VB PREVENT)
+            (NP (NNP THEIR) (NNP ESCAPE))))))
+    (. .)))
+

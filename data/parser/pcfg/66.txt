@@ -1,0 +1,30 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-) (NNP SEVEN))
+    (VP (VBZ SOLDIERS)
+      (SBAR
+        (S
+          (NP (NNP WERE) (NNP KILLED)
+            (CC AND)
+            (NNP SEVERAL) (NNP WERE))
+          (VP (VBD WOUNDED)
+            (NP
+              (NP (NNP BY) (NNP A) (NNP BOMB))
+              (SBAR
+                (WHADVP (WRB WHEN))
+                (S
+                  (NP
+                    (NP (DT A) (NNP GROUP))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP NATIONAL) (NNP LIBERATION) (NNP ARMY))
+                        (PRN (-LRB- -LRB-)
+                          (NP (NNP ELN))
+                          (-RRB- -RRB-)))))
+                  (VP (VBZ REBELS)
+                    (NP
+                      (NP (NNP AMBUSHED) (NNP A) (NNP MILITARY) (NNP CONVOY))
+                      (PP (IN IN)
+                        (NP (NNP SARAVENA) (, ,) (NNP ARAUCA) (NNP DEPARTMENT))))))))))))
+    (. .)))
+

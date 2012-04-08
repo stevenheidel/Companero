@@ -1,0 +1,155 @@
+(ROOT
+  (S
+    (SBAR
+      (PRN (-LRB- -LRB-)
+        (NP (NNP TEXT))
+        (-RRB- -RRB-))
+      (S
+        (NP
+          (NP (NNP GARY) (NNP ELLIOT) (NNP KENT) (NNP JR))
+          (, ,)
+          (NP
+            (NP (DT A) (NNP U.S.) (NNP CITIZEN))
+            (VP (VBG BEING)
+              (VP (VBN HELD)
+                (PP (IN IN)
+                  (NP
+                    (NP (NNP PRISON) (NNP WHILE) (NNP AWAITING) (NNP TRIAL))
+                    (PP (IN ON)
+                      (NP (JJ DRUG-TRAFFICKING) (NNS CHARGES))))))))
+          (, ,))
+        (VP (VBZ HAS)
+          (S
+            (NP (NNP BEEN) (NNP STABBED))
+            (VP (TO TO)
+              (VP (VB DEATH)
+                (PP (IN IN)
+                  (NP (DT THE) (NNP PAVON) (NNP PRISON) (NNP CAMP)))))))))
+    (, ,)
+    (NP (CD 18) (NN KM))
+    (VP (VBP SOUTHEAST)
+      (PP (IN OF)
+        (NP (NNP THIS) (NNP CAPITAL))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP KENT) (NNP JR))
+      (, ,)
+      (CC AND)
+      (NP
+        (NP (NNP ANOTHER) (NNP PERSON) (NNP WHOSE) (NNP NAME)
+          (CC AND)
+          (NNP NATIONALITY))
+        (NP (DT THE) (NNP POLICE) (NNP HAVE) (NNP NOT) (NNP REVEALED)))
+      (, ,))
+    (ADVP (RB WERE))
+    (VP (VBD ARRESTED)
+      (PP (IN IN)
+        (NP (NNP JULY) (CD 1989)))
+      (S
+        (VP (VBG ALONG)
+          (NP
+            (NP (DT THE) (NNP SOUTHERN) (NNP COAST))
+            (PP (IN OF)
+              (NP (NNP GUATEMALA)))
+            (SBAR
+              (WHADVP (WRB WHEN))
+              (S
+                (NP (DT THE) (NN LIGHT))
+                (VP (VBP PLANE)
+                  (PP (IN IN)
+                    (SBAR
+                      (WHNP (WDT WHICH))
+                      (S
+                        (NP (DT THE) (CD TWO) (NNP WERE) (NNP TRAVELING) (NNP HAD))
+                        (VP (TO TO)
+                          (VP (VB MAKE)
+                            (NP (DT AN) (NNP EMERGENCY) (NNP LANDING))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (VP (VBG ACCORDING)
+        (S
+          (VP (TO TO)
+            (VP (VB THE)
+              (NP (NNP INVESTIGATIONS) (NNP THAT) (NNP FOLLOWED)))))))
+    (, ,)
+    (NP (DT THE) (NNP PLANE))
+    (VP (VBD WAS)
+      (VP (VBG TRANSPORTING)
+        (NP
+          (NP (NNP COCAINE) (NNP FROM) (NNP COLOMBIA))
+          (VP (TO TO)
+            (NP (DT THE) (NNP UNITED) (NNS STATES))))))
+    (. .)))
+
+(ROOT
+  (SINV
+    (S
+      (NP (NNP OFFICIAL) (NNP SOURCES) (NNP HAVE) (NNP REPORTED) (NNP THAT) (NNP KENT) (NNP JR))
+      (VP (VBD WAS)
+        (ADJP (JJ UNEXPECTEDLY))))
+    (VP (VBD ATTACKED))
+    (NP (NNP BY) (NNP THREE) (NNP OTHER) (NNP PAVON) (NNP PRISON) (NNP INMATES) (NNP WIELDING) (NNP KNIVES))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PRISON) (NNP GUARDS))
+    (VP (VBD CAPTURED)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP ATTACKERS) (NNP BUT) (NNP DID) (NNP NOT) (NNP REPORT) (NNP THEIR))
+          (VP (VBZ NAMES)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP PRISON) (NNP SYSTEM) (NNP DIRECTOR) (NNP LEONEL) (NNP FRANCO) (NNP STATED) (NNP TODAY))
+    (VP (VBP THAT)
+      (SBAR
+        (S
+          (NP (DT THE) (NNP AMERICAN) (NNP HAD) (NNP NOT) (NNP BEEN) (NNP SENTENCED)
+            (CC AND)
+            (NNP THAT) (NNP HIS) (NN CASE))
+          (VP (VBD WAS)
+            (VP (VBG BEING)
+              (VP (VBN PROCESSED)
+                (NP
+                  (NP (NNP BY) (NNP A) (NNP COURT))
+                  (PP (IN OF)
+                    (NP (NNP JUSTICE))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (PP (IN ON)
+      (NP (CD 28) (NN SEPTEMBER)))
+    (, ,)
+    (NP
+      (NP (DT THE) (NNP U.S.) (NNP EMBASSY))
+      (PP (IN IN)
+        (NP (NNP GUATEMALA) (NNP HAD))))
+    (VP (VBD REQUESTED)
+      (NP
+        (NP (DT THE) (NN EXTRADITION))
+        (PP (IN OF)
+          (NP
+            (NP (NNP KENT) (NNP JR))
+            (PP (IN FOR)
+              (NP (PRP$ HIS) (NN INVOLVEMENT))))))
+      (PP (IN IN)
+        (NP
+          (NP (NNP DRUG-TRAFFICKING) (NNP ACTIVITIES)
+            (CC AND)
+            (NNP BECAUSE))
+          (PP (IN OF)
+            (NP (PRP$ HIS) (JJ POSSIBLE) (NNS LINKS)))))
+      (PP (IN WITH)
+        (NP (DT THE) (NNP MEDELLIN) (NNP CARTEL))))
+    (. .)))
+

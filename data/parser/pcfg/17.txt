@@ -1,0 +1,144 @@
+(ROOT
+  (S
+    (NP (-LRB- -LRB-) (NNP TEXT) (-RRB- -RRB-) (NNP POLICE))
+    (VP (VBP ARE)
+      (VP (VBG CARRYING)
+        (NP
+          (NP (NNP OUT) (NNP INTENSIVE) (NNP OPERATIONS))
+          (PP (IN IN)
+            (NP
+              (NP (DT THE) (NN TOWN))
+              (PP (IN OF)
+                (NP (NNP MOLINA))))))
+        (PP (IN IN)
+          (NP
+            (NP (DT THE) (NNP SEVENTH) (NNP REGION))
+            (PP (IN IN)
+              (NP
+                (NP (NNP SEARCH))
+                (PP (IN OF)
+                  (NP
+                    (NP (DT A) (NN GANG))
+                    (PP (IN OF)
+                      (NP
+                        (NP (NNP ALLEGED) (NNP EXTREMISTS))
+                        (SBAR
+                          (WHNP (WP WHO))
+                          (S
+                            (VP (VBD COULD)
+                              (VP (VB BE)
+                                (VP (VBN LINKED)
+                                  (S
+                                    (VP (TO TO)
+                                      (NP (DT A) (NNP RECENTLY) (NNP DISCOVERED) (NNP ARSENAL)))))))))))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP (PRP IT))
+      (VP (VBZ HAS)
+        (NP
+          (NP (NNP BEEN) (NNP REPORTED) (NNP THAT) (NNP CARABINEROS))
+          (PP (IN IN)
+            (NP
+              (NP (NNP MOLINA) (NNP RAIDED) (NNP THE) (NNP HOUSE))
+              (PP (IN OF)
+                (NP (NNP 25-YEAR-OLD) (NNP WORKER) (NNP MARIO) (NNP MUNOZ) (NNP PARDO))))))))
+    (, ,)
+    (NP (NNP WHERE) (NNP THEY))
+    (VP (VBD FOUND)
+      (NP
+        (NP
+          (NP (DT A) (NNP FAL) (NNP RIFLE))
+          (, ,)
+          (NP
+            (NP (NNP AMMUNITION) (NNP CLIPS))
+            (PP (IN FOR)
+              (NP
+                (NP (NNP VARIOUS) (NNP WEAPONS))
+                (, ,)
+                (NP (NNS DETONATORS))))))
+        (, ,)
+        (CC AND)
+        (NP
+          (NP (NNP MATERIAL))
+          (PP (IN FOR)
+            (NP (NNP MAKING) (NNP EXPLOSIVES))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP IT) (NNP SHOULD) (NNP BE) (NNP RECALLED) (NNP THAT) (NNP A) (NNP GROUP))
+      (PP (IN OF)
+        (NP (NNP ARMED) (NNP INDIVIDUALS) (NNP WEARING) (NNP SKI) (NNP MASKS))))
+    (VP (VBD ROBBED)
+      (NP
+        (NP (DT A) (NN BUSINESSMAN))
+        (PP (IN ON)
+          (NP (DT A) (NNP RURAL) (NNP ROAD) (NNP NEAR) (NNP MOLINA)))
+        (PP (IN ON)
+          (NP (CD 7) (NN JANUARY)))))
+    (. .)))
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT THE) (NN BUSINESSMAN))
+        (, ,)
+        (NP (NNP ENRIQUE) (NNP ORMAZABAL) (NNP ORMAZABAL))
+        (, ,))
+      (VP (VBD TRIED)
+        (S
+          (VP (TO TO)
+            (VP (VB RESIST))))))
+    (: ;)
+    (S
+      (NP (DT THE) (NNP MEN) (NNP SHOT) (NNP HIM)
+        (CC AND)
+        (NNP LEFT) (NNP HIM) (NN SERIOUSLY))
+      (VP (VBD WOUNDED)))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (PRP HE))
+    (VP (VBD WAS)
+      (NP
+        (NP (NNP LATER) (NNP HOSPITALIZED))
+        (PP (IN IN)
+          (NP (NNP CURICO)))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (NNP CARABINEROS) (NNP CARRIED) (NNP OUT) (NNP SEVERAL))
+    (VP (VBZ OPERATIONS) (, ,)
+      (S
+        (VP (VBG INCLUDING)
+          (NP
+            (NP (DT THE) (NN RAID))
+            (PP (IN ON)
+              (NP
+                (NP (NNP MUNOZ) (POS '))
+                (NNP HOME)))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP (DT THE) (NNP POLICE))
+    (VP (VBP ARE)
+      (VP (VBG CONTINUING)
+        (S
+          (VP (TO TO)
+            (VP (VB PATROL)
+              (NP (DT THE) (NN AREA))
+              (PP (IN IN)
+                (NP
+                  (NP (NNP SEARCH))
+                  (PP (IN OF)
+                    (NP (DT THE) (NNP ALLEGED) (NNP TERRORIST) (NNP COMMAND))))))))))
+    (. .)))
+
