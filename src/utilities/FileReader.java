@@ -89,10 +89,6 @@ public class FileReader
 				nextLine = br.readLine();
 			}
 		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		} 
 		catch (IOException e) 
 		{
 			e.printStackTrace();
@@ -122,10 +118,6 @@ public class FileReader
 				nextLine = br.readLine();
 			}
 		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		} 
 		catch (IOException e) 
 		{
 			e.printStackTrace();
