@@ -39,12 +39,17 @@ public class When {
 		
 		for (Article a : articles)
 		{
-			answer.add(a.getTimeWritten().toString(), Heuristics.articleConfidence(a, new Place(place)));
+			double confidence = 0.0;
+			confidence += Heuristics.articleConfidence(a, new Place(place));
+			confidence *= Heuristics.get("when.article_likelihood");
+			answer.add(a.getTimeWritten().toString(), confidence);
 			
 			for (Time t : a.getTimes())
 			{
-				double confidence = 1.0 - (Heuristics.minDistance(a, t, text) * 0.1);
-				
+				confidence = 0.0;
+				confidence += Heuristics.articleConfidence(a, new Place(place)) * Heuristics.get("when.weight.article");
+				confidence += (1 - Heuristics.minDistance(a, t, text) * Heuristics.get("when.distance_reduction")) * Heuristics.get("when.weight.closeness");
+								
 				answer.add(t.toString(), confidence);
 			}
 		}

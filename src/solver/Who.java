@@ -47,9 +47,9 @@ public class Who {
 			for (String noun : nouns)
 			{
 				double confidence = 0.0;
-				confidence += (Heuristics.articleConfidence(a, new Place(place), new Time(time)) * 0.2);
-				confidence += (Heuristics.personNameConfidence(noun) * 0.3);
-				confidence += ((1 - Heuristics.minDistance(a, noun, text) * 0.01) * 0.5);
+				confidence += Heuristics.articleConfidence(a, new Place(place), new Time(time)) * Heuristics.get("who.weight.article");
+				confidence += Heuristics.personNameConfidence(noun) * Heuristics.get("who.weight.person_name");
+				confidence += (1 - Heuristics.minDistance(a, noun, text) * Heuristics.get("who.distance_reduction")) * Heuristics.get("who.weight.closeness");
 				
 				answer.add(noun, confidence);
 			}

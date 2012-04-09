@@ -14,7 +14,6 @@ import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import solver.Heuristics;
 import utilities.FileReader;
 import utilities.Place;
 import utilities.Time;

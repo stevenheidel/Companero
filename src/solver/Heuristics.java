@@ -26,7 +26,7 @@ import utilities.WordDictionary;
  *
  */
 public class Heuristics {
-	private static HashMap<String, Double> heuristics;
+	private static HashMap<String, Double> heuristics = null;
 	
 	public static double get(String name)
 	{
@@ -35,11 +35,13 @@ public class Heuristics {
 		return heuristics.get(name);
 	}
 	
-	/**
-	 * Can be adjusted during runtime because it's read each time
-	 */
 	private static void buildHeuristics()
 	{
+		if (heuristics != null)
+			return;
+		
+		heuristics = new HashMap<String, Double>();
+		
 		String[] lines = FileReader.convertToStringArrayOfLines("data/structures/heuristics.txt");
 		
 		for (String line : lines)
@@ -48,13 +50,12 @@ public class Heuristics {
 			if (!line.contains("|"))
 				continue;
 			
-			heuristics.put(line.split("|")[0].trim(), Double.parseDouble(line.split("|")[1].trim()));
+			heuristics.put(line.split("\\|")[0].trim(), Double.parseDouble(line.split("\\|")[1].trim()));
 		}
 	}
 	
 	/**
 	 * TODO: description
-	 * Returns -1 if one or the other can't be found
 	 * @param article
 	 * @param one
 	 * @param two
@@ -110,10 +111,10 @@ public class Heuristics {
 				}
 				
 				int distance = substring.length();
-				// +10 for sentences
-				distance += 10 * (substring.replaceAll("[^.]", "").length());
-				// +100 for paragraphs
-				distance += 100 * (substring.replaceAll("[^\n]", "").length());
+				// extra for sentences
+				distance += Heuristics.get("distance.extra.sentences") * (substring.replaceAll("[^.]", "").length());
+				// extra for paragraphs
+				distance += Heuristics.get("distance.extra.paragraphs") * (substring.replaceAll("[^\n]", "").length());
 
 				minDistance = Math.min(minDistance, distance);
 			}
@@ -138,45 +139,37 @@ public class Heuristics {
 		return minDistance(article, time.getOriginal(), text);
 	}
 	
-	private static double articleConfidence(Article article, Place place, Time time,
-			double articlePlace, double articleHasPlace, double articleTime, double articleHasTime)
+	public static double articleConfidence(Article article, Place place, Time time)
 	{
 		double confidence = 0.0;
 		
 		if (place != null)
 			// if article place matches, add confidence
 			if (article.getLocationWritten().equals(place))
-				confidence += articlePlace;
-			// otherwise if there's mention of the place in the article,
-			// add a little less confidence
+				confidence += Heuristics.get("article.place");
+			// otherwise if there's mention of the place in the article
 			else if (article.containsPlace(place))
-				confidence += articleHasPlace;
+				confidence += Heuristics.get("article.has_place");
 		
 		if (time != null)
 			// if article time matches, add confidence
 			if (article.getTimeWritten().equals(time))
-				confidence += articleTime;
-			// otherwise if there's mention of the time in the article,
-			// add a little less confidence
+				confidence += Heuristics.get("article.time");
+			// otherwise if there's mention of the time in the article
 			else if (article.containsTime(time))
-				confidence += articleHasTime;
+				confidence += Heuristics.get("article.time");
 			
 			return confidence;
 	}
 	
-	public static double articleConfidence(Article article, Place place, Time time)
-	{
-		return articleConfidence(article, place, time, 0.5, 0.4, 0.5, 0.3);
-	}
-	
 	public static double articleConfidence(Article article, Time time)
 	{
-		return articleConfidence(article, null, time, 0.5, 0.4, 0.5, 0.3);
+		return articleConfidence(article, null, time);
 	}
 	
 	public static double articleConfidence(Article article, Place place)
 	{
-		return articleConfidence(article, place, null, 0.5, 0.4, 0.5, 0.3);
+		return articleConfidence(article, place, null);
 	}
 	
 	/**
@@ -187,23 +180,23 @@ public class Heuristics {
 	public static double personNameConfidence(String name)
 	{
 		int numWords = name.split(" ").length;
-		double lengthConfidence = 0.1;
 		
-		switch (numWords)
+		double lengthConfidence = 0.0;
+		
+		try 
 		{
-			case 1: lengthConfidence = 0.5; break;
-			case 2: lengthConfidence = 1; break;
-			case 3: lengthConfidence = 0.8; break;
-			case 4: lengthConfidence = 0.6; break;
-			case 5: lengthConfidence = 0.4; break;
-			case 6: lengthConfidence = 0.3; break;
-			case 7: lengthConfidence = 0.2; break;
+			lengthConfidence = Heuristics.get("person.words." + numWords);
+		}
+		catch (Exception e)
+		{
+			// confidence file doesn't go up that high
+			lengthConfidence = 0.0;
 		}
 		
 		double punctuationConfidence = 1;
 		if (name.contains(",") || name.contains("-") || name.contains("`")
 				|| name.contains("'") || name.contains("(") || name.contains(")"))
-			punctuationConfidence = 0.1;
+			punctuationConfidence = Heuristics.get("person.punctuation");
 		
 		
 		int numRealWords = 0;
@@ -213,12 +206,12 @@ public class Heuristics {
 		
 		double englishConfidence = 1.0 - (numRealWords / numWords);
 				
-		/*System.out.print("\n");
-		System.out.println(lengthConfidence);
-		System.out.println(punctuationConfidence);
-		System.out.println(englishConfidence);*/
+		double confidence = 0.0;
+		confidence += lengthConfidence * Heuristics.get("person.weight.length");
+		confidence += englishConfidence * Heuristics.get("person.weight.english");
+		confidence *= punctuationConfidence;
 		
-		return ((lengthConfidence * 0.4) + (englishConfidence * 0.6)) * punctuationConfidence;
+		return confidence;
 	}
 	
 	public static void main(String[] args)

@@ -38,11 +38,16 @@ public class Where {
 		
 		for (Article a : articles)
 		{
+			double confidence = 0.0;
+			confidence += Heuristics.articleConfidence(a, new Time(time));
+			confidence *= Heuristics.get("where.article_likelihood");
 			answer.add(a.getLocationWritten().toString(), Heuristics.articleConfidence(a, new Time(time)));
 			
 			for (Place p : a.getPlaces())
 			{
-				double confidence = 1.0 - (Heuristics.minDistance(a, p, text) * 0.01);
+				confidence = 0.0;
+				confidence += Heuristics.articleConfidence(a, new Time(time)) * Heuristics.get("where.weight.article");
+				confidence += (1 - Heuristics.minDistance(a, p, text) * Heuristics.get("where.distance_reduction")) * Heuristics.get("where.weight.closeness");
 								
 				answer.add(p.toString(), confidence);
 			}

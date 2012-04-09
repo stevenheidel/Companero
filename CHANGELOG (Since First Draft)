@@ -4,8 +4,14 @@ CHANGES SINCE FIRST DRAFT
 *NOTE*
 To see all the changes, view the git.diff file
 
+Overall
+- added a heuristics system
+- refactored a lot of code to handle more dates and places
+- handling who questions
+- more documentation
+
 Who questions
-- 
+- got it working for the first time with heuristics
 - added all new tests, including examples from assignment description
 
 What question

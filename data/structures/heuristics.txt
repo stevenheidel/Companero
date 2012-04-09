@@ -1,3 +1,117 @@
-# HEURISTICS FILE
-# Everything on scale from 0 to 1
+HEURISTICS FILE
+===============
 
+Everything on scale from 0 to 1
+Only lines that contain the pipe character are read, all other ignored
+Anything beyond the second pipe character of a line is also ignored
+
+WHO QUESTIONS WEIGHTING
+-----------------------
+
+The following weights must add up to 1:
+
+How important is it that the time and place of article match the question
+who.weight.article | 0.1 | default: 0.2
+
+How important is it that the potential answer may be a person's name
+who.weight.person_name | 0.3 | default: 0.3
+
+How important is it that the potential answer is close to the prompt
+who.weight.closeness | 0.6 | default: 0.5
+
+WHAT QUESTIONS WEIGHTING
+------------------------
+
+What questions have no weighting because they're super simple
+
+WHERE QUESTIONS WEIGHTING
+-------------------------
+
+How likely that the answer to the question is the place where article was written
+where.article_likelihood | 1.0
+
+The following weights must add up to 1:
+
+How important is it that the time and place of article match the question
+where.weight.article | 0.2 | default: 0.2
+
+How important is it that the potential answer is close to the prompt
+where.weight.closeness | 0.8
+
+WHEN QUESTIONS WEIGHTING
+------------------------
+
+How likely that the answer to the question is the time when article was written
+when.article_likelihood | 1.0
+
+The following weights must add up to 1:
+
+How important is it that the time and place of article match the question
+when.weight.article | 0.2 | default: 0.2
+
+How important is it that the potential answer is close to the prompt
+when.weight.closeness | 0.8
+
+DISTANCE REDUCTIONS
+-------------------
+
+What range of distances should be included
+If this is set to 0.01, then text up to 100 away will return a value
+
+who.distance_reduction | 0.01 | default: 0.01
+where.distance_reduction | 0.01 | default: 0.01
+when.distance_reduction | 0.01
+
+MIN DISTANCE EXTRAS
+-------------------
+
+When calculating minimum distance between two phrases, add the extras...
+
+... if the distance runs across sentences
+distance.extra.sentences | 10 | default: 10
+... if the distance runs across paragraphs
+distance.extra.paragraphs | 100 | default: 100
+
+ARTICLE CONDIDERATIONS
+----------------------
+
+When to consider that the article has matched the time and place parameters
+given by the question
+
+These apply to all questions
+Between place and time, should be no more than 1
+
+If the place written matches
+article.place | 0.5
+Otherwise, if there's mention of that place in the article
+article.has_place | 0.4
+
+If the date written matches
+article.time | 0.5
+Otherwise, if there's mention of that time in the article
+article.has_time | 0.3
+
+PERSON NAME TESTER
+------------------
+Tries to determine whether or not a noun is a person's name
+
+The following weights must add up to 1:
+
+How important is it that the length of the name is satisfactory
+person.weight.length | 0.4 | default: 0.4
+
+How important is it that the name contains fewer English words
+person.weight.english | 0.6 | default: 0.6
+
+The number of words in a noun also can help determine if person
+If a number isn't included on this list it will be 0
+person.words.1 | 0.8 | default: 0.8
+person.words.2 | 1.0 | default: 1.0
+person.words.3 | 0.8 | default: 0.8
+person.words.4 | 0.6 | default: 0.6
+person.words.5 | 0.4 | default: 0.4
+person.words.6 | 0.2 | default: 0.2
+person.words.7 | 0.1 | default: 0.1
+
+The whole thing will be multiplied by the following if there's punctuation
+person.punctuation | 0.1 | default: 0.1
