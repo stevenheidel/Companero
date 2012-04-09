@@ -72,34 +72,11 @@ public class What {
 	{
 		Answer answer = new Answer();
 		
-		// get the question place
-		Place questionPlace = new Place(place);
-		
-		// get the question date
-		Time questionTime = new Time(time);
-		
+		// only need to do article confidence because it's always just the
+		// remainder of the string
 		for (Article a : articles)
-		{	
-			double confidence = 0.0;
-			
-			// if article place matches, add confidence
-			if (a.getLocationWritten().equals(questionPlace))
-				confidence += 0.5;
-			// otherwise if there's mention of the place in the article,
-			// add a little less confidence
-			else if (a.containsPlace(questionPlace))
-				confidence += 0.4;
-			
-			// if article time matches, add confidence
-			if (a.getTimeWritten().equals(questionTime))
-				confidence += 0.5;
-			// otherwise if there's mention of the time in the article,
-			// add a little less confidence
-			else if (a.containsDate(time))
-				confidence += 0.3;
-			
-			answer.add(getRestOfSentence(a.getArticleText(), text), confidence);
-		}
+			answer.add(getRestOfSentence(a.getArticleText(), text), 
+					Heuristics.articleConfidence(a, new Place(place), new Time(time)));
 		
 		return answer;
 	}
@@ -110,6 +87,6 @@ public class What {
 	 */
 	public static void main(String[] args)
 	{
-		Main.main(null);
+		Main.main(new String[]{"-test", "what"});
 	}
 }

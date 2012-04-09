@@ -134,7 +134,8 @@ public class Time
 	
 	public String toString()
 	{
-		return date.toString();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yy");
+		return sdf.format(date);
 	}
 	
 	/**

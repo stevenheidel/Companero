@@ -15,11 +15,11 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import solver.Heuristics;
 import utilities.FileReader;
 import utilities.Place;
 import utilities.Time;
@@ -33,6 +33,11 @@ import utilities.Time;
  */
 public class Article
 {	
+	/**
+	 * The ID of the article
+	 */
+	private int id;
+	
 	/**
 	 * The news source of the article, not everyone has one
 	 */
@@ -64,14 +69,20 @@ public class Article
 	private LinkedList<Place> places;
 	
 	/**
+	 * Times contained within the article text
+	 */
+	private LinkedList<Time> times;
+	
+	/**
 	 * Create a new Article
 	 * @param source the news source
-	 * @param dateWritten the date written
 	 * @param location the location written
 	 * @param articleText the article text
+	 * @param dateWritten the date written
 	 */
-	public Article(String source, Time timeWritten, Place location, String articleText)
+	public Article(int id, String source, Place location, Time timeWritten, String articleText)
 	{
+		this.id = id;
 		this.source = source;
 		this.timeWritten = timeWritten;
 		this.locationWritten = location;
@@ -80,27 +91,32 @@ public class Article
 		
 		places = new LinkedList<Place>();
 		
-		HashMap<String, LinkedList<String>> allCities = Place.getCities();
-		HashSet<String> allCountries = Place.getCountries();
-		
+		// TODO: correct for places within other places, like san salvador
 		// look for cities and countries in the text, ignoring any blank ones
-		for (String s : allCities.keySet())
+		for (String s : Place.getCities().keySet())
 		{
-			String temp = " " + s + " ";
-			if (this.articleTextNoPunct.contains(temp) && !s.equals(""))
+			if (this.articleTextNoPunct.contains(" " + s + " ") && !s.equals(""))
 			{
 				places.add(new Place(s));
 			}
 		}
 		
-		for (String s : allCountries)
+		for (String s : Place.getCountries())
 		{
-			String temp = " " + s + " ";
-			if (this.articleTextNoPunct.contains(temp) && !s.equals(""))
+			if (this.articleTextNoPunct.contains(" " + s + " ") && !s.equals(""))
 			{
 				places.add(new Place(s));
 			}
 		}
+	}
+	
+	/**
+	 * Return the ID
+	 * @return the ID
+	 */
+	public int getID()
+	{
+		return id;
 	}
 	
 	/**
@@ -193,57 +209,6 @@ public class Article
 				return true;
 				
 		return false;
-		
-		/*
-		boolean containsCity = false;
-		boolean containsCountry = false;
-		
-		if (toFind.hasCity())
-		{
-			if (cities.contains(toFind.getCity()))
-			{
-				containsCity = true;
-			}
-			if (locationWritten.hasCity() && toFind.getCity().equals(locationWritten.getCity()))
-			{
-				containsCity = true;
-			}
-		}
-		else
-		{
-			// if no city was mentioned, then we just say that the article contains the required city
-			containsCity = true;
-		}
-		
-		if (toFind.hasCountry())
-		{
-			LinkedList<String> country = toFind.getCountry();
-			LinkedList<String> writtenCountry = null;
-			if(locationWritten.hasCountry())
-			{
-				writtenCountry = locationWritten.getCountry();
-			}
-			
-			for (String s : country)
-			{
-				if (countries.contains(s))
-				{
-					containsCountry = true;
-				}
-				if (writtenCountry != null)
-				{
-					for (String r : writtenCountry)
-					{
-						if (r.equals(s))
-						{
-							containsCountry = true;
-						}
-					}
-				}
-			}
-		}
-		
-		return containsCity && containsCountry;*/
 	}
 	
 	/**
@@ -338,158 +303,6 @@ public class Article
 	}
 	
 	/**
-	 * A method to find how close a given date is to a given string in the article text.
-	 * @param	date - string containing the date how it was in the article
-	 * @param	text - text contained in the article that we want to find the closeness to the date
-	 * @return 	The number of character positions the date and text are apart. -1 is returned if the date
-	 * 			or the text aren't in the article.
-	 */
-	public int closenessOfDateToText(String date, String text)
-	{
-		LinkedList<Integer> datePositions = new LinkedList<Integer>();
-		
-		// find out if we added the year to the date or if it was given
-		String[] dateSplit = date.split(" ");
-		try
-		{
-			if (dateSplit[2].contains("(yearadded)"))
-			{
-				date = dateSplit[0] + " " + dateSplit[1];
-			}
-		}
-		catch (Exception e)
-		{
-			System.out.println("Date given in unexpected format.");
-			return -1;
-		}
-		
-		// start looking through the article for the text and date
-		int textLocation = articleText.indexOf(text);
-		if (textLocation == -1)
-		{
-			return -1;
-		}
-		int textFinalLocation = textLocation + text.length();
-		
-		int dateLocation = articleText.indexOf(date);
-		if (dateLocation == -1)
-		{
-			return -1;
-		}
-		
-		while(dateLocation != -1)
-		{
-			datePositions.add(dateLocation);
-			dateLocation = articleText.indexOf(date, dateLocation+1);
-		}
-		
-		// Loop through the locations of dates and find the minimum distance between the dates and the text
-		// For every paragraph away from the current one, add 1000 to the distance. This way we favour dates in the
-		// same paragraph as the text
-		int minDistance = Integer.MAX_VALUE;
-		for (Integer i : datePositions)
-		{
-			String substring = "";
-			if (i < textLocation)
-			{
-				substring = articleText.substring(i, textLocation);
-			}
-			else if (i > textFinalLocation)
-			{
-				substring = articleText.substring(textFinalLocation, i);
-			}
-			i += 1000 * (substring.split("\n").length - 1);
-			
-			if (Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation)) < minDistance)
-			{
-				minDistance = Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation));
-			}
-		}
-		
-		return minDistance;
-	}
-	
-	/**
-	 * A method to find how close a given city or country is to a given string in the article text.
-	 * @param	place - string containing the city or country to find
-	 * @param	text - text contained in the article that we want to find the closeness to the city or country
-	 * @return 	The number of character positions the date and text are apart. -1 is returned if the
-	 * 			city, country, or the text aren't in the article.
-	 */
-	public int closenessOfPlaceToText(String place, String text)
-	{
-		// Answers often given Salvador, Brazil when we want San Salvador, El Salvador
-		// so here is a quick fix
-		if (place.equals("SALVADOR") && articleTextNoPunct.contains("SAN SALVADOR"))
-		{
-			return Integer.MAX_VALUE;
-		}		
-
-		int minDistance = Integer.MAX_VALUE;
-		
-		// Make sure the place is a complete match by adding a space. We don't want
-		// Colombian in the text to match Colombia as a place, for example.
-		place += " ";
-		
-		LinkedList<Integer> placePositions = new LinkedList<Integer>();
-				
-		// start looking through the article for the text and place
-		int textLocation = articleText.indexOf(text);
-		if (textLocation == -1)
-		{
-			return Integer.MAX_VALUE;
-		}
-		int textFinalLocation = textLocation + text.length();
-		
-		int placeLocation = articleTextNoPunct.indexOf(place);
-		if (placeLocation == -1)
-		{
-			return Integer.MAX_VALUE;
-		}
-		
-		while (placeLocation != -1)
-		{
-			placePositions.add(placeLocation);
-			placeLocation = articleTextNoPunct.indexOf(place, placeLocation+1);
-		}
-		
-		// Loop through the locations of dates and find the minimum distance between the dates and the text
-		// For every paragraph away from the current one, add 1000 to the distance. This way we favour places in the
-		// same paragraph as the text
-		for (Integer i : placePositions)
-		{
-			String substring = "";
-			if (i < textLocation)
-			{
-				substring = articleText.substring(i, textLocation);
-				int tempMin = (textLocation - i) + 1000 * (substring.split("\n").length-1);
-				if (tempMin < minDistance)
-				{
-					minDistance = tempMin;
-				}
-			}
-			else if (i > textFinalLocation)
-			{
-				substring = articleText.substring(textFinalLocation, i);
-				int tempMin = (i - textFinalLocation) + 1000 * (substring.split("\n").length-1);
-				if (tempMin < minDistance)
-				{
-					minDistance = tempMin;
-				}
-			}
-			else
-			{
-				if (Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation)) < minDistance)
-				{
-					minDistance = Math.min(Math.abs(i-textLocation), Math.abs(i-textFinalLocation));
-				}
-			}
-		}
-		
-		return minDistance;
-	}
-	
-	/**
 	 * Convert to a string, which is just the article text
 	 */
 	public String toString()
@@ -507,15 +320,8 @@ public class Article
 		
 		LinkedList<Article> articles = corpus.getArticlesWithText("THE");
 		
-		for (Article a : articles)
-		{
-			LinkedList<String> dates = a.getDatesFromText();
-			
-			for (String s : dates)
-			{
-				System.out.println(s);
-				System.out.println("Minimum distance between date and text: " + a.closenessOfDateToText(s, "THE"));
-			}
-		}
+		System.out.println(articles.get(4));
+		for (Place p : articles.get(4).getPlaces())
+			System.out.println(p);
 	}
 }

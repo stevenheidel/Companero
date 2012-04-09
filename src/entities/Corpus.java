@@ -120,12 +120,10 @@ public class Corpus
 			if (countrySplit != null)
 			{
 				place = new Place(citySplit[0].trim(), countrySplit[0].trim());
-				newArticle = new Article(source, articleTime, place, articleText);
 			}
 			else
 			{
 				place = new Place(citySplit[0].trim(), null);
-				newArticle = new Article(source, articleTime, place, articleText);
 			}
 			
 			int id;
@@ -137,6 +135,8 @@ public class Corpus
 			{
 				throw new IllegalArgumentException("Article was not in correct format.");
 			}
+			
+			newArticle = new Article(id, source, place, articleTime, articleText);
 			articleMap.put(id, newArticle);
 		}
 	}

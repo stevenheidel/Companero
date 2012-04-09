@@ -24,6 +24,11 @@ import java.util.LinkedList;
 public class Place
 {
 	/**
+	 * The original input
+	 */
+	private String original;
+	
+	/**
 	 * The stored city
 	 */
 	private String city;
@@ -81,18 +86,22 @@ public class Place
 	 * @param theCountry the country or null if not known
 	 */
 	private void initialize(String theCity, String theCountry)
-	{
-		if (theCity == null)
-			city = null;
-		else
-			city = theCity.toUpperCase();
-		
+	{	
 		if (theCountry == null)
-			country = findCountry(city);
+			country = findCountry(theCity);
 		else
 		{
 			country = new LinkedList<String>();
 			country.add(theCountry.toUpperCase());
+			original = theCountry;
+		}
+		
+		if (theCity == null)
+			city = null;
+		else
+		{
+			city = theCity.toUpperCase();
+			original = theCity;
 		}
 	}
 	
@@ -193,6 +202,15 @@ public class Place
 	}
 	
 	/**
+	 * Return the original input
+	 * @return the original input
+	 */
+	public String getOriginal()
+	{
+		return original;
+	}
+	
+	/**
 	 * Check if the place is a city or country
 	 * @return whether or not the place has a city
 	 */
@@ -279,30 +297,13 @@ public class Place
 	 */
 	public String toString()
 	{
-		String toReturn = "";
-		
-		if (country != null)
-		{
-			for (String s : country)
-			{
-				if (hasCity() && toReturn.equals(""))
-				{
-					toReturn += city + ", " + s;
-				}
-				else if(hasCity())
-				{
-					toReturn += " | " + city + ", " + s;
-				}
-				else
-				{
-					toReturn += s;
-				}
-			}
-		}
-		else if (hasCity()) 
-			toReturn = city;
-		
-		return toReturn;
+		if (hasCountry() && country.size() == 1)
+			if (hasCity())
+				return city + ", " + country.getFirst();
+			else
+				return country.getFirst();
+		else
+			return city;
 	}
 	
 	/**
@@ -317,6 +318,8 @@ public class Place
 		Place unknown1 = new Place("Santiago");
 		Place unknown2 = new Place("Chile");
 		Place fake = new Place("Fake");
+		
+		// TODO: change to asserts
 		
 		System.out.println(both);
 		System.out.println(city);

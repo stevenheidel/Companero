@@ -28,14 +28,19 @@ import java.util.Map.Entry;
 public class Answer 
 {
 	/**
-	 * How much space to allocate for the answers
+	 * How much space to allocate for the answers (default: 45)
 	 */
-	private static final int ANSWER_LENGTH = 30;
+	private static final int ANSWER_LENGTH = 45;
 	
 	/**
 	 * The total width of the terminal (default: 80)
 	 */
 	private static final int TERMINAL_WIDTH = 80;
+	
+	/**
+	 * Display only the top n answers (default: 3)
+	 */
+	private static final int MAX_ANSWERS = 3;
 	
 	/**
 	 * A list of answers and their associated likelihoods
@@ -57,6 +62,9 @@ public class Answer
 	 */
 	public void add(String answer, double weight)
 	{
+		if (weight > 1)
+			weight = 1;
+		
 		answers.put(answer, weight);
 	}
 		
@@ -76,8 +84,11 @@ public class Answer
 	 * @return a linked hash map that is sorted descending by values
 	 */
 	public LinkedHashMap<String, Double> sortHashMapByValues(HashMap<String, Double> original) {
-	 	List<String> mapKeys = new ArrayList<String>(original.keySet());
-		List<Double> mapValues = new ArrayList<Double>(original.values());
+		@SuppressWarnings("unchecked")
+		HashMap<String, Double> clone = (HashMap<String, Double>) original.clone();
+		
+	 	List<String> mapKeys = new ArrayList<String>(clone.keySet());
+		List<Double> mapValues = new ArrayList<Double>(clone.values());
 		Collections.sort(mapValues);	
 		Collections.sort(mapKeys);	
 	
@@ -95,9 +106,9 @@ public class Answer
 			while (keyIt.hasNext()) 
 			{
 				String key = keyIt.next();
-				if (original.get(key).toString().equals(val.toString())) 
+				if (clone.get(key).toString().equals(val.toString())) 
 				{
-					original.remove(key);
+					clone.remove(key);
 					mapKeys.remove(key);
 					sorted.put(key, val);
 					break;
@@ -115,14 +126,10 @@ public class Answer
 	public String toString()
 	{
 		if (answers.size() == 0)
-			return "No Answers Found\n";
-		
-		// no need to print percentages if only one possible answer
-		// TODO: Change this back
-		//if (answers.size() == 1)
-			//return answers.keySet().toArray(new String[1])[0] + "\n";
+			return "***No Answers Found***\n";
 		
 		String toReturn = "";
+		int count = 0;
 		
 		for (Entry<String, Double> answer : sortHashMapByValues(answers).entrySet())
 		{
@@ -134,6 +141,10 @@ public class Answer
 			{
 				toReturn += "\n";
 				toReturn += String.format("%" + ANSWER_LENGTH + "s", " ");
+				
+				// printing bar for just one long answer looks weird
+				if (answers.size() == 1)
+					break;
 			}
 			
 			toReturn += " |";
@@ -143,6 +154,10 @@ public class Answer
 				toReturn += "=";
 			
 			toReturn += "\n";
+			
+			count += 1;
+			if (count >= MAX_ANSWERS)
+				break;
 		}
 		
 		return toReturn;
@@ -161,9 +176,13 @@ public class Answer
 		single.add("SINGLE ANSWER", 1);
 		System.out.println(single);
 		
+		Answer singleLong = new Answer();
+		singleLong.add("SINGLE ANSWER THAT IS EXTERMELY LONG AND WILL WRAP OVER ONTO THE NEXT LINE PROBABLY", 1);
+		System.out.println(singleLong);
+		
 		Answer answer = new Answer();
 		answer.add("TEST 1", 0.27);
-		answer.add("TEST WHERE THE LENGTH OF THE STRING IS MUCH LONGER THAN 30 CHARACTERS", 1);
+		answer.add("TEST WHERE THE LENGTH OF THE STRING IS MUCH LONGER THAN THE MAX CHARACTERS", 1);
 		answer.add("TEST 2", 0.78);
 		System.out.println(answer);
 	}

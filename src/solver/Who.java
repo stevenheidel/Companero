@@ -12,6 +12,8 @@ package solver;
 
 import java.util.LinkedList;
 
+import parser.Parser;
+
 import main.Main;
 
 import entities.Answer;
@@ -34,9 +36,19 @@ public class Who {
 	 */
 	protected static Answer answer(LinkedList<Article> articles, String text, String place, String time)
 	{
+		Answer answer = new Answer();
 		
+		for (Article a : articles)
+		{
+			LinkedList<String> nouns = Parser.getNounPhrases(a.getID());
+			
+			for (String noun : nouns)
+			{
+				System.out.println(noun);
+			}
+		}
 		
-		return new Answer();
+		return answer;
 	}
 	
 	/**
@@ -45,6 +57,6 @@ public class Who {
 	 */
 	public static void main(String[] args)
 	{
-		Main.main(null);
+		Main.main(new String[]{"-test", "who"});
 	}
 }

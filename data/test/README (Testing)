@@ -26,6 +26,5 @@ Running the Tests
 Most classes have a main method which is used for testing. Import the project
 into Eclipse and then run the classes individually to test the specific parts.
 
-To run the questions through the overall system, change the TESTING flag in 
-main/Main.java to be true, and then re-run the system. This will ignore 
-standard in and instead use the questions in the test folder.
+To run the questions through the overall system, run again with -test or to run
+for only specific question types use -test when,where

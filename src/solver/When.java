@@ -39,10 +39,10 @@ public class When {
 		String returnDate = null;
 		
 		Place questionPlace = new Place(place);
-		for(Article a : articles)
+		for (Article a : articles)
 		{			
 			// we only need to get the first country from questionPlace, as only one country will be entered per question
-			if(a.containsPlace(questionPlace))
+			if (a.containsPlace(questionPlace))
 			{				
 				LinkedList<String> dates = a.getDatesFromText();
 				
@@ -50,7 +50,7 @@ public class When {
 				
 				for(String s : dates)
 				{
-					int dist = a.closenessOfDateToText(s, text);
+					int dist = Heuristics.minDistance(a, s, text);
 					if(dist < minDistance)
 					{
 						minDistance = dist;
@@ -85,6 +85,6 @@ public class When {
 	 */
 	public static void main(String[] args)
 	{
-		Main.main(null);
+		Main.main(new String[]{"-test", "when"});
 	}
 }
