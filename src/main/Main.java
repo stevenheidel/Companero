@@ -10,8 +10,6 @@
 
 package main;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -40,7 +38,7 @@ public class Main
 		
 		if (testing)
 			args = new String[]{"-test", "all"};
-		
+				
 		// the corpus takes a few seconds to initialize
 		System.out.println("Processing the corpus...");
 		Corpus corpus = new Corpus(FileReader.convertToString("data/structures/corpus.txt"));
@@ -48,17 +46,10 @@ public class Main
 		
 		// if testing, read from the file, otherwise System.in
 		Scanner scanner = null;
-		if ((args.length > 1 && args[0] == "-test"))
+		if ((args.length > 0 && args[0].equals("-test")))
 		{
-			try 
-			{
-				scanner = new Scanner(new File("data/test/questions.txt"));
-				testing = true;
-			} 
-			catch (FileNotFoundException e) 
-			{
-				e.printStackTrace();
-			}
+			scanner = new Scanner(FileReader.convertToString("data/test/questions.txt"));
+			testing = true;
 		}
 		else
 			scanner = new Scanner(System.in);
