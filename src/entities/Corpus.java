@@ -182,6 +182,8 @@ public class Corpus
 		for (Article a : corpus.getArticlesWithText("ACCORDING TO RETIRED GENERAL FERNANDO TORRES SILVA"))
 		{
 			System.out.println(a);
+			System.out.println(a.getLocationWritten());
+			System.out.println(a.getTimeWritten());
 		}
 	}
 }

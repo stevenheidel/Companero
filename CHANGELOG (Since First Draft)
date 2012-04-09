@@ -1,9 +1,26 @@
 CHANGES SINCE FIRST DRAFT
 =========================
 
-*NOTE*
-To see every single change to the code, check git.log
+Who questions
+- 
+- added all new tests, including examples from assignment description
 
+What question
+- allow for multiple possible answers with confidence
+- can now handle a wider variety of time and places
+- added more tests, including examples from assignment description
+
+Where questions
+- 
+- added more tests, including examples from assignment description
+
+When questions
+- 
+- added more tests, including examples from assignment description
+
+Refactoring
 - fixed problem with .jar file and relative paths
 - fully parsed all articles using the Factored parser
-- 
+- reorganized solver into separate question types
+- centralized Place and Time logic, and added more functionality
+- added more individual class tests

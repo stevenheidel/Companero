@@ -27,58 +27,42 @@ import entities.Article;
 public class Where {
 	/**
 	 * Description of method
-	 * @param art
+	 * @param a
 	 * @param text
 	 * @return
 	 */
-	private static Place getPlaceForText(Article art, String text)
+	private static Place getPlaceForText(Article a, String text)
 	{
-		String[] cities = null;
-		String[] countries = null;
-		String closestPlace = "";
-		if(art.getCities().equals("") && art.getCountries().equals(""))
+		String closestPlace = null;
+		int tempDistance = 0;
+		
+		if (a.getPlaces().size() == 0)
 		{
-			return art.getLocationWritten();
+			return a.getLocationWritten();
 		}
 		else
 		{
-			if(art.getCities() != null)
-			{
-				cities = art.getCities().split("\\|");
-			}
-			if(art.getCountries() != null)
-			{
-				countries = art.getCountries().split("\\|");
-			}
-			
 			int minDistance = Integer.MAX_VALUE;
-			if(cities != null)
+			
+			for (Place p : a.getPlaces())
 			{
-				for(String s : cities)
+				if (p.hasCity())
 				{
-					if(!s.equals(""))
+					tempDistance = a.closenessOfPlaceToText(p.getCity(), text);
+					if (tempDistance < minDistance && tempDistance != -1)
 					{
-						int tempDistance = art.closenessOfPlaceToText(s, text);
-						if (tempDistance < minDistance && tempDistance != -1)
-						{
-							minDistance = tempDistance;
-							closestPlace = s; 
-						}
+						minDistance = tempDistance;
+						closestPlace = p.getCity(); 
 					}
 				}
-			}
-			if(countries != null)
-			{
-				for(String s : countries)
+				
+				for (String s : p.getCountry())
 				{
-					if(!s.equals(""))
+					tempDistance = a.closenessOfPlaceToText(s, text);
+					if (tempDistance < minDistance)
 					{
-						int tempDistance = art.closenessOfPlaceToText(s, text);
-						if (tempDistance < minDistance)
-						{
-							minDistance = tempDistance;
-							closestPlace = s; 
-						}
+						minDistance = tempDistance;
+						closestPlace = s; 
 					}
 				}
 			}
@@ -100,12 +84,15 @@ public class Where {
 		
 		for (Article a : articles)
 		{
-			if (a.containsDate(time))
-			{
+			//if (a.containsDate(time))
+			//{
 				Place articlePlace = getPlaceForText(a, text);
 				
-				answer.add(articlePlace.toString(), 1);
-			}
+				if (articlePlace.getCountry().size() > 1)
+					answer.add(articlePlace.getCity(), 1);
+				else
+					answer.add(articlePlace.toString(), 1);
+			//}
 		}
 		
 		return answer;

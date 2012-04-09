@@ -112,7 +112,7 @@ public class Place
 	/**
 	 * Build up a list of cities
 	 */
-	private void buildCities()
+	private static void buildCities()
 	{
 		if (laCountries == null)
 			buildCountries();
@@ -152,7 +152,7 @@ public class Place
 	/**
 	 * Build up a list of countries
 	 */
-	private void buildCountries()
+	private static void buildCountries()
 	{
 		if (laCountries != null)
 			return;
@@ -176,6 +176,8 @@ public class Place
 	 */
 	public static HashMap<String,LinkedList<String>> getCities()
 	{
+		buildCountries();
+		buildCities();
 		return cities;
 	}
 	
@@ -185,6 +187,8 @@ public class Place
 	 */
 	public static HashSet<String> getCountries()
 	{
+		buildCountries();
+		buildCities();
 		return laCountries;
 	}
 	
@@ -225,25 +229,49 @@ public class Place
 	}
 	
 	/**
-	 * Check if two places are equal
+	 * Check if two places are equal. Will be considered equal if:
+	 * 1. Both the city and country are the same
+	 * 2. The country is the same
+	 * 3. The country of one is one of the possible countries of the other
 	 * @param otherPlace the other place to check against
 	 * @return whether or not the two places are equal
 	 */
 	public boolean equals(Place otherPlace)
 	{
-		// first check if one or the other places is null
-		if ((otherPlace.hasCity() && !hasCity()) || (!otherPlace.hasCity() && hasCity()))
-			return false;
-		else if ((otherPlace.hasCountry() && !hasCountry()) || (!otherPlace.hasCountry() && hasCountry()))
-			return false;
-		// then check if the city or country is null
-		else if (!hasCity())
-			return otherPlace.getCountry().equals(country);
-		else if (!hasCountry())
+		return equalsCity(otherPlace) || equalsCountry(otherPlace);
+	}
+	
+	/**
+	 * Check if two cities are equal
+	 * @param otherPlace the other place to check against
+	 * @return whether or not the two cities are equal
+	 */
+	private boolean equalsCity(Place otherPlace)
+	{
+		if (hasCity() && otherPlace.hasCity())
 			return otherPlace.getCity().equals(city);
-		// or check that both are equal
-		else
-			return (otherPlace.getCity().equals(city) && otherPlace.getCountry().equals(country));
+		
+		return false;
+	}
+	
+	/**
+	 * Check if two countries are equal
+	 * @param otherPlace the other place to check against
+	 * @return whether or not the two countries are equal
+	 */
+	private boolean equalsCountry(Place otherPlace)
+	{
+		if (hasCountry() && otherPlace.hasCountry())
+		{
+			for (String c1 : country)
+				for (String c2 : otherPlace.getCountry())
+					if (c1.equals(c2))
+						return true;
+		}
+		else if (!hasCountry() && !otherPlace.hasCountry())
+			return true;
+		
+		return false;
 	}
 	
 	/**
@@ -296,5 +324,22 @@ public class Place
 		System.out.println(unknown1);
 		System.out.println(unknown2);
 		System.out.println(fake);
+		
+		System.out.println(both.equalsCity(city));
+		System.out.println(both.equalsCountry(city));
+		System.out.println(city.equalsCity(country));
+		System.out.println(city.equalsCountry(country));
+		System.out.println(unknown1.equalsCity(unknown2));
+		System.out.println(unknown1.equalsCountry(unknown2));
+		
+		System.out.println(both.equals(city));
+		System.out.println(city.equals(country));
+		System.out.println(unknown1.equals(unknown2));
+		System.out.println(unknown1.equals(both));
+		System.out.println(unknown1.equals(city));
+		System.out.println(unknown1.equals(country));
+		System.out.println(unknown2.equals(both));
+		System.out.println(unknown2.equals(city));
+		System.out.println(unknown2.equals(country));
 	}
 }
