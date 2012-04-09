@@ -28,7 +28,7 @@ import java.util.Map.Entry;
 public class Answer 
 {
 	/**
-	 * How much space to allocate for the answers (default: 45)
+	 * How much space to allocate for the answers
 	 */
 	private static final int ANSWER_LENGTH = 45;
 	
@@ -38,15 +38,20 @@ public class Answer
 	private static final int TERMINAL_WIDTH = 80;
 	
 	/**
-	 * Display only the top n answers (default: 5)
+	 * Display up to the top n answers
 	 */
 	private static final int MAX_ANSWERS = 5;
 	
 	/**
+	 * Quit outputting if jump is this big in percentage
+	 */
+	private static final double MAX_JUMP = 0.8;
+	
+	/**
 	 * A list of answers and their associated likelihoods
 	 */
-	private static HashMap<String, Double> answers;
-	
+	private HashMap<String, Double> answers;
+			
 	/**
 	 * Simply create the list of answers
 	 */
@@ -65,7 +70,10 @@ public class Answer
 		if (weight > 1)
 			weight = 1;
 		
-		answers.put(answer, weight);
+		if (answers.get(answer) == null)
+			answers.put(answer, weight);
+		else if (answers.get(answer) < weight)
+			answers.put(answer, weight);
 	}
 		
 	/**
@@ -130,9 +138,14 @@ public class Answer
 		
 		String toReturn = "";
 		int count = 0;
+		double previousWeight = 0.01;
 		
 		for (Entry<String, Double> answer : sortHashMapByValues(answers).entrySet())
 		{
+			// if there's tons of answers, check max jump
+			if (answers.size() > MAX_ANSWERS && (answer.getValue() / previousWeight) < MAX_JUMP)
+				break;
+			
 			// right align the answer
 			toReturn += String.format("%" + ANSWER_LENGTH + "s", answer.getKey());
 			
@@ -154,6 +167,8 @@ public class Answer
 				toReturn += "=";
 			
 			toReturn += "\n";
+			
+			previousWeight = answer.getValue();
 			
 			count += 1;
 			if (count >= MAX_ANSWERS)
@@ -177,13 +192,14 @@ public class Answer
 		System.out.println(single);
 		
 		Answer singleLong = new Answer();
-		singleLong.add("SINGLE ANSWER THAT IS EXTERMELY LONG AND WILL WRAP OVER ONTO THE NEXT LINE PROBABLY", 1);
+		singleLong.add("SINGLE ANSWER THAT IS EXTREMELY LONG AND WILL WRAP OVER ONTO THE NEXT LINE PROBABLY", 1);
 		System.out.println(singleLong);
 		
 		Answer answer = new Answer();
-		answer.add("TEST 1", 0.27);
+		answer.add("TEST 1", 0.82);
 		answer.add("TEST WHERE THE LENGTH OF THE STRING IS MUCH LONGER THAN THE MAX CHARACTERS", 1);
-		answer.add("TEST 2", 0.78);
+		answer.add("TEST 2", 0.88);
+		answer.add("TEST TOO BIG JUMP", 0.5);
 		System.out.println(answer);
 	}
 }

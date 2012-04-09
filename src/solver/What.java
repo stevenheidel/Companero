@@ -20,7 +20,9 @@ import entities.Answer;
 import entities.Article;
 
 /**
- * TODO: Description of implementation
+ * Solve what questions by:
+ * 1. Finding the text in the article
+ * 2. Returning the rest of the sentence
  * 
  * @author Jamie Gaultois
  *

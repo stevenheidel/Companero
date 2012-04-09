@@ -193,7 +193,6 @@ public class Article
 	{
 		places = new LinkedList<Place>();
 		
-		// TODO: correct for places within other places, like san salvador
 		// look for cities and countries in the text, ignoring any blank ones
 		for (String s : Place.getCities().keySet())
 		{

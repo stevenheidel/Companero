@@ -11,13 +11,13 @@ WHO QUESTIONS WEIGHTING
 The following weights must add up to 1:
 
 How important is it that the time and place of article match the question
-who.weight.article | 0.1 | default: 0.2
+who.weight.article | 0.1
 
 How important is it that the potential answer may be a person's name
-who.weight.person_name | 0.3 | default: 0.3
+who.weight.person_name | 0.3
 
 How important is it that the potential answer is close to the prompt
-who.weight.closeness | 0.6 | default: 0.5
+who.weight.closeness | 0.6
 
 WHAT QUESTIONS WEIGHTING
 ------------------------
@@ -32,8 +32,8 @@ where.article_likelihood | 1.0
 
 The following weights must add up to 1:
 
-How important is it that the time and place of article match the question
-where.weight.article | 0.2 | default: 0.2
+How important is it that the time of article match the question
+where.weight.article | 0.2
 
 How important is it that the potential answer is close to the prompt
 where.weight.closeness | 0.8
@@ -46,11 +46,11 @@ when.article_likelihood | 1.0
 
 The following weights must add up to 1:
 
-How important is it that the time and place of article match the question
-when.weight.article | 0.2 | default: 0.2
+How important is it that the place of article match the question
+when.weight.article | 0.5
 
 How important is it that the potential answer is close to the prompt
-when.weight.closeness | 0.8
+when.weight.closeness | 0.5
 
 DISTANCE REDUCTIONS
 -------------------
@@ -60,7 +60,7 @@ If this is set to 0.01, then text up to 100 away will return a value
 
 who.distance_reduction | 0.01 | default: 0.01
 where.distance_reduction | 0.01 | default: 0.01
-when.distance_reduction | 0.01
+when.distance_reduction | 0.01 | default: 0.01
 
 MIN DISTANCE EXTRAS
 -------------------
@@ -98,20 +98,23 @@ Tries to determine whether or not a noun is a person's name
 The following weights must add up to 1:
 
 How important is it that the length of the name is satisfactory
-person.weight.length | 0.4 | default: 0.4
+person.weight.length | 0.4
 
 How important is it that the name contains fewer English words
-person.weight.english | 0.6 | default: 0.6
+person.weight.english | 0.6
 
 The number of words in a noun also can help determine if person
 If a number isn't included on this list it will be 0
-person.words.1 | 0.8 | default: 0.8
-person.words.2 | 1.0 | default: 1.0
-person.words.3 | 0.8 | default: 0.8
-person.words.4 | 0.6 | default: 0.6
-person.words.5 | 0.4 | default: 0.4
-person.words.6 | 0.2 | default: 0.2
-person.words.7 | 0.1 | default: 0.1
+person.words.1 | 0.8
+person.words.2 | 1.0
+person.words.3 | 0.9
+person.words.4 | 0.6
+person.words.5 | 0.4
+person.words.6 | 0.2
+person.words.7 | 0.1
 
 The whole thing will be multiplied by the following if there's punctuation
 person.punctuation | 0.1 | default: 0.1
+
+The whole thing will be multiplied by the following if there's numbers
+person.numbers | 0 | default: 0.1

@@ -20,14 +20,22 @@ import utilities.Time;
 import utilities.WordDictionary;
 
 /**
- * Description of class
+ * A class to hold some heuristics.
  * 
  * @author Steven Heidel
  *
  */
 public class Heuristics {
+	/**
+	 * The built-up heuristics
+	 */
 	private static HashMap<String, Double> heuristics = null;
 	
+	/**
+	 * Get a heuristic value
+	 * @param name the name of the heuristic
+	 * @return the heuristic value
+	 */
 	public static double get(String name)
 	{
 		buildHeuristics();
@@ -35,6 +43,9 @@ public class Heuristics {
 		return heuristics.get(name);
 	}
 	
+	/**
+	 * Build up the heuristics from heuristics.txt
+	 */
 	private static void buildHeuristics()
 	{
 		if (heuristics != null)
@@ -55,11 +66,11 @@ public class Heuristics {
 	}
 	
 	/**
-	 * TODO: description
-	 * @param article
-	 * @param one
-	 * @param two
-	 * @return
+	 * Find the character distance between two strings in an article
+	 * @param article the article to search
+	 * @param one the first string
+	 * @param two the second string
+	 * @return the distance between the two strings
 	 */
 	public static int minDistance(Article article, String one, String two)
 	{
@@ -123,6 +134,13 @@ public class Heuristics {
 		return minDistance;
 	}
 	
+	/**
+	 * Find the character distance between a place and a string in an article
+	 * @param article the article to search
+	 * @param place the place
+	 * @param text the string
+	 * @return the distance between the place and the string
+	 */
 	public static int minDistance(Article article, Place place, String text)
 	{
 		// Answers often given Salvador, Brazil when we want San Salvador, El Salvador
@@ -134,11 +152,25 @@ public class Heuristics {
 		return minDistance(article, place.getOriginal(), text);
 	}
 	
+	/**
+	 * Find the character distance between a time and a string in an article
+	 * @param article the article to search
+	 * @param time the time
+	 * @param text the string
+	 * @return the distance between the time and the string
+	 */
 	public static int minDistance(Article article, Time time, String text)
 	{
 		return minDistance(article, time.getOriginal(), text);
 	}
 	
+	/**
+	 * How confident are we that the article matches the question parameters
+	 * @param article the article to check
+	 * @param place the place given by the question
+	 * @param time the time given by the question
+	 * @return the amount of confidence
+	 */
 	public static double articleConfidence(Article article, Place place, Time time)
 	{
 		double confidence = 0.0;
@@ -162,11 +194,23 @@ public class Heuristics {
 			return confidence;
 	}
 	
+	/**
+	 * How confident are we that the article matches the question parameters
+	 * @param article the article to check
+	 * @param time the time given by the question
+	 * @return the amount of confidence
+	 */
 	public static double articleConfidence(Article article, Time time)
 	{
 		return articleConfidence(article, null, time);
 	}
 	
+	/**
+	 * How confident are we that the article matches the question parameters
+	 * @param article the article to check
+	 * @param place the place given by the question
+	 * @return the amount of confidence
+	 */
 	public static double articleConfidence(Article article, Place place)
 	{
 		return articleConfidence(article, place, null);
@@ -174,12 +218,12 @@ public class Heuristics {
 	
 	/**
 	 * How likely is it that a string of text is a person's name
-	 * @param name
-	 * @return
+	 * @param name the name to check
+	 * @return the likelihood of it being a person
 	 */
 	public static double personNameConfidence(String name)
 	{
-		int numWords = name.split(" ").length;
+		int numWords = name.replaceAll("(\\W*\\w+\\W*)", ".").length();
 		
 		double lengthConfidence = 0.0;
 		
@@ -198,6 +242,10 @@ public class Heuristics {
 				|| name.contains("'") || name.contains("(") || name.contains(")"))
 			punctuationConfidence = Heuristics.get("person.punctuation");
 		
+		double numberConfidence = 1;
+		for (String w : name.split(" "))
+			if (w.trim().matches("[0-9]{" + w.length() + "}"))
+				numberConfidence = Heuristics.get("person.numbers");
 		
 		int numRealWords = 0;
 		for (String w : name.split(" "))
@@ -210,10 +258,15 @@ public class Heuristics {
 		confidence += lengthConfidence * Heuristics.get("person.weight.length");
 		confidence += englishConfidence * Heuristics.get("person.weight.english");
 		confidence *= punctuationConfidence;
+		confidence *= numberConfidence;
 		
 		return confidence;
 	}
 	
+	/**
+	 * Test method
+	 * @param args
+	 */
 	public static void main(String[] args)
 	{
 		Article article = new Article(0, "Source", new Place("Saskatoon"), new Time("5 Jan 90"), 
@@ -226,5 +279,6 @@ public class Heuristics {
 		System.out.println(personNameConfidence("GENERAL FERNANDO TORRES SILVA"));
 		System.out.println(personNameConfidence("FERNANDO TORRES SILVA"));
 		System.out.println(personNameConfidence("Some arbitrary text"));
+		System.out.println(personNameConfidence("Something with  numbers"));
 	}
 }

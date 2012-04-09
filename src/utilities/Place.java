@@ -319,8 +319,6 @@ public class Place
 		Place unknown2 = new Place("Chile");
 		Place fake = new Place("Fake");
 		
-		// TODO: change to asserts
-		
 		System.out.println(both);
 		System.out.println(city);
 		System.out.println(country);

@@ -32,3 +32,11 @@ english_words.txt
 A list of English words, obtained from /usr/local/dict/words on Ubuntu 11.04. 
 This helps to identify potential words which may be places or proper names 
 since the entire corpus is completely capitalized.
+
+heuristics.txt
+--------------
+
+Stores numerical values to help determine likelihood of an answer. See the file
+itself for comments on each individual heuristic.
+
+Unfortunately these heuristics are not that smart and are quite limiting.

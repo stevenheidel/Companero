@@ -25,6 +25,11 @@ Running the Tests
 
 Most classes have a main method which is used for testing. Import the project
 into Eclipse and then run the classes individually to test the specific parts.
+Some of these test suites are automatic, others output debug information, and
+some don't have any tests at all depending on need.
 
-To run the questions through the overall system, run again with -test or to run
-for only specific question types use -test when,where
+To run the questions through the overall system, run again with -test all
+or to run for only specific question types use -test when,where
+
+Also, you can set the testing flag in main.Main to be true to run the tests
+in Eclipse for instance without sending command line arguments

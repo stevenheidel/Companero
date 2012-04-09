@@ -1,18 +1,60 @@
 PARSER
 ======
 
-*NOTE*
-This is a _work in progress_!
+Parser.java and Runner.java
+---------------------------
 
-This will eventually be used to help identify noun phrases and prepositions to
-further refine the answers. Right now, it has parsed all the articles using
-two versions of the Stanford NLP, factored English and PCFG English. Factored
-is more accurate but requires much more time, so only a sample of 10 was taken
-until I can run it overnight.
+The parser contains two parts, one to parse the articles and the other to read
+the parsed output. Both are in the "parser" package.
 
-TIME ELAPSED TO PARSE CORPUS:
-Milliseconds:	19607553
-Seconds:	19607.553
-Minutes:	326.79254
-Hours:		5.4465423
-Days:		0.22693926
+Runner literally runs the Stanford NLP script across all articles. It first
+separates the article text off to a file in data/parser/original, then runs
+both factored and PCFG parsing on it.
+
+*GASP* It took an hour to run PCFG parsing and over 5 hours to run factored,
+it also took over 2GB of memory for some particularly long sentences.
+
+Parser then reads the output from factored (because it is better quality) and
+identifies the location of all the important nouns.
+
+File Structure
+--------------
+
+/original - contains original articles as processed by the Article class
+/factored - contains the factored parse, much higher quality
+/pcfg - contains the PCFG parse, much faster
+
+Parse Format
+------------
+
+The parser files are in "Penn Treebank" format, for easy interpretation.
+
+Example:
+ACCORDING TO THAT GARRISON, THE MASS KIDNAPPING TOOK PLACE ON 30 DECEMBER
+IN SAN LUIS DE LA REINA.
+
+(ROOT
+  (S
+    (PP (VBG ACCORDING)
+      (PP (TO TO)
+        (NP (NNP THAT) (NNP GARRISON))))
+    (, ,)
+    (NP (DT THE) (NNP MASS) (NNP KIDNAPPING))
+    (VP (VBD TOOK)
+      (VP (VB PLACE)
+        (PRT (RP ON))
+        (NP
+          (NP (CD 30) (NN DECEMBER))
+          (PP (IN IN)
+            (NP (NNP SAN) (NNP LUIS) (NNP DE) (NNP LA) (NNP REINA))))))
+    (. .)))
+
+Parser.java will then go through and identify the Noun Phrases, which are:
+THAT GARRISON
+THE MASS KIDNAPPING
+30 DECEMBER IN SAN LUIS DE LA REINA
+30 DECEMBER
+SAN LUIS DE LA REINA
+
+This is very useful for answering "Who" questions because it's impossible to
+get proper names from a text otherwise.

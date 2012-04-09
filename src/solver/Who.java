@@ -22,7 +22,11 @@ import entities.Answer;
 import entities.Article;
 
 /**
- * TODO: Description of implementation
+ * Solve who questions by:
+ * 1. Finding the text in the article
+ * 2. Finding nouns in the article
+ * 3. Checking each noun to see how close it is to the text, how likely it is
+ * 		a name, and whether the article parameters match the question
  * 
  * @author Steven Heidel
  *
@@ -44,8 +48,16 @@ public class Who {
 		{
 			LinkedList<String> nouns = Parser.getNounPhrases(a.getID());
 			
+			if (articles.size() > 2 && 
+					Heuristics.articleConfidence(a, new Place(place), new Time(time)) == 0)
+				continue;
+			
 			for (String noun : nouns)
 			{
+				// check if the entire noun is in the text
+				if (text.contains(noun))
+					continue;
+				
 				double confidence = 0.0;
 				confidence += Heuristics.articleConfidence(a, new Place(place), new Time(time)) * Heuristics.get("who.weight.article");
 				confidence += Heuristics.personNameConfidence(noun) * Heuristics.get("who.weight.person_name");

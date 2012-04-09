@@ -7,23 +7,43 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
- * 
+ * Stores a time. More convenient than always having to use Java's annoying
+ * built-in date feature.
  * 
  * @author Steven Heidel
  *
  */
 public class Time 
 {
+	/**
+	 * The original input
+	 */
 	public String original;
 	
+	/**
+	 * The calendar object, the new way to do dates in Java
+	 */
 	private Calendar calendar;
 	
+	/**
+	 * Whether or not the day is relevant
+	 */
 	private boolean hasDay;
 	
+	/**
+	 * Whether or not the month is relevant
+	 */
 	private boolean hasMonth;
 	
+	/**
+	 * Whether or not the year is relevant
+	 */
 	private boolean hasYear;
 	
+	/**
+	 * Parse a string in one of 5 possible formats and then turn it into a time
+	 * @param text the string to parse
+	 */
 	public Time(String text)
 	{
 		text = text.trim();
@@ -63,42 +83,74 @@ public class Time
 		throw new IllegalArgumentException("Given date was not in the correct format");
 	}
 	
+	/**
+	 * Return the original string
+	 * @return the original string
+	 */
 	public String getOriginal()
 	{
 		return original;
 	}
 		
+	/**
+	 * Check if the day is significant
+	 * @return whether or not the day is significant
+	 */
 	public boolean hasDay()
 	{
 		return hasDay;
 	}
 	
+	/**
+	 * Return the day
+	 * @return the day
+	 */
 	public int getDay()
 	{
 		return calendar.get(Calendar.DAY_OF_MONTH);
 	}
 	
+	/**
+	 * Check if the month is significant
+	 * @return whether or not the month is significant
+	 */
 	public boolean hasMonth()
 	{
 		return hasMonth;
 	}
-	
+
+	/**
+	 * Return the month
+	 * @return the month
+	 */
 	public int getMonth()
 	{
 		// January is 0
 		return calendar.get(Calendar.MONTH) + 1;
 	}
 	
+	/**
+	 * Check if the year is significant
+	 * @return whether or not the year is significant
+	 */
 	public boolean hasYear()
 	{
 		return hasYear;
 	}
-	
+
+	/**
+	 * Return the year
+	 * @return the year
+	 */
 	public int getYear()
 	{
 		return calendar.get(Calendar.YEAR);
 	}
 	
+	/**
+	 * Set the year
+	 * @param newYear the new year to change to
+	 */
 	public void setYear(int newYear)
 	{
 		calendar.set(Calendar.YEAR, newYear);
@@ -111,7 +163,7 @@ public class Time
 	 * years equal.
 	 * 
 	 * @param otherTime
-	 * @return
+	 * @return whether or not they're equal
 	 */
 	public boolean equals(Time otherTime)
 	{
@@ -177,8 +229,6 @@ public class Time
 			System.out.println(time.hasYear());
 			System.out.println(time.getYear());
 		}
-		
-		// TODO: use assertions in testing
 		
 		Time test = new Time("15 Jan 90");
 		System.out.println(test.equals(new Time("15 Jan")));

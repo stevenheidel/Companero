@@ -9,8 +9,30 @@ Implementation
 --------------
 
 Information on implementation can be found in the source code itself.
-Look particularly at the Class descriptions of all the classes in the "solver"
-package for specifics on how each type of question was solved.
+
+Recommended viewing order:
+	main.Main - the driver, reads in corpus and questions
+	
+	entities.Question - stores a question: its type, time, and so on
+	entities.Corpus - reads in and stores all articles
+	entities.Article - a single article, also scrapes for dates and places
+	
+	utilities.FileReader - convenience methods for reading files
+	utilities.Place - logic to deal with places, also knows all cities/countries
+	utilities.Time - logic to deal with dates
+	
+	entities.Answer - how the answer is stored in output
+	solver.Solver - class that delegates to other question solving classes
+	solver.Heuristics - methods to calculate likelihood of possible answer
+	utilities.WordDictionary - determine whether something is a word or not
+	
+	solver.Who - class to answer who questions
+	solver.What - class to answer what questions
+	solver.Where - class to answer where questions
+	solver.When - class to answer when questions
+	
+	parser.parser - gets nouns from the text
+	parser.runner - runs the NLP scripts, independent of project
 
 Also find more information about the Natural Language Parser in
 data/parser/README (Parser)

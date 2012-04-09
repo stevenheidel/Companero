@@ -15,13 +15,19 @@ import java.util.LinkedList;
 import utilities.FileReader;
 
 /**
- * Description of class
+ * A class to interpret the parsed articles.
  * 
  * @author Steven Heidel
  *
  */
 public class Parser 
 {
+	/**
+	 * Get all the noun phrases from the article. Some noun phrases can be
+	 * found inside other noun phrases. Uses simple but elegant parser.
+	 * @param articleID the id of the article to search
+	 * @return a list of noun phrases
+	 */
 	public static LinkedList<String> getNounPhrases(int articleID)
 	{
 		String factored = FileReader.convertToString("data/parser/factored/" + articleID + ".txt");
@@ -53,9 +59,8 @@ public class Parser
 						bracketCount -= 1;
 						
 						if (tokens[j].length() > 1)
-						{
-							temp += tokens[j].replaceAll("\\)", " ");
-						}
+							if (!temp.contains("-"))
+								temp += tokens[j].replaceAll("\\)", " ");
 					}
 				}
 				

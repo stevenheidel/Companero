@@ -8,7 +8,7 @@ Overall
 - added a heuristics system
 - refactored a lot of code to handle more dates and places
 - handling who questions
-- more documentation
+- tons more documentation
 
 Who questions
 - got it working for the first time with heuristics
