@@ -10,13 +10,12 @@
 
 package solver;
 
-import java.text.FieldPosition;
-import java.text.SimpleDateFormat;
 import java.util.LinkedList;
 
 import main.Main;
 
 import utilities.Place;
+import utilities.Time;
 import entities.Answer;
 import entities.Article;
 
@@ -36,45 +35,19 @@ public class When {
 	 */
 	protected static Answer answer(LinkedList<Article> articles, String text, String place)
 	{
-		String returnDate = null;
-		
-		Place questionPlace = new Place(place);
-		for (Article a : articles)
-		{			
-			// we only need to get the first country from questionPlace, as only one country will be entered per question
-			if (a.containsPlace(questionPlace))
-			{				
-				LinkedList<String> dates = a.getDatesFromText();
-				
-				int minDistance = Integer.MAX_VALUE;
-				
-				for(String s : dates)
-				{
-					int dist = Heuristics.minDistance(a, s, text);
-					if(dist < minDistance)
-					{
-						minDistance = dist;
-						returnDate = s.replace("(yearadded)", "");
-					}
-				}
-				
-				// if we didn't find a date in the text, give the date the article was written
-				if (returnDate == null)
-				{
-					StringBuffer sb = new StringBuffer();
-					SimpleDateFormat df = new SimpleDateFormat("dd MMM, yyyy");
-					df.format(a.getTimeWritten().getDate(), sb, new FieldPosition(0));
-					returnDate = sb.toString();
-				}
-				
-				break;
-			}
-		}
-		
 		Answer answer = new Answer();
 		
-		if (returnDate != null)
-			answer.add(returnDate, 1);
+		for (Article a : articles)
+		{
+			answer.add(a.getTimeWritten().toString(), 1+Heuristics.articleConfidence(a, new Place(place)));
+			
+			for (Time t : a.getTimes())
+			{
+				double confidence = 1.0 - (Heuristics.minDistance(a, t, text) * 0.1);
+				
+				answer.add(t.toString(), confidence);
+			}
+		}
 		
 		return answer;
 	}

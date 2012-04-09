@@ -104,6 +104,11 @@ public class Heuristics {
 		return minDistance(article, place.getOriginal(), text);
 	}
 	
+	public static int minDistance(Article article, Time time, String text)
+	{
+		return minDistance(article, time.getOriginal(), text);
+	}
+	
 	public static double articleConfidence(Article article, Place place, Time time)
 	{
 		double confidence = 0.0;
@@ -123,8 +128,7 @@ public class Heuristics {
 				confidence += 0.5;
 			// otherwise if there's mention of the time in the article,
 			// add a little less confidence
-			// TODO: fix time.toString()
-			else if (article.containsDate(time.toString()))
+			else if (article.containsTime(time))
 				confidence += 0.3;
 			
 			return confidence;

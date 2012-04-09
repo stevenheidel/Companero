@@ -14,10 +14,7 @@ import java.util.GregorianCalendar;
  */
 public class Time 
 {
-	/**
-	 * Holds the date object. The terms time and date are interchangeable.
-	 */
-	private Date date;
+	public String original;
 	
 	private Calendar calendar;
 	
@@ -29,7 +26,10 @@ public class Time
 	
 	public Time(String text)
 	{
-		String[] dateFormats = {"dd MMM yy", "dd MMM", "MMM yy", "yy"};
+		text = text.trim();
+		original = text;
+		
+		String[] dateFormats = {"dd MMM yy", "dd MMM", "MMM yy", "MMMM", "yy"};
 		
 		hasDay = false;
 		hasMonth = false;
@@ -42,7 +42,7 @@ public class Time
 			try
 			{
 				SimpleDateFormat sdf = new SimpleDateFormat(df);
-				date = sdf.parse(text);
+				Date date = sdf.parse(text);
 				
 				calendar.setTime(date);
 				
@@ -63,11 +63,11 @@ public class Time
 		throw new IllegalArgumentException("Given date was not in the correct format");
 	}
 	
-	public Date getDate()
+	public String getOriginal()
 	{
-		return date;
+		return original;
 	}
-	
+		
 	public boolean hasDay()
 	{
 		return hasDay;
@@ -97,6 +97,12 @@ public class Time
 	public int getYear()
 	{
 		return calendar.get(Calendar.YEAR);
+	}
+	
+	public void setYear(int newYear)
+	{
+		calendar.set(Calendar.YEAR, newYear);
+		hasYear = true;
 	}
 	
 	/**
@@ -134,8 +140,20 @@ public class Time
 	
 	public String toString()
 	{
-		SimpleDateFormat sdf = new SimpleDateFormat("dd MMM yy");
-		return sdf.format(date);
+		SimpleDateFormat sdf = null;
+		
+		if (!hasDay() && !hasMonth())
+			sdf = new SimpleDateFormat("yyyy");
+		else if (!hasDay() && !hasYear())
+			sdf = new SimpleDateFormat("MMMM");
+		else if (!hasDay())
+			sdf = new SimpleDateFormat("MMMM yyyy");
+		else if (!hasYear())
+			sdf = new SimpleDateFormat("dd MMMM");
+		else
+			sdf = new SimpleDateFormat("dd MMMM yyyy");
+		
+		return sdf.format(calendar.getTime()).toUpperCase();
 	}
 	
 	/**
@@ -171,5 +189,7 @@ public class Time
 		test = new Time("15 Jan");
 		System.out.println(test.equals(new Time("Jan 90")));
 		System.out.println(test.equals(new Time("1990")));
+		test.setYear(1990);
+		System.out.println(test.equals(new Time("15 Jan 1990")));
 	}
 }

@@ -42,7 +42,7 @@ public class Where {
 			
 			for (Place p : a.getPlaces())
 			{
-				double confidence = 1 - (Heuristics.minDistance(a, p, text) * 0.01);
+				double confidence = 1.0 - (Heuristics.minDistance(a, p, text) * 0.01);
 								
 				answer.add(p.toString(), confidence);
 			}

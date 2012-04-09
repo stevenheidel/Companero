@@ -10,11 +10,6 @@
 
 package entities;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -89,25 +84,8 @@ public class Article
 		this.articleText = articleText;
 		this.articleTextNoPunct = this.articleText.replaceAll("[^A-Z0-9]", " ");
 		
-		places = new LinkedList<Place>();
-		
-		// TODO: correct for places within other places, like san salvador
-		// look for cities and countries in the text, ignoring any blank ones
-		for (String s : Place.getCities().keySet())
-		{
-			if (this.articleTextNoPunct.contains(" " + s + " ") && !s.equals(""))
-			{
-				places.add(new Place(s));
-			}
-		}
-		
-		for (String s : Place.getCountries())
-		{
-			if (this.articleTextNoPunct.contains(" " + s + " ") && !s.equals(""))
-			{
-				places.add(new Place(s));
-			}
-		}
+		buildPlaces();
+		buildTimes();
 	}
 	
 	/**
@@ -165,6 +143,15 @@ public class Article
 	}
 	
 	/**
+	 * Return the places within the article
+	 * @return the places within the article
+	 */
+	public LinkedList<Time> getTimes()
+	{
+		return times;
+	}
+	
+	/**
 	 * A method to determine whether this article contains a certain string of text.
 	 * @param text - The text we're hoping to find in the article.
 	 * @return True if the text is contained in the article, false otherwise.
@@ -180,20 +167,12 @@ public class Article
 	 * @param date - The date that we want to find.
 	 * @return	True if the article contains the date, false otherwise.
 	 */
-	public boolean containsDate(String date)
+	public boolean containsTime(Time toFind)
 	{
-		Time givenDate = new Time(date);
-						
-		LinkedList<String> dates = getDatesFromText();
-		
-		for (String s : dates)
-		{
-			Time dateFromText = new Time(s);
-
-			if (dateFromText.equals(givenDate))
+		for (Time t : times)
+			if (t.equals(toFind))
 				return true;
-		}
-		
+				
 		return false;
 	}
 	
@@ -211,95 +190,64 @@ public class Article
 		return false;
 	}
 	
+	private void buildPlaces()
+	{
+		places = new LinkedList<Place>();
+		
+		// TODO: correct for places within other places, like san salvador
+		// look for cities and countries in the text, ignoring any blank ones
+		for (String s : Place.getCities().keySet())
+		{
+			if (this.articleTextNoPunct.contains(" " + s + " ") && !s.equals(""))
+			{
+				places.add(new Place(s));
+			}
+		}
+		
+		for (String s : Place.getCountries())
+		{
+			if (this.articleTextNoPunct.contains(" " + s + " ") && !s.equals(""))
+			{
+				places.add(new Place(s));
+			}
+		}
+	}
+	
 	/**
 	 * A method to extract all dates from the article text.
 	 * @return A list of the dates in the article in String format.
 	 */
-	public LinkedList<String> getDatesFromText()
+	public void buildTimes()
 	{
-		LinkedList<String> dateList = new LinkedList<String>();
+		times = new LinkedList<Time>();
 		
 		// regular expression to match dates in the article formatted like the below examples:
 		// 5 JANUARY 89 or 5 JANUARY or JANUARY 89. Could also give 4 digit years 
 		String pattern = "(\\b[0-9]|[1-2][0-9]|3[0-1])?(-[0-9]|[1-2][0-9]|3[0-1])?" +
 				"[ ]+(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)" +
-				"[ ]?+([1-2]?[0-9]?[8-9][0-9])?(.{9})";
-		Matcher m = Pattern.compile(pattern).matcher(articleText);
+				"[ ]+([1-2]?[0-9]?[8-9][0-9])?";
+		Matcher m = Pattern.compile(pattern).matcher(articleTextNoPunct);
 		
 		while (m.find())
 		{
-			String date = m.group(0);
-			String[] dateSplit = date.split(" ");
-			boolean hasYear = true;
-			boolean hasDay = true;
+			Time time = new Time(m.group(0));
 			
-			// check that we didn't parse 5 NOVEMBER DAM or 19 APRIL MOVEMENT
-			if (date.contains("MOVEMENT") || date.contains("DAM"))
+			// if there was no year in the article, add one based on which 
+			// month was written about
+			if (!time.hasYear())
 			{
-				continue;
-			}
-			
-			try
-			{
-				Integer.parseInt(dateSplit[0]);
-			}
-			catch (NumberFormatException e)
-			{
-				hasDay = false;
-			}
-			
-			try
-			{
-				Integer.parseInt(dateSplit[2]);
-				date = dateSplit[0] + " " + dateSplit[1] + " " + dateSplit[2];
-			}
-			catch (NumberFormatException e)
-			{
-				hasYear = false;
-				date = dateSplit[0] + " " + dateSplit[1] + " ";
-			}
-			
-			// ensure that the day or the year are present
-			if (!(hasYear || hasDay))
-			{
-				continue;
-			}
-			
-			// if there was no year in the article, add one based on which month was written about
-			if (!hasYear)
-			{
-				String dateFormatString = "MMM";
-				SimpleDateFormat df = new SimpleDateFormat(dateFormatString);
-				Date findYear = null;
-				try
+				if (time.getMonth() > timeWritten.getMonth() + 2)
 				{
-					findYear = df.parse(dateSplit[1]);
-					
-					Calendar findYearCal = new GregorianCalendar();
-					findYearCal.setTime(findYear);
-					
-					Calendar timeWrittenCal = new GregorianCalendar();
-					timeWrittenCal.setTime(timeWritten.getDate());
-					
-					if(findYearCal.get(Calendar.MONTH) > timeWrittenCal.get(Calendar.MONTH) + 2)
-					{
-						date += (timeWrittenCal.get(Calendar.YEAR) - 1) + "(yearadded)";
-					}
-					else
-					{
-						date += timeWrittenCal.get(Calendar.YEAR) + "(yearadded)";
-					}
+					time.setYear(timeWritten.getYear() - 1);
 				}
-				catch (ParseException e)
+				else
 				{
-					System.out.println("Error parsing the date.");
-				}				
+					time.setYear(timeWritten.getYear());
+				}			
 			}
 			
-			dateList.add(date);
+			times.add(time);
 		}
-		
-		return dateList;
 	}
 	
 	/**
@@ -321,7 +269,10 @@ public class Article
 		LinkedList<Article> articles = corpus.getArticlesWithText("THE");
 		
 		System.out.println(articles.get(4));
-		for (Place p : articles.get(4).getPlaces())
-			System.out.println(p);
+		//for (Place p : articles.get(4).getPlaces())
+		//	System.out.println(p);
+				
+		for (Time t : articles.get(4).getTimes())
+			System.out.println(t);
 	}
 }

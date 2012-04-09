@@ -38,9 +38,9 @@ public class Answer
 	private static final int TERMINAL_WIDTH = 80;
 	
 	/**
-	 * Display only the top n answers (default: 3)
+	 * Display only the top n answers (default: 5)
 	 */
-	private static final int MAX_ANSWERS = 3;
+	private static final int MAX_ANSWERS = 5;
 	
 	/**
 	 * A list of answers and their associated likelihoods
