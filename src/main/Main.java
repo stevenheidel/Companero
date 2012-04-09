@@ -38,6 +38,9 @@ public class Main
 		// set to true to test, or run with "-test" flag
 		boolean testing = false;
 		
+		if (testing)
+			args = new String[]{"-test", "all"};
+		
 		// the corpus takes a few seconds to initialize
 		System.out.println("Processing the corpus...");
 		Corpus corpus = new Corpus(FileReader.convertToString("data/structures/corpus.txt"));
@@ -45,7 +48,7 @@ public class Main
 		
 		// if testing, read from the file, otherwise System.in
 		Scanner scanner = null;
-		if (args.length > 1 && args[0] == "-test")
+		if ((args.length > 1 && args[0] == "-test"))
 		{
 			try 
 			{

@@ -10,11 +10,14 @@
 
 package solver;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 
 import entities.Article;
+import utilities.FileReader;
 import utilities.Place;
 import utilities.Time;
+import utilities.WordDictionary;
 
 /**
  * Description of class
@@ -23,6 +26,32 @@ import utilities.Time;
  *
  */
 public class Heuristics {
+	private static HashMap<String, Double> heuristics;
+	
+	public static double get(String name)
+	{
+		buildHeuristics();
+		
+		return heuristics.get(name);
+	}
+	
+	/**
+	 * Can be adjusted during runtime because it's read each time
+	 */
+	private static void buildHeuristics()
+	{
+		String[] lines = FileReader.convertToStringArrayOfLines("data/structures/heuristics.txt");
+		
+		for (String line : lines)
+		{
+			// ignore comments and things
+			if (!line.contains("|"))
+				continue;
+			
+			heuristics.put(line.split("|")[0].trim(), Double.parseDouble(line.split("|")[1].trim()));
+		}
+	}
+	
 	/**
 	 * TODO: description
 	 * Returns -1 if one or the other can't be found
@@ -51,7 +80,7 @@ public class Heuristics {
 				twos.add(location);
 		
 		if (ones.isEmpty() || twos.isEmpty())
-			return -1;
+			return Integer.MAX_VALUE;
 		
 		// Loop through the locations of both strings and try and find the 
 		// minDistance between them
@@ -109,39 +138,87 @@ public class Heuristics {
 		return minDistance(article, time.getOriginal(), text);
 	}
 	
-	public static double articleConfidence(Article article, Place place, Time time)
+	private static double articleConfidence(Article article, Place place, Time time,
+			double articlePlace, double articleHasPlace, double articleTime, double articleHasTime)
 	{
 		double confidence = 0.0;
 		
 		if (place != null)
 			// if article place matches, add confidence
 			if (article.getLocationWritten().equals(place))
-				confidence += 0.5;
+				confidence += articlePlace;
 			// otherwise if there's mention of the place in the article,
 			// add a little less confidence
 			else if (article.containsPlace(place))
-				confidence += 0.4;
+				confidence += articleHasPlace;
 		
 		if (time != null)
 			// if article time matches, add confidence
 			if (article.getTimeWritten().equals(time))
-				confidence += 0.5;
+				confidence += articleTime;
 			// otherwise if there's mention of the time in the article,
 			// add a little less confidence
 			else if (article.containsTime(time))
-				confidence += 0.3;
+				confidence += articleHasTime;
 			
 			return confidence;
 	}
 	
+	public static double articleConfidence(Article article, Place place, Time time)
+	{
+		return articleConfidence(article, place, time, 0.5, 0.4, 0.5, 0.3);
+	}
+	
 	public static double articleConfidence(Article article, Time time)
 	{
-		return articleConfidence(article, null, time);
+		return articleConfidence(article, null, time, 0.5, 0.4, 0.5, 0.3);
 	}
 	
 	public static double articleConfidence(Article article, Place place)
 	{
-		return articleConfidence(article, place, null);
+		return articleConfidence(article, place, null, 0.5, 0.4, 0.5, 0.3);
+	}
+	
+	/**
+	 * How likely is it that a string of text is a person's name
+	 * @param name
+	 * @return
+	 */
+	public static double personNameConfidence(String name)
+	{
+		int numWords = name.split(" ").length;
+		double lengthConfidence = 0.1;
+		
+		switch (numWords)
+		{
+			case 1: lengthConfidence = 0.5; break;
+			case 2: lengthConfidence = 1; break;
+			case 3: lengthConfidence = 0.8; break;
+			case 4: lengthConfidence = 0.6; break;
+			case 5: lengthConfidence = 0.4; break;
+			case 6: lengthConfidence = 0.3; break;
+			case 7: lengthConfidence = 0.2; break;
+		}
+		
+		double punctuationConfidence = 1;
+		if (name.contains(",") || name.contains("-") || name.contains("`")
+				|| name.contains("'") || name.contains("(") || name.contains(")"))
+			punctuationConfidence = 0.1;
+		
+		
+		int numRealWords = 0;
+		for (String w : name.split(" "))
+			if (WordDictionary.contains(w))
+				numRealWords += 1;
+		
+		double englishConfidence = 1.0 - (numRealWords / numWords);
+				
+		/*System.out.print("\n");
+		System.out.println(lengthConfidence);
+		System.out.println(punctuationConfidence);
+		System.out.println(englishConfidence);*/
+		
+		return ((lengthConfidence * 0.4) + (englishConfidence * 0.6)) * punctuationConfidence;
 	}
 	
 	public static void main(String[] args)
@@ -150,5 +227,11 @@ public class Heuristics {
 				"THIS IS THE ARTICLE TEXT THAT I WILL TEST FROM. THIS AND THAT.\nTHIS");
 		
 		System.out.println(minDistance(article, "THIS", "THAT"));
+		
+		System.out.println(personNameConfidence("Steven Heidel"));
+		System.out.println(personNameConfidence("RETIRED GENERAL FERNANDO TORRES SILVA"));
+		System.out.println(personNameConfidence("GENERAL FERNANDO TORRES SILVA"));
+		System.out.println(personNameConfidence("FERNANDO TORRES SILVA"));
+		System.out.println(personNameConfidence("Some arbitrary text"));
 	}
 }

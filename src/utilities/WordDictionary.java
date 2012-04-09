@@ -40,7 +40,7 @@ public class WordDictionary
 				
 		// read all of the words from the file
 		// ignore words starting with capital letters, they are proper nouns
-		for (String line : FileReader.convertToStringArrayOfLines("data/words.txt"))
+		for (String line : FileReader.convertToStringArrayOfLines("data/structures/english_words.txt"))
 		{
 			if (!line.equals("") && !Character.isUpperCase(line.charAt(0)))
 			{

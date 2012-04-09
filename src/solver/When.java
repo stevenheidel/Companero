@@ -39,7 +39,7 @@ public class When {
 		
 		for (Article a : articles)
 		{
-			answer.add(a.getTimeWritten().toString(), 1+Heuristics.articleConfidence(a, new Place(place)));
+			answer.add(a.getTimeWritten().toString(), Heuristics.articleConfidence(a, new Place(place)));
 			
 			for (Time t : a.getTimes())
 			{

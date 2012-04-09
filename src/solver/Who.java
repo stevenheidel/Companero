@@ -13,6 +13,8 @@ package solver;
 import java.util.LinkedList;
 
 import parser.Parser;
+import utilities.Place;
+import utilities.Time;
 
 import main.Main;
 
@@ -44,7 +46,12 @@ public class Who {
 			
 			for (String noun : nouns)
 			{
-				System.out.println(noun);
+				double confidence = 0.0;
+				confidence += (Heuristics.articleConfidence(a, new Place(place), new Time(time)) * 0.2);
+				confidence += (Heuristics.personNameConfidence(noun) * 0.3);
+				confidence += ((1 - Heuristics.minDistance(a, noun, text) * 0.01) * 0.5);
+				
+				answer.add(noun, confidence);
 			}
 		}
 		
